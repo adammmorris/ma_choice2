@@ -1,13 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-# def print_hi(name):
-# Use a breakpoint in the code line below to debug your script.
-#    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
 
 # Press the green button in the gutter to run the script.
 
@@ -49,54 +39,41 @@ def logsumexp(x, dim=0):
 def getLogLik(parameters, data):
     # parameters: [invTemp weights]
     # data: structure with .choices and .options
-
     # get the task structure & choices
-    options = data['options']
-    choices = data['choices']
-    options_dim = np.shape(options)
-    numChoices = options_dim[2]
-
+    options = data['options'][:, 0, :]
+    choices = data['choices'][:, 0]
+    # options_dim = np.shape(options)
+    # numChoices = options_dim[2]
     # extract parameters
     inv_temp = np.array([parameters[0]])
     weights = np.array(parameters[1:len(parameters)])
-
-    # initialize log likelihood to zero
-    loglik = 0
-
-    # loop through choices
-    for i in range(0, numChoices):
-        # for the WAD model, we just multiply the weights by the options.
-        utilities = weights @ options[:, :, i]
-
-        # to convert utilities -> probabilities, the model used a "softmax" (or
-        # Boltzmann) function: e^(inverse_temperature * utility(chosen_option))
-        # / sum_over_all_options(e^(inverse_temperature * utility(option))
-        # so this formula gives us the likelihood of the person's choice, given
-        # the utilities calculated above.
-        # we want the LOG likelihood, so we take the log of that, which gives
-        # us: inv_temp * utility(chosen_option) - log(sum(e^inverse_temperature
-        # * utilities))). to compute that latter term efficiently, we use the
-        # "logsumexp" function.
-        ut = utilities.reshape(1, 2)
-        ut = inv_temp @ ut
-        ut = ut.reshape(1, 2)
-        loglik = loglik + inv_temp @ utilities[choices[i] - 1] - logsumexp(ut, 1)
-
+    utilities = inv_temp * (weights @ options)
+    utilities_num = utilities.copy()
+    utilities_num[choices == 2] = 0
+    loglik_denom = np.log(np.exp(utilities) + 1);
+    loglik_denom_isinf = np.isinf(loglik_denom);
+    loglik_denom[loglik_denom_isinf] = utilities[loglik_denom_isinf];
+    loglik = np.sum(utilities_num - loglik_denom);
+    # loglik = 0
+    # for i in range(0, numChoices):
+    #     utilities = weights @ options[:, :, i]
+    #     ut = utilities.reshape(1, 2)
+    #     ut = inv_temp @ ut
+    #     ut = ut.reshape(1, 2)
+    #     loglik = loglik + inv_temp @ utilities[choices[i] - 1] - np.log(np.sum(np.exp(ut)))#logsumexp(ut, 1)
     return loglik
 
 
 def getPriorsum(params, param_struct):
-    # print(params)
-    # print(len(param_struct))
-    priorsum = 0
-    weight_params = np.array([[0., 1.]])
-    gamma_bounds = np.array([[1., 5.]])
-    for i in range(0, len(param_struct)):
-        if i != 0:
-            logpdf = lambda x: np.sum(np.log(norm.pdf(x, weight_params[0][0], weight_params[0][1])))
-        else:
-            logpdf = lambda x: np.sum(np.log(gamma.pdf(x, gamma_bounds[0][0], scale = gamma_bounds[0][1])))
-        priorsum = priorsum + logpdf(params[i])
+    # priorsum = 0
+    # for i in range(0, len(param_struct)):
+    #     if i == 0:
+    #         priorsum = priorsum + np.log(gamma.pdf(params[i], 1, scale = 5))
+    #     else:
+    #         priorsum = priorsum + np.log(norm.pdf(params[i], 0, 1))
+
+    # log of gamma.pdf reduces to the first two terms if alpha = 1 & scale = 5
+    priorsum = np.log(1 / 5) - 1 / 5 * params[0] + np.sum(np.log(norm.pdf(params[1:len(param_struct)], 0, 1)))
     return priorsum
 
 
@@ -117,7 +94,7 @@ def fitWAD(param_struct, data):
     BICs_WAD = np.zeros((numSubj, 1))
     AICs_WAD = np.zeros((numSubj, 1))
 
-    # loop through each subject-- will check parallel loop later
+    # loop through each subject
     for s in range(0, numSubj):
         print('Fitting WAD for subject ' + str(s))
 
@@ -125,9 +102,9 @@ def fitWAD(param_struct, data):
         # we make it negative because the "ga" function minimizes its objective
         WAD_post = lambda x: -(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))
 
-        # do optimization with the genetic algorithm (ga) function
+        # do optimization
 
-        # create varbound array for ga algorithm
+        # create varbound array 
         vb = []
         for i in range(0, len(param_struct[0])):
             lb = np.vstack(param_struct[0]['lb'])
@@ -135,7 +112,7 @@ def fitWAD(param_struct, data):
             vb.append(np.concatenate((lb[i], ub[i])))
         varbound = np.array(vb)
 
-        # create vartype arr for ga algorithm
+        # create vartype arr 
         #index = []
         #arr = np.argwhere(np.vstack(param_struct[0]['int']))
         #for i in range(0, len(np.argwhere(np.vstack(param_struct[0]['int'])))):
@@ -164,7 +141,7 @@ def fitWAD(param_struct, data):
         res = minimize(WAD_post,x0, bounds=varbound)
         x = res['x']
         logpost = res['fun']
-        print(res, res['x'])
+        print(res['x'])
 
         #or tools
         #from ortools.linear_solver import pywraplp
@@ -172,9 +149,13 @@ def fitWAD(param_struct, data):
 
         #pulp
         #from pulp import LpMinimize, LpProblem, LpStatus, lpSum, LpVariable
-        #model = LpProblem("WAD", LpMinimize)
-        #model += WAD_post
-        #model.solve()
+        #prob = LpProblem("WAD", LpMinimize)
+        #x = LpVariable.dicts("x", range(0,11), lowBound=0, cat="Integer")
+        #prob += -(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))
+        #print(prob)
+        #status = prob.solve()
+        #print(LpStatus[status])
+        #print(value(x))
 
 
         # store best fit params
@@ -210,6 +191,4 @@ if __name__ == '__main__':
     for i in range (0, numSubj):
         print(np.corrcoef(params_WAD[i,:], results_WAD['x'][i,:]))
     #print(np.corrcoef(params_WAD[1,:], results_WAD['x'][1,:]))
-    #print(np.corrcoef(params_WAD[2,:], results_WAD['x'][2,:]))
-    #print(np.corrcoef(params_WAD[3,:], results_WAD['x'][3,:]))
-    #print(np.corrcoef(params_WAD[4,:], results_WAD['x'][4,:]))
+   

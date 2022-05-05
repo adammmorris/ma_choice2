@@ -1,0 +1,343 @@
+﻿subject,version,assignmentId,trial,attribute,rating,rt,stamp,id
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",0,Size of Garage,25,16310,2021-10-07 15:05:14,225
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",1,Hardwood Floors,12,7717,2021-10-07 15:05:22,226
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",2,Size of Home,25,4533,2021-10-07 15:05:27,227
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",3,Size of Yard,37,4449,2021-10-07 15:05:31,228
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",4,Proximity to Waterfront/Beaches,75,10230,2021-10-07 15:05:41,229
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",5,Washer/Dryer,0,3658,2021-10-07 15:05:45,230
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",6,Age of Building,62,4612,2021-10-07 15:05:50,231
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",7,Reputation of Closest School,12,4448,2021-10-07 15:05:54,232
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",8,Central AC,0,3500,2021-10-07 15:05:58,233
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",9,Proximity to Cafes/Restaurants,62,3649,2021-10-07 15:06:01,234
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",10,Proximity to Parks,62,3396,2021-10-07 15:06:05,235
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",11,Number of Bedrooms,50,7910,2021-10-07 15:06:13,236
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",12,Freshly Painted Exterior,0,3700,2021-10-07 15:06:16,237
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",13,Amount of Crime in Neighborhood,25,5556,2021-10-07 15:06:22,238
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",14,Amount of Natural Light,100,3055,2021-10-07 15:06:25,239
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",15,Noise Pollution,62,3714,2021-10-07 15:06:29,240
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",16,Climate of Area,38,6647,2021-10-07 15:06:35,241
+5e1c6eb807951345dc242ef4,ma_choice_v2_pilot1,"",17,Fireplace,12,5338,2021-10-07 15:06:41,242
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",0,Proximity to Cafes/Restaurants,70,7539,2021-10-07 15:10:22,243
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",1,Climate of Area,87,3474,2021-10-07 15:10:25,244
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",2,Fireplace,24,5274,2021-10-07 15:10:30,245
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",3,Central AC,25,4095,2021-10-07 15:10:35,246
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",4,Size of Yard,58,2967,2021-10-07 15:10:38,247
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",5,Amount of Natural Light,75,4404,2021-10-07 15:10:42,248
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",6,Size of Home,74,2629,2021-10-07 15:10:45,249
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",7,Washer/Dryer,13,7116,2021-10-07 15:10:52,250
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",8,Proximity to Parks,75,2943,2021-10-07 15:10:55,251
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",9,Hardwood Floors,63,2397,2021-10-07 15:10:57,252
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",10,Age of Building,76,2381,2021-10-07 15:10:59,253
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",11,Noise Pollution,100,2284,2021-10-07 15:11:02,254
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",12,Proximity to Waterfront/Beaches,63,2500,2021-10-07 15:11:04,255
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",13,Amount of Crime in Neighborhood,100,2087,2021-10-07 15:11:06,256
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",14,Reputation of Closest School,0,5833,2021-10-07 15:11:12,257
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",15,Size of Garage,61,2638,2021-10-07 15:11:15,258
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",16,Number of Bedrooms,74,2667,2021-10-07 15:11:17,259
+5e7cd5fbbb2c2c33153d372c,ma_choice_v2_pilot1,"",17,Freshly Painted Exterior,58,2078,2021-10-07 15:11:19,260
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",0,Reputation of Closest School,25,5775,2021-10-07 15:18:41,261
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",1,Amount of Crime in Neighborhood,62,5327,2021-10-07 15:18:47,262
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",2,Proximity to Parks,50,2974,2021-10-07 15:18:50,263
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",3,Age of Building,63,2670,2021-10-07 15:18:52,264
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",4,Number of Bedrooms,12,2823,2021-10-07 15:18:55,265
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",5,Size of Yard,24,2855,2021-10-07 15:18:58,266
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",6,Noise Pollution,87,3927,2021-10-07 15:19:13,267
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",10,Climate of Area,62,2814,2021-10-07 15:19:13,268
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",9,Proximity to Cafes/Restaurants,50,2599,2021-10-07 15:19:13,269
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",7,Size of Garage,37,2951,2021-10-07 15:19:13,270
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",8,Fireplace,25,2311,2021-10-07 15:19:13,271
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",11,Freshly Painted Exterior,36,2519,2021-10-07 15:19:15,272
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",12,Size of Home,50,3671,2021-10-07 15:19:19,273
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",13,Proximity to Waterfront/Beaches,51,2887,2021-10-07 15:19:22,274
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",14,Central AC,50,1791,2021-10-07 15:19:23,275
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",15,Amount of Natural Light,71,2567,2021-10-07 15:19:26,276
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",16,Washer/Dryer,63,2055,2021-10-07 15:19:28,277
+5e02204b2fc478db652b6466,ma_choice_v2_pilot1,"",17,Hardwood Floors,17,2407,2021-10-07 15:19:30,278
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",0,Size of Home,88,9641,2021-10-07 15:30:07,279
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",1,Proximity to Parks,62,6774,2021-10-07 15:30:14,280
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",2,Fireplace,13,7894,2021-10-07 15:30:22,281
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",3,Amount of Crime in Neighborhood,50,4835,2021-10-07 15:30:26,282
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",4,Washer/Dryer,56,8006,2021-10-07 15:30:34,283
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",5,Freshly Painted Exterior,25,5176,2021-10-07 15:30:40,284
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",6,Noise Pollution,75,9193,2021-10-07 15:30:49,285
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",7,Proximity to Waterfront/Beaches,56,6509,2021-10-07 15:30:55,286
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",8,Central AC,62,5426,2021-10-07 15:31:01,287
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",9,Amount of Natural Light,75,4496,2021-10-07 15:31:05,288
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",10,Size of Yard,95,8369,2021-10-07 15:31:14,289
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",11,Size of Garage,62,8443,2021-10-07 15:31:22,290
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",12,Reputation of Closest School,32,3664,2021-10-07 15:31:26,291
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",13,Hardwood Floors,19,4154,2021-10-07 15:31:30,292
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",14,Number of Bedrooms,75,3655,2021-10-07 15:31:34,293
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",15,Climate of Area,43,5392,2021-10-07 15:31:39,294
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",16,Proximity to Cafes/Restaurants,43,3671,2021-10-07 15:31:43,295
+5a57c541acc75b00017a2a27,ma_choice_v2_pilot1,"",17,Age of Building,75,5481,2021-10-07 15:31:48,296
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",0,Freshly Painted Exterior,0,12256,2021-10-07 15:31:50,297
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",1,Proximity to Cafes/Restaurants,25,8229,2021-10-07 15:31:58,298
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",2,Washer/Dryer,0,6033,2021-10-07 15:32:04,299
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",3,Hardwood Floors,0,5500,2021-10-07 15:32:10,300
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",4,Climate of Area,88,11680,2021-10-07 15:32:21,301
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",5,Proximity to Waterfront/Beaches,49,13571,2021-10-07 15:32:35,302
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",6,Size of Yard,50,9832,2021-10-07 15:32:45,303
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",7,Size of Garage,12,8124,2021-10-07 15:32:53,304
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",8,Age of Building,0,5705,2021-10-07 15:32:59,305
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",9,Size of Home,25,7267,2021-10-07 15:33:06,306
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",10,Amount of Natural Light,38,9381,2021-10-07 15:33:15,307
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",11,Noise Pollution,87,14064,2021-10-07 15:33:29,308
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",12,Central AC,49,6529,2021-10-07 15:33:36,309
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",13,Proximity to Parks,62,20528,2021-10-07 15:33:56,310
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",14,Amount of Crime in Neighborhood,100,6520,2021-10-07 15:34:03,311
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",15,Reputation of Closest School,25,8436,2021-10-07 15:34:11,312
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",16,Fireplace,0,5531,2021-10-07 15:34:17,313
+580fee689c444f0001cfa03a,ma_choice_v2_pilot1,"",17,Number of Bedrooms,12,7872,2021-10-07 15:34:25,314
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",0,Reputation of Closest School,13,3990,2021-10-07 15:37:15,315
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",1,Amount of Natural Light,62,3204,2021-10-07 15:37:18,316
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",2,Number of Bedrooms,18,3213,2021-10-07 15:37:21,317
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",3,Fireplace,55,3262,2021-10-07 15:37:25,318
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",4,Hardwood Floors,75,3662,2021-10-07 15:37:28,319
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",5,Climate of Area,57,2741,2021-10-07 15:37:31,320
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",6,Size of Garage,86,4478,2021-10-07 15:37:36,321
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",7,Size of Yard,12,3719,2021-10-07 15:37:39,322
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",8,Central AC,72,4589,2021-10-07 15:37:44,323
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",9,Washer/Dryer,94,3311,2021-10-07 15:37:47,324
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",10,Proximity to Cafes/Restaurants,75,3733,2021-10-07 15:37:51,325
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",11,Size of Home,32,4558,2021-10-07 15:37:55,326
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",12,Age of Building,0,3237,2021-10-07 15:37:59,327
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",13,Amount of Crime in Neighborhood,100,3301,2021-10-07 15:38:02,328
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",14,Proximity to Waterfront/Beaches,13,3966,2021-10-07 15:38:06,329
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",15,Freshly Painted Exterior,4,3814,2021-10-07 15:38:10,330
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",16,Proximity to Parks,86,4525,2021-10-07 15:38:14,331
+5df6304773d724428a9cff45,ma_choice_v2_pilot1,"",17,Noise Pollution,94,3175,2021-10-07 15:38:17,332
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",0,Reputation of Closest School,88,5472,2021-10-07 15:43:18,333
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",1,Noise Pollution,87,3092,2021-10-07 15:43:21,334
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",2,Size of Home,50,6445,2021-10-07 15:43:27,335
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",3,Hardwood Floors,0,6669,2021-10-07 15:43:34,336
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",4,Freshly Painted Exterior,12,3901,2021-10-07 15:43:38,337
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",5,Fireplace,49,3796,2021-10-07 15:43:42,338
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",6,Proximity to Parks,62,2558,2021-10-07 15:43:44,339
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",7,Number of Bedrooms,76,2351,2021-10-07 15:43:46,340
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",8,Age of Building,38,1970,2021-10-07 15:43:48,341
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",9,Amount of Crime in Neighborhood,100,2032,2021-10-07 15:43:51,342
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",10,Washer/Dryer,75,2909,2021-10-07 15:43:53,343
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",11,Climate of Area,86,2646,2021-10-07 15:43:56,344
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",12,Central AC,62,2750,2021-10-07 15:43:59,345
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",13,Proximity to Cafes/Restaurants,75,2566,2021-10-07 15:44:01,346
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",14,Size of Garage,37,3045,2021-10-07 15:44:04,347
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",15,Size of Yard,37,1829,2021-10-07 15:44:06,348
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",16,Proximity to Waterfront/Beaches,26,3483,2021-10-07 15:44:10,349
+5c86d62e84a97c0001bf41ea,ma_choice_v2_pilot1,"",17,Amount of Natural Light,50,3344,2021-10-07 15:44:13,350
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",0,Reputation of Closest School,0,5825,2021-10-07 15:47:30,351
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",1,Fireplace,38,3580,2021-10-07 15:47:33,352
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",2,Climate of Area,63,2641,2021-10-07 15:47:35,353
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",3,Proximity to Waterfront/Beaches,12,3385,2021-10-07 15:47:39,354
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",4,Proximity to Parks,49,3540,2021-10-07 15:47:43,355
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",5,Size of Garage,50,3339,2021-10-07 15:47:46,356
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",6,Number of Bedrooms,75,3853,2021-10-07 15:47:50,357
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",7,Amount of Crime in Neighborhood,50,3525,2021-10-07 15:47:54,358
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",8,Noise Pollution,37,7224,2021-10-07 15:48:00,359
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",9,Size of Yard,87,2992,2021-10-07 15:48:04,360
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",10,Amount of Natural Light,88,2724,2021-10-07 15:48:06,361
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",11,Central AC,76,2365,2021-10-07 15:48:08,362
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",12,Age of Building,62,5523,2021-10-07 15:48:14,363
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",13,Freshly Painted Exterior,62,2638,2021-10-07 15:48:17,364
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",14,Size of Home,100,4072,2021-10-07 15:48:21,365
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",15,Proximity to Cafes/Restaurants,89,2740,2021-10-07 15:48:24,366
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",16,Hardwood Floors,63,3892,2021-10-07 15:48:27,367
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",0,Size of Garage,63,4034,2021-10-07 15:48:28,368
+5f4bdda693e3790b910c3070,ma_choice_v2_pilot1,"",17,Washer/Dryer,62,2341,2021-10-07 15:48:30,369
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",1,Number of Bedrooms,24,5758,2021-10-07 15:48:34,370
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",2,Proximity to Parks,0,2322,2021-10-07 15:48:36,371
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",3,Central AC,14,4114,2021-10-07 15:48:40,372
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",4,Hardwood Floors,12,3187,2021-10-07 15:48:43,373
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",5,Size of Home,63,4582,2021-10-07 15:48:48,374
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",6,Washer/Dryer,25,3554,2021-10-07 15:48:51,375
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",7,Fireplace,13,2883,2021-10-07 15:48:54,376
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",8,Climate of Area,88,3475,2021-10-07 15:48:58,377
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",9,Reputation of Closest School,0,2435,2021-10-07 15:49:00,378
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",10,Freshly Painted Exterior,19,3299,2021-10-07 15:49:03,379
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",11,Age of Building,32,3123,2021-10-07 15:49:07,380
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",12,Noise Pollution,88,4807,2021-10-07 15:49:11,381
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",13,Proximity to Cafes/Restaurants,3,3282,2021-10-07 15:49:15,382
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",14,Size of Yard,57,4667,2021-10-07 15:49:19,383
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",15,Amount of Crime in Neighborhood,82,2979,2021-10-07 15:49:22,384
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",16,Proximity to Waterfront/Beaches,87,4022,2021-10-07 15:49:26,385
+5deb9d5503356528d65d6bbb,ma_choice_v2_pilot1,"",17,Amount of Natural Light,100,3243,2021-10-07 15:49:30,386
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",0,Number of Bedrooms,62,9171,2021-10-07 15:49:45,387
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",1,Hardwood Floors,11,3849,2021-10-07 15:49:48,388
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",2,Proximity to Waterfront/Beaches,74,3702,2021-10-07 15:49:52,389
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",3,Amount of Natural Light,75,41432,2021-10-07 15:50:34,390
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",4,Size of Garage,12,7874,2021-10-07 15:50:41,391
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",5,Size of Home,62,3433,2021-10-07 15:50:45,392
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",6,Washer/Dryer,25,2794,2021-10-07 15:50:48,393
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",7,Climate of Area,37,2892,2021-10-07 15:50:51,394
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",8,Reputation of Closest School,13,3187,2021-10-07 15:50:54,395
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",9,Noise Pollution,63,4276,2021-10-07 15:50:58,396
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",10,Freshly Painted Exterior,1,7041,2021-10-07 15:51:05,397
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",11,Fireplace,5,2951,2021-10-07 15:51:08,398
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",12,Central AC,58,4547,2021-10-07 15:51:13,399
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",13,Proximity to Parks,85,6133,2021-10-07 15:51:19,400
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",0,Age of Building,25,9388,2021-10-07 15:51:20,401
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",14,Amount of Crime in Neighborhood,99,4234,2021-10-07 15:51:23,402
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",1,Climate of Area,88,4906,2021-10-07 15:51:25,403
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",15,Age of Building,37,3368,2021-10-07 15:51:26,404
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",2,Reputation of Closest School,74,4395,2021-10-07 15:51:29,405
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",16,Proximity to Cafes/Restaurants,88,2982,2021-10-07 15:51:29,406
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",3,Amount of Crime in Neighborhood,100,3417,2021-10-07 15:51:32,407
+5c712aef1cf0120001bf9ae3,ma_choice_v2_pilot1,"",17,Size of Yard,47,4628,2021-10-07 15:51:34,408
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",4,Number of Bedrooms,75,4203,2021-10-07 15:51:37,409
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",5,Hardwood Floors,0,3819,2021-10-07 15:51:41,410
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",6,Central AC,37,2860,2021-10-07 15:51:43,411
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",7,Proximity to Cafes/Restaurants,62,3653,2021-10-07 15:51:47,412
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",8,Washer/Dryer,0,3389,2021-10-07 15:51:50,413
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",9,Amount of Natural Light,62,2643,2021-10-07 15:51:53,414
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",10,Size of Home,75,3628,2021-10-07 15:51:57,415
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",11,Size of Yard,25,3564,2021-10-07 15:52:00,416
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",12,Proximity to Waterfront/Beaches,63,3372,2021-10-07 15:52:04,417
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",13,Freshly Painted Exterior,12,4660,2021-10-07 15:52:08,418
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",14,Fireplace,24,3172,2021-10-07 15:52:11,419
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",15,Size of Garage,9,3436,2021-10-07 15:52:15,420
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",16,Noise Pollution,82,9724,2021-10-07 15:52:25,421
+5796466d25cb71000128b16c,ma_choice_v2_pilot1,"",17,Proximity to Parks,86,3458,2021-10-07 15:52:28,422
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",0,Reputation of Closest School,87,2722,2021-10-07 15:55:25,423
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",0,Hardwood Floors,25,9453,2021-10-07 15:55:27,424
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",1,Proximity to Cafes/Restaurants,62,3430,2021-10-07 15:55:29,425
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",2,Proximity to Waterfront/Beaches,68,2078,2021-10-07 15:55:31,426
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",3,Fireplace,2,3426,2021-10-07 15:55:34,427
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",4,Size of Garage,13,2832,2021-10-07 15:55:37,428
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",1,Number of Bedrooms,58,12485,2021-10-07 15:55:39,429
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",5,Size of Home,59,3297,2021-10-07 15:55:40,430
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",6,Hardwood Floors,22,2185,2021-10-07 15:55:43,431
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",0,Proximity to Parks,69,6393,2021-10-07 15:55:43,432
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",2,Size of Yard,75,4160,2021-10-07 15:55:44,433
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",7,Proximity to Parks,50,3238,2021-10-07 15:55:46,434
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",1,Central AC,37,3741,2021-10-07 15:55:47,435
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",8,Central AC,62,3299,2021-10-07 15:55:49,436
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",2,Noise Pollution,75,3142,2021-10-07 15:55:50,437
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",3,Amount of Natural Light,88,7299,2021-10-07 15:55:51,438
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",9,Size of Yard,39,2257,2021-10-07 15:55:51,439
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",3,Age of Building,62,2868,2021-10-07 15:55:53,440
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",10,Washer/Dryer,53,2489,2021-10-07 15:55:54,441
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",4,Proximity to Parks,57,4036,2021-10-07 15:55:55,442
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",4,Amount of Natural Light,75,2958,2021-10-07 15:55:56,443
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",11,Climate of Area,75,2250,2021-10-07 15:55:56,444
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",12,Noise Pollution,82,1982,2021-10-07 15:55:58,445
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",5,Fireplace,0,3151,2021-10-07 15:55:58,446
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",5,Climate of Area,63,2622,2021-10-07 15:55:59,447
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",13,Number of Bedrooms,76,2132,2021-10-07 15:56:00,448
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",6,Size of Garage,55,4401,2021-10-07 15:56:03,449
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",6,Proximity to Cafes/Restaurants,50,4333,2021-10-07 15:56:03,450
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",14,Amount of Natural Light,37,2957,2021-10-07 15:56:03,451
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",7,Proximity to Cafes/Restaurants,45,3130,2021-10-07 15:56:06,452
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",15,Amount of Crime in Neighborhood,100,2490,2021-10-07 15:56:06,453
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",7,Number of Bedrooms,50,4198,2021-10-07 15:56:07,454
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",16,Age of Building,40,3343,2021-10-07 15:56:09,455
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",8,Proximity to Waterfront/Beaches,53,2517,2021-10-07 15:56:10,456
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",8,Freshly Painted Exterior,0,4532,2021-10-07 15:56:10,457
+5dd471a9332b34461a5f64ab,ma_choice_v2_pilot1,"",17,Freshly Painted Exterior,8,3758,2021-10-07 15:56:13,458
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",9,Freshly Painted Exterior,37,4068,2021-10-07 15:56:14,459
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",9,Age of Building,34,3893,2021-10-07 15:56:14,460
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",10,Reputation of Closest School,13,2882,2021-10-07 15:56:17,461
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",10,Size of Yard,55,4533,2021-10-07 15:56:18,462
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",11,Amount of Crime in Neighborhood,100,5316,2021-10-07 15:56:24,463
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",11,Washer/Dryer,18,6814,2021-10-07 15:56:24,464
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",12,Central AC,57,3267,2021-10-07 15:56:27,465
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",12,Size of Garage,62,5670,2021-10-07 15:56:29,466
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",13,Noise Pollution,100,2271,2021-10-07 15:56:29,467
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",13,Hardwood Floors,38,2677,2021-10-07 15:56:32,468
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",14,Proximity to Waterfront/Beaches,0,2910,2021-10-07 15:56:32,469
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",14,Washer/Dryer,25,2924,2021-10-07 15:56:35,470
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",15,Amount of Crime in Neighborhood,99,3622,2021-10-07 15:56:36,471
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",15,Fireplace,38,3054,2021-10-07 15:56:38,472
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",16,Climate of Area,50,4617,2021-10-07 15:56:40,473
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",16,Reputation of Closest School,50,3284,2021-10-07 15:56:41,474
+5f7ba5797fce9418ec2c8b4b,ma_choice_v2_pilot1,"",17,Size of Home,100,3141,2021-10-07 15:56:44,475
+5d78ffbc9a5f5200169fb6ac,ma_choice_v2_pilot1,"",17,Size of Home,50,4421,2021-10-07 15:56:46,476
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",0,Washer/Dryer,12,16271,2021-10-07 15:59:07,477
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",1,Proximity to Parks,50,9421,2021-10-07 15:59:17,478
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",2,Number of Bedrooms,50,14882,2021-10-07 15:59:32,479
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",3,Noise Pollution,100,7250,2021-10-07 15:59:39,480
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",4,Size of Garage,62,6568,2021-10-07 15:59:45,481
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",5,Size of Home,63,3388,2021-10-07 15:59:49,482
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",6,Age of Building,50,9481,2021-10-07 15:59:58,483
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",7,Hardwood Floors,12,4985,2021-10-07 16:00:03,484
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",8,Climate of Area,62,5965,2021-10-07 16:00:09,485
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",9,Amount of Natural Light,88,3473,2021-10-07 16:00:13,486
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",10,Freshly Painted Exterior,37,3309,2021-10-07 16:00:16,487
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",11,Proximity to Cafes/Restaurants,56,4316,2021-10-07 16:00:20,488
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",12,Proximity to Waterfront/Beaches,50,3617,2021-10-07 16:00:24,489
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",0,Reputation of Closest School,0,4981,2021-10-07 16:00:24,490
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",13,Central AC,50,3220,2021-10-07 16:00:27,491
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",1,Amount of Natural Light,40,4166,2021-10-07 16:00:28,492
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",2,Fireplace,13,3187,2021-10-07 16:00:31,493
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",14,Amount of Crime in Neighborhood,100,5156,2021-10-07 16:00:32,494
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",3,Freshly Painted Exterior,25,3421,2021-10-07 16:00:35,495
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",15,Reputation of Closest School,4,4475,2021-10-07 16:00:37,496
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",4,Size of Yard,37,3861,2021-10-07 16:00:39,497
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",16,Size of Yard,62,4514,2021-10-07 16:00:41,498
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",5,Washer/Dryer,37,4527,2021-10-07 16:00:43,499
+5f32dd1923c1af0880445e3a,ma_choice_v2_pilot1,"",17,Fireplace,37,3124,2021-10-07 16:00:44,500
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",6,Proximity to Waterfront/Beaches,49,5367,2021-10-07 16:00:49,501
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",7,Climate of Area,87,4119,2021-10-07 16:00:53,502
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",8,Age of Building,37,3011,2021-10-07 16:00:56,503
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",9,Proximity to Parks,32,2807,2021-10-07 16:00:59,504
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",10,Hardwood Floors,13,3364,2021-10-07 16:01:02,505
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",11,Number of Bedrooms,76,3410,2021-10-07 16:01:05,506
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",12,Central AC,53,4834,2021-10-07 16:01:10,507
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",13,Amount of Crime in Neighborhood,30,2734,2021-10-07 16:01:13,508
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",14,Size of Home,100,2691,2021-10-07 16:01:16,509
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",15,Noise Pollution,38,2669,2021-10-07 16:01:18,510
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",16,Proximity to Cafes/Restaurants,44,4869,2021-10-07 16:01:23,511
+5ddd2b7887c1fdc8d0375bd6,ma_choice_v2_pilot1,"",17,Size of Garage,55,2907,2021-10-07 16:01:26,512
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",0,Amount of Crime in Neighborhood,100,7329,2021-10-07 16:06:33,513
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",1,Washer/Dryer,38,7783,2021-10-07 16:06:41,514
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",2,Proximity to Cafes/Restaurants,12,5969,2021-10-07 16:06:47,515
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",3,Size of Garage,63,4389,2021-10-07 16:06:51,516
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",4,Fireplace,12,4917,2021-10-07 16:06:56,517
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",5,Age of Building,75,5678,2021-10-07 16:07:02,518
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",6,Size of Home,75,7370,2021-10-07 16:07:09,519
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",7,Amount of Natural Light,100,3719,2021-10-07 16:07:13,520
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",8,Climate of Area,63,8315,2021-10-07 16:07:21,521
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",9,Proximity to Parks,62,4029,2021-10-07 16:07:25,522
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",10,Reputation of Closest School,35,13514,2021-10-07 16:07:39,523
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",11,Number of Bedrooms,38,5235,2021-10-07 16:07:44,524
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",12,Size of Yard,88,3859,2021-10-07 16:07:48,525
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",13,Freshly Painted Exterior,25,4719,2021-10-07 16:07:53,526
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",14,Proximity to Waterfront/Beaches,53,5927,2021-10-07 16:07:59,527
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",15,Central AC,42,3575,2021-10-07 16:08:02,528
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",16,Hardwood Floors,62,3711,2021-10-07 16:08:06,529
+5ee14cdfb5a58b1628f78451,ma_choice_v2_pilot1,"",17,Noise Pollution,75,3390,2021-10-07 16:08:09,530
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",0,Reputation of Closest School,24,9631,2021-10-07 16:18:39,531
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",1,Central AC,25,14436,2021-10-07 16:18:52,532
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",2,Size of Home,50,3541,2021-10-07 16:18:56,533
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",3,Proximity to Parks,62,3779,2021-10-07 16:19:00,534
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",4,Size of Garage,12,4056,2021-10-07 16:19:04,535
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",5,Age of Building,62,6848,2021-10-07 16:19:11,536
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",6,Number of Bedrooms,36,4625,2021-10-07 16:19:15,537
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",7,Proximity to Waterfront/Beaches,38,5135,2021-10-07 16:19:20,538
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",8,Hardwood Floors,0,4929,2021-10-07 16:19:25,539
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",9,Freshly Painted Exterior,25,3868,2021-10-07 16:19:29,540
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",10,Size of Yard,37,4281,2021-10-07 16:19:33,541
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",11,Noise Pollution,50,3884,2021-10-07 16:19:37,542
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",12,Amount of Natural Light,74,3585,2021-10-07 16:19:41,543
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",13,Amount of Crime in Neighborhood,100,3146,2021-10-07 16:19:44,544
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",14,Climate of Area,49,3193,2021-10-07 16:19:47,545
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",15,Proximity to Cafes/Restaurants,62,2714,2021-10-07 16:19:50,546
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",16,Washer/Dryer,37,2546,2021-10-07 16:19:52,547
+59d1284e19d3170001b1d67c,ma_choice_v2_pilot1,"",17,Fireplace,12,4001,2021-10-07 16:19:56,548
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",0,Hardwood Floors,13,7021,2021-10-07 16:24:09,549
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",1,Size of Yard,50,3126,2021-10-07 16:24:12,550
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",2,Amount of Natural Light,50,2510,2021-10-07 16:24:14,551
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",3,Proximity to Cafes/Restaurants,13,4886,2021-10-07 16:24:19,552
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",4,Climate of Area,62,3174,2021-10-07 16:24:22,553
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",5,Freshly Painted Exterior,25,3262,2021-10-07 16:24:26,554
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",6,Proximity to Parks,25,4430,2021-10-07 16:24:30,555
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",7,Central AC,63,2814,2021-10-07 16:24:33,556
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",8,Fireplace,41,2638,2021-10-07 16:24:35,557
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",9,Size of Garage,63,2582,2021-10-07 16:24:38,558
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",10,Reputation of Closest School,13,4477,2021-10-07 16:24:43,559
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",11,Washer/Dryer,14,4030,2021-10-07 16:24:47,560
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",12,Proximity to Waterfront/Beaches,13,3662,2021-10-07 16:24:50,561
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",13,Age of Building,51,4406,2021-10-07 16:24:55,562
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",14,Noise Pollution,84,4158,2021-10-07 16:24:59,563
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",15,Amount of Crime in Neighborhood,82,3942,2021-10-07 16:25:03,564
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",16,Size of Home,74,3766,2021-10-07 16:25:07,565
+5b930339301eda0001ba2446,ma_choice_v2_pilot1,"",17,Number of Bedrooms,62,4326,2021-10-07 16:25:11,566

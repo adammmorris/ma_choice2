@@ -1,0 +1,409 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Research Study</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="jspsych/jspsych.js"></script>
+        <script src="jspsych/plugins/jspsych-call-function.js"></script>
+        <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+        <script src="jspsych/plugins/jspsych-html-button-response.js"></script>
+        <script src="jspsych/plugins/jspsych-html-slider-response.js"></script>
+        <script src='jspsych/plugins/jspsych-multiple-slider.js'></script>
+        <script src='jspsych/plugins/jspsych-survey-likert.js'></script>
+        <script src='jspsych/plugins/jspsych-instructions.js'></script>
+        <script src='jspsych/plugins/jspsych-survey-text.js'></script>
+        <script src='jspsych/plugins/jspsych-external-html.js'></script>
+        <!-- <script src='jspsych/plugins/jspsych-maxdiff.js'></script> -->
+        <script src='jspsych/plugins/jspsych-html-button-response.js'></script>
+        <script src='jspsych/plugins/jspsych-html-button-response-machoice.js'></script>
+        <script src= 'jspsych/plugins/machoice-html-keyboard-response.js'></script>
+        <script src='jspsych/plugins/jspsych-survey-multi-select.js'></script>
+        <script src='jspsych/plugins/jspsych-survey-multi-choice.js'></script>
+        <script src='database.js'></script>
+        <script src='prac_database.js'></script>
+        <!--<script src='jspsych/plugins/jspsych-image-button-response.js'></script>-->
+        <link href="jspsych/css/ma-choice-jspsych.css" rel="stylesheet" type="text/css">
+        <script src="utilities.js"></script>
+        <style>
+        td, th {padding: 20px;}
+        .big {font-size: 40px;}
+        .med {font-size: 24px;}
+        </style>
+    </head>
+    <body>
+    </body>
+    <script>
+
+        var yn =['No','Yes'];
+        var size = ['None', 'Small', 'Medium', 'Large', 'Very Large']; // yard, garage
+        var amount = ['Very Low', 'Low', 'Moderate', 'High', 'Very High']; // pollution, crime
+        var amount2 = ['Very Little', 'A Little', 'A Moderate Amount', 'A Lot']; // light
+        var prox1 = ['5 min', '10 min', '15 min', '20 min', '25 min']; // parks, cafes/restaurants
+        var prox2 = ['10 min', '30 min', '50 min', '70 min', '90 min']; // waterfront/beaches
+        var age = ['Old', 'Medium', 'New'];
+        var goodness = ['Very Bad', 'Bad', 'Moderate', 'Good', 'Very Good']; // reputation-school, climate
+
+        var home_attributes = [
+            {name: 'Number of Bedrooms', scale: null, lb: 1, ub: 5, postfix: ' bdrm'},
+            {name: 'Size of Garage', scale: size},
+            {name: 'Proximity to Parks', scale: prox1},
+            {name: 'Proximity to Cafes/Restaurants', scale: prox1},
+            {name: 'Proximity to Waterfront/Beaches', scale: prox2},
+            {name: 'Noise Pollution', scale: amount},
+            {name: 'Reputation of Closest School', scale: goodness},
+            {name: 'Amount of Natural Light', scale: amount2},
+            {name: 'Age of Building', scale: age},
+            {name: 'Washer/Dryer', scale: yn},
+            {name: 'Size of Yard', scale: size},
+            {name: 'Fireplace', scale: yn},
+            {name: 'Central AC', scale: yn},
+            {name: 'Climate of Area', scale: goodness},
+            {name: 'Hardwood Floors', scale: yn},
+            {name: 'Freshly Painted Exterior', scale: yn},
+            {name: 'Size of Home', scale: null, lb: 400, ub: 2000, postfix: ' square feet'},
+        ];
+
+        var random_choice_check = {
+            type: 'survey-multi-choice',
+            questions: [
+                {
+                    prompt: '<b>We would like to ask you some questions about your decision-making strategy\
+                     during the task. Please select the statement below which best reflects your strategy \
+                     for choosing a home</b>.',  
+                    options: ['<i>I chose between Home A and Home B by considering at least one of the factors presented.</i>'
+                                ,'<i>I chose between Home A and Home B by randomly choosing one,\
+                                or through an otherwise arbitrary process that ignored the factors presented.</i>'], 
+                    required: true
+                }
+            ],
+            data: {pg: 'random-choice-check'}
+        }
+
+        function att_options(){
+            all_atts = [];
+            for (var i=0; i<home_attributes.length; i++){
+                all_atts.push(home_attributes[i]["name"]);
+            }
+            all_atts.push('I chose between the two homes randomly');
+            return all_atts;
+        }
+
+        p_atts = [];
+        function p_options(){
+            if(jsPsych.data.get().filter({pg: 'dyn_pg'}).values().length==0){
+                return p_atts;
+            }
+            else{
+                atts = jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes;
+                for(var i=0; i<atts.length; i++){
+                    p_atts.push([atts[i]]);
+                }
+                return p_atts;
+            }
+        }
+
+        selected_atts = [];
+        function selected_options(){
+            if(jsPsych.data.get().filter({pg: 'dyn_pg'}).values().length==0){
+                return selected_atts;
+            }
+            else{
+                atts = jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes;
+                for(var i=0; i<atts.length; i++){
+                    selected_atts.push(atts[i]);
+                }
+                return selected_atts;
+            }
+        }
+
+        function except(){
+            excluded = selected_options()
+            array = att_options();
+            let newArr,temp,temp1;
+            check1=array.filter(function(value) 
+                {
+                    return excluded.indexOf(value) == -1; 
+                });
+            check2=excluded.filter(function(value) 
+                {
+                    return array.indexOf(value) == -1; 
+                });
+            output=check1.concat(check2);
+            return output;
+            }
+        
+        function dyn_prompt() {
+            excluded = p_options()
+            if(excluded.length==0){
+                var prmpt = '<b>Please complete the statement below with the options that best reflect your strategy for choosing a home.</b>'
+                prmpt += '<br><br>'
+                prmpt += '<i>I initially considered and tried to make a decision by comparing the homes based on the following factor(s):</i>'
+            }
+            else{
+            var prmpt = '<b>Now consider your strategy when this factor was absent or the same across the two homes.</b>'
+            prmpt += '<br>Please complete the statement below that best reflects your strategy when you could not make a choice based on:'
+                for(var i=0;i<excluded.length;i++){
+                    for(var j =0; j<excluded[i].length; j++){
+                    prmpt += '<span class= notbold><br>'+excluded[i][j]+'</span>'
+                    }
+                }
+                prmpt += '<br><br><i>If I could not make a choice based on:'
+                for(var i=0;i<excluded.length;i++){
+                    for(var j =0; j<excluded[i].length; j++){
+                    prmpt += '<span class= notbold><br><i>'+excluded[i][j]+'</i></span>'
+                    }
+                }
+                prmpt += '<br><i>(i.e. if the factor was not present, or if it did not differ between the homes), then I considered the following factor(s)</i>'
+            }
+            return prmpt;
+        }
+
+        var att_pgs = {
+            type: 'survey-multi-select',
+            questions: [
+                {
+                prompt: dyn_prompt,
+                options: except, 
+                required: true,
+                name: 'all_attributes'
+                }, 
+            ],
+            data: {pg: 'dyn_pg'}
+        };
+
+        function multi_att_trial_one_options() {
+            var len = jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes.length;
+            var atts = jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes;
+            var optns = []
+            var opt1 = '<i>I considered </i>'
+            var opt2 = '<i>The importance of </i>'
+            for(var i=0; i<len; i++){
+                if(i==len-1){
+                    opt1+= '<i>'+atts[i]+'</i> '
+                    opt2+= '<i>'+atts[i]+'</i> '
+                }
+                else{
+                    opt1+= '<i>'+atts[i]+',</i> '
+                    opt2+= '<i>'+atts[i]+',</i> '
+                }
+            }
+            opt1 += '<i> to all to be roughly equally important, and only viewed them as either positives or negatives.</i>'
+            opt2 += '<i> differed for me.</i>'
+            optns.push(opt1);
+            optns.push(opt2);
+            return optns;
+        }
+
+        var multi_att_trial_one = {
+            type: 'survey-multi-choice',
+            questions: [
+                {
+                    prompt: '<b>Please select the statement which most accurately reflects your strategy:</b>', 
+                    options: multi_att_trial_one_options,
+                    // options: ['<i>I chose between Home A and Home B by considering at least one of the factors presented.</i>'
+                    //             ,'<i>I chose between Home A and Home B by randomly choosing one,\
+                    //             or through an otherwise arbitrary process that ignored the factors presented.</i>'], 
+                }
+            ],
+            data: {pg: 'mat1'}
+        }
+
+        function weight_options(){
+            var len = jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes.length;
+            var atts = jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes;
+            var optns = []
+            var opt1 = '<i>When deciding based on </i>'
+            var opt2 = '<i>When deciding based on </i>'
+            for(var i=0; i<len; i++){
+                if(i==len-1){
+                    opt1+= '<i>'+atts[i]+'</i> '
+                    opt2+= '<i>'+atts[i]+'</i> '
+                }
+                else{
+                    opt1+= '<i>'+atts[i]+',</i> '
+                    opt2+= '<i>'+atts[i]+',</i> '
+                }
+            }
+            opt1 += '<i>  I only considered which home was better on each factor, but not &apos;how much&apos; better it was (e.g. whether Home A had more '+atts[0]+'than Home B, without considering how much more'+atts[0]+'it had).</i>'
+            opt2 += '<i>  I considered how much better one home was compared to the other home on that factor (e.g. how much more '+atts[0]+' Home A had than Home B).</i>'
+            optns.push(opt1);
+            optns.push(opt2);
+            return optns;
+        }
+
+        var weightQs = {
+            type:'survey-multi-choice',
+            questions: [
+                {
+                    prompt: '<b> Please select the statement which most accurately reflects your strategy:</b>',
+                    options: weight_options,
+                }
+            ]
+
+        }
+
+        var multi_att_trial_two={
+            timeline: [weightQs],
+            conditional_function: function(){
+                if(jsPsych.data.get().filter({pg: 'mat1'}).last(1).values()[0].response.Q0==multi_att_trial_one_options()[0]){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        }
+    
+        var multi_att_timeline = {
+            timeline: [multi_att_trial_one, multi_att_trial_two], // add multi_att_trial_two
+            conditional_function: function () {
+                if(jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes.length==1){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        }
+
+        
+        var dyn_pgs = {
+            timeline: [att_pgs, multi_att_timeline],
+            loop_function: function(data) {
+                // multi_att_trial_one_options();
+                if(jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes[0]==
+                'I chose between the two homes randomly'|| jsPsych.data.get().filter({pg: 'dyn_pg'}).last(1).values()[0].response.all_attributes.length==17)
+                {
+                return false;
+                } else { 
+                    return true;
+                    }    
+            }
+        }
+
+        var random_choice_check_conditional = {
+            timeline: [dyn_pgs],
+            conditional_function: function(){
+                if(jsPsych.data.get().filter({pg: 'random-choice-check'}).values()[0].response.Q0=='<i>I chose between Home A and Home B by considering at least one of the factors presented.</i>'){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+        }
+
+        // var all_weights = {
+        //     type: 'survey-multi-select',
+        //     questions: [
+        //         {
+        //             prompt: 'In the prior section, we asked you about the importance of the factors you considered. Here, we\
+        //              would like you to rate the importance of <i>all</i> of the factors you encountered, including the ones you did not consider.\
+        //              <br><br>For those factors which you already rated the importance of in the prior section, please be consistent with your previous ratings.',
+        //              options: function(){
+        //                 all_atts = [];
+        //                 for (var i=0; i<home_attributes.length; i++){
+        //                     all_atts.push(home_attributes[i]["name"]);
+        //                 }
+        //                 return all_atts;
+        //              }
+        //         }
+        //     ]
+        // }
+
+        var attribute_instructions_text = ['In the prior section, we asked you about the importance of the factors you considered. Here, we\
+                     would like you to rate the importance of <i>all</i> of the factors you encountered, including the ones you did not consider.\
+                     <br><br>For those factors which you already rated the importance of in the prior section, please be consistent with your previous ratings.',
+        ];
+
+        var attribute_instructions = {
+            type: 'instructions',
+            pages: attribute_instructions_text,
+            show_clickable_nav: true
+        };
+
+        var label = ['0 <br></br> Did not contribute at all', '1', '2 <br></br> Contributed a little', '3', '4 <br></br> Contributed somewhat', '5', '6 <br></br> Contributed a lot', '7', '8<br></br>Completely determined my choices']
+        var prompt = '<br><br><br><br>How much did this feature contribute to your decisions overall?'
+        var attribute_ratings = new Array(home_attributes.length);
+        var attribute_ratings2 = new Array(home_attributes.length);
+
+        for (var i = 0; i < home_attributes.length; i++) {
+            att = home_attributes[i];
+            attribute_ratings[i] = {
+            type: 'html-slider-response',
+                labels: label,
+            stimulus: '<b>' + att.name + '</b>',
+                prompt: prompt,
+                // require_movement: debug ? false : true,
+                on_finish: function(data) {
+                    jsPsych.data.addProperties({introspection_choice: data.response, introspection_rt: data.rt});
+                }
+            };
+
+            var cur_scale = att.scale == null ? [att.lb + att.postfix, (Math.round((att.ub + att.lb) / 2)) + att.postfix, att.ub + att.postfix] : att.scale;
+
+            attribute_ratings2[i] = {
+                type: 'survey-multi-choice',
+                questions: [
+                    {prompt: "Which of these settings would you have <b>least preferred</b>?", options: cur_scale, horizontal: true},
+                    {prompt: "Which of these settings would you have <b>most preferred</b>?", options: cur_scale,  horizontal: true}
+                ],
+                /*labels: ['Least Preferred', 'Most Preferred'],*/
+                preamble: '<b>' + att.name + '</b><br><br>This feature could have taken on various settings, such as: ' + cur_scale.join(', ') +
+                '<br><br>Please choose the settings from this list that you would have least preferred and most preferred.',
+                data: {which_trial: i, attribute_name: att.name},
+                // on_finish: function(data) {
+                //     s2_data = {
+                //         subject: data.subject,
+                //         version: data.version,
+                //         assignmentId: data.assignmentId,
+                //         trial: data.which_trial,
+                //         attribute: data.attribute_name,
+                //         rating: data.introspection_choice,
+                //         least_preferred: data.response.Q0,
+                //         most_preferred: data.response.Q1,
+                //         rt1: data.introspection_rt,
+                //         rt2: data.rt
+                //     }
+                // save_data(s2_data, 's2');
+                // }
+            }
+        }
+        function shuffletwo(obj1, obj2) {
+        var index = obj1.length;
+        var rnd, tmp1, tmp2;
+
+        while (index) {
+            rnd = Math.floor(Math.random() * index);
+            index -= 1;
+            tmp1 = obj1[index];
+            tmp2 = obj2[index];
+            obj1[index] = obj1[rnd];
+            obj2[index] = obj2[rnd];
+            obj1[rnd] = tmp1;
+            obj2[rnd] = tmp2;
+        }
+        }
+
+        shuffletwo(attribute_ratings, attribute_ratings2);
+
+
+
+        var timeline = []
+        timeline.push(random_choice_check); 
+        timeline.push(random_choice_check_conditional); 
+        // timeline.push(all_weights);
+        timeline.push(attribute_instructions);
+        for (var i = 0; i < home_attributes.length; i++) {
+            timeline.push(attribute_ratings[i]);
+            timeline.push(attribute_ratings2[i]);
+        }
+        jsPsych.init({
+            timeline: timeline,
+            show_progress_bar: true,
+        })
+</script>
+</html>

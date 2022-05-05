@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Research Study</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="jspsych.js"></script>
+        <script src='jspsych-survey-multi-choice.js'></script>
+        <link href="ma-choice-jspsych.css" rel="stylesheet" type="text/css">
+        <script src="utilities.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+    </body>
+    <script>
+        var items = [
+                    {prompt: "<hr><b>VR.4</b><br>What number is one fifth of one fourth of one ninth of 900?", name: 'VR.4', options: [...Array(5).keys()], horizontal:true, required: true},
+                    {prompt: "<hr><b>VR.16</b><br>Zach is taller than Matt and Richard is shorter than Zach. Which of the following statements would be most accurate?", name: "VR.16", options: ["Richard is taller than Matt","Richard is shorter than Matt","Richard is as tall as Matt","It is impossible to tell"], horizontal:true, required:true},
+                    {prompt: "<hr><b>VR.17</b><br>Joshua is 12 years old and his sister is three times as old as he. When Joshua is 23 years ols, how old will his sister be?", name: "VR.17", options: [35,39,44,47,53,57], horizontal:true, required:true},
+                    {prompt: "<hr><b>VR.19</b><br>If the day after tomorrow is two days before Thursday then what day is it today?", name: "VR.19", options: ["Friday","Monday","Wednesday","Saturday","Tuesday","Sunday"], horizontal:true, required:true},
+                    {prompt: "<hr><b>LN.7</b><br>In the following alphanumeric series, what letter comes next? \n K N P S U", name:"LN.7", options: ["S","T","U","V","W","X"], horizontal:true, required: true},
+                    {prompt: "<hr><b>LN.33</b><br>In the following alphanumeric series, what letter comes next? \n V Q M J H", name:"LN.33", options: ["E","F","G","H","I","J"], horizontal:true, required: true},
+                    {prompt: "<hr><b>LN.34</b><br>In the following alphanumeric series, what letter comes next? \n I J L O S", name:"LN.34", options: ["T","U","V","X","Y","Z"], horizontal:true, required: true},
+                    {prompt: "<hr><b>LN.58</b><br>In the following alphanumeric series, what letter comes next? \n Q S N P L", name:"LN.58", options: ["J","H","I","N","M","L"], horizontal:true, required: true},
+                    {prompt: "<hr><b>MX.45</b><br><img src='MX.45.PNG' width='50%''></img>", name: "MX.45", options: ["A","B","C","D","E","F"],horizontal:true, required: true},
+                    {prompt: "<hr><b>MX.46</b><br><img src='MX.46.PNG' width='50%''></img>", name: "MX.46", options: ["A","B","C","D","E","F"],horizontal:true, required: true},
+                    {prompt: "<hr><b>MX.47</b><br><img src='MX.47.PNG' width='50%''></img>", name: "MX.47", options: ["A","B","C","D","E","F"],horizontal:true, required: true},
+                    {prompt: "<hr><b>MX.55</b><br><img src='MX.45.PNG' width='50%''></img>", name: "MX.55", options: ["A","B","C","D","E","F"],horizontal:true, required: true},
+                    {prompt: "<hr><b>R3D.3</b><br> All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='R3D.3.PNG' width='50%''></img>", name: "R3D.3", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: true},
+                    {prompt: "<hr><b>R3D.4</b><br> All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='R3D.4.PNG' width='50%''></img>", name: "R3D.4", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: true},
+                    {prompt: "<hr><b>R3D.5</b><br> All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='R3D.5.PNG' width='50%''></img>", name: "R3D.5", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: true},
+                    {prompt: "<hr><b>R3D.8</b><br> All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='R3D.8.PNG' width='50%''></img>", name: "R3D.8", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: true},
+                ];
+
+        correct_response = {
+
+            "LN.7" : "X",
+            "LN.33" : "G",
+            "LN.34" : "X",
+            "LN.58" : "N",
+            "MX.45" : "E",
+            "MX.46" : "B",
+            "MX.47" : "B",
+            "MX.55" : "D",
+            "R3D.3" : "C",
+            "R3D.4" : "B",
+            "R3D.5" : "F",
+            "R3D.8" : "G",
+            "VR.4" : "5",
+            "VR.16" : "It is impossible to tell",
+            "VR.17" : "47",
+            "VR.19" : "Sunday"
+        }
+
+        var correct_ans = [];
+        var trial = {
+            type: 'survey-multi-choice',
+            questions: jsPsych.randomization.repeat(items, 1),
+            preamble:"<h2>ICAR Sample Test</h2>",
+            button_label: "Finish",
+            data: {
+            trial_part: 'icar',
+            },
+            on_finish: function(data) {
+                correct_resp_keys = Object.keys(correct_response);
+                correct_resp_values = Object.values(correct_response);
+                participant_resp_keys = Object.keys(jsPsych.data.get().filter({trial_part: 'icar'}).values()[0].response);
+                participant_resp_values = Object.values(jsPsych.data.get().filter({trial_part: 'icar'}).values()[0].response);
+                for(var i=0; i<correct_resp_keys.length; i++){
+                    for(var j=0; j<correct_resp_keys.length; j++){
+                        if(correct_resp_keys[i]==participant_resp_keys[j]){
+                            if(correct_resp_values[i]==participant_resp_values[j]){
+                                correct_ans.push(participant_resp_keys[j])
+                            }
+                        }
+                    }
+                }
+                jsPsych.data.addProperties({correct_answers: correct_ans});
+            }
+        };
+        
+        var timeline =[];
+        timeline.push(trial);
+
+        jsPsych.init({
+            timeline: timeline,
+        });
+
+    </script>
+</html>

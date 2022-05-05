@@ -1,0 +1,489 @@
+<!doctype HTML> 
+<html> 
+<head>
+	<title>Research Study</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/jspsych.js"></script>
+    <script src="https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/plugins/jspsych-html-slider-response.js"></script>
+    <script src='https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/plugins/jspsych-instructions.js'></script>
+    <script src='https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/plugins/jspsych-survey-text.js'></script>
+    <script src='https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/plugins/jspsych-external-html.js'></script>
+    <script src='https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/plugins/jspsych-image-button-response.js'></script>
+    <link href="https://amorris.mprlab327.opalstacked.com/jspsych-6.3.1/css/jspsych.css" rel="stylesheet" type="text/css">
+    <script src="utilities.js"></script>
+    <style>
+	td, th {padding: 20px;}
+	.big {font-size: 40px;}
+	.med {font-size: 24px;}
+	</style>
+</head>
+<body>
+</body>
+<script>
+
+// ***Setting Up the Experiment***
+
+// Meta-var's
+var turk_code = "JSALK23";
+var study_version = "ma_choice_v1_pilot1";
+
+var study_time = 30;
+var study_money = 3.60;
+
+var instr_reading_time = 2000; // in milliseconds
+var instructions_time = 0;
+
+// find the assignmentId & debugging status from the URL
+var urlParams = parseURLParams(window.location.href);
+var assignmentId = '';
+var debug = false;
+if (typeof urlParams != "undefined") {
+    if (urlParams.hasOwnProperty('assignmentId')) {
+        assignmentId = urlParams.assignmentId[0];
+    }
+
+    if (urlParams.hasOwnProperty('debug')) {
+        debug = urlParams.debug[0];
+    }
+} 
+
+
+// Hotel arrays
+// attributes: Room size, continental breakfast, pool, jacuzzi, exercise room, security, restaurants nearby, room service
+// currently keeping these constant across participants to minimize noise
+// my RA did this in a janky way.. obviously can be coded better lol
+var hotels = [
+	['Large', 'Included with Room', 'No pool', 'None', 'None', '24 Hours', 'Yes', 'Yes'],
+	['Medium', 'None', 'Pool', 'Jacuzzi', 'None', '24 Hours', 'Yes', 'No'],
+	['Small', 'Included with Room', 'No Pool', 'Jacuzzi', 'None', '11 am - 7 pm', 'Yes', 'Yes'],
+	['Large', 'None', 'Pool', 'Jacuzzi', 'Yes', 'None', 'No', 'No'],
+	['Small', 'Included with Room', 'No Pool', 'Jacuzzi', 'Yes', 'None', 'No', 'Yes'],
+	['Medium', 'Included with Room', 'Pool', 'None', 'None', '24 Hours', 'Yes', 'No'],
+	['Large', 'Included with Room', 'No Pool', 'Jacuzzi', 'None', 'None', 'No', 'Yes'],
+	['Medium', 'None', 'Pool', 'None', 'Yes', '24 Hours', 'No', 'No'],
+	['Large', 'None', 'Pool', 'None', 'No', '11 am - 7 pm', 'No', 'Yes'],
+	['Small', 'Inlcuded with Room', 'No Pool', 'None', 'Yes', '11 am - 7 pm', 'Yes', 'No'],
+	['Medium', 'None', 'Pool', 'None', 'Yes', 'None', 'Yes', 'Yes'],
+	['Small', 'Included with Room', 'No Pool', 'Jacuzzi', 'None', '11 am - 7 pm', 'Yes', 'No'],
+	['Small', 'None', 'Pool', 'Jacuzzi', 'Yes', '11 am - 7 pm', 'No', 'Yes'],
+	['Large', 'Included with Room', 'No Pool', 'Jacuzzi', 'Yes', '24 Hours', 'No', 'No'],
+	['Large', 'Included with Room', 'Pool', 'Jacuzzi', 'Yes', 'None', 'Yes', 'Yes'],
+	['Medium', 'None', 'Pool', 'None', 'Yes', '11 am - 7 pm', 'Yes', 'No'],
+	['Large', 'Included with Room', 'Pool', 'Jacuzzi', 'Yes', 'None', 'Yes', 'Yes'],
+	['Small', 'Included with Room', 'Pool', 'Jacuzzi', 'None', '11 am - 7 pm', 'Yes', 'No'],
+	['Medium', 'None', 'Pool', 'Jacuzzi', 'None', '24 Hours', 'Yes', 'Yes'],
+	['Medium', 'Included with Room', 'No Pool', 'None', 'Yes', 'None', 'Yes', 'No']
+];
+
+var nhotels = hotels.length;
+var pairs = new Array(190);
+var ind = 0;
+for (var i = 0; i < nhotels; i++) {
+	for (var j = i + 1; j < nhotels; j++) {
+		pairs[ind] = [i, j];
+		ind = ind + 1;
+	}
+}
+pairs = _.shuffle(pairs);
+
+var nTrainingTrials = 100; // only doing 100 of the possible 190 right now
+var nTrainingTrials_to_use = nTrainingTrials;
+
+if (debug) {
+	nTrainingTrials_to_use = 5;
+	instr_reading_time = 0;
+}
+
+var start_instructions = 0;
+
+// ***Intro Blocks***
+
+var welcome = {
+	type: "html-keyboard-response",
+	stimulus: "<div class='center-content'>Welcome to the experiment. Press any key to begin."
+};
+
+var get_id = {
+	type: 'survey-text',
+	questions: [{prompt: "<b>Worker ID:</b>", name: "worker_id"}],
+	preamble: ["Please enter your <b>Amazon Mechanical Turk Worker ID</b> below.<br>(When you're done, press <b>'Continue'</b>; don't hit Enter.)<br><br>If you do not enter your ID accurately, we will not be able to pay you."],
+};
+
+var get_id_loop = {
+	timeline: [get_id],
+	loop_function: function(data) {
+		id = data.values()[0].response.worker_id;
+		if (id) {
+			jsPsych.data.addProperties({
+				subject: id,
+				version: study_version,
+				assignmentId: assignmentId
+			});
+
+			start_instructions = Date.now();
+
+			return false;
+		} else {
+			alert("Please provide your Amazon Mechanical Turk Worker ID.");
+			return true;
+		}
+	}
+} 
+
+var check_consent = function(elem) {
+	if ($('#consent_checkbox').is(':checked')) {
+		return true;
+	}
+	else {
+		alert("If you wish to participate, you must check the box next to the statement 'I agree to participate in this study.'");
+		return false;
+	}
+	return false;
+};
+var consent_block = {
+	type:'external-html',
+	url: "consent.php?time=" + study_time + "&money=" + study_money + "&test=1",
+	cont_btn: "start",
+	check_fn: check_consent,
+	force_refresh: true
+};
+
+// first attention check
+var attnCheck1 = {
+    type: 'survey-text',
+    questions: [{prompt: 'Your response', name: 'attention_check'}],
+    preamble: ["Please type this exact sentence into the box below: 'I will complete this study with my full attention.' and then continue."],
+    on_finish: function(data) {
+    	jsPsych.data.addProperties({attention_check: data.response.attention_check});
+    }
+};
+
+// ***Welcome and Task 1 Instructions***
+
+var instructions_text = ['Welcome to the study! <br></br>\
+	Please <b>do not</b> press the <b>back</b> button or <b>refresh</b> your browser during the study; if you do, you will have to start over. <br><br> Please click <b>Next</b> and read the following instructions carefully. <br></br>',
+
+ 	'<br></br>In this experiment, you will make a series of selections between two hotels. Each hotel will have a list of features, and will be presented to you in a table like the one below: <br></br><img src="hotel.jpg" width = "500" height = "400"></img><br></br> Your job is to pick the hotel you would most likely stay at out of the two options presented. <b>After you complete this task, we will ask you to reflect upon how you made your decisions. So while you are selecting hotels, please pay attention to what is playing a role in your selection and your strategy in selecting a hotel.</b> <br></br>',
+
+ 	'Please press <b>F</b> to select the hotel on the <b>LEFT</b> and <b>J</b> to select the hotel on the <b>RIGHT</b>. The hotel you select will be highlighted in red to indicate your choice.<br></br> There will be 100 trials in Part 1.<br><br>When you are ready to start, hit <b>Next</b>. <br></br>']
+
+var instructions = {
+	type: "instructions",
+	pages: instructions_text,
+	show_clickable_nav: true
+}
+
+
+// Decision trial loop 
+var trTrials = new Array(nTrainingTrials);
+
+for (var j = 0; j < nTrainingTrials; j++) {
+		trTrials[j] = new Array(2);
+
+		// again, my RA did this coding in a horrible way lol
+		word1 = hotels[pairs[j][0]][0];
+		word2 = hotels[pairs[j][1]][0];
+		word3 = hotels[pairs[j][0]][1];
+		word4 = hotels[pairs[j][1]][1];
+		word5 = hotels[pairs[j][0]][2];
+		word6 = hotels[pairs[j][1]][2];
+		word7 = hotels[pairs[j][0]][3];
+		word8 = hotels[pairs[j][1]][3];
+		word9 = hotels[pairs[j][0]][4];
+		word10 = hotels[pairs[j][1]][4];
+		word11 = hotels[pairs[j][0]][5];
+		word12 = hotels[pairs[j][1]][5];
+		word13 = hotels[pairs[j][0]][6];
+		word14 = hotels[pairs[j][1]][6];
+		word15 = hotels[pairs[j][0]][7];
+		word16 = hotels[pairs[j][1]][7];
+
+		// randomly generating two homes
+		// randomly sampling which attributes to use for this trial
+		// randomly sampling the values of each home on each of those attributes
+
+	trTrials[j][0] = {
+		type: 'html-keyboard-response',
+		stimulus: "<div align='center'><table border = 2px solid black><thead></tr><tr><th></th><td><b>Hotel A</b></td><td><b>Hotel B</b></td><tr><th>Room Size</th><td>"+word1+"</td><td>"+word2+"</td><tr><th>Free Continental Breakfast?</th><td>"+word3+"</td><td>"+word4+"</td></tr><tr><th>Pool</th><td>"+word5+"</td><td>"+word6+"</td></tr><tr><th>Jacuzzi</th><td>"+word7+"</td><td>"+word8+"</td></tr><tr><th>Exercise Room</th><td>"+word9+"</td><td>"+word10+"</td></tr><tr><th>Security Guard</th><td>"+word11+"</td><td>"+word12+"</td></tr><tr><th>Restaurant Nearby</th><td>"+word13+"</td><td>"+word14+"</td></tr><tr><th>Room Service</th><td>"+word15+"</td><td>"+word16+"</td></tr></table>",
+		choices: ['f', 'j'],
+		data: {word1: word1, word2: word2, word3: word3, word4: word4, word5: word5, word6: word6, word7: word7, word8: word8, word9: word9, word10: word10, word11: word11, word12: word12, word13: word13, word14: word14, word15: word15, word16: word16},
+		prompt: 'Click <b>F</b> for <b>Hotel A</b> and <b>J</b> for <b>Hotel B</b>',
+		on_finish: function(data) {
+			choice = data.response == 'j' ? 1 : 0; 
+
+			jsPsych.data.addProperties({choice: choice});
+		}
+	};
+	
+	trTrials[j][1] = {
+		type: 'instructions',
+		data: {which_trial: j},
+		pages: function() {
+			var cur_choice = jsPsych.data.get().last().values()[0].choice; 
+			var word1 = jsPsych.data.get().last().values()[0].word1;
+			var word2 = jsPsych.data.get().last().values()[0].word2;
+			var word3 = jsPsych.data.get().last().values()[0].word3;
+			var word4 = jsPsych.data.get().last().values()[0].word4;
+			var word5 = jsPsych.data.get().last().values()[0].word5;
+			var word6 = jsPsych.data.get().last().values()[0].word6;
+			var word7 = jsPsych.data.get().last().values()[0].word7;
+			var word8 = jsPsych.data.get().last().values()[0].word8;
+			var word9 = jsPsych.data.get().last().values()[0].word9;
+			var word10 = jsPsych.data.get().last().values()[0].word10;
+			var word11 = jsPsych.data.get().last().values()[0].word11;
+			var word12 = jsPsych.data.get().last().values()[0].word12;
+			var word13 = jsPsych.data.get().last().values()[0].word13;
+			var word14 = jsPsych.data.get().last().values()[0].word14;
+			var word15 = jsPsych.data.get().last().values()[0].word15;
+			var word16 = jsPsych.data.get().last().values()[0].word16;
+			var colors = cur_choice == 0 ? ['red','black'] : ['black','red']; 
+			return(["<div align='center'><table border = 2px solid black><thead></tr><tr><th></th><td style = 'border: 2px solid "+colors[0]+"'><b>Hotel A</b></td><td style = 'border: 2px solid "+colors[1]+"'><b>Hotel B</b></td><tr><th>Room Size</th><td>"+word1+"</td><td>"+word2+"</td><tr><th>Free Continental Breakfast?</th><td>"+word3+"</td><td>"+word4+"</td></tr><tr><th>Pool</th><td>"+word5+"</td><td>"+word6+"</td></tr><tr><th>Jacuzzi</th><td>"+word7+"</td><td>"+word8+"</td></tr><tr><th>Exercise Room</th><td>"+word9+"</td><td>"+word10+"</td></tr><tr><th>Security Guard</th><td>"+word11+"</td><td>"+word12+"</td></tr><tr><th>Restauraunt Nearby</th><td >"+word13+"</td><td>"+word14+"</td></tr><tr><th>Room Service</th><td>"+word15+"</td><td>"+word16+"</td></tr></table>"])
+		},
+		is_html: true,
+		show_clickable_nav: true,
+		allow_keys: false,
+		on_load: function() {
+			curTrial = jsPsych.data.get().last().values()[0].which_trial;
+			curTrial = curTrial[0].curTrial;
+			return ["<p style='font-size: 10px'>Trial " + (curTrial + 1) + " out of " + nTrainingTrials + " completed.</p>"];
+		},
+		on_finish: function(data) {
+			s1_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: data.assignmentId,
+				trial: data.which_trial,
+				hotel1_id: pairs[data.which_trial][0],
+				hotel2_id: pairs[data.which_trial][1],
+				hotel1_attributes: hotels[pairs[data.which_trial][0]].join(),
+				hotel2_attributes: hotels[pairs[data.which_trial][1]].join(),
+				choice: data.choice,
+				rt: data.rt
+			}
+
+			save_data(s1_data, 's1');
+		}
+	};
+};
+
+trTrials = _.flatten(trTrials);
+
+// ***Attribute Rating Task***
+
+var label = ['0 <br></br> No Effect', '1', '2', '3', '4', '5 <br></br> Average Effect', '6', '7', '8', '9', '10 <br></br> Major Effect']
+var prompt = '<br></br>On a scale of 0-10, how much much did this feature contribute to your hotel decision?<br></br>' 
+
+var attribute_instructions_text = ['Thank you for completing the first task, in the next section, we are going to ask that you reflect on the decisions you just made in part 1. Specifically, we are going to ask how much each feature listed from the hotels contributed to your decision on a scale of 0-10. An example will appear on the next page: <br></br>', 
+
+	'For instance, this is an example of what you will be presented: <br></br><img src="attributes.jpg" width = "875" height = "325"></img><br></br> If we ask you how much the room size contributed to your decision, and it had zero effect on your decision, you would move the slider to 0. However, if it contributed an enormous amount to your decision, then move the slider to 10 or anywhere in between that you believe fits that said effect.<br></br>',
+	
+	'This section will have 8 questions, and will be the final section of the study. <br></br> When you are ready, click <b>Next</b>. <br></br>']
+
+// label 0, 5, and 10. like a likert scale. 
+var attribute_instructions = {
+	type: 'instructions',
+	pages: attribute_instructions_text,
+	show_clickable_nav: true
+};
+
+var attribute_ratings = new Array(9);
+var attribute_questions = ['<p>Room Size</p>', '<p>If continental breakfast was included</p>', '<p>Whether or not there was a pool</p>', '<p>Whether or not there was a jacuzzi</p>', '<p>Whether or not there was an exercise room</p>', '<p>If there was a security guard</p>', '<p>Restaurant Nearby</p>', '<p>If room service was offered</p>'];
+var attribute_rating_questions = _.shuffle(attribute_questions)
+
+for (var i = 0; i < 8; i++) {
+	attribute_ratings[i] = {
+	  	type: 'html-slider-response',
+	  	stimulus: attribute_rating_questions[i],
+	  	labels: label,
+	 	prompt: prompt,
+	 	data: {which_trial: i},
+	 	require_movement: true,
+	 	on_finish: function(data) {
+	 		s2_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: data.assignmentId,
+				trial: data.which_trial,
+	 			attribute: attribute_rating_questions[data.which_trial],
+	 			rating: data.response,
+	 			rt: data.rt
+	 		}
+	 	save_data(s2_data, 's2');
+		}
+	};
+};
+
+
+// ***Final Questions, Demographics, and Debriefing***
+ 
+var strategy = {
+	type: 'survey-text',
+	questions: [
+	{prompt: "Could you now describe, in your own words, how you made your decisions in choosing a hotel?", name: 'strategy', rows: 15, columns: 120},
+	],
+	on_finish: function(data) {
+		jsPsych.data.addProperties({strategy: data.response.strategy});
+	}
+};
+
+var comments = {
+	type: 'survey-text',
+	questions: [{prompt: "Do you have any comments about the study?", name: 'comments', rows: 15, columns: 120},
+	],
+	preamble: 'Final question!', 
+	on_finish: function(data) {
+		jsPsych.data.addProperties({comments: data.response.comments});
+	}
+};
+
+var demo = {
+	type: 'survey-text',
+	questions: [
+		{prompt: "Gender?", name: 'gender'},
+		{prompt: "Age?", name: "age"}
+	],
+	on_finish: function(data) {
+		demo_data = {
+			subject: data.subject,
+			version: data.version,
+			assignmentId: data.assignmentId,
+			strategy: data.strategy,
+			comments: data.comments,
+			gender: data.response.gender, 
+			age: data.response.age,
+			attention_check: data.attention_check,
+			total_time: Date.now() - start_instructions
+		}
+
+		save_data(demo_data, 'demo');
+	}
+};
+
+// DEMOGRAPHICS    
+      
+    var gen = {
+        type: 'html-button-response',
+        stimulus: 'Gender:<br>',
+        choices: ['Male', 'Female','Other', 'Prefer not to say'],
+        on_finish: function(data){
+            data.trial = 'gen'
+        }
+    };
+
+    var age = {
+          type: 'survey-text',
+          questions: [
+            {prompt: "Age:"}
+          ],
+        on_finish: function(data){
+            data.trial = 'age'
+        }
+    }; 
+
+      
+    var race = {
+        type: 'html-button-response',
+        stimulus: 'Which category below most accurately describes you:<br>',
+        choices: ['White', 'Hispanic, Latinx, or Spanish origin', 'Black or African American', 'Asian', 'American Indian or Alaska Native', 'Middle Eastern or North African', 'Native Hawaiian or Other Pacific Islander', 'Other', 'Prefer not to say'],
+        on_finish: function(data){
+            data.trial = 'race'
+        }
+    };
+
+      
+      
+    var nativeEng = {
+        type: 'html-button-response',
+        stimulus: 'Is English your first language?<br>',
+        choices: ['Yes', 'No'],
+        on_finish: function(data){
+            data.trial = 'nativeEng'
+        }
+    };
+
+      
+    var edu = {
+        type: 'html-button-response',
+        stimulus: 'What is the highest level of education that you have completed?<br>',
+        choices: ["Some high school","High school", "Some college", "2 year degree", "4 year degree", "Postgraduate/Professional degree/other", "Prefer not to say"],
+        on_finish: function(data){
+            data.trial = 'edu'
+        }
+    };
+
+      
+    var income = {
+        type: 'html-button-response',
+        stimulus: 'What was the total amount of income you earned during the last year?<br>',
+        choices: ['Under $5,000', '$5,000 - $10,000', '$10,000 - $15,000', '$15,000 - $25,000', '$25,000 - $35,000', '$35,000 - $50,000', '$50,000 - $65,000', '$65,000 - $80,000', '$80,000 - $100,000', 'Over $100,000'],
+        on_finish: function(data){
+            data.trial = 'income'
+        }
+    };
+
+var debrief = {
+	type: 'instructions',
+	pages: ["Thank you for your participation. In this study, our goal was to measure introspective accuracy. <br></br> To do this, we have a series of decision models we are using that can objectively pull the weight of how much you valued each feature in your decisions between the hotels. We utilized multiattribute decisions (hotels) to gather those weights, then asked you how much you beleived you weighed them to see if what you self-reported lined up with what our models predict based on your decisions. <br></br> We hypothesized that people would not be very accurate in their introspective assessments, and from this data, we aim to build interventions that can assist in helping people understand their decisions in broader societal contexts. <br></br>"],
+	show_clickable_nav: true
+};
+
+var check_end = function(elem) {
+	if ($('#end_checkbox').is(':checked')) {
+		return true;
+	} else {
+		alert("Make sure to copy the code.");
+		return false;
+	}
+	return false;
+};
+
+var end = {
+	type: 'external-html',
+	url: "end.php?turkcode=" + turk_code + "&test=1",
+	cont_btn: "end",
+	check_fn: check_end,
+	force_refresh: true
+};
+
+// ***Timeline***
+
+var timeline = []
+
+timeline.push(welcome);
+timeline.push(get_id_loop);
+//timeline.push(consent_block);
+timeline.push(attnCheck1);
+timeline.push(instructions);
+for (var j = 0; j < nTrainingTrials_to_use; j++) {
+	timeline.push(trTrials[j]);
+}
+timeline.push(attribute_instructions)
+for (var i = 0; i < 8; i++) {
+	timeline.push(attribute_ratings[i]);
+}
+timeline.push(strategy)
+timeline.push(comments)
+timeline.push(demo)
+    
+/// DEMOS///
+timeline.push(gen);
+timeline.push(age);
+timeline.push(race); 
+timeline.push(nativeEng); 
+timeline.push(edu); 
+timeline.push(income); 
+//////////////
+    
+timeline.push(debrief)
+//timeline.push(end);
+
+jsPsych.init({
+	timeline: timeline
+});
+
+</script>
+</html>

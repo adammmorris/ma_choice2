@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Research Study</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="jspsych.js"></script>
+        <script src='jspsych-survey-multi-choice-maia-2.js'></script>
+        <link href="ma-choice-jspsych.css" rel="stylesheet" type="text/css">
+        <script src="utilities.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+    </body>
+    <script>
+        var ques = [
+                    {prompt: "1. When I am tense I notice where the tension is located in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "2. I notice when I am uncomfortable in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "3. I notice where in my body I am comfortable.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "4. I notice changes in my breathing, such as whether it slows down or speeds up.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "5. I ignore physical tension or discomfort until they become more severe.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "6. I distract myself from sensations of discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},  
+                    {prompt: "7. When I feel pain or discomfort, I try to power through it.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "8. I try to ignore pain.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "9. I push feelings of discomfort away by focusing on something", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "10. When I feel unpleasant body sensations, I occupy myself with something else so I do not have to feel them.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "11. When I feel physical pain, I become upset.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "12. I start to worry that something is wrong if I feel any discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "13. I can notice an unpleasant body sensation without worrying about it.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "14. I can stay calm and not worry when I have feelings of discomfort or pain.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "15. When I am in discomfort or pain I cannot get it out of my mind.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "16. I can pay attention to my breath without being distracted by things happening around me.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "17. I can maintain awareness of my inner bodily sensations even when there is a lot going on around me.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "18. When I am in conversation with someone, I can pay attention to my posture.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "19. I can return awareness to my body if I am distracted.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "20. I can refocus my attention from thinking to sensing my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "21. I can maintain awareness of my whole body even when a part of me is in pain or discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "22. I am able to consciously focus on my body as a whole.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "23. I notice how my body changes when I am angry.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "24. When something is wrong in my life I can feel it in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},  
+                    {prompt: "25. I notice that my body feels different after a peaceful experience.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "26. I notice that my breathing becomes free and easy when I feel comfortable.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "27. I notice how my body changes when I feel happy / joyful.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "28. When I feel overwhelmed I can find a calm place inside.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "29. When I bring awareness to my body I feel a sense of calm.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "30. I can use my breath to reduce tension.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "31. When I am caught up in thoughts, I can calm my mind by focusing on my body/breathing.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "32. I listen for information from my body about my emotional state.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "33. When I am upset, I take time to explore how my body feels.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "34. I listen to my body to inform me about what to do.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "35. I am at home in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "36. I feel my body is a safe place.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                    {prompt: "37. I trust my body sensations.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: true},
+                ];
+
+        var trial = {
+            type: 'survey-multi-choice',
+            questions: ques,
+            button_label: 'Submit',
+            preamble:"<br><b>Below you will find a list of statements.  Please indicate how often each statement applies to you generally in daily life.</b>",
+            preamble_two: '<b>Click one number on each line</b>',
+            left_most_option: '<b>0 = Never</b>',
+            right_most_option: '<b>5 = Always</b>',
+            data: {
+            trial_part: 'maia-2',
+            },
+            on_finish: function(){
+                console.log(jsPsych.data.get().filter({trial_part: 'maia-2'}).values()[0].response)
+            }
+        };
+        
+        var timeline =[];
+        timeline.push(trial);
+
+        jsPsych.init({
+            timeline: timeline,
+        });
+
+    </script>
+</html>

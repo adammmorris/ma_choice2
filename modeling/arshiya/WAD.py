@@ -37,6 +37,7 @@ def logsumexp(x, dim=0):
 
 
 def getLogLik(parameters, data):
+    print(parameters)
     # parameters: [invTemp weights]
     # data: structure with .choices and .options
     # get the task structure & choices
@@ -136,27 +137,45 @@ def fitWAD(param_struct, data):
         #logpost = model.output_dict['function']
 
         #scipy optimize
-        from scipy.optimize import minimize
-        x0 = [4.328049863324, -0.035957400298624, -0.13551363355331, -0.01490585379561, -0.20039558554243, -0.11460693725948, 0.11086799460114, 0.11169957334752, -0.019601562324683,-0.46200399994364, 0.24840766388557]
-        res = minimize(WAD_post,x0, bounds=varbound)
-        x = res['x']
-        logpost = res['fun']
-        print(res['x'])
-
-        #or tools
-        #from ortools.linear_solver import pywraplp
-        #from ortools.init import pywrapinit
+        #from scipy.optimize import minimize
+        #x0 = [4.328049863324, -0.035957400298624, -0.13551363355331, -0.01490585379561, -0.20039558554243, -0.11460693725948, 0.11086799460114, 0.11169957334752, -0.019601562324683,-0.46200399994364, 0.24840766388557]
+        #res = minimize(WAD_post,x0, bounds=varbound)
+        #x = res['x']
+        #logpost = res['fun']
+        #print(res['x'])
+        
+        #or-tools
+        from ortools.linear_solver import pywraplp
+        solver = pywraplp.Solver.CreateSolver('SCIP')
+        x = {}
+        for j in range(len(param_struct[0])):
+            x[j] = solver.IntVar(float(lb[j][0]), float(ub[j][0]), 'x[%i]' % j)
+        print('Number of variables =', solver.NumVariables())
+        ## obj_expr = [data['obj_coeffs'][j] * x[j] for j in range(data['num_vars'])]
+        obj_expr = [(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))]
+        solver.Maximize(solver.Sum(obj_expr))
+        status = solver.Solve()
+        if status == pywraplp.Solver.OPTIMAL:
+            print('Objective value =', solver.Objective().Value())
+            for j in range(data['num_vars']):
+                print(x[j].name(), ' = ', x[j].solution_value())
+            print('Problem solved in %f milliseconds' % solver.wall_time())
+            print('Problem solved in %d iterations' % solver.iterations())
+        else:
+            print('The problem does not have an optimal solution.')
 
         #pulp
-        #from pulp import LpMinimize, LpProblem, LpStatus, lpSum, LpVariable
-        #prob = LpProblem("WAD", LpMinimize)
-        #x = LpVariable.dicts("x", range(0,11), lowBound=0, cat="Integer")
-        #prob += -(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))
-        #print(prob)
-        #status = prob.solve()
-        #print(LpStatus[status])
-        #print(value(x))
-
+        # from pulp import LpMinimize, LpProblem, LpStatus, lpSum, LpVariable
+        # prob = LpProblem("WP", LpMinimize)
+        # x = {}
+        # for j in range(len(param_struct[0])):
+        #    x[j] = LpVariable('x[%i]' %j, float(lb[j][0]), float(ub[j][0]), cat= 'Integer')
+        ##x = LpVariable.dicts("x", range(0,len(param_struct[0])), lowBound=float(lb[j][0]), upBound=float(ub[j][0]), cat="Integer")
+        # prob += -(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))
+        # print(prob)
+        # status = prob.solve()
+        # print(LpStatus[status])
+        # print(value(x))
 
         # store best fit params
         best_fit_params_WAD[s, :] = x

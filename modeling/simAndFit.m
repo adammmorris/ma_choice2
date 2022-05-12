@@ -6,7 +6,7 @@ addpath("mfit/");
 load('param_structs.mat');
 
 numAgents = 50;
-numAtts = 10;
+numAtts = 12;
 numChoices = 75;
 numValuesPerAtt = 5;
 
@@ -30,7 +30,7 @@ end
 params_all = {params_WAD, params_WP, params_EW, params_TAL, params_LEX};
 
 %% simulate training & test data
-for i = 1:length(param_structs)
+for i = 1:length(params_all)
     data_train{i} = generateData(param_structs{i}(1).choicefn, numChoices, numAtts, numValuesPerAtt, params_all{i});
     data_test{i} = generateData(param_structs{i}(1).choicefn, numChoices, numAtts, numValuesPerAtt, params_all{i});
 end

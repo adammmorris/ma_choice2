@@ -1,3 +1,8 @@
+%% setup
+clear
+datapath = '../data/v3_nosteps/real1/';
+load(strcat(datapath, 'imported_data.mat'));
+
 %% make param structures
 % WAD
 param_struct_WAD(1).lik = @(x,d) getLogLik(x, d, false);
@@ -76,8 +81,24 @@ param_struct_LEX(1).choicefn = @(x,opts,atts) makeChoice(convertLEXparams(x, num
 %     param_struct_WADsignunique(numAtts+1+i).int = 1;
 % end
 
-% total list
-param_structs = {param_struct_WAD, param_struct_WP, param_struct_EW, param_struct_TAL, param_struct_LEX};
-model_names = {'WAD', 'WP', 'EW', 'TAL', 'LEX'};
+%% first-att
+param_struct_FA = param_struct_EW;
+param_struct_FA(1).lik = @(x,d) getLogLik_attpertrial(x, d, false, d.first_att);
+param_struct_FA(1).choicefn = [];
+
+%% first-maxdiff-att
+param_struct_FMDA = param_struct_FA;
+param_struct_FMDA(1).lik = @(x,d) getLogLik_attpertrial(x, d, false, d.first_maxdiff_att);
+param_struct_FMDA(1).choicefn = [];
+
+%% least variance
+param_struct_LV = param_struct_WAD;
+param_struct_LV(2:end) = [];
+param_struct_LV(1).lik = @(x,d) getLogLik_LV(x, d);
+param_struct_LV(1).choicefn = [];
+
+%% total list
+param_structs = {param_struct_WAD, param_struct_WP, param_struct_EW, param_struct_TAL, param_struct_LEX, param_struct_FA, param_struct_FMDA, param_struct_LV};
+model_names = {'WAD', 'WP', 'EW', 'TAL', 'LEX', 'FA', 'FMDA', 'LV'};
 
 save('param_structs.mat', "param_structs", "model_names")

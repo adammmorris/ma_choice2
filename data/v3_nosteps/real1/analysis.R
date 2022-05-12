@@ -362,6 +362,7 @@ for (i in 1:nrow(df.s1)) {
   cur.opt2.vals = as.string.vector(df.s1$opt2_values[i])
   
   cur.att.nums = numeric(length(cur.atts))
+  cur.atts.order = numeric(length(cur.atts))
   for (j in 1:length(cur.atts)) {
     #att.row = df.attributes$subject == df.s1$subject[i] & df.attributes$attribute == cur.atts[j]
     
@@ -369,8 +370,11 @@ for (i in 1:nrow(df.s1)) {
     df.s1[i,atts.opt1[cur.att.nums[j]]] = cur.opt1.vals[j]
     df.s1[i,atts.opt2[cur.att.nums[j]]] = cur.opt2.vals[j]
     df.avail.atts[i,atts.opt1[cur.att.nums[j]]] = 1
+    
+    cur.atts.order[j] = which(atts[j] == cur.atts)
   }
   
+  df.s1$atts.order[i] = as.string(cur.atts.order)
   df.s1$att.nums[i] = as.string(cur.att.nums)
 }
 
@@ -1482,6 +1486,25 @@ write.table(df.s1 %>% dplyr::select(subject.num, all_of(atts.opt1)), 'modeling_o
 write.table(df.s1 %>% dplyr::select(subject.num, all_of(atts.opt2)), 'modeling_opts2.csv', row.names = F, col.names = F, sep = ",")
 write.table(df.s1 %>% dplyr::select(subject.num, choice) %>% mutate(choice = choice + 1), 'modeling_choice.csv', row.names = F, col.names = F, sep = ",")
 write.table(df.avail.atts, 'modeling_avail_atts.csv', row.names = F, col.names = F, sep = ",")
+
+
+df.s1$first.att = NULL
+df.s1$first.maxdiff.att = NULL
+for (i in 1:nrow(df.s1)) {
+  cur.order = as.numeric.vector(df.s1$atts.order[i])
+  df.s1$first.att[i] = which(cur.order == 1)
+  for (j in 1:length(cur.order)) {
+    cur.att = which(cur.order == j)
+    cur.att.name = atts.opt.diff[cur.att]
+    if (abs(df.s1[i,cur.att.name]) == max(abs(df.s1[,cur.att.name]))) {
+      df.s1$first.maxdiff.att[i] = cur.att
+      break
+    }
+  }
+}
+
+write.table(df.s1 %>% dplyr::select(subject.num, first.att), 'first_atts.csv', row.names = F, col.names = F, sep = ",")
+write.table(df.s1 %>% dplyr::select(subject.num, first.maxdiff.att), 'first_maxdiff_atts.csv', row.names = F, col.names = F, sep = ",")
 
 # get data for option set -------------------------------------------------
 

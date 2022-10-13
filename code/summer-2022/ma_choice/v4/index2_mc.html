@@ -1,0 +1,1231 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Research Study</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script src="jspsych/jspsych.js"></script>
+    <script src="jspsych/plugins/jspsych-call-function.js"></script>
+    <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-slider-response.js"></script>
+    <script src='jspsych/plugins/jspsych-multiple-slider.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-likert.js'></script>
+    <script src='jspsych/plugins/jspsych-instructions.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-text.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-choice.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-choice2.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-select.js'></script>
+    <script src='jspsych/plugins/jspsych-external-html.js'></script>
+    <script src='jspsych/plugins/jspsych-maxdiff.js'></script>
+    <script src='jspsych/plugins/jspsych-html-button-response.js'></script>
+    <script src='jspsych/plugins/jspsych-html-button-response-machoice.js'></script>
+    <script src='jspsych/plugins/jspsych-fullscreen.js'></script>
+    <script src='jspsych/plugins/jspsych-categorize-html.js'></script>
+		<script src="MC/math.min.js"></script>
+		<script src='MC/poldrack_plugins/jspsych-poldrack-text.js'></script>
+		<script src='MC/poldrack_plugins/jspsych-poldrack-instructions.js'></script>
+		<script src='MC/poldrack_plugins/jspsych-poldrack-single-stim.js'></script>
+		<script src='MC/poldrack_plugins/jspsych-single-stim-button.js'></script>
+		<script src='MC/poldrack_plugins/poldrack_utils.js'></script>
+		<script src='experiment.js'></script>
+    <!--<script src='jspsych/plugins/jspsych-image-button-response.js'></script>-->
+    <link href="jspsych/css/jspsych.css" rel="stylesheet" type="text/css">
+    <link href="ANT/ANT_style.css" rel="stylesheet" type="text/css">
+    <script src="utilities.js"></script>
+    <style>
+	td, th {padding: 20px;}
+	.big {font-size: 40px;}
+	.med {font-size: 24px;}
+	</style>
+</head>
+<body>
+</body>
+<script>
+
+// ***Setting Up the Experiment***
+
+// Meta-var's
+var turk_code = "JSALK23";
+var study_version = "ma_choice_v4_real1_followup";
+
+var study_time = 35;
+var study_money = 4.67;
+
+// var instr_reading_time = 2000; // in milliseconds
+// var instructions_time = 0;
+
+// // find the assignmentId & debugging status from the URL
+var urlParams = parseURLParams(window.location.href);
+var subject_id_url = '';
+var debug = false;
+if (typeof urlParams != "undefined") {
+    if (urlParams.hasOwnProperty('PROLIFIC_PID')) {
+        subject_id_url = urlParams.PROLIFIC_PID[0];
+    }
+
+    if (urlParams.hasOwnProperty('debug')) {
+        debug = urlParams.debug[0];
+    }
+}
+
+
+var start_instructions = 0;
+
+// ***Intro Blocks***
+
+var welcome = {
+	type: 'instructions',
+	pages: ['<b>Welcome to the second half of the research study on decision-making!</b><br><br>Please <b>do not</b> press the <b>back</b> button or <b>refresh</b> your browser during the study; if you do, you will have to start over.'],
+	show_clickable_nav: true
+}
+
+var fullscreen = {
+	type: "fullscreen",
+	message: "We ask that you take this experiment in full screen mode. \
+	When you click the 'Continue' button below, your browser will go full screen and you may start the study.<br><br>",
+	fullscreen_mode: true,
+};
+
+var get_id = {
+	type: 'survey-text',
+	questions: [{prompt: "<b>Prolific ID:</b>", name: "worker_id"}],
+	preamble: ["Please enter your <b>Prolific ID</b> below.<br>(When you're done, press <b>'Continue'</b>)<br><br>If you do not enter your ID accurately, we will not be able to pay you."],
+};
+
+var subject_id = '';
+var get_id_loop = {
+	timeline: [get_id],
+	loop_function: function(data) {
+		id = data.values()[0].response.worker_id;
+		if (id) {
+			jsPsych.data.addProperties({
+				subject: id,
+				version: study_version,
+				assignmentId: subject_id_url
+			});
+			subject_id = id;
+
+			start_instructions = Date.now();
+
+			return false;
+		} else {
+			alert("Please provide your Prolific ID.");
+			return true;
+		}
+	}
+}
+
+var check_consent = function(elem) {
+	if ($('#consent_checkbox').is(':checked')) {
+		return true;
+	}
+	else {
+		alert("If you wish to participate, you must check the box next to the statement 'I agree to participate in this study.'");
+		return false;
+	}
+	return false;
+};
+
+var consent_block = {
+	type:'external-html',
+	url: "consent.php?time=" + study_time + "&money=" + study_money + "&test=1",
+	cont_btn: "start",
+	check_fn: check_consent,
+	force_refresh: true
+};
+
+// ***Welcome and Task 1 Instructions***
+/*var instructions_text = ['Please <b>do not</b> press the <b>back</b> button or <b>refresh</b> your browser during the study; if you do, you will have to start over. <br><br> Please click <b>Next</b> and read the following instructions carefully. <br></br>',
+
+ 	'DO THIS',
+];
+
+ var instructions = {
+	type: "instructions",
+	pages: instructions_text,
+	show_clickable_nav: true
+}*/
+
+
+/* METACOGNITION */
+
+/* ************************************ */
+/* Define helper functions */
+/* ************************************ */
+function assessPerformance() {
+	/* Function to calculate the "credit_var", which is a boolean used to
+	credit individual experiments in expfactory. */
+	var experiment_data = jsPsych.data.getTrialsOfType('poldrack-single-stim')
+	var missed_count = 0
+	var trial_count = 0
+	var rt_array = []
+	var rt = 0
+	//record choices participants made
+	var choice_counts = {}
+	choice_counts[-1] = 0
+	for (var k = 0; k < choices.length; k++) {
+		choice_counts[choices[k]] = 0
+	}
+	for (var i = 0; i < experiment_data.length; i++) {
+		trial_count += 1
+		rt = experiment_data[i].rt
+		key = experiment_data[i].key_press
+		choice_counts[key] += 1
+		if (rt == -1) {
+			missed_count += 1
+		} else {
+			rt_array.push(rt)
+		}
+	}
+	//calculate average rt
+	var sum = 0
+	for (var j = 0; j < rt_array.length; j++) {
+		sum += rt_array[j]
+	}
+	var avg_rt = sum / rt_array.length || -1
+		//calculate whether response distribution is okay
+	var responses_ok = true
+	Object.keys(choice_counts).forEach(function(key, index) {
+		if (choice_counts[key] > trial_count * 0.85) {
+			responses_ok = false
+		}
+	})
+	var missed_percent = missed_count/trial_count
+	credit_var = (missed_percent < 0.4 && avg_rt > 200 && responses_ok)
+	jsPsych.data.addDataToLastTrial({"credit_var": credit_var})
+}
+
+var getInstructFeedback = function() {
+	return '<div class = centerbox><p class = center-block-text>' + feedback_instruct_text +
+		'</p></div>'
+}
+
+var getTrialLength = function() {
+	return Math.floor(Math.random() * 500) + 1750
+}
+
+getITI = function() {
+	return Math.floor(Math.random() * 500) + 1750
+}
+
+/***********************************************
+/** Modified JGL
+/***********************************************
+/**
+ * Make a sinusoidal grating. Creates a texture that later needs
+ * to be used with jglCreateTexture.
+ * Note: 0 deg means horizontal grating.
+ * If you want to ramp the grating with
+ * 2D Gaussian, also call function jglMakeGaussian and average the
+ * results of both functions
+ * @param {Number} width: in pixels
+ * @param {Number} height: in pixels
+ * @param {Number} sf: spatial frequency in number of cycles per degree of visual angle
+ * @param {Number} angle: in degrees
+ * @param {Number} phase: in degrees
+ * @param {Number} pixPerDeg: pixels per degree of visual angle
+ * @memberof module:jglUtils
+ */
+function jglMakeGrating(width, height, sf, angle, phase, pixPerDeg) {
+
+	// Get sf in number of cycles per pixel
+	sfPerPix = sf / pixPerDeg;
+	// Convert angle to radians
+	angleInRad = ((angle + 0) * Math.PI) / 180;
+	// Phase to radians
+	phaseInRad = (phase * Math.PI) * 180;
+
+	// Get x and y coordinates for 2D grating
+	xStep = 2 * Math.PI / width;
+	yStep = 2 * Math.PI / height;
+	x = jglMakeArray(-Math.PI, xStep, Math.PI + 1); // to nudge jglMakeArray to include +PI
+	y = jglMakeArray(-Math.PI, yStep, Math.PI + 1);
+	// To tilt the 2D grating, we need to tilt
+	// x and y coordinates. These are tilting constants.
+	xTilt = Math.cos(angleInRad) * sf * 2 * Math.PI;
+	yTilt = Math.sin(angleInRad) * sf * 2 * Math.PI;
+
+	//What is width and height? Are these in degrees of visual angle or pixels?
+	//See how lines2d and dots work. For example, jglFillRect(x, y, size, color) uses size in pixels
+	//
+
+	//How does jgl compute size in degress of visual angle
+	var ixX, ixY; // x and y indices for arrays
+	var grating = []; // 2D array
+	for (ixX = 0; ixX < x.length; ixX++) {
+		currentY = y[ixY];
+		grating[ixX] = [];
+		for (ixY = 0; ixY < y.length; ixY++) {
+			grating[ixX][ixY] = Math.cos(x[ixX] * xTilt + y[ixY] * yTilt);
+			// Scale to grayscale between 0 and 255
+			grating[ixX][ixY] = Math.round(((grating[ixX][ixY] + 1) / 2) * 255);
+		}
+	}
+	return (grating);
+}
+
+
+
+/**
+ * Function to make array starting at low,
+ * going to high, stepping by step.
+ * Note: the last element is not "high" but high-step
+ * @param {Number} low The low bound of the array
+ * @param {Number} step the step between two elements of the array
+ * @param {Number} high the high bound of the array
+ */
+function jglMakeArray(low, step, high) {
+	if (step === undefined) {
+		step = 1;
+	}
+	var size = 0
+	var array = []
+	if (low < high) {
+		size = Math.floor((high - low) / step);
+		array = new Array(size);
+		array[0] = low;
+		for (var i = 1; i < array.length; i++) {
+			array[i] = array[i - 1] + step;
+		}
+		return array;
+	} else if (low > high) {
+		size = Math.floor((low - high) / step);
+		array = new Array(size);
+		array[0] = low;
+		for (var j = 1; j < array.length; j++) {
+			array[j] = array[j - 1] - step;
+		}
+		return array;
+	}
+	return [low];
+}
+
+
+function Canvas(id, back_id) {
+	this.canvas = document.getElementById(id);
+	this.context = this.canvas.getContext("2d"); // main on-screen context
+	this.backCanvas = document.getElementById(back_id);
+	this.backCtx = this.backCanvas.getContext("2d");
+	this.height = $("#canvas").height(); // height of screen
+	this.width = $("#canvas").width(); // width of screen
+	this.canvas.height = 579
+	this.canvas.width = 579
+}
+
+function jglCreateTexture(canvas, array, mask, contrast) {
+
+	/* Note on how imageData's work.
+	 * ImageDatas are returned from createImageData,
+	 * they have an array called data. The data array is
+	 * a 1D array with 4 slots per pixel, R,G,B,Alpha. A
+	 * greyscale texture is created by making all RGB values
+	 * equals and Alpha = 255. The main job of this function
+	 * is to translate the given array into this data array.
+	 */
+	if (!$.isArray(array)) {
+		return;
+	}
+	var image;
+
+	// 2D array passed in
+	image = canvas.backCtx.createImageData(array.length, array.length);
+	var row = 0;
+	var col = 0;
+	for (var i = 0; i < image.data.length; i += 4) {
+		mask_val = mask[row][col]
+		ran_val = Math.random() * 256
+		image.data[i + 0] = ran_val * (1 - contrast) + array[row][col] * contrast;
+		image.data[i + 1] = ran_val * (1 - contrast) + array[row][col] * contrast;
+		image.data[i + 2] = ran_val * (1 - contrast) + array[row][col] * contrast;
+		image.data[i + 3] = mask_val;
+		col++;
+		if (col == array[row].length) {
+			col = 0;
+			row++;
+		}
+	}
+	return image;
+}
+
+/***********************************************
+/** Make Gaussian Mask
+/***********************************************/
+
+function twoDGaussian(amplitude, x0, y0, sigmaX, sigmaY, x, y) {
+	var exponent = -((Math.pow(x - x0, 2) / (2 * Math.pow(sigmaX, 2))) + (Math.pow(y - y0, 2) / (2 *
+		Math.pow(sigmaY, 2))));
+	return amplitude * Math.pow(Math.E, exponent);
+}
+
+function make2dMask(arr, amp, s) {
+	var midX = Math.floor(arr.length / 2)
+	var midY = Math.floor(arr[0].length / 2)
+	var mask = []
+	for (var i = 0; i < arr.length; i++) {
+		var col = []
+		for (var j = 0; j < arr[0].length; j++) {
+			col.push(twoDGaussian(amp * 255, midX, midY, s, s, i, j))
+		}
+		mask.push(col)
+	}
+	return mask
+}
+
+function applyMask(arr, mask) {
+	var masked_arr = []
+	for (var i = 0; i < arr.length; i++) {
+		var col = []
+		for (var j = 0; j < arr[0].length; j++) {
+			col.push(arr[i][j] * mask[i][j])
+		}
+		masked_arr.push(col)
+	}
+	return masked_arr
+}
+
+function makeStim(canvas, backcanvas, angle, contrast) {
+	var jgl_canvas = new Canvas(canvas, backcanvas)
+	var arr = jglMakeGrating(500, 500, 2, angle, 0, 0)
+	var mask = make2dMask(arr, 1, 100)
+	var drawing = jglCreateTexture(jgl_canvas, arr, mask, contrast)
+	jgl_canvas.context.putImageData(drawing, 0, 0)
+}
+
+function getStim() {
+	var angle = Math.random() * 180
+	var sides = jsPsych.randomization.shuffle(['left', 'right'])
+	var stim = '<div class = ' + sides[0] + 'box><canvas id = canvas1></canvas></div>' +
+		'<div class = ' + sides[1] + 'box><canvas id = canvas2></canvas></div>' +
+		'<canvas id = backCanvas1></canvas><canvas id = backCanvas2></canvas>'
+	var display_el = jsPsych.getDisplayElement()
+	display_el.append($('<div>', {
+		html: stim,
+		id: 'jspsych-poldrack-single-stim-stimulus'
+	}));
+	makeStim('canvas1', 'backCanvas1', 0, 0)
+	makeStim('canvas2', 'backCanvas2', angle, contrast)
+	curr_data.angle = angle
+	curr_data.contrast = contrast
+	curr_data.reference_side = sides[0]
+	correct_response = choices[['left', 'right'].indexOf(sides[1])]
+	curr_data.correct_response = correct_response
+}
+
+function getEasyStim() {
+	var angle = Math.random() * 180
+	var sides = jsPsych.randomization.shuffle(['left', 'right'])
+	var stim = '<div class = ' + sides[0] + 'box><canvas id = canvas1></canvas></div>' +
+		'<div class = ' + sides[1] + 'box><canvas id = canvas2></canvas></div>' +
+		'<canvas id = backCanvas1></canvas><canvas id = backCanvas2></canvas>'
+	var display_el = jsPsych.getDisplayElement()
+	display_el.append($('<div>', {
+		html: stim,
+		id: 'jspsych-poldrack-single-stim-stimulus'
+	}));
+	makeStim('canvas1', 'backCanvas1', 0, 0)
+	makeStim('canvas2', 'backCanvas2', angle, 0.2)
+	curr_data.angle = angle
+	curr_data.contrast = contrast
+	correct_response = choices[['left', 'right'].indexOf(sides[1])]
+	curr_data.correct_response = correct_response
+}
+
+var randomDraw = function(lst) {
+	var index = Math.floor(Math.random() * (lst.length))
+	return lst[index]
+}
+
+var post_trial_gap = function() {
+	gap = Math.floor(Math.random() * 500) + 750
+	return gap;
+}
+
+/* Append data */
+var appendData = function(data) {
+	correct = false
+	if (data.key_press == curr_data.correct_response) {
+		correct = true
+	}
+	curr_data.trial_num = current_trial
+	curr_data.correct = correct
+	jsPsych.data.addDataToLastTrial(curr_data)
+	curr_data = {}
+	current_trial = current_trial + 1
+}
+
+/* Append data and progress staircase*/
+var afterTrialUpdate = function(data) {
+	correct = false
+	if (data.key_press == curr_data.correct_response) {
+		correct = true
+	}
+	curr_data.trial_num = current_trial
+	curr_data.correct = correct
+	jsPsych.data.addDataToLastTrial(curr_data)
+	curr_data = {}
+	current_trial = current_trial + 1
+	//2 up 1 down staircase
+	if (data.key_press != -1) {
+		if (correct === false) {
+			contrast += 0.005
+		} else {
+			correct_counter += 1
+			if (correct_counter == 2) {
+				contrast -= 0.005
+				correct_counter = 0
+			}
+		}
+	}
+}
+
+/* ************************************ */
+/* Define experimental variables */
+/* ************************************ */
+// generic task variables
+var sumInstructTime = 0 //ms
+var instructTimeThresh = 0 ///in seconds
+var credit_var = true
+
+// task specific variables
+var practice_len = 10
+var exp_len = 300
+var contrast = 0.1
+var correct_counter = 0
+var current_trial = 0
+var choices = [37, 39]
+var curr_data = {}
+var confidence_choices = [49, 50, 51, 52]
+var catch_trials = [25, 57, 150, 220, 270]
+var confidence_response_area =
+	'<div class = centerbox><div class = fixation>+</div></div><div class = response_div>' +
+	'<button class = response_button id = Confidence_1>1:<br> Not Confident At All</button>' +
+	'<button class = response_button id = Confidence_2>2</button>' +
+	'<button class = response_button id = Confidence_3>3</button>' +
+	'<button class = response_button id = Confidence_4>4:<br> Very Confident</button>'
+
+var confidence_response_area_key =
+	'<div class = centerbox><div class = fixation>+</div></div><div class = response_div>' +
+	'<button class = response_button_key id = Confidence_1>1:<br> Not Confident At All</button>' +
+	'<button class = response_button_key id = Confidence_2>2</button>' +
+	'<button class = response_button_key id = Confidence_3>3</button>' +
+	'<button class = response_button_key id = Confidence_4>4:<br> Very Confident</button>'
+
+/* ************************************ */
+/* Set up jsPsych blocks */
+/* ************************************ */
+//Set up post task questionnaire
+var post_task_block = {
+   type: 'survey-text',
+   data: {
+       trial_id: "post task questions"
+   },
+   questions: ['<p class = center-block-text style = "font-size: 20px">Please summarize what you were asked to do in this task.</p>',
+              '<p class = center-block-text style = "font-size: 20px">Do you have any comments about this task?</p>'],
+   rows: [15, 15],
+   columns: [60,60]
+};
+
+/* define static blocks */
+var end_block = {
+	type: 'poldrack-text',
+	data: {
+		trial_id: "end",
+		exp_id: 'perceptual_metacognition'
+	},
+	timing_response: 180000,
+	text: '<div class = centerbox><p class = center-block-text>Thanks for completing this task!</p><p class = center-block-text>Press <strong>enter</strong> to continue.</p></div>',
+	cont_key: [13],
+	timing_post_trial: 0,
+	on_finish: assessPerformance
+};
+
+var feedback_instruct_text =
+	'Welcome to the experiment. This experiment should take about 30 minutes. Press <strong>enter</strong> to begin.'
+var feedback_instruct_block = {
+	type: 'poldrack-text',
+	data: {
+		trial_id: "instruction"
+	},
+	cont_key: [13],
+	text: getInstructFeedback,
+	timing_post_trial: 0,
+	timing_response: 180000
+};
+/// This ensures that the subject does not read through the instructions too quickly.  If they do it too quickly, then we will go over the loop again.
+var instructions_block = {
+	type: 'poldrack-instructions',
+	data: {
+		trial_id: "instruction"
+	},
+	pages: [
+		'<div class = centerbox><p class = block-text>In this experiment, you will see two patches of random noise. In one of the patches there is a slight grating (a striped pattern). Your task is to indicate whether the left or right stimulus has the grating by using the arrow keys. There is a fixation cross in the middle of the screen. The patches come on the screen for a very short amount of time, so keep your eyes on the cross.</p><p class = block-text>After you make your choice you will be asked to rate how confident you are that you were correct, on a scale from 1 to 4. Press the corresponding number key to indicate your confidence. We will begin with practice after you end the instructions.</p></div>'
+	],
+	allow_keys: false,
+	show_clickable_nav: true,
+	timing_post_trial: 1000
+};
+
+var instruction_node = {
+	timeline: [feedback_instruct_block, instructions_block],
+	/* This function defines stopping criteria */
+	loop_function: function(data) {
+		for (i = 0; i < data.length; i++) {
+			if ((data[i].trial_type == 'poldrack-instructions') && (data[i].rt != -1)) {
+				rt = data[i].rt
+				sumInstructTime = sumInstructTime + rt
+			}
+		}
+		if (sumInstructTime <= instructTimeThresh * 1000) {
+			feedback_instruct_text =
+				'Read through instructions too quickly.  Please take your time and make sure you understand the instructions.  Press <strong>enter</strong> to continue.'
+			return true
+		} else if (sumInstructTime > instructTimeThresh * 1000) {
+			feedback_instruct_text =
+				'Done with instructions. Press <strong>enter</strong> to continue.'
+			return false
+		}
+	}
+}
+
+var start_test_block = {
+	type: 'poldrack-text',
+	data: {
+		trial_id: "end"
+	},
+	timing_response: 180000,
+	text: '<div class = centerbox><p class = center-block-text>We are done with practice. We will now start the test. This will be identical to the practice - your task is to indicate where the grating is by pressing the arrow keys. After you make your choice, rate how confident you are that your response was accurate.</p><p class = center-block-text>Press <strong>enter</strong> to continue.</p></div>',
+	cont_key: [13],
+	timing_post_trial: 0
+};
+
+var fixation_block = {
+	type: 'poldrack-single-stim',
+	stimulus: '<div class = centerbox><div class = fixation>+</div></div>',
+	timing_stim: 1000,
+	timing_response: 1000,
+	choices: 'none',
+	is_html: true,
+	data: {
+		trial_id: 'fixation'
+	},
+	timing_post_trial: 0
+}
+
+var test_block = {
+	type: 'poldrack-single-stim',
+	stimulus: getStim,
+	timing_stim: 33,
+	response_ends_trial: true,
+	is_html: true,
+	data: {
+		trial_id: "stim",
+		exp_stage: "test"
+	},
+	choices: [37, 39],
+	timing_post_trial: 0,
+	prompt: '<div class = centerbox><div class = fixation>+</div></div>',
+	on_finish: function(data) {
+		afterTrialUpdate(data)
+	}
+};
+
+var easy_block = {
+	type: 'poldrack-single-stim',
+	stimulus: getEasyStim,
+	timing_stim: 33,
+	response_ends_trial: true,
+	is_html: true,
+	data: {
+		trial_id: "catch",
+		exp_stage: "test"
+	},
+	choices: [37, 39],
+	timing_post_trial: 0,
+	prompt: '<div class = centerbox><div class = fixation>+</div></div>',
+	on_finish: function(data) {
+		appendData(data)
+	}
+};
+
+//below are two different response options - either button click or key press
+var confidence_block = {
+	type: 'single-stim-button',
+	stimulus: confidence_response_area,
+	button_class: 'response_button',
+	data: {
+		trial_id: 'confidence_rating',
+		exp_stage: 'test'
+	},
+	timing_stim: 4000,
+	timing_response: 4000,
+	response_ends_trial: true,
+	timing_post_trial: 0
+}
+
+var confidence_key_block = {
+	type: 'poldrack-single-stim',
+	stimulus: confidence_response_area_key,
+	choices: confidence_choices,
+	data: {
+		trial_id: 'confidence_rating',
+		exp_stage: 'test'
+	},
+	is_html: true,
+	timing_stim: 4000,
+	timing_response: 4000,
+	response_ends_trial: true,
+	timing_post_trial: 0,
+	on_finish: function(data) {
+		var index = confidence_choices.indexOf(data.key_press)
+		jsPsych.data.addDataToLastTrial({confidence: 'confidence_' + (index+1)})
+	}
+}
+
+/* BATTERY */
+
+var intro_to_battery_text = ["<h2><u>Section 2</u></h2>In Section 2 of the study, we'll ask you some general questions about yourself. \
+For all these questions, please answer about yourself <b>as you are now</b>, not as you wish to be in the future. Section 2 should take about 10 minutes. Click 'Next' when you're ready to begin."]
+var battery_intro = {
+	type: 'instructions',
+	pages: intro_to_battery_text,
+	show_clickable_nav: true
+};
+
+var scale_rts = new Object();
+
+// http://www.sjdm.org/dmidi/Decision_Styles_Scale.html
+// reverse scored: 6-10
+// factor 1 (deliberative): 1-5, factor 2 (intuitive): 6-10
+
+var decisionstyle_options = ['1','2','3','4','5'];
+var decisionstyle_responses = null;
+var decisionstyle = {
+    type: 'survey-multi-choice',
+		preamble: "<b>Please indicate the extent to which you agree or disagree with the following statements.</b><br>(1 = strongly disagree, 5 = strongly agree)",
+		left_option: "<i>Strongly disagree</i>",
+		right_option: "<i>Strongly agree</i>",
+		randomize_question_order: true,
+		button_label: 'Submit',
+	  questions: [
+	    {prompt: "<hr>I prefer to gather all the necessary information before committing to a decision.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I thoroughly evaluate decision alternatives before making a final choice.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>In decision making, I take time to contemplate the pros/cons or risks/benefits of a situation.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>Investigating the facts is an important part of my decision making process.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I weigh a number of different factors when making decisions.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>When making decisions, I rely mainly on my gut feelings.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>My initial hunch about decisions is generally what I follow.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I make decisions based on intuition.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I rely on my first impressions when making decisions.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I weigh feelings more than analysis in making decisions.", options: decisionstyle_options, required: debug ? false : true},
+	  ],
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			decisionstyle_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				decisionstyle_responses[i] = decisionstyle_options.indexOf(response[i]);
+			}
+			decisionstyle_responses = decisionstyle_responses.join();
+			scale_rts.decisionstyle = Math.round(data.rt);
+		}
+};
+
+/* social desirability */
+
+var bidr_options = [
+  "Not true",
+  "",
+  "",
+  "Somewhat",
+	"",
+	"",
+  "Very true"
+];
+
+var bidr_responses = null;
+var bidr = {
+    type: 'multiple-slider',
+		require_movement: debug ? false : true,
+		preamble: "<b>Please indicate the extent to which each statement is true or false.</b><br><br>",
+	  questions: [
+	    {prompt: "I have not always been honest with myself.", labels: bidr_options},
+	    {prompt: "I always know why I like things.", labels: bidr_options},
+	    {prompt: "It's hard for me to shut off a disturbing thought.", labels: bidr_options},
+			{prompt: "I never regret my decisions.", labels: bidr_options},
+	    {prompt: "I sometimes lose out on things because I can't make up my mind soon enough.", labels: bidr_options},
+	    {prompt: "I am a completely rational person.", labels: bidr_options},
+	    {prompt: "I am very confident of my judgments.", labels: bidr_options},
+	    {prompt: "I have sometimes doubted my ability as a lover.", labels: bidr_options},
+	    {prompt: "I sometimes tell lies if I have to.", labels: bidr_options},
+			{prompt: "I never cover up my mistakes.", labels: bidr_options},
+	    {prompt: "There have been occasions when I have taken advantage of someone.", labels: bidr_options},
+	    {prompt: "I sometimes try to get even rather than forgive and forget.", labels: bidr_options},
+	    {prompt: "I have said something bad about a friend behind his/her back.", labels: bidr_options},
+	    {prompt: "When I hear people talking privately, I avoid listening.", labels: bidr_options},
+	    {prompt: "I never take things that don't belong to me.", labels: bidr_options},
+	    {prompt: "I don't gossip about other people's business.", labels: bidr_options}
+	  ],
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			mindfulness_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				mindfulness_responses[i] = maia_options.indexOf(response[i]);
+			}
+			mindfulness_responses = maia_responses.join();
+			scale_rts.bidr = Math.round(data.rt);
+		}
+};
+
+/* ACS */
+// https://arc.psych.wisc.edu/self-report/attention-control-scale-attc/
+// reverse scored: 1, 2, 3, 6, 7, 8, 11, 12, 15, 16, 20
+// factor 1 (focusing): 1-9, factor 2 (shifting): 10-20
+
+var acs_options = [
+  "Almost never",
+  "Sometimes",
+  "Often",
+  "Always"
+];
+
+var acs_responses = null;
+var acs = {
+    type: 'survey-multi-choice',
+		preamble: "Here are some different ways that people can feel about working and concentrating.<br>\
+		<b>Please indicate how strongly each statement applies to you.</b>",
+		button_label: 'Submit',
+		randomize_question_order: true,
+	  questions: [
+			{prompt: "<hr>It's very hard for me to concentrate on a difficult task when there are noises around.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When I need to concentrate and solve a problem, I have trouble focusing my attention.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>When I am working hard on something, I still get distracted by events around me.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>My concentration is good even if there is music in the room around me.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When concentrating, I can focus my attention so that I become unaware of what's going on in the room around me.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When I am reading or studying, I am easily distracted if there are people talking in the same room.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When trying to focus my attention on something, I have difficulty blocking out distracting thoughts.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>I have a hard time concentrating when I'm excited about something.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When concentrating, I ignore feelings of hunger or thirst.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>I can quickly switch from one task to another.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>It takes me a while to get really involved in a new task.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>It is difficult for me to coordinate my attention between the listening and writing required when taking notes during lectures.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>I can become interested in a new topic very quickly when I need to.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>It is easy for me to read or write while I'm also talking on the phone.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>I have trouble carrying on two conversations at once.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>I have a hard time coming up with new ideas quickly.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>After being interrupted or distracted, I can easily shift my attention back to what I was doing before.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When a distracting thought comes to mind, it is easy for me to shift my attention away from it.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>It is easy for me to alternate between two different tasks.",  options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>It is hard for me to break from one way of thinking about something and look at it from another point of view.", options: acs_options, required: debug ? false : true}
+	  ],
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			acs_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				acs_responses[i] = acs_options.indexOf(response[i]);
+			}
+			acs_responses = acs_responses.join();
+			scale_rts.acs = Math.round(data.rt);
+		}
+};
+
+//***CAMS-R***
+//https://link.springer.com/content/pdf/10.1007/s10862-006-9035-8.pdf
+//2,6,7 reverse scored
+
+var mindfulness_options = ['Rarely / not at all','Sometimes', 'Often','Almost always'];
+
+var mindfulness_responses = null;
+var mindfulness = {
+  type: 'survey-multi-choice',
+	preamble: "People have a variety of ways of relating to their thoughts and feelings.<br>\
+	For each of the items below, <b>rate how much each of these ways applies to you.</b>",
+	button_label: 'Submit',
+	randomize_question_order: true,
+	questions: [
+    {prompt: "<hr>It is easy for me to concentrate on what I am doing.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am preoccupied by the future.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I can tolerate emotional pain.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I can accept things I cannot change.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I can usually describe how I feel at the moment in considerable detail.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am easily distracted.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am preoccupied by the past.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>It's easy for me to keep track of my thoughts and feelings.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I try to notice my thoughts without judging them.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am able to accept the thoughts and feelings I have.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am able to focus on the present moment.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am able to pay close attention to one thing for a long period of time.", options: mindfulness_options, required: debug ? false : true}
+  ],
+	on_finish: function(data) {
+		var response = Object.values(data.response);
+		mindfulness_responses = new Array(response.length);
+		for (var i = 0; i < response.length; i++) {
+			mindfulness_responses[i] = mindfulness_options.indexOf(response[i]);
+		}
+		mindfulness_responses = mindfulness_responses.join();
+		scale_rts.mindfulness = Math.round(data.rt);
+	}
+};
+
+/* SRIS */
+// http://www.stemcareer.com/richfeller/pages/studenthelp/Documents/Self%20Reflection%20and%20Insight%20Scale.pdf
+// 1, 2, 4, 7, 14, 16, 17, 18, 19 reverse coded
+
+var sris_options = ['1', '2', '3', '4', '5', '6'];
+
+var sris_responses = null;
+var sris = {
+  type: 'survey-multi-choice',
+	button_label: 'Submit',
+	preamble: "<b>Please rate how much you agree or disagree with the following statements:</b><br>(1 = strongly disagree, 6 = strongly agree)",
+	randomize_question_order: true,
+	left_option: '<i>Strongly disagree</i>',
+	right_option: '<i>Strongly agree</i>',
+  questions: [
+		{prompt: "<hr>I don't often think about my thoughts.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I rarely spend time in self-reflection.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>I frequently examine my feelings.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I don't really think about why I behave in the way that I do.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I frequently take time to reflect on my thoughts.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I often think about the way I feel about things.", options: sris_options, horizontal: true, required: debug ? false : true},
+
+		{prompt: "<hr>I am not really interested in analyzing my behavior.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>It is important to me to evaluate the things I do.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I am very interested in examining what I think about.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>It is important to me to try to understand what my feelings mean.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I have a definite need to understand the way that my mind works.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>It is important to me to be able to understand how my thoughts arise.", options: sris_options, horizontal: true, required: debug ? false : true},
+
+		{prompt: "<hr>I am usually aware of my thoughts.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I'm often confused about the way that I really feel about things.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I usually have a very clear idea about why I've behaved in a certain way.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>I'm often aware that I'm having a feeling, but I often don't quite know what it is.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>My behavior often puzzles me.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>Thinking about my thoughts makes me more confused.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>Often I find it difficult to make sense of the way I feel about things.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>I usually know why I feel the way I do.", options: sris_options, horizontal: true, required: debug ? false : true}
+  ],
+	on_finish: function(data) {
+		var response = Object.values(data.response);
+		sris_responses = new Array(response.length);
+		for (var i = 0; i < response.length; i++) {
+			sris_responses[i] = sris_options.indexOf(response[i]);
+		}
+		sris_responses = sris_responses.join();
+		scale_rts.sris = Math.round(data.rt);
+	}
+};
+
+/* MAIA 2 */
+
+var maia_options = ['0', '1', '2', '3', '4', '5'];
+var maia_ques = [
+  {prompt: "<hr>When I am tense I notice where the tension is located in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice when I am uncomfortable in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice where in my body I am comfortable.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice changes in my breathing, such as whether it slows down or speeds up.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  /*{prompt: "I ignore physical tension or discomfort until they become more severe.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I distract myself from sensations of discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I feel pain or discomfort, I try to power through it.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I try to ignore pain.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I push feelings of discomfort away by focusing on something", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I feel unpleasant body sensations, I occupy myself with something else so I do not have to feel them.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I feel physical pain, I become upset.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I start to worry that something is wrong if I feel any discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I can notice an unpleasant body sensation without worrying about it.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I can stay calm and not worry when I have feelings of discomfort or pain.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I am in discomfort or pain I cannot get it out of my mind.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},*/
+  {prompt: "<hr>I can pay attention to my breath without being distracted by things happening around me.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can maintain awareness of my inner bodily sensations even when there is a lot going on around me.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>When I am in conversation with someone, I can pay attention to my posture.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can return awareness to my body if I am distracted.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can refocus my attention from thinking to sensing my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can maintain awareness of my whole body even when a part of me is in pain or discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I am able to consciously focus on my body as a whole.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice how my body changes when I am angry.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>When something is wrong in my life I can feel it in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice that my body feels different after a peaceful experience.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice that my breathing becomes free and easy when I feel comfortable.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice how my body changes when I feel happy / joyful.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  /*{prompt: "When I feel overwhelmed I can find a calm place inside.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I bring awareness to my body I feel a sense of calm.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I can use my breath to reduce tension.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I am caught up in thoughts, I can calm my mind by focusing on my body/breathing.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},*/
+  {prompt: "<hr>I listen for information from my body about my emotional state.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>When I am upset, I take time to explore how my body feels.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I listen to my body to inform me about what to do.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I am at home in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I feel my body is a safe place.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I trust my body sensations.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+];
+
+var maia_responses = null;
+var maia = {
+    type: 'survey-multi-choice',
+    questions: maia_ques,
+    button_label: 'Submit',
+    preamble:"Below you will find a list of statements.\
+		<br><b>Please indicate how often each statement applies to you generally in daily life.</b><br>(0 = never, 5 = always)",
+    left_option: '<i>Never</i>',
+    right_option: '<i>Always</i>',
+		randomize_question_order: true,
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			maia_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				maia_responses[i] = maia_options.indexOf(response[i]);
+			}
+			maia_responses = maia_responses.join();
+			scale_rts.maia = Math.round(data.rt);
+		}
+};
+
+/* IPIP-50 */
+// https://ipip.ori.org/new_ipip-50-item-scale.htm
+
+var ipip_options = ['Very Inaccurate', 'Moderately Inaccurate', 'Neither Accurate nor Inaccurate', 'Moderately Accurate', 'Very Accurate'];
+
+var ipip_ques = [
+	{prompt: 'holdover', options: ipip_options}
+];
+
+var ipip_responses = null;
+var ipip = {
+    type: 'survey-multi-choice',
+    questions: ipip_ques,
+    button_label: 'Submit',
+    preamble:`For each statement below, please indicate <b>how accurately it describes you</b>. Describe yourself as you honestly see yourself, in relation to other people you know of the same gender as you are, and roughly your same age.
+		(As with all of your other responses, your responses to these questions will never be shared with anyone or linked to you in any way.)<br><br>
+		I...`,
+    /*left_option: '<i>Never</i>',
+    right_option: '<i>Always</i>',*/
+		randomize_question_order: true,
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			ipip_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				ipip_responses[i] = ipip_options.indexOf(response[i]);
+			}
+			ipip_responses = ipip_responses.join();
+			scale_rts.ipip = Math.round(data.rt);
+		}
+};
+
+// assemble battery
+var battery = _.shuffle([decisionstyle, acs, mindfulness, sris, maia]);
+
+/* IQ TEST */
+
+var items = [
+  {prompt: "<hr>What number is one fifth of one fourth of one ninth of 900?", name: 'VR.4', options: [2,3,4,5,6,7], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Zach is taller than Matt and Richard is shorter than Zach. Which of the following statements would be most accurate?", name: "VR.16", options: ["Richard is taller than Matt","Richard is shorter than Matt","Richard is as tall as Matt","It is impossible to tell"], horizontal:true, required:debug ? false : true},
+  {prompt: "<hr>Joshua is 12 years old and his sister is three times as old as he. When Joshua is 23 years old, how old will his sister be?", name: "VR.17", options: [35,39,44,47,53,57], horizontal:true, required:debug ? false : true},
+  {prompt: "<hr>If the day after tomorrow is two days before Thursday then what day is it today?", name: "VR.19", options: ["Friday","Monday","Wednesday","Saturday","Tuesday","Sunday"], horizontal:true, required:debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n K N P S U", name:"LN.7", options: ["S","T","U","V","W","X"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n V Q M J H", name:"LN.33", options: ["E","F","G","H","I","J"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n I J L O S", name:"LN.34", options: ["T","U","V","X","Y","Z"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n Q S N P L", name:"LN.58", options: ["J","H","I","N","M","L"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.45.PNG' width='50%''></img>", name: "MX.45", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.46.PNG' width='50%''></img>", name: "MX.46", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.47.PNG' width='50%''></img>", name: "MX.47", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.55.PNG' width='50%''></img>", name: "MX.55", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.3.PNG' width='50%''></img>", name: "R3D.3", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.4.PNG' width='50%''></img>", name: "R3D.4", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.5.PNG' width='50%''></img>", name: "R3D.6", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.8.PNG' width='50%''></img>", name: "R3D.8", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+];
+
+correct_response = {
+	"LN.7" : "X",
+	"LN.33" : "G",
+	"LN.34" : "X",
+	"LN.58" : "N",
+	"MX.45" : "E",
+	"MX.46" : "B",
+	"MX.47" : "B",
+	"MX.55" : "D",
+	"R3D.3" : "C",
+	"R3D.4" : "B",
+	"R3D.6" : "F",
+	"R3D.8" : "G",
+	"VR.4" : "5",
+	"VR.16" : "It is impossible to tell",
+	"VR.17" : "47",
+	"VR.19" : "Sunday"
+}
+
+var intro_to_icar_text = ["Great job -- you've completed Section 2.",
+"<h2><u>Section 3</u></h2>Finally, in Section 3 of the study, we'll ask you to answer some further questions. Section 3 should take about 10-15 minutes."]
+var icar_intro = {
+	type: 'instructions',
+	pages: intro_to_icar_text,
+	show_clickable_nav: true
+};
+
+var correct_ans = [];
+var icar_responses = null;
+var icar = {
+	type: 'survey-multi-choice',
+	questions: items,
+	preamble:"<b>Please answer each question below to the best of your ability.</b> The questions range in difficulty; some may be quite difficult.<br><br><b><u>Do not</u> write anything down during the task; you should try to solve each problem <u>in your head</u>.</b><br><br>(Please be honest in taking this test; your payment will not depend in any way on your score.)",
+	button_label: "Submit",
+	randomize_question_order: true,
+	on_finish: function(data) {
+		icar_responses = JSON.stringify(data.response);
+
+		correct_resp_keys = Object.keys(correct_response);
+		correct_resp_values = Object.values(correct_response);
+		participant_resp_keys = Object.keys(data.response);
+		participant_resp_values = Object.values(data.response);
+		for(var i=0; i<correct_resp_keys.length; i++){
+		  for(var j=0; j<correct_resp_keys.length; j++){
+		      if(correct_resp_keys[i]==participant_resp_keys[j]){
+		          if(correct_resp_values[i]==participant_resp_values[j]){
+		              correct_ans.push(participant_resp_keys[j]);
+		          }
+		      }
+		  }
+		}
+		jsPsych.data.addProperties({correct_answers: correct_ans});
+
+		scale_rts.icar = Math.round(data.rt);
+	}
+};
+
+var feedback = {
+	type: 'survey-text',
+	questions: [
+	{prompt: "Thanks for participating! Do you have any feedback for us about the study? Was there anything confusing? Did it take about as much time as we said it would?",
+		name: 'feedback', required: debug ? false : true, rows: 15, columns: 100},
+	],
+	on_finish: function(data) {
+		jsPsych.data.addProperties({feedback: data.response.feedback});
+
+		demo_data = {
+			subject: data.subject,
+			version: data.version,
+			assignmentId: subject_id_url,
+			decisionstyle_responses: checkvar(decisionstyle_responses, 500),
+			bidr_responses: checkvar(bidr_responses, 500),
+			acs_responses: checkvar(acs_responses, 500),
+			mindfulness_responses: checkvar(mindfulness_responses, 500),
+			sris_responses: checkvar(sris_responses, 500),
+			maia_responses: checkvar(maia_responses, 500),
+			icar_responses: checkvar(icar_responses, 500),
+			icar_correct: checkvar(JSON.stringify(correct_ans), 500),
+			icar_num_correct: checkvar(correct_ans.length),
+			scale_rts: checkvar(JSON.stringify(scale_rts), 3000),
+			feedback: checkvar(data.feedback, 1000),
+			instructions_times: checkvar(JSON.stringify(instructions_times), 3000),
+			total_time: Date.now() - start_instructions
+		}
+
+		save_data(demo_data, 'demo');
+	}
+};
+
+var debrief = {
+type: 'instructions',
+pages: ["In this study, our goal was to measure how accurately people can introspect on their own choice process. <br></br> To do this, we have a series of decision models we are using that can objectively pull the weight of how much you valued each feature in your decisions between the homes. We utilized multiattribute decisions (houses) to gather those weights, then asked you how much you beleived you weighed them to see if what you self-reported lined up with what our models predict based on your decisions. <br></br> We hypothesized that people would show mixed accuracy in their introspective assessments, and we wanted to test what other factors (such as your answers to the other questions) would predict people's introspective accuracy.<br><br>From this data, we aim to build interventions that can assist in helping people understand their decisions in broader societal contexts. <br></br>"],
+show_clickable_nav: true
+};
+
+var exit_fullscreen = {
+  type: 'fullscreen',
+  fullscreen_mode: false,
+  delay_after: 0
+}
+
+var check_end = function(elem) {
+if ($('#end_checkbox').is(':checked')) {
+return true;
+} else {
+alert("Make sure to copy the code.");
+return false;
+}
+return false;
+};
+
+//var end = {
+//type: 'external-html',
+//url: "end.php?turkcode=" + turk_code + "&test=1",
+//cont_btn: "end",
+//check_fn: check_end,
+//force_refresh: true
+//};
+
+
+var timeline = []
+
+// INTRO
+timeline.push(get_id_loop);
+timeline.push(welcome);
+if (!debug) {
+	timeline.push(fullscreen);
+	timeline.push(consent_block);
+}
+
+
+/* create experiment definition array */
+timeline.push(instruction_node);
+
+for (var i = 0; i < practice_len; i++) {
+	timeline.push(fixation_block);
+	timeline.push(easy_block);
+	timeline.push(confidence_key_block);
+}
+timeline.push(start_test_block)
+for (var i = 0; i < exp_len; i++) {
+	timeline.push(fixation_block);
+	if (jQuery.inArray(i,catch_trials) !== -1) {
+		timeline.push(easy_block)
+	} else {
+		timeline.push(test_block);
+	}
+	timeline.push(confidence_key_block);
+}
+timeline.push(post_task_block)
+timeline.push(end_block);
+
+/*for (var i = 0; i < attention_network_task_experiment.length; i++) {
+	timeline.push(attention_network_task_experiment[i]);
+}
+
+timeline.push(battery_intro);
+for (i = 0; i < battery.length; i++) {
+	timeline.push(battery[i]);
+}
+
+timeline.push(icar_intro);
+timeline.push(icar);*/
+
+timeline.push(feedback);
+timeline.push(debrief);
+timeline.push(exit_fullscreen);
+
+var browser_events = new Array();
+jsPsych.init({
+	timeline: timeline,
+	show_progress_bar: false,
+   on_finish: function() {
+    document.body.innerHTML = '<p><p><p align="center">Thank you for participating in the study!<p align="center"><b>You will be automatically re-directed to Prolific in a few moments.</b></p>';
+    setTimeout(function () { location.href = "https://app.prolific.co/submissions/complete?cc=3F3EE65E" }, 5000)
+	},
+	on_interaction_data_update: function(data) {
+		if (subject_id != '') {
+			var browser_event = {
+				subject: subject_id,
+				version: study_version,
+				browser_event: data.event,
+				trial: data.trial,
+				time: data.time
+			}
+			save_data(browser_event, 'browser_events');
+	  }
+	}
+});
+
+</script>
+</html>

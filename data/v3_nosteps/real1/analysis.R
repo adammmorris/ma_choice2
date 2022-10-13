@@ -218,11 +218,11 @@ rm(df.ant.filt.alert, df.ant.filt.orient, df.ant.filt.exec)
 # Clean up demo -----------------------------------------
 
 ### MODELS
-models = c('Full', 'BinAtts', 'BinWts', 'BinWtsAtts', '1-Att')
-models.one.att = c('Multiple', 'Multiple', 'Multiple', 'Multiple', 'One')
-models.bin.wts = c('Graded', 'Graded', 'Binary', 'Graded', NA)
-models.bin.atts = c('Graded', 'Binary', 'Graded', 'Graded', NA)
-models.order = c('Full', 'BinWts', 'BinAtts', 'BinWtsAtts', '1-Att')
+models = c('Full', 'BinAtts', 'BinWts', 'BinWtsAtts', '1Att', '1AttBinAtts')
+models.one.att = c('Multiple', 'Multiple', 'Multiple', 'Multiple', 'One', 'One')
+models.bin.wts = c('Graded', 'Graded', 'Binary', 'Binary', NA, NA)
+models.bin.atts = c('Graded', 'Binary', 'Graded', 'Binary', 'Graded', 'Binary')
+models.order = c('Full', 'BinWts', 'BinAtts', 'BinWtsAtts', '1Att', '1AttBinAtts')
 df.demo = df.demo %>%
   mutate(chosen.model.num = ifelse(one.att == 'One', 5,
                                    ifelse(bin.wts == 'Binary',
@@ -559,6 +559,7 @@ df.fitted.wp = read.csv('fitted_empirical_weights_WP.csv', header = F)
 df.fitted.ew = read.csv('fitted_empirical_weights_EW.csv', header = F)
 df.fitted.tal = read.csv('fitted_empirical_weights_TAL.csv', header = F)
 df.fitted.lex.raw = read.csv('fitted_empirical_weights_LEX.csv', header = F)
+df.fitted.lexb.raw = read.csv('fitted_empirical_weights_LEXB.csv', header = F)
 
 colnames(df.fitted.wad) = atts
 colnames(df.fitted.wp) = atts
@@ -575,8 +576,18 @@ for (i in 1:nrow(df.fitted.lex)) {
     }
   }
 }
+df.fitted.lexb = df.fitted.wad
+for (i in 1:nrow(df.fitted.lexb)) {
+  for (att in 1:length(atts)) {
+    if (df.fitted.lexb.raw$V1[i] == att) {
+      df.fitted.lexb[i,att] = ifelse(df.fitted.lexb.raw$V2[i] == 1, 1, -1)
+    } else {
+      df.fitted.lexb[i,att] = 0
+    }
+  }
+}
 
-fitted.weights = list(df.fitted.wad, df.fitted.wp, df.fitted.ew, df.fitted.tal, df.fitted.lex)
+fitted.weights = list(df.fitted.wad, df.fitted.wp, df.fitted.ew, df.fitted.tal, df.fitted.lex, df.fitted.lexb)
 
 for (i in 1:nrow(df.attributes)) {
   df.attributes$fitted.weight[i] = fitted.weights[[df.attributes$chosen.model.num[i]]][df.attributes$subject.num[i],df.attributes$attribute[i]]
@@ -587,6 +598,7 @@ for (i in 1:nrow(df.attributes)) {
   df.attributes$fitted.weight.ew[i] = fitted.weights[[3]][df.attributes$subject.num[i],df.attributes$attribute[i]]
   df.attributes$fitted.weight.tal[i] = fitted.weights[[4]][df.attributes$subject.num[i],df.attributes$attribute[i]]
   df.attributes$fitted.weight.lex[i] = fitted.weights[[5]][df.attributes$subject.num[i],df.attributes$attribute[i]]
+  df.attributes$fitted.weight.lexb[i] = fitted.weights[[6]][df.attributes$subject.num[i],df.attributes$attribute[i]]
 }
 
 df.attributes = df.attributes %>%
@@ -663,8 +675,9 @@ df.temp.wp = read.csv('fitted_empirical_temps_WP.csv', header = F)
 df.temp.ew = read.csv('fitted_empirical_temps_EW.csv', header = F)
 df.temp.tal = read.csv('fitted_empirical_temps_TAL.csv', header = F)
 df.temp.lex = read.csv('fitted_empirical_temps_LEX.csv', header = F)
+df.temp.lexb = read.csv('fitted_empirical_temps_LEXB.csv', header = F)
 
-df.temp = bind_cols(df.temp.wad, df.temp.wp, df.temp.ew, df.temp.tal, df.temp.lex)
+df.temp = bind_cols(df.temp.wad, df.temp.wp, df.temp.ew, df.temp.tal, df.temp.lex, df.temp.lexb)
 
 for (i in 1:nrow(df.demo)) {
   df.demo$inv.temp[i] = df.temp[i,df.demo$best.model.num[i]]
@@ -831,12 +844,12 @@ df.cv.long = df.cv.filt %>%
   arrange(avg.model.ll) %>%
   mutate(chosen.model = chosen.model.fac == model)
 ggplot(df.cv.long %>% mutate(mse.best = 2 * (.5 - mse.best)),
-       aes(x = ll, y = subject.num, group = subject.num, color = subject.num, shape = chosen.model)) +
-  geom_point() +
+       aes(x = ll, y = subject.num, group = subject.num, color = subject.num, shape = model)) +
+  geom_point(size = 2) +
   guides(group = 'none', color = 'none') +#,
   #alpha = guide_legend(title = 'Parameter accuracy\n(higher is better)')) +
   #scale_color_brewer(palette = 'Set3') +
-  theme_black()+
+  #theme_black()+
   scale_y_discrete(expand = c(-.5,0)) +
   scale_colour_manual(values=rep(brewer.pal(9,"Set1"),times=100))+
   theme(axis.text.y = element_blank(), axis.ticks.y = element_blank()) +
@@ -875,6 +888,43 @@ ggplot(df.demo.filt, aes(x = inv.temp, y = best.model.ll.magnitude)) +
   geom_point() +
   geom_smooth(method='lm')
 
+# look at stuff by model
+summary(lm(best.model.ll.magnitude ~ best.model.fac, data = df.demo.filt))
+summary(lm(sd.model.ll ~ best.model.fac, data = df.demo.filt))
+
+summary(lm(consistency1 ~ best.model.fac, df.demo.filt)) 
+summary(lm(consistency2 ~ best.model.fac, df.demo.filt)) 
+
+df.demo.filt.model = df.demo.filt %>% group_by(best.model.fac) %>%
+  summarize(best.model.ll.magnitude.m = mean(best.model.ll.magnitude),
+            best.model.ll.magnitude.se = se(best.model.ll.magnitude),
+            sd.model.ll.m = mean(sd.model.ll),
+            sd.model.ll.se = se(sd.model.ll),
+            consistency1.m = mean(consistency1),
+            consistency1.se = se(consistency1),
+            consistency2.m = mean(consistency2),
+            consistency2.se = se(consistency2),
+            mse.best.m = mean(mse.best),
+            mse.best.se = se(mse.best),
+            accuracy.best.m = mean(accuracy.best),
+            accuracy.best.se = se(accuracy.best),
+            chosen.model.ll.m = mean(chosen.model.ll),
+            chosen.model.ll.se = se(chosen.model.ll),
+            chose.correct.model.m = mean(chose.correct.model),
+            chose.correct.model.se = se.prop(chose.correct.model))
+ggplot(df.demo.filt.model, aes(x = best.model.fac, y = best.model.ll.magnitude.m)) +
+  geom_point(size = 5) +
+  geom_errorbar(aes(ymin = best.model.ll.magnitude.m - best.model.ll.magnitude.se,
+                    ymax = best.model.ll.magnitude.m + best.model.ll.magnitude.se))
+ggplot(df.demo.filt.model, aes(x = best.model.fac, y = sd.model.ll.m)) +
+  geom_point(size = 5) +
+  geom_errorbar(aes(ymin = sd.model.ll.m - sd.model.ll.se,
+                    ymax = sd.model.ll.m + sd.model.ll.se))
+ggplot(df.demo.filt.model, aes(x = best.model.fac, y = consistency2.m)) +
+  geom_point(size = 5) +
+  geom_errorbar(aes(ymin = consistency2.m - consistency2.se,
+                    ymax = consistency2.m + consistency2.se))
+
 ## process awareness
 # what models did subjects report using?
 ggplot(df.demo.filt, aes(x = chosen.model.fac)) +
@@ -900,13 +950,17 @@ df.demo.heat = df.demo %>% group_by(chosen.model.fac, best.model.fac) %>%
   ungroup() %>%
   mutate(num.subj.norm = num.subj / max(num.subj),
          num.subj.fac = as.factor(num.subj))
-ggplot(df.demo.heat, aes(x = chosen.model.fac, y = best.model.fac,
-                         fill = num.subj)) +
+df.demo.heat = df.demo %>% group_by(chosen.model.fac, best.model.fac) %>%
+  summarize(num.subj = n()) %>%
+  group_by(best.model.fac) %>%
+  mutate(num.subj.norm = num.subj / sum(num.subj))
+ggplot(df.demo.heat, aes(x = best.model.fac, y = chosen.model.fac,
+                         fill = num.subj.norm)) +
   geom_tile() +
-  labs(x = '\nSelf-reported model', y = 'Best-fitting model') +
+  labs(y = '\n% self-reported model', x = 'Best-fitting model') +
   #scale_fill_brewer(palette = 'YlOrRd') +
   scale_fill_continuous(low = 'black', high = 'white') +
-  guides(fill = guide_colorbar(title = '# of subjects')) +
+  guides(fill = guide_colorbar(title = '% of subjects')) +
   theme_black()
 df.demo.filt = df.demo.filt %>%
   mutate(overestimated =
@@ -935,6 +989,27 @@ c(pct.correct - 1.96 * pct.correct.se, pct.correct, pct.correct + 1.96 * pct.cor
 pct.correct = mean(df.demo.filt$chose.correct.model[df.demo.filt$sd.model.ll > median(df.demo.filt$sd.model.ll)])
 pct.correct.se = se.prop(df.demo.filt$chose.correct.model)
 c(pct.correct - 1.96 * pct.correct.se, pct.correct, pct.correct + 1.96 * pct.correct.se)
+
+# do the tile plot but for simulated prob(true model | fitted model)
+models.order.extra = c('Full', 'BinWts', 'BinAtts', 'BinWtsAtts', '1Att', '1AttBinAtts')
+
+test = read.csv('normed75.csv', header = F)
+test[5,] = (test[5,] + test[6,]) / 2
+rownames(test) = models.order
+colnames(test) = models.order
+test$true = rownames(test)
+test.long = test %>% pivot_longer(!true, 'fitted') %>%
+  mutate(true = factor(true, models, models.order),
+         fitted = factor(fitted, models, models.order))
+
+ggplot(test.long, aes(x = fitted, y = true,
+                         fill = value)) +
+  geom_tile() +
+  labs(y = '\nTrue model', y = 'Best-fitting model') +
+  #scale_fill_brewer(palette = 'YlOrRd') +
+  scale_fill_continuous(low = 'black', high = 'white') +
+  guides(fill = guide_colorbar(title = '# of subjects')) +
+  theme_black()
 
 # by feature
 ggplot(df.demo.filt, aes(x = one.att, fill = one.att.real, group = one.att.real)) +
@@ -1511,3 +1586,7 @@ write.table(df.s1 %>% dplyr::select(subject.num, first.maxdiff.att), 'first_maxd
 df.s1.cur = df.s1 %>% filter(subject == '60ff2fc7ff799a89b38e6adc')
 write.table(df.s1.cur %>% dplyr::select(all_of(atts.opt1)), 'trialset_opts1.csv', row.names = F, col.names = atts, sep = ",")
 write.table(df.s1.cur %>% dplyr::select(all_of(atts.opt2)), 'trialset_opts2.csv', row.names = F, col.names = atts, sep = ",")
+
+df.s1.cur = df.s1 %>% filter(subject == '615fb219ac749020fdb60c3c')
+write.table(df.s1.cur %>% dplyr::select(all_of(atts.opt1)), 'trialset_opts1_subj2.csv', row.names = F, col.names = atts, sep = ",")
+write.table(df.s1.cur %>% dplyr::select(all_of(atts.opt2)), 'trialset_opts2_subj2.csv', row.names = F, col.names = atts, sep = ",")

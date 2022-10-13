@@ -1,0 +1,1111 @@
+﻿subject,version,assignmentId,trial,attribute,rating,least_preferred,most_preferred,type,rt,rt2,full_or_lex,signed_weights,original_or_followup,stamp,id
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,0,Quality of heat/AC system,1,,,ew_att_rating,11218,,,,,2022-06-17 19:28:55,26488
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,1,Noise pollution,31,,,wad_att_rating,10073,,,,,2022-06-17 19:29:14,26489
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,3,Year building was built,20,,,wad_att_rating,5150,,,,,2022-06-17 19:29:19,26490
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,5,Quality of kitchen,56,,,wad_att_rating,7428,,,,,2022-06-17 19:29:26,26491
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,7,Amount of traffic,13,,,wad_att_rating,4212,,,,,2022-06-17 19:29:30,26492
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,0,Closeness to parks,19,,,wad_att_rating,3477,,,,,2022-06-17 19:29:34,26493
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,2,Reputation of closest school,9,,,wad_att_rating,3153,,,,,2022-06-17 19:29:37,26494
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,4,Size of yard,35,,,wad_att_rating,3671,,,,,2022-06-17 19:29:41,26495
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,8,Size of home,36,,,wad_att_rating,3067,,,,,2022-06-17 19:29:44,26496
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,6,Quality of heat/AC system,97,,,wad_att_rating,7845,,,,,2022-06-17 19:29:52,26497
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,0,Quality of heat/AC system,1,,,lex_att_rating,3018,,,,,2022-06-17 19:29:59,26498
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,0,Size of home,1,,,lex_att_rating,6836,,,,,2022-06-17 19:34:22,26499
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,0,Closeness to parks,0,,,wad_att_rating,11859,,,,,2022-06-17 19:34:45,26500
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,2,Reputation of closest school,12,,,wad_att_rating,6008,,,,,2022-06-17 19:34:51,26501
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,7,Amount of traffic,13,,,wad_att_rating,3919,,,,,2022-06-17 19:34:55,26502
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,3,Year building was built,49,,,wad_att_rating,4577,,,,,2022-06-17 19:34:59,26503
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,4,Size of yard,13,,,wad_att_rating,4327,,,,,2022-06-17 19:35:03,26504
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,1,Noise pollution,13,,,wad_att_rating,3152,,,,,2022-06-17 19:35:07,26505
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,6,Quality of heat/AC system,25,,,wad_att_rating,2945,,,,,2022-06-17 19:35:10,26506
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,8,Size of home,88,,,wad_att_rating,4531,,,,,2022-06-17 19:35:14,26507
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,5,Quality of kitchen,12,,,wad_att_rating,2999,,,,,2022-06-17 19:35:17,26508
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,0,Size of home,1,,,ew_att_rating,17369,,,,,2022-06-17 19:35:49,26509
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,0,Reputation of closest school,1,,,ew_att_rating,17369,,,,,2022-06-17 19:35:49,26510
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,0,Year building was built,1,,,ew_att_rating,17369,,,,,2022-06-17 19:35:49,26511
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,5,Quality of kitchen,-1,Moderate,Very Bad,direction,5348,,,,,2022-06-17 19:37:28,26512
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,2,Reputation of closest school,-1,Good,Very Bad,direction,2756,,,,,2022-06-17 19:37:35,26513
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,7,Amount of traffic,-1,A Moderate Amount,A Lot,direction,3518,,,,,2022-06-17 19:37:57,26514
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,3,Year building was built,-1,2020,1950,direction,2801,,,,,2022-06-17 19:38:06,26515
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,4,Size of yard,-1,300 square feet,0 square feet,direction,2648,,,,,2022-06-17 19:38:19,26516
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,8,Size of home,-1,1800 square feet,600 square feet,direction,1948,,,,,2022-06-17 19:38:27,26517
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,0,Closeness to parks,-1,20 min away,30 min away,direction,3335,,,,,2022-06-17 19:38:40,26518
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,1,Noise pollution,-1,Low,Very High,direction,2592,,,,,2022-06-17 19:38:55,26519
+62850d0754941f925e1af397,ma_choice_v4_observers_pilot2,62850d0754941f925e1af397,6,Quality of heat/AC system,-1,Good,Very Bad,direction,2878,,,,,2022-06-17 19:39:04,26520
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,3,Year building was built,-1,2020,1950,direction,2606,,,,,2022-06-17 19:40:33,26521
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,1,Noise pollution,-1,Very Low,Very High,direction,3368,,,,,2022-06-17 19:40:42,26522
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,8,Size of home,-1,1800 square feet,600 square feet,direction,2816,,,,,2022-06-17 19:40:48,26523
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,4,Size of yard,-1,600 square feet,0 square feet,direction,1891,,,,,2022-06-17 19:40:52,26524
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,7,Amount of traffic,-1,Very Little,A Lot,direction,1870,,,,,2022-06-17 19:41:00,26525
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,3558,,,,,2022-06-17 19:41:07,26526
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,0,Closeness to parks,-1,10 min away,30 min away,direction,4011,,,,,2022-06-17 19:41:17,26527
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,2,Reputation of closest school,-1,Very Good,Very Bad,direction,3880,,,,,2022-06-17 19:41:35,26528
+6127df52d897b4da6d8ddda8,ma_choice_v4_observers_pilot2,6127df52d897b4da6d8ddda8,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1973,,,,,2022-06-17 19:41:53,26529
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,0,Reputation of closest school,1,,,lex_att_rating,3662,,,,,2022-06-17 19:42:19,26530
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,0,Quality of heat/AC system,1,,,ew_att_rating,20746,,,,,2022-06-17 19:42:53,26531
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,0,Reputation of closest school,1,,,ew_att_rating,20746,,,,,2022-06-17 19:42:53,26532
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,0,Size of home,1,,,ew_att_rating,20746,,,,,2022-06-17 19:42:53,26533
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,7,Amount of traffic,0,,,wad_att_rating,3730,,,,,2022-06-17 19:43:02,26534
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,0,Closeness to parks,0,,,wad_att_rating,5329,,,,,2022-06-17 19:43:07,26535
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,4,Size of yard,12,,,wad_att_rating,5363,,,,,2022-06-17 19:43:13,26536
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,8,Size of home,50,,,wad_att_rating,4797,,,,,2022-06-17 19:43:18,26537
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,3,Year building was built,0,,,wad_att_rating,3096,,,,,2022-06-17 19:43:21,26538
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,1,Noise pollution,0,,,wad_att_rating,3147,,,,,2022-06-17 19:43:24,26539
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,6,Quality of heat/AC system,62,,,wad_att_rating,4614,,,,,2022-06-17 19:43:29,26540
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,2,Reputation of closest school,100,,,wad_att_rating,3964,,,,,2022-06-17 19:43:33,26541
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,5,Quality of kitchen,0,,,wad_att_rating,3180,,,,,2022-06-17 19:43:36,26542
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,3,Year building was built,-1,2020,1950,direction,4265,,,,,2022-06-17 19:45:23,26543
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,6,Quality of heat/AC system,-1,Good,Very Bad,direction,2513,,,,,2022-06-17 19:45:36,26544
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,7,Amount of traffic,-1,Very Little,A Lot,direction,2014,,,,,2022-06-17 19:45:44,26545
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,4,Size of yard,-1,600 square feet,0 square feet,direction,2633,,,,,2022-06-17 19:45:51,26546
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,1,Noise pollution,-1,Very Low,Very High,direction,2413,,,,,2022-06-17 19:45:57,26547
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,0,Closeness to parks,-1,10 min away,30 min away,direction,1946,,,,,2022-06-17 19:46:02,26548
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2430,,,,,2022-06-17 19:46:08,26549
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1964,,,,,2022-06-17 19:46:14,26550
+601423ec0be39337dfd75b26,ma_choice_v4_observers_pilot2,601423ec0be39337dfd75b26,8,Size of home,-1,1800 square feet,600 square feet,direction,2414,,,,,2022-06-17 19:46:22,26551
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Quality of heat/AC system,1,,,lex_att_rating,18647,,,,,2022-06-17 19:54:32,26552
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,5,Quality of kitchen,74,,,wad_att_rating,6657,,,,,2022-06-17 19:54:48,26553
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,2,Reputation of closest school,13,,,wad_att_rating,7084,,,,,2022-06-17 19:54:56,26554
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,7,Amount of traffic,0,,,wad_att_rating,4278,,,,,2022-06-17 19:54:57,26555
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,1,Noise pollution,87,,,wad_att_rating,6800,,,,,2022-06-17 19:55:02,26556
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,8,Size of home,0,,,wad_att_rating,5830,,,,,2022-06-17 19:55:02,26557
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,1,Noise pollution,0,,,wad_att_rating,2462,,,,,2022-06-17 19:55:05,26558
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,4,Size of yard,75,,,wad_att_rating,4589,,,,,2022-06-17 19:55:07,26559
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,3,Year building was built,0,,,wad_att_rating,2679,,,,,2022-06-17 19:55:08,26560
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,2,Reputation of closest school,0,,,wad_att_rating,2695,,,,,2022-06-17 19:55:10,26561
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,3,Year building was built,0,,,wad_att_rating,5984,,,,,2022-06-17 19:55:13,26562
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,0,Closeness to parks,0,,,wad_att_rating,2946,,,,,2022-06-17 19:55:13,26563
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,5,Quality of kitchen,0,,,wad_att_rating,2580,,,,,2022-06-17 19:55:16,26564
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,6,Quality of heat/AC system,89,,,wad_att_rating,4081,,,,,2022-06-17 19:55:17,26565
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,4,Size of yard,0,,,wad_att_rating,2913,,,,,2022-06-17 19:55:19,26566
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Closeness to parks,0,,,wad_att_rating,4813,,,,,2022-06-17 19:55:22,26567
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,6,Quality of heat/AC system,100,,,wad_att_rating,2980,,,,,2022-06-17 19:55:22,26568
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,8,Size of home,83,,,wad_att_rating,5560,,,,,2022-06-17 19:55:27,26569
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,7,Amount of traffic,69,,,wad_att_rating,6552,,,,,2022-06-17 19:55:34,26570
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,0,Quality of heat/AC system,1,,,lex_att_rating,12418,,,,,2022-06-17 19:55:43,26571
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,0,Quality of heat/AC system,1,,,ew_att_rating,4305,,,,,2022-06-17 19:55:59,26572
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Noise pollution,1,,,ew_att_rating,17703,,,,,2022-06-17 19:56:02,26573
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Quality of kitchen,1,,,ew_att_rating,17703,,,,,2022-06-17 19:56:02,26574
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Size of yard,1,,,ew_att_rating,17703,,,,,2022-06-17 19:56:02,26575
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Quality of heat/AC system,1,,,ew_att_rating,17703,,,,,2022-06-17 19:56:02,26576
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Amount of traffic,1,,,ew_att_rating,17703,,,,,2022-06-17 19:56:02,26577
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Size of home,1,,,ew_att_rating,17703,,,,,2022-06-17 19:56:02,26578
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,3,Year building was built,-1,2020,1950,direction,2656,,,,,2022-06-17 19:56:53,26579
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,7,Amount of traffic,-1,Very Little,A Lot,direction,2795,,,,,2022-06-17 19:57:01,26580
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,4,Size of yard,-1,600 square feet,0 square feet,direction,2095,,,,,2022-06-17 19:57:07,26581
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,0,Closeness to parks,-1,10 min away,30 min away,direction,2625,,,,,2022-06-17 19:57:14,26582
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1878,,,,,2022-06-17 19:57:19,26583
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,8,Size of home,-1,1800 square feet,600 square feet,direction,4791,,,,,2022-06-17 19:57:23,26584
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,2092,,,,,2022-06-17 19:57:24,26585
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,8,Size of home,-1,1800 square feet,600 square feet,direction,1440,,,,,2022-06-17 19:57:28,26586
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,1,Noise pollution,-1,Very Low,Very High,direction,1756,,,,,2022-06-17 19:57:33,26587
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,0,Closeness to parks,-1,10 min away,30 min away,direction,4097,,,,,2022-06-17 19:57:35,26588
+607134f478e13587bd89e13a,ma_choice_v4_observers_pilot2,607134f478e13587bd89e13a,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1790,,,,,2022-06-17 19:57:37,26589
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,1,Noise pollution,-1,Very Low,Very High,direction,3806,,,,,2022-06-17 19:57:43,26590
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,0,Quality of kitchen,1,,,ew_att_rating,11791,,,,,2022-06-17 19:57:57,26591
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,0,Quality of heat/AC system,1,,,ew_att_rating,11791,,,,,2022-06-17 19:57:57,26592
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,0,Reputation of closest school,1,,,ew_att_rating,11791,,,,,2022-06-17 19:57:57,26593
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,3,Year building was built,-1,2020,1950,direction,4628,,,,,2022-06-17 19:57:59,26594
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,7,Amount of traffic,-1,Very Little,A Lot,direction,4577,,,,,2022-06-17 19:58:10,26595
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,4,Size of yard,-1,600 square feet,0 square feet,direction,4977,,,,,2022-06-17 19:58:19,26596
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,0,Size of yard,1,,,lex_att_rating,8964,,,,,2022-06-17 19:58:25,26597
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,6009,,,,,2022-06-17 19:58:30,26598
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,2,Reputation of closest school,-1,Very Good,Very Bad,direction,3091,,,,,2022-06-17 19:58:46,26599
+5dba287f9653e80734e335d7,ma_choice_v4_observers_pilot2,5dba287f9653e80734e335d7,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2669,,,,,2022-06-17 19:58:52,26600
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,4,Size of yard,86,,,wad_att_rating,9528,,,,,2022-06-17 19:58:56,26601
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,2,Reputation of closest school,51,,,wad_att_rating,4062,,,,,2022-06-17 19:59:00,26602
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,3,Year building was built,37,,,wad_att_rating,9478,,,,,2022-06-17 19:59:10,26603
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,1,Noise pollution,51,,,wad_att_rating,5846,,,,,2022-06-17 19:59:16,26604
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,7,Amount of traffic,62,,,wad_att_rating,4846,,,,,2022-06-17 19:59:20,26605
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,5,Quality of kitchen,74,,,wad_att_rating,4745,,,,,2022-06-17 19:59:25,26606
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,0,Closeness to parks,85,,,wad_att_rating,4146,,,,,2022-06-17 19:59:29,26607
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,6,Quality of heat/AC system,87,,,wad_att_rating,4346,,,,,2022-06-17 19:59:34,26608
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,8,Size of home,38,,,wad_att_rating,7645,,,,,2022-06-17 19:59:41,26609
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,6,Quality of heat/AC system,-1,Moderate,Bad,direction,4796,,,,,2022-06-17 20:01:15,26610
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,7,Amount of traffic,-1,Very Little,A Lot,direction,4645,,,,,2022-06-17 20:01:25,26611
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,0,Closeness to parks,-1,20 min away,15 min away,direction,3845,,,,,2022-06-17 20:01:34,26612
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,3,Year building was built,-1,1985,2020,direction,3762,,,,,2022-06-17 20:01:43,26613
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,8,Size of home,-1,1200 square feet,600 square feet,direction,2713,,,,,2022-06-17 20:01:50,26614
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2162,,,,,2022-06-17 20:01:58,26615
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,0,Noise pollution,1,,,ew_att_rating,44647,,,,,2022-06-17 20:01:58,26616
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,0,Year building was built,1,,,ew_att_rating,44647,,,,,2022-06-17 20:01:58,26617
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,0,Amount of traffic,1,,,ew_att_rating,44647,,,,,2022-06-17 20:01:58,26618
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,1,Noise pollution,-1,Low,High,direction,1896,,,,,2022-06-17 20:02:07,26619
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,4,Size of yard,-1,0 square feet,600 square feet,direction,2312,,,,,2022-06-17 20:02:15,26620
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,0,Noise pollution,1,,,lex_att_rating,2428,,,,,2022-06-17 20:02:17,26621
+5fbd371dc57ae80a38ba00c2,ma_choice_v4_observers_pilot2,5fbd371dc57ae80a38ba00c2,2,Reputation of closest school,-1,Good,Bad,direction,2862,,,,,2022-06-17 20:02:26,26622
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,1,Noise pollution,88,,,wad_att_rating,11099,,,,,2022-06-17 20:02:39,26623
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,7,Amount of traffic,62,,,wad_att_rating,6624,,,,,2022-06-17 20:02:45,26624
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,0,Closeness to parks,25,,,wad_att_rating,8638,,,,,2022-06-17 20:02:54,26625
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,4,Size of yard,25,,,wad_att_rating,9943,,,,,2022-06-17 20:03:04,26626
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,8,Size of home,37,,,wad_att_rating,8874,,,,,2022-06-17 20:03:13,26627
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,3,Year building was built,62,,,wad_att_rating,4903,,,,,2022-06-17 20:03:18,26628
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,2,Reputation of closest school,25,,,wad_att_rating,6962,,,,,2022-06-17 20:03:25,26629
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,5,Quality of kitchen,12,,,wad_att_rating,8537,,,,,2022-06-17 20:03:33,26630
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,6,Quality of heat/AC system,12,,,wad_att_rating,7187,,,,,2022-06-17 20:03:41,26631
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,0,Closeness to parks,1,,,lex_att_rating,5503,,,,,2022-06-17 20:04:32,26632
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Noise pollution,1,,,ew_att_rating,11199,,,,,2022-06-17 20:04:51,26633
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Reputation of closest school,1,,,ew_att_rating,11199,,,,,2022-06-17 20:04:51,26634
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Size of home,1,,,ew_att_rating,11199,,,,,2022-06-17 20:04:51,26635
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Amount of traffic,1,,,ew_att_rating,11199,,,,,2022-06-17 20:04:51,26636
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Size of home,1,,,lex_att_rating,3794,,,,,2022-06-17 20:04:58,26637
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,6,Quality of heat/AC system,25,,,wad_att_rating,3579,,,,,2022-06-17 20:05:06,26638
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,5,Quality of kitchen,12,,,wad_att_rating,2545,,,,,2022-06-17 20:05:08,26639
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,4,Size of yard,22,,,wad_att_rating,2888,,,,,2022-06-17 20:05:11,26640
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,1,Noise pollution,49,,,wad_att_rating,3523,,,,,2022-06-17 20:05:15,26641
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,2,Reputation of closest school,63,,,wad_att_rating,2911,,,,,2022-06-17 20:05:18,26642
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,8,Size of home,69,,,wad_att_rating,2368,,,,,2022-06-17 20:05:20,26643
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,0,Closeness to parks,-1,20 min away,30 min away,direction,5995,,,,,2022-06-17 20:05:22,26644
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,3,Year building was built,9,,,wad_att_rating,3091,,,,,2022-06-17 20:05:23,26645
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Closeness to parks,9,,,wad_att_rating,1769,,,,,2022-06-17 20:05:25,26646
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,7,Amount of traffic,24,,,wad_att_rating,3355,,,,,2022-06-17 20:05:28,26647
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,3,Year building was built,-1,2020,1950,direction,3441,,,,,2022-06-17 20:05:31,26648
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,2,Reputation of closest school,-1,Good,Very Bad,direction,2418,,,,,2022-06-17 20:05:41,26649
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,4,Size of yard,-1,600 square feet,0 square feet,direction,9101,,,,,2022-06-17 20:05:55,26650
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,6,Quality of heat/AC system,-1,Good,Very Bad,direction,2675,,,,,2022-06-17 20:06:11,26651
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,0,Closeness to parks,1,,,ew_att_rating,86641,,,,,2022-06-17 20:06:18,26652
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,0,Size of home,1,,,ew_att_rating,86641,,,,,2022-06-17 20:06:18,26653
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,0,Size of yard,1,,,ew_att_rating,86641,,,,,2022-06-17 20:06:18,26654
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,5,Quality of kitchen,-1,Moderate,Very Bad,direction,2068,,,,,2022-06-17 20:06:18,26655
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,7,Amount of traffic,-1,A Little,A Lot,direction,2900,,,,,2022-06-17 20:06:28,26656
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,8,Size of home,75,,,wad_att_rating,8223,,,,,2022-06-17 20:06:32,26657
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,1,Noise pollution,-1,Very Low,Very High,direction,3250,,,,,2022-06-17 20:06:36,26658
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,2,Reputation of closest school,-1,Very Good,Very Bad,direction,2476,,,,,2022-06-17 20:06:39,26659
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,1,Noise pollution,0,,,wad_att_rating,7327,,,,,2022-06-17 20:06:39,26660
+62acc04d0a7788636b0e9915,ma_choice_v4_observers_pilot2,62acc04d0a7788636b0e9915,8,Size of home,-1,1800 square feet,600 square feet,direction,2777,,,,,2022-06-17 20:06:42,26661
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,2,Reputation of closest school,0,,,wad_att_rating,3151,,,,,2022-06-17 20:06:43,26662
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,7,Amount of traffic,-1,Very Little,A Lot,direction,1809,,,,,2022-06-17 20:06:44,26663
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,4,Size of yard,75,,,wad_att_rating,4959,,,,,2022-06-17 20:06:48,26664
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,3,Year building was built,-1,1985,2020,direction,3321,,,,,2022-06-17 20:06:53,26665
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,3,Year building was built,24,,,wad_att_rating,10567,,,,,2022-06-17 20:06:58,26666
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,1,Noise pollution,-1,Very Low,Very High,direction,1840,,,,,2022-06-17 20:07:01,26667
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,7,Amount of traffic,0,,,wad_att_rating,4175,,,,,2022-06-17 20:07:02,26668
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1560,,,,,2022-06-17 20:07:06,26669
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,5,Quality of kitchen,0,,,wad_att_rating,4311,,,,,2022-06-17 20:07:07,26670
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,4,Size of yard,-1,300 square feet,0 square feet,direction,1701,,,,,2022-06-17 20:07:13,26671
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,6,Quality of heat/AC system,50,,,wad_att_rating,10375,,,,,2022-06-17 20:07:17,26672
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1409,,,,,2022-06-17 20:07:19,26673
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,0,Closeness to parks,87,,,wad_att_rating,4591,,,,,2022-06-17 20:07:22,26674
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,0,Closeness to parks,-1,10 min away,30 min away,direction,1220,,,,,2022-06-17 20:07:23,26675
+62ac8c4bf1245233d71d0fd6,ma_choice_v4_observers_pilot2,62ac8c4bf1245233d71d0fd6,8,Size of home,-1,1800 square feet,600 square feet,direction,1796,,,,,2022-06-17 20:07:32,26676
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Year building was built,1,,,ew_att_rating,17624,,,,,2022-06-17 20:12:33,26677
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Reputation of closest school,1,,,ew_att_rating,17624,,,,,2022-06-17 20:12:33,26678
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Size of home,1,,,ew_att_rating,17624,,,,,2022-06-17 20:12:33,26679
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Quality of heat/AC system,1,,,ew_att_rating,17624,,,,,2022-06-17 20:12:33,26680
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,4,Size of yard,38,,,wad_att_rating,5147,,,,,2022-06-17 20:12:41,26681
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,2,Reputation of closest school,75,,,wad_att_rating,2578,,,,,2022-06-17 20:12:44,26682
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,0,Size of home,1,,,lex_att_rating,8000,,,,,2022-06-17 20:12:45,26683
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,5,Quality of kitchen,12,,,wad_att_rating,2255,,,,,2022-06-17 20:12:46,26684
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,6,Quality of heat/AC system,88,,,wad_att_rating,3634,,,,,2022-06-17 20:12:50,26685
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,3,Year building was built,75,,,wad_att_rating,2758,,,,,2022-06-17 20:12:52,26686
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,8,Size of home,90,,,wad_att_rating,2855,,,,,2022-06-17 20:12:55,26687
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,1,Noise pollution,41,,,wad_att_rating,3633,,,,,2022-06-17 20:12:59,26688
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,7,Amount of traffic,34,,,wad_att_rating,5987,,,,,2022-06-17 20:13:05,26689
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Closeness to parks,2,,,wad_att_rating,4174,,,,,2022-06-17 20:13:09,26690
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,6,Quality of heat/AC system,50,,,wad_att_rating,14716,,,,,2022-06-17 20:13:13,26691
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,0,Closeness to parks,50,,,wad_att_rating,5648,,,,,2022-06-17 20:13:19,26692
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Size of home,1,,,lex_att_rating,7113,,,,,2022-06-17 20:13:20,26693
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,8,Size of home,87,,,wad_att_rating,6669,,,,,2022-06-17 20:13:26,26694
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,7,Amount of traffic,49,,,wad_att_rating,4633,,,,,2022-06-17 20:13:30,26695
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,5,Quality of kitchen,50,,,wad_att_rating,3808,,,,,2022-06-17 20:13:34,26696
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,3,Year building was built,49,,,wad_att_rating,4873,,,,,2022-06-17 20:13:39,26697
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,1,Noise pollution,55,,,wad_att_rating,4453,,,,,2022-06-17 20:13:43,26698
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,4,Size of yard,87,,,wad_att_rating,2821,,,,,2022-06-17 20:13:46,26699
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,2,Reputation of closest school,44,,,wad_att_rating,3761,,,,,2022-06-17 20:13:50,26700
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,0,Size of yard,1,,,ew_att_rating,19043,,,,,2022-06-17 20:14:18,26701
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,0,Size of home,1,,,ew_att_rating,19043,,,,,2022-06-17 20:14:18,26702
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,0,Noise pollution,1,,,lex_att_rating,29220,,,,,2022-06-17 20:16:58,26703
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,0,Noise pollution,1,,,ew_att_rating,9857,,,,,2022-06-17 20:17:57,26704
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,0,Size of yard,1,,,ew_att_rating,9857,,,,,2022-06-17 20:17:57,26705
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,0,Size of home,1,,,ew_att_rating,9857,,,,,2022-06-17 20:17:57,26706
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,2,Reputation of closest school,0,,,wad_att_rating,5464,,,,,2022-06-17 20:18:07,26707
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,4,Size of yard,38,,,wad_att_rating,3237,,,,,2022-06-17 20:18:11,26708
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,0,Closeness to parks,0,,,wad_att_rating,1594,,,,,2022-06-17 20:18:12,26709
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,6,Quality of heat/AC system,0,,,wad_att_rating,1748,,,,,2022-06-17 20:18:14,26710
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,7,Amount of traffic,0,,,wad_att_rating,1518,,,,,2022-06-17 20:18:15,26711
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,3,Year building was built,0,,,wad_att_rating,1703,,,,,2022-06-17 20:18:17,26712
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,3,Year building was built,-1,1985,1950,direction,6623,,,,,2022-06-17 20:18:21,26713
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,1,Noise pollution,81,,,wad_att_rating,4061,,,,,2022-06-17 20:18:21,26714
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,5,Quality of kitchen,0,,,wad_att_rating,1852,,,,,2022-06-17 20:18:23,26715
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,8,Size of home,58,,,wad_att_rating,3020,,,,,2022-06-17 20:18:26,26716
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,0,Noise pollution,1,,,lex_att_rating,3620,,,,,2022-06-17 20:18:36,26717
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,2,Reputation of closest school,-1,Bad,Very Good,direction,11287,,,,,2022-06-17 20:18:44,26718
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,7,Amount of traffic,-1,Very Little,A Lot,direction,5951,,,,,2022-06-17 20:19:14,26719
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,0,Closeness to parks,-1,10 min away,30 min away,direction,3538,,,,,2022-06-17 20:19:30,26720
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,8,Size of home,-1,1800 square feet,600 square feet,direction,1675,,,,,2022-06-17 20:19:34,26721
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,5,Quality of kitchen,-1,Very Bad,Moderate,direction,5879,,,,,2022-06-17 20:19:34,26722
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,1,Noise pollution,-1,Very Low,Very High,direction,1598,,,,,2022-06-17 20:19:37,26723
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,2,Reputation of closest school,-1,Moderate,Very Bad,direction,1718,,,,,2022-06-17 20:19:42,26724
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,7,Amount of traffic,-1,Very Little,A Lot,direction,1797,,,,,2022-06-17 20:19:47,26725
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,5,Quality of kitchen,-1,Moderate,Moderate,direction,903,,,,,2022-06-17 20:19:51,26726
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,4,Size of yard,-1,300 square feet,600 square feet,direction,3479,,,,,2022-06-17 20:19:53,26727
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,4,Size of yard,-1,600 square feet,0 square feet,direction,865,,,,,2022-06-17 20:19:54,26728
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,3,Year building was built,-1,2020,1950,direction,720,,,,,2022-06-17 20:19:57,26729
+5f342a35aea7432daf29219d,ma_choice_v4_observers_pilot2,5f342a35aea7432daf29219d,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,796,,,,,2022-06-17 20:20:00,26730
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1823,,,,,2022-06-17 20:20:01,26731
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,0,Quality of heat/AC system,1,,,lex_att_rating,3485,,,,,2022-06-17 20:20:04,26732
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,1,Noise pollution,0,,,wad_att_rating,4898,,,,,2022-06-17 20:20:19,26733
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,0,Closeness to parks,0,,,wad_att_rating,3650,,,,,2022-06-17 20:20:23,26734
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,1,Noise pollution,-1,High,Very Low,direction,3431,,,,,2022-06-17 20:20:27,26735
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,7,Amount of traffic,37,,,wad_att_rating,3603,,,,,2022-06-17 20:20:27,26736
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,4,Size of yard,-1,600 square feet,0 square feet,direction,2765,,,,,2022-06-17 20:20:27,26737
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,3,Year building was built,12,,,wad_att_rating,4163,,,,,2022-06-17 20:20:31,26738
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,0,Closeness to parks,-1,10 min away,30 min away,direction,2839,,,,,2022-06-17 20:20:34,26739
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,8,Size of home,12,,,wad_att_rating,3914,,,,,2022-06-17 20:20:35,26740
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,0,Closeness to parks,-1,10 min away,30 min away,direction,2664,,,,,2022-06-17 20:20:35,26741
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,2,Reputation of closest school,0,,,wad_att_rating,3362,,,,,2022-06-17 20:20:38,26742
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1941,,,,,2022-06-17 20:20:40,26743
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,4,Size of yard,0,,,wad_att_rating,2978,,,,,2022-06-17 20:20:41,26744
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,5,Quality of kitchen,0,,,wad_att_rating,2787,,,,,2022-06-17 20:20:44,26745
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,2,Reputation of closest school,-1,Very Good,Very Bad,direction,2998,,,,,2022-06-17 20:20:46,26746
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,6,Quality of heat/AC system,100,,,wad_att_rating,3355,,,,,2022-06-17 20:20:47,26747
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,8,Size of home,-1,1800 square feet,600 square feet,direction,2425,,,,,2022-06-17 20:20:50,26748
+60db56b9d2a00bf1e356167a,ma_choice_v4_observers_pilot2,60db56b9d2a00bf1e356167a,8,Size of home,-1,1200 square feet,1800 square feet,direction,3447,,,,,2022-06-17 20:20:52,26749
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,1,Noise pollution,-1,Very Low,Very High,direction,1598,,,,,2022-06-17 20:20:55,26750
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,7,Amount of traffic,-1,Very Little,A Lot,direction,1600,,,,,2022-06-17 20:20:59,26751
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,3,Year building was built,-1,2020,1950,direction,1530,,,,,2022-06-17 20:21:03,26752
+6234c8127a4c8c2c2c0ac967,ma_choice_v4_observers_pilot2,6234c8127a4c8c2c2c0ac967,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1647,,,,,2022-06-17 20:21:07,26753
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,0,Quality of heat/AC system,1,,,ew_att_rating,13223,,,,,2022-06-17 20:21:21,26754
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2334,,,,,2022-06-17 20:21:50,26755
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1712,,,,,2022-06-17 20:21:55,26756
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1784,,,,,2022-06-17 20:21:59,26757
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,8,Size of home,-1,1800 square feet,600 square feet,direction,1654,,,,,2022-06-17 20:22:03,26758
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,0,Closeness to parks,-1,10 min away,30 min away,direction,1748,,,,,2022-06-17 20:22:08,26759
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,7,Amount of traffic,-1,Very Little,A Lot,direction,1460,,,,,2022-06-17 20:22:14,26760
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,1,Noise pollution,-1,Very Low,Very High,direction,1520,,,,,2022-06-17 20:22:18,26761
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,4,Size of yard,-1,600 square feet,0 square feet,direction,1843,,,,,2022-06-17 20:22:23,26762
+62ac7ad94cc5e1db068a442c,ma_choice_v4_observers_pilot2,62ac7ad94cc5e1db068a442c,3,Year building was built,-1,2020,1950,direction,1387,,,,,2022-06-17 20:22:28,26763
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,7,Amount of traffic,25,,,wad_att_rating,8706,,,,,2022-06-17 20:28:19,26764
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,6,Quality of heat/AC system,75,,,wad_att_rating,11426,,,,,2022-06-17 20:28:31,26765
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,8,Size of home,62,,,wad_att_rating,6768,,,,,2022-06-17 20:28:37,26766
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,3,Year building was built,12,,,wad_att_rating,6370,,,,,2022-06-17 20:28:44,26767
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,4,Size of yard,49,,,wad_att_rating,9818,,,,,2022-06-17 20:28:54,26768
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,5,Quality of kitchen,87,,,wad_att_rating,8546,,,,,2022-06-17 20:29:02,26769
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Closeness to parks,37,,,wad_att_rating,5761,,,,,2022-06-17 20:29:08,26770
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,1,Noise pollution,50,,,wad_att_rating,7756,,,,,2022-06-17 20:29:16,26771
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,0,Closeness to parks,36,,,wad_att_rating,10978,,,,,2022-06-17 20:29:19,26772
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,5,Quality of kitchen,-1,Very Good,Very Bad,direction,3828,,,,,2022-06-17 20:29:23,26773
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,2,Reputation of closest school,62,,,wad_att_rating,9502,,,,,2022-06-17 20:29:25,26774
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,7,Amount of traffic,50,,,wad_att_rating,7706,,,,,2022-06-17 20:29:27,26775
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,2,Reputation of closest school,-1,Moderate,Moderate,direction,2460,,,,,2022-06-17 20:29:31,26776
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,2,Reputation of closest school,18,,,wad_att_rating,7128,,,,,2022-06-17 20:29:34,26777
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,8,Size of home,-1,1200 square feet,600 square feet,direction,2508,,,,,2022-06-17 20:29:38,26778
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,1,Noise pollution,50,,,wad_att_rating,6727,,,,,2022-06-17 20:29:41,26779
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,2,Reputation of closest school,87,,,wad_att_rating,5838,,,,,2022-06-17 20:29:44,26780
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,6,Quality of heat/AC system,24,,,wad_att_rating,5496,,,,,2022-06-17 20:29:46,26781
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,0,Closeness to parks,-1,10 min away,30 min away,direction,1397,,,,,2022-06-17 20:29:47,26782
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,4,Size of yard,0,,,wad_att_rating,3281,,,,,2022-06-17 20:29:47,26783
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,3,Year building was built,0,,,wad_att_rating,2711,,,,,2022-06-17 20:29:50,26784
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,5,Quality of kitchen,26,,,wad_att_rating,4625,,,,,2022-06-17 20:29:51,26785
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,3,Year building was built,-1,2020,1950,direction,1949,,,,,2022-06-17 20:29:53,26786
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,6,Quality of heat/AC system,62,,,wad_att_rating,4262,,,,,2022-06-17 20:29:54,26787
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,3,Year building was built,62,,,wad_att_rating,5776,,,,,2022-06-17 20:29:56,26788
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Closeness to parks,0,,,wad_att_rating,4490,,,,,2022-06-17 20:29:59,26789
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,7,Amount of traffic,-1,Very Little,A Lot,direction,1772,,,,,2022-06-17 20:30:02,26790
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,7,Amount of traffic,0,,,wad_att_rating,3487,,,,,2022-06-17 20:30:04,26791
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,4,Size of yard,37,,,wad_att_rating,7584,,,,,2022-06-17 20:30:05,26792
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,5,Quality of kitchen,12,,,wad_att_rating,3458,,,,,2022-06-17 20:30:06,26793
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,1,Noise pollution,37,,,wad_att_rating,3003,,,,,2022-06-17 20:30:09,26794
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,8,Size of home,93,,,wad_att_rating,6600,,,,,2022-06-17 20:30:11,26795
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,8,Size of home,50,,,wad_att_rating,3152,,,,,2022-06-17 20:30:12,26796
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,1,Noise pollution,-1,Low,Very High,direction,1412,,,,,2022-06-17 20:30:15,26797
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1643,,,,,2022-06-17 20:30:21,26798
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Reputation of closest school,1,,,lex_att_rating,2343,,,,,2022-06-17 20:30:24,26799
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Amount of traffic,1,,,ew_att_rating,21819,,,,,2022-06-17 20:30:25,26800
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Reputation of closest school,1,,,ew_att_rating,21819,,,,,2022-06-17 20:30:25,26801
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Noise pollution,1,,,ew_att_rating,21819,,,,,2022-06-17 20:30:25,26802
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Quality of kitchen,1,,,ew_att_rating,21819,,,,,2022-06-17 20:30:25,26803
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Quality of heat/AC system,1,,,ew_att_rating,21819,,,,,2022-06-17 20:30:25,26804
+5bacc9bc42a1d1000187669b,ma_choice_v4_observers_pilot2,5bacc9bc42a1d1000187669b,4,Size of yard,-1,600 square feet,0 square feet,direction,1180,,,,,2022-06-17 20:30:27,26805
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Reputation of closest school,1,,,ew_att_rating,10210,,,,,2022-06-17 20:30:40,26806
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Quality of heat/AC system,1,,,ew_att_rating,10210,,,,,2022-06-17 20:30:40,26807
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Size of home,1,,,ew_att_rating,10210,,,,,2022-06-17 20:30:40,26808
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Noise pollution,1,,,ew_att_rating,10210,,,,,2022-06-17 20:30:40,26809
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Quality of kitchen,1,,,lex_att_rating,9879,,,,,2022-06-17 20:30:49,26810
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,0,Noise pollution,1,,,ew_att_rating,32663,,,,,2022-06-17 20:30:57,26811
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,0,Amount of traffic,1,,,ew_att_rating,32663,,,,,2022-06-17 20:30:57,26812
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,0,Size of home,1,,,ew_att_rating,32663,,,,,2022-06-17 20:30:57,26813
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,0,Size of home,1,,,lex_att_rating,4858,,,,,2022-06-17 20:31:08,26814
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,3,Year building was built,-1,2020,1950,direction,2508,,,,,2022-06-17 20:31:53,26815
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,8,Size of home,-1,1800 square feet,600 square feet,direction,2026,,,,,2022-06-17 20:32:00,26816
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,1,Noise pollution,-1,Very Low,Very High,direction,1453,,,,,2022-06-17 20:32:05,26817
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,0,Closeness to parks,-1,10 min away,30 min away,direction,1840,,,,,2022-06-17 20:32:10,26818
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,4,Size of yard,-1,600 square feet,0 square feet,direction,1719,,,,,2022-06-17 20:32:15,26819
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1681,,,,,2022-06-17 20:32:20,26820
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1655,,,,,2022-06-17 20:32:24,26821
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1739,,,,,2022-06-17 20:32:28,26822
+60fced51e14f51249023972a,ma_choice_v4_observers_pilot2,60fced51e14f51249023972a,7,Amount of traffic,-1,Very Little,A Lot,direction,2020,,,,,2022-06-17 20:32:33,26823
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,8,Size of home,-1,1800 square feet,600 square feet,direction,4304,,,,,2022-06-17 20:32:53,26824
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,2,Reputation of closest school,-1,Moderate,Moderate,direction,16045,,,,,2022-06-17 20:33:12,26825
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,5,Quality of kitchen,-1,Very Good,Very Bad,direction,10837,,,,,2022-06-17 20:33:26,26826
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,7,Amount of traffic,-1,A Lot,Very Little,direction,4400,,,,,2022-06-17 20:33:26,26827
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,3,Year building was built,-1,1985,1950,direction,3518,,,,,2022-06-17 20:33:38,26828
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,6,Quality of heat/AC system,-1,Moderate,Very Bad,direction,5023,,,,,2022-06-17 20:33:47,26829
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,3,Year building was built,-1,2020,1950,direction,2979,,,,,2022-06-17 20:33:51,26830
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,1,Noise pollution,-1,Low,Very High,direction,3279,,,,,2022-06-17 20:33:59,26831
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,2,Reputation of closest school,-1,Good,Very Bad,direction,3020,,,,,2022-06-17 20:34:04,26832
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,0,Closeness to parks,-1,15 min away,30 min away,direction,3305,,,,,2022-06-17 20:34:10,26833
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,5,Quality of kitchen,-1,Moderate,Bad,direction,3904,,,,,2022-06-17 20:34:17,26834
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,7,Amount of traffic,-1,A Moderate Amount,A Lot,direction,5971,,,,,2022-06-17 20:34:23,26835
+622e06e4046635b0eb64f103,ma_choice_v4_observers_pilot2,622e06e4046635b0eb64f103,4,Size of yard,-1,600 square feet,0 square feet,direction,3425,,,,,2022-06-17 20:34:28,26836
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,0,Closeness to parks,-1,10 min away,30 min away,direction,4316,,,,,2022-06-17 20:34:33,26837
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1960,,,,,2022-06-17 20:34:38,26838
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,8,Size of home,-1,1200 square feet,600 square feet,direction,2033,,,,,2022-06-17 20:34:47,26839
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Noise pollution,1,,,ew_att_rating,85725,,,,,2022-06-17 20:34:54,26840
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Year building was built,1,,,ew_att_rating,85725,,,,,2022-06-17 20:34:54,26841
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Quality of kitchen,1,,,ew_att_rating,85725,,,,,2022-06-17 20:34:54,26842
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Size of home,1,,,ew_att_rating,85725,,,,,2022-06-17 20:34:54,26843
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Reputation of closest school,1,,,ew_att_rating,85725,,,,,2022-06-17 20:34:54,26844
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,4,Size of yard,-1,300 square feet,0 square feet,direction,1849,,,,,2022-06-17 20:35:01,26845
+5858c6178604ae000165e66a,ma_choice_v4_observers_pilot2,5858c6178604ae000165e66a,1,Noise pollution,-1,Very Low,Very High,direction,2638,,,,,2022-06-17 20:35:13,26846
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Size of home,1,,,lex_att_rating,12369,,,,,2022-06-17 20:35:14,26847
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Closeness to parks,13,,,wad_att_rating,9769,,,,,2022-06-17 20:35:33,26848
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,8,Size of home,78,,,wad_att_rating,8316,,,,,2022-06-17 20:35:41,26849
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,3,Year building was built,100,,,wad_att_rating,7154,,,,,2022-06-17 20:35:47,26850
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,2,Reputation of closest school,54,,,wad_att_rating,13789,,,,,2022-06-17 20:35:55,26851
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,5,Quality of kitchen,75,,,wad_att_rating,10269,,,,,2022-06-17 20:35:57,26852
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,4,Size of yard,17,,,wad_att_rating,4976,,,,,2022-06-17 20:36:00,26853
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,0,Closeness to parks,23,,,wad_att_rating,4091,,,,,2022-06-17 20:36:01,26854
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,4,Size of yard,3,,,wad_att_rating,5138,,,,,2022-06-17 20:36:06,26855
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,5,Quality of kitchen,52,,,wad_att_rating,7721,,,,,2022-06-17 20:36:07,26856
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,8,Size of home,1,,,wad_att_rating,3130,,,,,2022-06-17 20:36:09,26857
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,1,Noise pollution,2,,,wad_att_rating,2760,,,,,2022-06-17 20:36:12,26858
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,6,Quality of heat/AC system,3,,,wad_att_rating,2614,,,,,2022-06-17 20:36:15,26859
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,1,Noise pollution,75,,,wad_att_rating,7597,,,,,2022-06-17 20:36:15,26860
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,2,Reputation of closest school,100,,,wad_att_rating,4074,,,,,2022-06-17 20:36:19,26861
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,7,Amount of traffic,25,,,wad_att_rating,4054,,,,,2022-06-17 20:36:23,26862
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,7,Amount of traffic,17,,,wad_att_rating,8658,,,,,2022-06-17 20:36:24,26863
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,3,Year building was built,62,,,wad_att_rating,5025,,,,,2022-06-17 20:36:29,26864
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,0,Reputation of closest school,1,,,ew_att_rating,3340,,,,,2022-06-17 20:36:35,26865
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,6,Quality of heat/AC system,15,,,wad_att_rating,7126,,,,,2022-06-17 20:36:36,26866
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,0,Reputation of closest school,1,,,lex_att_rating,6108,,,,,2022-06-17 20:36:52,26867
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,2,Reputation of closest school,-1,Very Good,Very Bad,direction,8802,,,,,2022-06-17 20:38:06,26868
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,6,Quality of heat/AC system,-1,Moderate,Very Bad,direction,4046,,,,,2022-06-17 20:38:17,26869
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,7,Amount of traffic,25,,,wad_att_rating,4438,,,,,2022-06-17 20:38:26,26870
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,3,Year building was built,-1,2020,1950,direction,2253,,,,,2022-06-17 20:38:28,26871
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,2,Reputation of closest school,83,,,wad_att_rating,4205,,,,,2022-06-17 20:38:30,26872
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,6,Quality of heat/AC system,30,,,wad_att_rating,3459,,,,,2022-06-17 20:38:34,26873
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,3,Year building was built,27,,,wad_att_rating,3137,,,,,2022-06-17 20:38:37,26874
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,4,Size of yard,54,,,wad_att_rating,2550,,,,,2022-06-17 20:38:39,26875
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,8,Size of home,-1,1200 square feet,600 square feet,direction,1756,,,,,2022-06-17 20:38:41,26876
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Closeness to parks,33,,,wad_att_rating,3501,,,,,2022-06-17 20:38:43,26877
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,5,Quality of kitchen,88,,,wad_att_rating,3633,,,,,2022-06-17 20:38:47,26878
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,4,Size of yard,-1,300 square feet,0 square feet,direction,1444,,,,,2022-06-17 20:38:47,26879
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,8,Size of home,68,,,wad_att_rating,2752,,,,,2022-06-17 20:38:49,26880
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,1,Noise pollution,84,,,wad_att_rating,3487,,,,,2022-06-17 20:38:53,26881
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,5,Quality of kitchen,-1,Very Good,Bad,direction,1526,,,,,2022-06-17 20:38:55,26882
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,1,Noise pollution,-1,Low,Very Low,direction,2386,,,,,2022-06-17 20:39:01,26883
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,7,Amount of traffic,-1,A Little,Very Little,direction,1644,,,,,2022-06-17 20:39:07,26884
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Noise pollution,1,,,ew_att_rating,12486,,,,,2022-06-17 20:39:13,26885
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Size of home,1,,,ew_att_rating,12486,,,,,2022-06-17 20:39:13,26886
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Reputation of closest school,1,,,ew_att_rating,12486,,,,,2022-06-17 20:39:13,26887
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Quality of kitchen,1,,,ew_att_rating,12486,,,,,2022-06-17 20:39:13,26888
+5d9ed6d5a40b0200173dc7f9,ma_choice_v4_observers_pilot2,5d9ed6d5a40b0200173dc7f9,0,Closeness to parks,-1,15 min away,30 min away,direction,3436,,,,,2022-06-17 20:39:21,26889
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Reputation of closest school,1,,,lex_att_rating,5162,,,,,2022-06-17 20:39:22,26890
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,8829,,,,,2022-06-17 20:39:37,26891
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,4,Size of yard,-1,600 square feet,0 square feet,direction,3303,,,,,2022-06-17 20:39:46,26892
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,8,Size of home,-1,1800 square feet,600 square feet,direction,2102,,,,,2022-06-17 20:39:59,26893
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,1,Noise pollution,-1,Very Low,Very High,direction,2774,,,,,2022-06-17 20:40:07,26894
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,7,Amount of traffic,-1,A Little,A Lot,direction,2231,,,,,2022-06-17 20:40:22,26895
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,2,Reputation of closest school,-1,Very Good,Very Bad,direction,3149,,,,,2022-06-17 20:40:30,26896
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2310,,,,,2022-06-17 20:40:35,26897
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,3,Year building was built,-1,2020,1950,direction,2495,,,,,2022-06-17 20:40:43,26898
+5f1b84872171f838a8a3cfa9,ma_choice_v4_observers_pilot2,5f1b84872171f838a8a3cfa9,0,Closeness to parks,-1,10 min away,30 min away,direction,2094,,,,,2022-06-17 20:40:49,26899
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,3,Year building was built,75,,,wad_att_rating,7669,,,,,2022-06-17 20:42:49,26900
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,7,Amount of traffic,21,,,wad_att_rating,6297,,,,,2022-06-17 20:42:55,26901
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,5,Quality of kitchen,74,,,wad_att_rating,9197,,,,,2022-06-17 20:43:04,26902
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,1,Noise pollution,22,,,wad_att_rating,7306,,,,,2022-06-17 20:43:12,26903
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,8,Size of home,49,,,wad_att_rating,7815,,,,,2022-06-17 20:43:19,26904
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,4,Size of yard,83,,,wad_att_rating,8433,,,,,2022-06-17 20:43:28,26905
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,6,Quality of heat/AC system,35,,,wad_att_rating,6846,,,,,2022-06-17 20:43:35,26906
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,2,Reputation of closest school,26,,,wad_att_rating,6924,,,,,2022-06-17 20:43:42,26907
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,3,Year building was built,-1,1985,1950,direction,2528,,,,,2022-06-17 20:43:49,26908
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,6,Quality of heat/AC system,-1,Good,Very Bad,direction,2270,,,,,2022-06-17 20:43:56,26909
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Closeness to parks,38,,,wad_att_rating,14937,,,,,2022-06-17 20:43:57,26910
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,8,Size of home,-1,1200 square feet,600 square feet,direction,1739,,,,,2022-06-17 20:44:01,26911
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,5,Quality of kitchen,-1,Very Good,Very Bad,direction,3381,,,,,2022-06-17 20:44:07,26912
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,1,Noise pollution,-1,Very Low,Very High,direction,2643,,,,,2022-06-17 20:44:16,26913
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,0,Closeness to parks,-1,15 min away,25 min away,direction,2075,,,,,2022-06-17 20:44:24,26914
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,4,Size of yard,-1,300 square feet,0 square feet,direction,2155,,,,,2022-06-17 20:44:32,26915
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1840,,,,,2022-06-17 20:44:37,26916
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Year building was built,1,,,ew_att_rating,20198,,,,,2022-06-17 20:44:39,26917
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Quality of kitchen,1,,,ew_att_rating,20198,,,,,2022-06-17 20:44:39,26918
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Size of home,1,,,ew_att_rating,20198,,,,,2022-06-17 20:44:39,26919
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Size of yard,1,,,ew_att_rating,20198,,,,,2022-06-17 20:44:39,26920
+60ff8095fe0067960a67ab9b,ma_choice_v4_observers_pilot2,60ff8095fe0067960a67ab9b,7,Amount of traffic,-1,A Little,A Lot,direction,1932,,,,,2022-06-17 20:44:45,26921
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Size of yard,1,,,lex_att_rating,3379,,,,,2022-06-17 20:45:03,26922
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Noise pollution,1,,,lex_att_rating,8744,,,,,2022-06-17 20:50:47,26923
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Closeness to parks,1,,,ew_att_rating,20126,,,,,2022-06-17 20:51:12,26924
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Noise pollution,1,,,ew_att_rating,20126,,,,,2022-06-17 20:51:12,26925
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Year building was built,1,,,ew_att_rating,20126,,,,,2022-06-17 20:51:12,26926
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Amount of traffic,1,,,ew_att_rating,20126,,,,,2022-06-17 20:51:12,26927
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,8,Size of home,62,,,wad_att_rating,11076,,,,,2022-06-17 20:51:29,26928
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,3,Year building was built,73,,,wad_att_rating,2593,,,,,2022-06-17 20:51:32,26929
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,1,Noise pollution,77,,,wad_att_rating,5640,,,,,2022-06-17 20:51:37,26930
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,6,Quality of heat/AC system,50,,,wad_att_rating,3234,,,,,2022-06-17 20:51:40,26931
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,4,Size of yard,22,,,wad_att_rating,2790,,,,,2022-06-17 20:51:43,26932
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,5,Quality of kitchen,54,,,wad_att_rating,3006,,,,,2022-06-17 20:51:46,26933
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,2,Reputation of closest school,65,,,wad_att_rating,3193,,,,,2022-06-17 20:51:50,26934
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Closeness to parks,83,,,wad_att_rating,4597,,,,,2022-06-17 20:51:54,26935
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,7,Amount of traffic,68,,,wad_att_rating,3481,,,,,2022-06-17 20:51:58,26936
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,0,Reputation of closest school,1,,,ew_att_rating,26744,,,,,2022-06-17 20:52:55,26937
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,0,Quality of heat/AC system,1,,,ew_att_rating,26744,,,,,2022-06-17 20:52:55,26938
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,0,Reputation of closest school,1,,,lex_att_rating,2992,,,,,2022-06-17 20:53:01,26939
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,0,Closeness to parks,90,,,wad_att_rating,6261,,,,,2022-06-17 20:53:11,26940
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,5,Quality of kitchen,12,,,wad_att_rating,7184,,,,,2022-06-17 20:53:18,26941
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,7,Amount of traffic,0,,,wad_att_rating,2971,,,,,2022-06-17 20:53:21,26942
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,1,Noise pollution,0,,,wad_att_rating,2420,,,,,2022-06-17 20:53:23,26943
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,3,Year building was built,0,,,wad_att_rating,2359,,,,,2022-06-17 20:53:26,26944
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,4,Size of yard,0,,,wad_att_rating,2383,,,,,2022-06-17 20:53:28,26945
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,0,Size of home,1,,,ew_att_rating,14603,,,,,2022-06-17 20:53:33,26946
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,0,Year building was built,1,,,ew_att_rating,14603,,,,,2022-06-17 20:53:33,26947
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,6,Quality of heat/AC system,62,,,wad_att_rating,6117,,,,,2022-06-17 20:53:34,26948
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,2,Reputation of closest school,100,,,wad_att_rating,3728,,,,,2022-06-17 20:53:38,26949
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,8,Size of home,11,,,wad_att_rating,4416,,,,,2022-06-17 20:53:43,26950
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,0,Year building was built,1,,,lex_att_rating,10906,,,,,2022-06-17 20:53:52,26951
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,0,Closeness to parks,6,,,wad_att_rating,4671,,,,,2022-06-17 20:54:02,26952
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,3,Year building was built,100,,,wad_att_rating,3206,,,,,2022-06-17 20:54:05,26953
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,8,Size of home,71,,,wad_att_rating,3043,,,,,2022-06-17 20:54:08,26954
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,2,Reputation of closest school,10,,,wad_att_rating,2807,,,,,2022-06-17 20:54:11,26955
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,5,Quality of kitchen,39,,,wad_att_rating,3388,,,,,2022-06-17 20:54:14,26956
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,4,Size of yard,62,,,wad_att_rating,3896,,,,,2022-06-17 20:54:18,26957
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,6,Quality of heat/AC system,47,,,wad_att_rating,3792,,,,,2022-06-17 20:54:22,26958
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,7,Amount of traffic,19,,,wad_att_rating,2553,,,,,2022-06-17 20:54:24,26959
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,1,Noise pollution,28,,,wad_att_rating,3095,,,,,2022-06-17 20:54:27,26960
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,5,Quality of kitchen,-1,Moderate,Very Bad,direction,4811,,,,,2022-06-17 20:54:30,26961
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,0,Closeness to parks,-1,15 min away,30 min away,direction,4507,,,,,2022-06-17 20:54:47,26962
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,1,Noise pollution,-1,Very Low,Very High,direction,3761,,,,,2022-06-17 20:54:54,26963
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,7,Amount of traffic,-1,A Little,A Lot,direction,1899,,,,,2022-06-17 20:54:59,26964
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,4,Size of yard,-1,300 square feet,0 square feet,direction,2013,,,,,2022-06-17 20:55:08,26965
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,3059,,,,,2022-06-17 20:55:16,26966
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,0,Reputation of closest school,1,,,ew_att_rating,18433,,,,,2022-06-17 20:55:16,26967
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,0,Quality of kitchen,1,,,ew_att_rating,18433,,,,,2022-06-17 20:55:16,26968
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,0,Quality of heat/AC system,1,,,ew_att_rating,18433,,,,,2022-06-17 20:55:16,26969
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,2,Reputation of closest school,-1,Very Good,Moderate,direction,2251,,,,,2022-06-17 20:55:22,26970
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,8,Size of home,-1,1800 square feet,600 square feet,direction,2185,,,,,2022-06-17 20:55:28,26971
+5ed0f25c975bae000b4edf4a,ma_choice_v4_observers_pilot2,5ed0f25c975bae000b4edf4a,3,Year building was built,-1,2020,1950,direction,1698,,,,,2022-06-17 20:55:33,26972
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,7,Amount of traffic,36,,,wad_att_rating,6638,,,,,2022-06-17 20:55:33,26973
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,1,Noise pollution,25,,,wad_att_rating,9687,,,,,2022-06-17 20:55:43,26974
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,8,Size of home,62,,,wad_att_rating,4789,,,,,2022-06-17 20:55:48,26975
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Noise pollution,1,,,ew_att_rating,16359,,,,,2022-06-17 20:55:52,26976
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Amount of traffic,1,,,ew_att_rating,16359,,,,,2022-06-17 20:55:52,26977
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Size of yard,1,,,ew_att_rating,16359,,,,,2022-06-17 20:55:52,26978
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Year building was built,1,,,ew_att_rating,16359,,,,,2022-06-17 20:55:52,26979
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,6,Quality of heat/AC system,74,,,wad_att_rating,9179,,,,,2022-06-17 20:55:57,26980
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,4,Size of yard,62,,,wad_att_rating,4387,,,,,2022-06-17 20:56:01,26981
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,1,Noise pollution,50,,,wad_att_rating,10442,,,,,2022-06-17 20:56:04,26982
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,0,Closeness to parks,50,,,wad_att_rating,3948,,,,,2022-06-17 20:56:05,26983
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,5,Quality of kitchen,87,,,wad_att_rating,4038,,,,,2022-06-17 20:56:09,26984
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Noise pollution,1,,,ew_att_rating,21628,,,,,2022-06-17 20:56:13,26985
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Quality of kitchen,1,,,ew_att_rating,21628,,,,,2022-06-17 20:56:13,26986
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Closeness to parks,1,,,ew_att_rating,21628,,,,,2022-06-17 20:56:13,26987
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Quality of heat/AC system,1,,,ew_att_rating,21628,,,,,2022-06-17 20:56:13,26988
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Size of home,1,,,ew_att_rating,21628,,,,,2022-06-17 20:56:13,26989
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Size of yard,1,,,ew_att_rating,21628,,,,,2022-06-17 20:56:13,26990
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,2,Reputation of closest school,50,,,wad_att_rating,6908,,,,,2022-06-17 20:56:16,26991
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,8,Size of home,37,,,wad_att_rating,15612,,,,,2022-06-17 20:56:20,26992
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,3,Year building was built,26,,,wad_att_rating,4528,,,,,2022-06-17 20:56:21,26993
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,2,Reputation of closest school,58,,,wad_att_rating,4668,,,,,2022-06-17 20:56:25,26994
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,0,Quality of heat/AC system,1,,,lex_att_rating,3919,,,,,2022-06-17 20:56:33,26995
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,1,Noise pollution,71,,,wad_att_rating,9822,,,,,2022-06-17 20:56:33,26996
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,4,Size of yard,82,,,wad_att_rating,4693,,,,,2022-06-17 20:56:39,26997
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,8,Size of home,95,,,wad_att_rating,5710,,,,,2022-06-17 20:56:44,26998
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,6,Quality of heat/AC system,80,,,wad_att_rating,2942,,,,,2022-06-17 20:56:47,26999
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,3,Year building was built,82,,,wad_att_rating,2517,,,,,2022-06-17 20:56:49,27000
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,2,Reputation of closest school,84,,,wad_att_rating,2942,,,,,2022-06-17 20:56:52,27001
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,7,Amount of traffic,69,,,wad_att_rating,2110,,,,,2022-06-17 20:56:54,27002
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Closeness to parks,86,,,wad_att_rating,3950,,,,,2022-06-17 20:56:58,27003
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,5,Quality of kitchen,85,,,wad_att_rating,2776,,,,,2022-06-17 20:57:01,27004
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,7,Amount of traffic,13,,,wad_att_rating,6448,,,,,2022-06-17 20:57:10,27005
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Noise pollution,1,,,lex_att_rating,6278,,,,,2022-06-17 20:57:11,27006
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,0,Size of home,1,,,ew_att_rating,5526,,,,,2022-06-17 20:57:13,27007
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,0,Size of yard,1,,,ew_att_rating,5526,,,,,2022-06-17 20:57:13,27008
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,0,Closeness to parks,0,,,wad_att_rating,4283,,,,,2022-06-17 20:57:20,27009
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,3,Year building was built,50,,,wad_att_rating,11713,,,,,2022-06-17 20:57:22,27010
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,8,Size of home,76,,,wad_att_rating,4518,,,,,2022-06-17 20:57:26,27011
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Closeness to parks,26,,,wad_att_rating,3769,,,,,2022-06-17 20:57:30,27012
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,6,Quality of heat/AC system,11,,,wad_att_rating,9655,,,,,2022-06-17 20:57:30,27013
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,5,Quality of kitchen,11,,,wad_att_rating,2060,,,,,2022-06-17 20:57:32,27014
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,6,Quality of heat/AC system,80,,,wad_att_rating,4003,,,,,2022-06-17 20:57:34,27015
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,7,Amount of traffic,38,,,wad_att_rating,3193,,,,,2022-06-17 20:57:35,27016
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,2,Reputation of closest school,67,,,wad_att_rating,3742,,,,,2022-06-17 20:57:37,27017
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,3,Year building was built,23,,,wad_att_rating,2718,,,,,2022-06-17 20:57:38,27018
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,8,Size of home,88,,,wad_att_rating,2998,,,,,2022-06-17 20:57:41,27019
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,4,Size of yard,56,,,wad_att_rating,3261,,,,,2022-06-17 20:57:41,27020
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,1,Noise pollution,23,,,wad_att_rating,3155,,,,,2022-06-17 20:57:44,27021
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,1,Noise pollution,72,,,wad_att_rating,3905,,,,,2022-06-17 20:57:45,27022
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,2,Reputation of closest school,13,,,wad_att_rating,2919,,,,,2022-06-17 20:57:47,27023
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,5,Quality of kitchen,28,,,wad_att_rating,83971,,,,,2022-06-17 20:57:49,27024
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,5,Quality of kitchen,88,,,wad_att_rating,3779,,,,,2022-06-17 20:57:49,27025
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,4,Size of yard,88,,,wad_att_rating,3635,,,,,2022-06-17 20:57:51,27026
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,6,Quality of heat/AC system,-1,Moderate,Bad,direction,9388,,,,,2022-06-17 20:57:53,27027
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,0,Size of home,1,,,lex_att_rating,3783,,,,,2022-06-17 20:58:00,27028
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Year building was built,1,,,lex_att_rating,11129,,,,,2022-06-17 20:58:02,27029
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Size of home,1,,,lex_att_rating,8674,,,,,2022-06-17 20:58:03,27030
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,0,Closeness to parks,-1,20 min away,30 min away,direction,4348,,,,,2022-06-17 20:58:04,27031
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,3,Year building was built,-1,2020,1985,direction,7077,,,,,2022-06-17 20:58:06,27032
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,6,Quality of heat/AC system,0,,,wad_att_rating,18407,,,,,2022-06-17 20:58:07,27033
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,2,Reputation of closest school,-1,Very Good,Good,direction,8270,,,,,2022-06-17 20:58:11,27034
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Closeness to parks,0,,,wad_att_rating,6096,,,,,2022-06-17 20:58:13,27035
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,7,Amount of traffic,-1,A Moderate Amount,A Lot,direction,3018,,,,,2022-06-17 20:58:13,27036
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,2,Reputation of closest school,-1,Very Good,Moderate,direction,3185,,,,,2022-06-17 20:58:13,27037
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Reputation of closest school,1,,,ew_att_rating,13167,,,,,2022-06-17 20:58:17,27038
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Year building was built,1,,,ew_att_rating,13167,,,,,2022-06-17 20:58:17,27039
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Quality of heat/AC system,1,,,ew_att_rating,13167,,,,,2022-06-17 20:58:17,27040
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Size of home,1,,,ew_att_rating,13167,,,,,2022-06-17 20:58:17,27041
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Quality of kitchen,1,,,ew_att_rating,13167,,,,,2022-06-17 20:58:17,27042
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,4,Size of yard,24,,,wad_att_rating,5603,,,,,2022-06-17 20:58:19,27043
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,8,Size of home,-1,1200 square feet,600 square feet,direction,3398,,,,,2022-06-17 20:58:23,27044
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,2,Reputation of closest school,-1,Very Good,Very Bad,direction,3809,,,,,2022-06-17 20:58:23,27045
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,7,Amount of traffic,24,,,wad_att_rating,4308,,,,,2022-06-17 20:58:24,27046
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,7,Amount of traffic,-1,A Little,A Lot,direction,6387,,,,,2022-06-17 20:58:26,27047
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,3,Year building was built,77,,,wad_att_rating,7696,,,,,2022-06-17 20:58:31,27048
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,4,Size of yard,-1,600 square feet,300 square feet,direction,2046,,,,,2022-06-17 20:58:31,27049
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,4,Size of yard,-1,300 square feet,0 square feet,direction,2893,,,,,2022-06-17 20:58:32,27050
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,0,Closeness to parks,-1,20 min away,15 min away,direction,1979,,,,,2022-06-17 20:58:36,27051
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Year building was built,1,,,lex_att_rating,4910,,,,,2022-06-17 20:58:38,27052
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,8,Size of home,-1,1200 square feet,600 square feet,direction,2561,,,,,2022-06-17 20:58:39,27053
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,6,Quality of heat/AC system,-1,Good,Moderate,direction,1477,,,,,2022-06-17 20:58:40,27054
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,5,Quality of kitchen,-1,Very Good,Moderate,direction,1701,,,,,2022-06-17 20:58:45,27055
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,1,Noise pollution,-1,Low,Low,direction,2506,,,,,2022-06-17 20:58:47,27056
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,7,Amount of traffic,-1,A Moderate Amount,A Little,direction,1623,,,,,2022-06-17 20:58:50,27057
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,5,Quality of kitchen,-1,Moderate,Very Bad,direction,1612,,,,,2022-06-17 20:58:52,27058
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,2,Reputation of closest school,-1,Moderate,Moderate,direction,1685,,,,,2022-06-17 20:58:55,27059
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,8,Size of home,-1,1200 square feet,600 square feet,direction,2208,,,,,2022-06-17 20:58:55,27060
+5cd8d86210887400182db201,ma_choice_v4_observers_pilot2,5cd8d86210887400182db201,0,Closeness to parks,-1,15 min away,10 min away,direction,3258,,,,,2022-06-17 20:58:59,27061
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,0,Closeness to parks,-1,25 min away,15 min away,direction,1709,,,,,2022-06-17 20:58:59,27062
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,1,Noise pollution,-1,Moderate,High,direction,8319,,,,,2022-06-17 20:59:00,27063
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,2308,,,,,2022-06-17 20:59:00,27064
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,0,Closeness to parks,-1,20 min away,30 min away,direction,4859,,,,,2022-06-17 20:59:01,27065
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,8,Size of home,-1,1800 square feet,600 square feet,direction,3208,,,,,2022-06-17 20:59:05,27066
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,6,Quality of heat/AC system,-1,Moderate,Very Bad,direction,2468,,,,,2022-06-17 20:59:09,27067
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Noise pollution,1,,,ew_att_rating,24985,,,,,2022-06-17 20:59:09,27068
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Reputation of closest school,1,,,ew_att_rating,24985,,,,,2022-06-17 20:59:09,27069
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Amount of traffic,1,,,ew_att_rating,24985,,,,,2022-06-17 20:59:09,27070
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Size of yard,1,,,ew_att_rating,24985,,,,,2022-06-17 20:59:09,27071
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Size of home,1,,,ew_att_rating,24985,,,,,2022-06-17 20:59:09,27072
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,7,Amount of traffic,-1,A Little,A Lot,direction,2262,,,,,2022-06-17 20:59:10,27073
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,8,Size of home,-1,1800 square feet,600 square feet,direction,2751,,,,,2022-06-17 20:59:10,27074
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,1,Noise pollution,-1,Low,High,direction,1026,,,,,2022-06-17 20:59:15,27075
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,4,Size of yard,-1,600 square feet,0 square feet,direction,2644,,,,,2022-06-17 20:59:15,27076
+60b348a8332d26d4b88be6a1,ma_choice_v4_observers_pilot2,60b348a8332d26d4b88be6a1,3,Year building was built,-1,2020,1985,direction,4726,,,,,2022-06-17 20:59:16,27077
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1877,,,,,2022-06-17 20:59:17,27078
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,5,Quality of kitchen,-1,Moderate,Moderate,direction,802,,,,,2022-06-17 20:59:19,27079
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,3,Year building was built,-1,2020,1950,direction,2487,,,,,2022-06-17 20:59:22,27080
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1213,,,,,2022-06-17 20:59:22,27081
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,4,Size of yard,-1,600 square feet,0 square feet,direction,1638,,,,,2022-06-17 20:59:23,27082
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,6,Quality of heat/AC system,-1,Bad,Bad,direction,1434,,,,,2022-06-17 20:59:28,27083
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2428,,,,,2022-06-17 20:59:28,27084
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,0,Closeness to parks,-1,10 min away,30 min away,direction,3561,,,,,2022-06-17 20:59:29,27085
+5e8a76b3939b3072dc76fb5c,ma_choice_v4_observers_pilot2,5e8a76b3939b3072dc76fb5c,3,Year building was built,-1,1985,1950,direction,1428,,,,,2022-06-17 20:59:32,27086
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,1,Noise pollution,-1,Very Low,Very High,direction,2407,,,,,2022-06-17 20:59:35,27087
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,2,Reputation of closest school,-1,Good,Very Bad,direction,3094,,,,,2022-06-17 20:59:35,27088
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,4,Size of yard,-1,300 square feet,0 square feet,direction,1858,,,,,2022-06-17 20:59:38,27089
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,1,Noise pollution,-1,Moderate,Low,direction,2290,,,,,2022-06-17 20:59:41,27090
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,7,Amount of traffic,-1,Very Little,A Lot,direction,2450,,,,,2022-06-17 20:59:45,27091
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,0,Closeness to parks,-1,15 min away,30 min away,direction,5849,,,,,2022-06-17 20:59:46,27092
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,8,Size of home,-1,1800 square feet,600 square feet,direction,2252,,,,,2022-06-17 20:59:46,27093
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,1,Noise pollution,-1,Moderate,Very High,direction,2798,,,,,2022-06-17 20:59:47,27094
+60f3c1b003bbf8263f002824,ma_choice_v4_observers_pilot2,60f3c1b003bbf8263f002824,7,Amount of traffic,-1,A Moderate Amount,A Little,direction,2447,,,,,2022-06-17 20:59:51,27095
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,8,Size of home,48,,,wad_att_rating,18101,,,,,2022-06-17 20:59:55,27096
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,3233,,,,,2022-06-17 20:59:55,27097
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,3026,,,,,2022-06-17 20:59:56,27098
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,5,Quality of kitchen,-1,Very Good,Very Bad,direction,5929,,,,,2022-06-17 20:59:56,27099
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,7,Amount of traffic,49,,,wad_att_rating,6182,,,,,2022-06-17 21:00:01,27100
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,1,Noise pollution,-1,Very Low,Very High,direction,3282,,,,,2022-06-17 21:00:02,27101
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,5,Quality of kitchen,0,,,wad_att_rating,5162,,,,,2022-06-17 21:00:06,27102
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,4,Size of yard,-1,600 square feet,0 square feet,direction,1571,,,,,2022-06-17 21:00:06,27103
+6006a7b7f57a4801ea3a8323,ma_choice_v4_observers_pilot2,6006a7b7f57a4801ea3a8323,3,Year building was built,-1,2020,1950,direction,1783,,,,,2022-06-17 21:00:11,27104
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,4,Size of yard,75,,,wad_att_rating,5022,,,,,2022-06-17 21:00:11,27105
+60906c79f8cfd718d6dcb3df,ma_choice_v4_observers_pilot2,60906c79f8cfd718d6dcb3df,3,Year building was built,-1,1985,1950,direction,1178,,,,,2022-06-17 21:00:13,27106
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,7,Amount of traffic,-1,Very Little,A Lot,direction,2041,,,,,2022-06-17 21:00:17,27107
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Closeness to parks,50,,,wad_att_rating,7181,,,,,2022-06-17 21:00:18,27108
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,7,Amount of traffic,0,,,wad_att_rating,3171,,,,,2022-06-17 21:00:19,27109
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,4,Size of yard,100,,,wad_att_rating,3215,,,,,2022-06-17 21:00:22,27110
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,8,Size of home,-1,1800 square feet,600 square feet,direction,1750,,,,,2022-06-17 21:00:23,27111
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,6,Quality of heat/AC system,0,,,wad_att_rating,2128,,,,,2022-06-17 21:00:24,27112
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,2,Reputation of closest school,0,,,wad_att_rating,2437,,,,,2022-06-17 21:00:27,27113
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,4,Size of yard,-1,600 square feet,0 square feet,direction,2069,,,,,2022-06-17 21:00:28,27114
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,5,Quality of kitchen,0,,,wad_att_rating,2043,,,,,2022-06-17 21:00:29,27115
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,3,Year building was built,0,,,wad_att_rating,10729,,,,,2022-06-17 21:00:29,27116
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,3,Year building was built,0,,,wad_att_rating,2108,,,,,2022-06-17 21:00:31,27117
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,0,Quality of heat/AC system,1,,,lex_att_rating,29953,,,,,2022-06-17 21:00:31,27118
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,8,Size of home,0,,,wad_att_rating,1990,,,,,2022-06-17 21:00:33,27119
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,3,Year building was built,-1,2020,1950,direction,1518,,,,,2022-06-17 21:00:34,27120
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,0,Closeness to parks,0,,,wad_att_rating,1650,,,,,2022-06-17 21:00:35,27121
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,2,Reputation of closest school,50,,,wad_att_rating,6442,,,,,2022-06-17 21:00:35,27122
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,1,Noise pollution,0,,,wad_att_rating,1640,,,,,2022-06-17 21:00:36,27123
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1931,,,,,2022-06-17 21:00:40,27124
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,1,Noise pollution,49,,,wad_att_rating,11409,,,,,2022-06-17 21:00:47,27125
+5fc30c35704ddd267cc9123f,ma_choice_v4_observers_pilot2,5fc30c35704ddd267cc9123f,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2014,,,,,2022-06-17 21:00:48,27126
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,0,Size of yard,1,,,ew_att_rating,3687,,,,,2022-06-17 21:00:50,27127
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,6,Quality of heat/AC system,75,,,wad_att_rating,5563,,,,,2022-06-17 21:00:52,27128
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,0,Size of yard,1,,,lex_att_rating,3047,,,,,2022-06-17 21:00:55,27129
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,5,Quality of kitchen,-1,Good,Bad,direction,3982,,,,,2022-06-17 21:02:10,27130
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,0,Quality of heat/AC system,1,,,ew_att_rating,95366,,,,,2022-06-17 21:02:20,27131
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,0,Reputation of closest school,1,,,ew_att_rating,95366,,,,,2022-06-17 21:02:20,27132
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,0,Quality of heat/AC system,1,,,ew_att_rating,4509,,,,,2022-06-17 21:02:23,27133
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,8,Size of home,49,,,wad_att_rating,3709,,,,,2022-06-17 21:02:28,27134
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,0,Closeness to parks,24,,,wad_att_rating,3113,,,,,2022-06-17 21:02:32,27135
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,1,Noise pollution,0,,,wad_att_rating,2779,,,,,2022-06-17 21:02:34,27136
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,6,Quality of heat/AC system,100,,,wad_att_rating,5085,,,,,2022-06-17 21:02:36,27137
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,4,Size of yard,12,,,wad_att_rating,2628,,,,,2022-06-17 21:02:37,27138
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,7,Amount of traffic,12,,,wad_att_rating,3680,,,,,2022-06-17 21:02:41,27139
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,0,Closeness to parks,-1,15 min away,25 min away,direction,1646,,,,,2022-06-17 21:02:42,27140
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,6,Quality of heat/AC system,74,,,wad_att_rating,3001,,,,,2022-06-17 21:02:44,27141
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,6,Quality of heat/AC system,-1,Good,Bad,direction,1587,,,,,2022-06-17 21:02:46,27142
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,2,Reputation of closest school,0,,,wad_att_rating,10776,,,,,2022-06-17 21:02:47,27143
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,3,Year building was built,24,,,wad_att_rating,4136,,,,,2022-06-17 21:02:48,27144
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,5,Quality of kitchen,23,,,wad_att_rating,2654,,,,,2022-06-17 21:02:50,27145
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,4,Size of yard,0,,,wad_att_rating,4947,,,,,2022-06-17 21:02:51,27146
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,4,Size of yard,-1,600 square feet,0 square feet,direction,2705,,,,,2022-06-17 21:02:53,27147
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,2,Reputation of closest school,49,,,wad_att_rating,2951,,,,,2022-06-17 21:02:53,27148
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,7,Amount of traffic,0,,,wad_att_rating,4416,,,,,2022-06-17 21:02:56,27149
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,1,Noise pollution,-1,Low,High,direction,1219,,,,,2022-06-17 21:02:57,27150
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,5,Quality of kitchen,0,,,wad_att_rating,5176,,,,,2022-06-17 21:03:01,27151
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,3,Year building was built,-1,2020,1950,direction,1780,,,,,2022-06-17 21:03:02,27152
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,1,Noise pollution,0,,,wad_att_rating,4099,,,,,2022-06-17 21:03:05,27153
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,2,Reputation of closest school,-1,Good,Bad,direction,1196,,,,,2022-06-17 21:03:05,27154
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,3,Year building was built,0,,,wad_att_rating,4047,,,,,2022-06-17 21:03:09,27155
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,7,Amount of traffic,-1,A Little,A Lot,direction,2083,,,,,2022-06-17 21:03:10,27156
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,0,Closeness to parks,0,,,wad_att_rating,4189,,,,,2022-06-17 21:03:14,27157
+5a9416ba6475f900019fa690,ma_choice_v4_observers_pilot2,5a9416ba6475f900019fa690,8,Size of home,-1,1800 square feet,600 square feet,direction,1479,,,,,2022-06-17 21:03:14,27158
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,8,Size of home,0,,,wad_att_rating,3694,,,,,2022-06-17 21:03:17,27159
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,0,Quality of heat/AC system,1,,,lex_att_rating,5061,,,,,2022-06-17 21:03:38,27160
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Size of home,1,,,lex_att_rating,37808,,,,,2022-06-17 21:03:46,27161
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,2,Reputation of closest school,62,,,wad_att_rating,31745,,,,,2022-06-17 21:04:21,27162
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,8,Size of home,100,,,wad_att_rating,4148,,,,,2022-06-17 21:04:25,27163
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Closeness to parks,50,,,wad_att_rating,6366,,,,,2022-06-17 21:04:32,27164
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,1,Noise pollution,75,,,wad_att_rating,6176,,,,,2022-06-17 21:04:38,27165
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,4,Size of yard,88,,,wad_att_rating,3327,,,,,2022-06-17 21:04:41,27166
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,6,Quality of heat/AC system,36,,,wad_att_rating,4134,,,,,2022-06-17 21:04:45,27167
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,0,Closeness to parks,-1,20 min away,30 min away,direction,5215,,,,,2022-06-17 21:04:45,27168
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,7,Amount of traffic,74,,,wad_att_rating,3782,,,,,2022-06-17 21:04:49,27169
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1957,,,,,2022-06-17 21:04:51,27170
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,5,Quality of kitchen,74,,,wad_att_rating,4919,,,,,2022-06-17 21:04:54,27171
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,3,Year building was built,100,,,wad_att_rating,3454,,,,,2022-06-17 21:04:57,27172
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,1,Noise pollution,-1,Low,Very High,direction,3335,,,,,2022-06-17 21:05:15,27173
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,2,Reputation of closest school,-1,Moderate,Very Bad,direction,6296,,,,,2022-06-17 21:05:19,27174
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,8,Size of home,-1,1200 square feet,600 square feet,direction,6832,,,,,2022-06-17 21:05:32,27175
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,8,Size of home,-1,1800 square feet,600 square feet,direction,1993,,,,,2022-06-17 21:05:38,27176
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,4,Size of yard,-1,600 square feet,0 square feet,direction,1678,,,,,2022-06-17 21:05:43,27177
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,7,Amount of traffic,-1,A Little,A Lot,direction,3470,,,,,2022-06-17 21:05:47,27178
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1956,,,,,2022-06-17 21:05:48,27179
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,3,Year building was built,-1,2020,1950,direction,1432,,,,,2022-06-17 21:05:57,27180
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,5,Quality of kitchen,-1,Very Good,Very Bad,direction,4121,,,,,2022-06-17 21:05:57,27181
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2168,,,,,2022-06-17 21:06:02,27182
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Reputation of closest school,1,,,ew_att_rating,19970,,,,,2022-06-17 21:06:04,27183
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Size of home,1,,,ew_att_rating,19970,,,,,2022-06-17 21:06:04,27184
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Noise pollution,1,,,ew_att_rating,19970,,,,,2022-06-17 21:06:04,27185
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Closeness to parks,1,,,ew_att_rating,19970,,,,,2022-06-17 21:06:04,27186
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,1,Noise pollution,-1,Low,Very High,direction,4170,,,,,2022-06-17 21:06:06,27187
+5df81cd72713055bdf02efd8,ma_choice_v4_observers_pilot2,5df81cd72713055bdf02efd8,7,Amount of traffic,-1,A Little,A Lot,direction,5156,,,,,2022-06-17 21:06:10,27188
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Reputation of closest school,1,,,lex_att_rating,4813,,,,,2022-06-17 21:06:11,27189
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,4,Size of yard,-1,600 square feet,0 square feet,direction,2753,,,,,2022-06-17 21:06:14,27190
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,8,Size of home,50,,,wad_att_rating,4264,,,,,2022-06-17 21:06:18,27191
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,4,Size of yard,0,,,wad_att_rating,2895,,,,,2022-06-17 21:06:21,27192
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,3,Year building was built,-1,2020,1950,direction,3945,,,,,2022-06-17 21:06:22,27193
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,7,Amount of traffic,1,,,wad_att_rating,5564,,,,,2022-06-17 21:06:26,27194
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,6,Quality of heat/AC system,0,,,wad_att_rating,2460,,,,,2022-06-17 21:06:29,27195
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,1,Noise pollution,49,,,wad_att_rating,3329,,,,,2022-06-17 21:06:32,27196
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,0,Closeness to parks,-1,10 min away,30 min away,direction,2730,,,,,2022-06-17 21:06:33,27197
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Closeness to parks,48,,,wad_att_rating,3833,,,,,2022-06-17 21:06:36,27198
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,2,Reputation of closest school,95,,,wad_att_rating,3979,,,,,2022-06-17 21:06:40,27199
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,5,Quality of kitchen,0,,,wad_att_rating,2411,,,,,2022-06-17 21:06:42,27200
+6298e55d2a9cb1bdddef2f81,ma_choice_v4_observers_pilot2,6298e55d2a9cb1bdddef2f81,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,2804,,,,,2022-06-17 21:06:42,27201
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,3,Year building was built,1,,,wad_att_rating,2581,,,,,2022-06-17 21:06:45,27202
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Quality of kitchen,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:45,27203
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Size of yard,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:45,27204
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Noise pollution,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:45,27205
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Year building was built,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:45,27206
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Reputation of closest school,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:45,27207
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Amount of traffic,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:46,27208
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Size of home,1,,,ew_att_rating,65142,,,,,2022-06-17 21:06:46,27209
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,2,Reputation of closest school,-1,Very Good,Very Bad,direction,4497,,,,,2022-06-17 21:07:56,27210
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,4,Size of yard,-1,600 square feet,0 square feet,direction,2148,,,,,2022-06-17 21:08:04,27211
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,3,Year building was built,-1,2020,1950,direction,1499,,,,,2022-06-17 21:08:08,27212
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,8,Size of home,-1,1800 square feet,600 square feet,direction,2781,,,,,2022-06-17 21:08:12,27213
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1584,,,,,2022-06-17 21:08:16,27214
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,1,Noise pollution,-1,Very High,Very High,direction,3897,,,,,2022-06-17 21:08:22,27215
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1832,,,,,2022-06-17 21:08:26,27216
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,7,Amount of traffic,-1,Very Little,A Lot,direction,1595,,,,,2022-06-17 21:08:31,27217
+5dd0c121e73e61189af1e7a5,ma_choice_v4_observers_pilot2,5dd0c121e73e61189af1e7a5,0,Closeness to parks,-1,10 min away,30 min away,direction,1711,,,,,2022-06-17 21:08:35,27218
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,0,Closeness to parks,-1,10 min away,30 min away,direction,3026,,,,,2022-06-17 21:08:51,27219
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,8,Size of home,-1,1800 square feet,600 square feet,direction,2061,,,,,2022-06-17 21:08:56,27220
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1814,,,,,2022-06-17 21:09:13,27221
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,0,Size of yard,1,,,ew_att_rating,9471,,,,,2022-06-17 21:09:15,27222
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,0,Noise pollution,1,,,ew_att_rating,9471,,,,,2022-06-17 21:09:15,27223
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,0,Year building was built,1,,,ew_att_rating,9471,,,,,2022-06-17 21:09:15,27224
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1512,,,,,2022-06-17 21:09:17,27225
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,4,Size of yard,-1,600 square feet,0 square feet,direction,1758,,,,,2022-06-17 21:09:22,27226
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,7,Amount of traffic,-1,Very Little,A Lot,direction,1878,,,,,2022-06-17 21:09:27,27227
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,3,Year building was built,-1,2020,1950,direction,1753,,,,,2022-06-17 21:09:32,27228
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,1,Noise pollution,-1,Very Low,Very High,direction,1558,,,,,2022-06-17 21:09:37,27229
+60858334390f28f5a4fb79d3,ma_choice_v4_observers_pilot2,60858334390f28f5a4fb79d3,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1672,,,,,2022-06-17 21:09:43,27230
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,7,Amount of traffic,12,,,wad_att_rating,8526,,,,,2022-06-17 21:11:17,27231
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,4,Size of yard,0,,,wad_att_rating,3810,,,,,2022-06-17 21:11:21,27232
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,3,Year building was built,49,,,wad_att_rating,6468,,,,,2022-06-17 21:11:27,27233
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,6,Quality of heat/AC system,100,,,wad_att_rating,3124,,,,,2022-06-17 21:11:30,27234
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,8,Size of home,31,,,wad_att_rating,4761,,,,,2022-06-17 21:11:35,27235
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,0,Closeness to parks,3,,,wad_att_rating,3264,,,,,2022-06-17 21:11:38,27236
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,1,Noise pollution,0,,,wad_att_rating,2811,,,,,2022-06-17 21:11:41,27237
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,5,Quality of kitchen,0,,,wad_att_rating,2783,,,,,2022-06-17 21:11:44,27238
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,2,Reputation of closest school,0,,,wad_att_rating,3104,,,,,2022-06-17 21:11:47,27239
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,0,Quality of heat/AC system,1,,,lex_att_rating,4128,,,,,2022-06-17 21:11:55,27240
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,0,Noise pollution,1,,,lex_att_rating,5531,,,,,2022-06-17 21:12:11,27241
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,0,Size of home,1,,,ew_att_rating,21438,,,,,2022-06-17 21:12:25,27242
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,0,Year building was built,1,,,ew_att_rating,21438,,,,,2022-06-17 21:12:25,27243
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,0,Quality of heat/AC system,1,,,ew_att_rating,21438,,,,,2022-06-17 21:12:25,27244
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,0,Size of home,1,,,ew_att_rating,34424,,,,,2022-06-17 21:12:33,27245
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,0,Closeness to parks,1,,,ew_att_rating,34424,,,,,2022-06-17 21:12:33,27246
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,8,Size of home,-1,1800 square feet,1800 square feet,direction,17824,,,,,2022-06-17 21:12:53,27247
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,7,Amount of traffic,93,,,wad_att_rating,22135,,,,,2022-06-17 21:12:54,27248
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,0,Closeness to parks,1,,,lex_att_rating,10602,,,,,2022-06-17 21:12:56,27249
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,1,Noise pollution,93,,,wad_att_rating,6969,,,,,2022-06-17 21:13:01,27250
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,3,Year building was built,0,,,wad_att_rating,3206,,,,,2022-06-17 21:13:04,27251
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,0,Closeness to parks,0,,,wad_att_rating,4722,,,,,2022-06-17 21:13:09,27252
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,5,Quality of kitchen,0,,,wad_att_rating,4045,,,,,2022-06-17 21:13:13,27253
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,2,Reputation of closest school,0,,,wad_att_rating,3323,,,,,2022-06-17 21:13:16,27254
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,4,Size of yard,0,,,wad_att_rating,3701,,,,,2022-06-17 21:13:20,27255
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,8,Size of home,0,,,wad_att_rating,3445,,,,,2022-06-17 21:13:23,27256
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,4,Size of yard,6,,,wad_att_rating,17491,,,,,2022-06-17 21:13:35,27257
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,6,Quality of heat/AC system,87,,,wad_att_rating,11591,,,,,2022-06-17 21:13:35,27258
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,6252,,,,,2022-06-17 21:13:41,27259
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,8,Size of home,-1,1200 square feet,600 square feet,direction,4398,,,,,2022-06-17 21:13:47,27260
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,0,Quality of heat/AC system,1,,,ew_att_rating,8106,,,,,2022-06-17 21:13:55,27261
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,0,Noise pollution,1,,,ew_att_rating,8106,,,,,2022-06-17 21:13:55,27262
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,1,Noise pollution,-1,Very Low,Very High,direction,3692,,,,,2022-06-17 21:13:56,27263
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,1,Noise pollution,-1,Low,Very High,direction,2543,,,,,2022-06-17 21:13:58,27264
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,8,Size of home,72,,,wad_att_rating,22890,,,,,2022-06-17 21:13:58,27265
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,2,Reputation of closest school,25,,,wad_att_rating,9788,,,,,2022-06-17 21:14:08,27266
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,0,Closeness to parks,-1,15 min away,10 min away,direction,4560,,,,,2022-06-17 21:14:10,27267
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,2,Reputation of closest school,11,,,wad_att_rating,217868,,,,,2022-06-17 21:14:13,27268
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,7,Amount of traffic,-1,Very Little,A Lot,direction,9697,,,,,2022-06-17 21:14:16,27269
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,7,Amount of traffic,37,,,wad_att_rating,3372,,,,,2022-06-17 21:14:16,27270
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,7,Amount of traffic,-1,A Little,A Lot,direction,2744,,,,,2022-06-17 21:14:18,27271
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,1,Noise pollution,71,,,wad_att_rating,4342,,,,,2022-06-17 21:14:21,27272
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,1,Noise pollution,12,,,wad_att_rating,13491,,,,,2022-06-17 21:14:21,27273
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,4,Size of yard,-1,300 square feet,0 square feet,direction,1818,,,,,2022-06-17 21:14:24,27274
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,6,Quality of heat/AC system,62,,,wad_att_rating,4333,,,,,2022-06-17 21:14:25,27275
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,4,Size of yard,76,,,wad_att_rating,4204,,,,,2022-06-17 21:14:29,27276
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,2,Reputation of closest school,-1,Very Good,Very Bad,direction,2131,,,,,2022-06-17 21:14:31,27277
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,5,Quality of kitchen,69,,,wad_att_rating,2964,,,,,2022-06-17 21:14:32,27278
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,3,Year building was built,-1,1950,2020,direction,3256,,,,,2022-06-17 21:14:33,27279
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,6,Quality of heat/AC system,12,,,wad_att_rating,13679,,,,,2022-06-17 21:14:35,27280
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,3,Year building was built,80,,,wad_att_rating,3903,,,,,2022-06-17 21:14:36,27281
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,7,Amount of traffic,1,,,wad_att_rating,4813,,,,,2022-06-17 21:14:40,27282
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,8,Size of home,50,,,wad_att_rating,4887,,,,,2022-06-17 21:14:41,27283
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,3,Year building was built,-1,1985,1950,direction,2961,,,,,2022-06-17 21:14:43,27284
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,0,Closeness to parks,26,,,wad_att_rating,4229,,,,,2022-06-17 21:14:45,27285
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,0,Closeness to parks,-1,10 min away,30 min away,direction,4842,,,,,2022-06-17 21:14:48,27286
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1818,,,,,2022-06-17 21:14:50,27287
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,0,Closeness to parks,100,,,wad_att_rating,10541,,,,,2022-06-17 21:14:50,27288
+614d673e3a5fd5cb2b5b6eb7,ma_choice_v4_observers_pilot2,614d673e3a5fd5cb2b5b6eb7,5,Quality of kitchen,-1,Good,Very Bad,direction,1821,,,,,2022-06-17 21:14:55,27289
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,0,Size of yard,1,,,lex_att_rating,5970,,,,,2022-06-17 21:14:56,27290
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,5,Quality of kitchen,49,,,wad_att_rating,8059,,,,,2022-06-17 21:14:58,27291
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,3,Year building was built,0,,,wad_att_rating,5996,,,,,2022-06-17 21:15:04,27292
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,5,Quality of kitchen,-1,Very Good,Very Bad,direction,5581,,,,,2022-06-17 21:15:05,27293
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,4,Size of yard,-1,600 square feet,0 square feet,direction,5221,,,,,2022-06-17 21:15:21,27294
+5ca749ff98b35f0001f7559d,ma_choice_v4_observers_pilot2,5ca749ff98b35f0001f7559d,2,Reputation of closest school,-1,Very Good,Very Bad,direction,4212,,,,,2022-06-17 21:15:33,27295
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,2,Reputation of closest school,-1,Good,Very Bad,direction,7783,,,,,2022-06-17 21:15:57,27296
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,5,Quality of kitchen,-1,Good,Very Bad,direction,1955,,,,,2022-06-17 21:16:08,27297
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,0,Closeness to parks,-1,30 min away,10 min away,direction,3550,,,,,2022-06-17 21:16:19,27298
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,1,Noise pollution,-1,Low,High,direction,1310,,,,,2022-06-17 21:16:20,27299
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,8,Size of home,-1,1200 square feet,600 square feet,direction,1651,,,,,2022-06-17 21:16:24,27300
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,0,Closeness to parks,-1,10 min away,25 min away,direction,2430,,,,,2022-06-17 21:16:30,27301
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,4239,,,,,2022-06-17 21:16:32,27302
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1540,,,,,2022-06-17 21:16:35,27303
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,8,Size of home,-1,1800 square feet,600 square feet,direction,2126,,,,,2022-06-17 21:16:43,27304
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,4,Size of yard,-1,600 square feet,0 square feet,direction,2395,,,,,2022-06-17 21:16:52,27305
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,1,Noise pollution,-1,Very Low,Very High,direction,10061,,,,,2022-06-17 21:17:08,27306
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,7,Amount of traffic,-1,Very Little,A Lot,direction,2396,,,,,2022-06-17 21:17:18,27307
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,3,Year building was built,-1,2020,1950,direction,2215,,,,,2022-06-17 21:17:29,27308
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,5,Quality of kitchen,-1,Very Good,Very Bad,direction,1482,,,,,2022-06-17 21:17:38,27309
+5d773df22fa4bf001a045aa9,ma_choice_v4_observers_pilot2,5d773df22fa4bf001a045aa9,2,Reputation of closest school,-1,Very Good,Very Bad,direction,1751,,,,,2022-06-17 21:17:44,27310
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Reputation of closest school,1,,,lex_att_rating,4839,,,,,2022-06-17 21:19:12,27311
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,2,Reputation of closest school,96,,,wad_att_rating,7808,,,,,2022-06-17 21:19:42,27312
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,1,Noise pollution,28,,,wad_att_rating,7958,,,,,2022-06-17 21:19:50,27313
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,4,Size of yard,0,,,wad_att_rating,7427,,,,,2022-06-17 21:19:58,27314
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,3,Year building was built,0,,,wad_att_rating,4317,,,,,2022-06-17 21:20:02,27315
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Closeness to parks,6,,,wad_att_rating,35983,,,,,2022-06-17 21:20:38,27316
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,7,Amount of traffic,-1,A Little,A Lot,direction,257191,,,,,2022-06-17 21:20:58,27317
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,4,Size of yard,-1,600 square feet,300 square feet,direction,1227,,,,,2022-06-17 21:21:05,27318
+5e6d45a4f83081302dfcb528,ma_choice_v4_observers_pilot2,5e6d45a4f83081302dfcb528,3,Year building was built,-1,1985,1950,direction,930,,,,,2022-06-17 21:21:19,27319
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,8,Size of home,50,,,wad_att_rating,46986,,,,,2022-06-17 21:21:25,27320
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,7,Amount of traffic,83,,,wad_att_rating,7126,,,,,2022-06-17 21:21:32,27321
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,5,Quality of kitchen,37,,,wad_att_rating,5007,,,,,2022-06-17 21:21:37,27322
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,6,Quality of heat/AC system,29,,,wad_att_rating,5239,,,,,2022-06-17 21:21:42,27323
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,8,Size of home,0,,,wad_att_rating,7405,,,,,2022-06-17 21:22:05,27324
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Closeness to parks,79,,,wad_att_rating,12750,,,,,2022-06-17 21:22:11,27325
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,0,Closeness to parks,24,,,wad_att_rating,6687,,,,,2022-06-17 21:22:12,27326
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,4,Size of yard,87,,,wad_att_rating,8078,,,,,2022-06-17 21:22:19,27327
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Amount of traffic,1,,,ew_att_rating,23716,,,,,2022-06-17 21:22:23,27328
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Reputation of closest school,1,,,ew_att_rating,23716,,,,,2022-06-17 21:22:23,27329
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Size of home,1,,,ew_att_rating,23716,,,,,2022-06-17 21:22:23,27330
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Noise pollution,1,,,ew_att_rating,23716,,,,,2022-06-17 21:22:23,27331
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,6,Quality of heat/AC system,98,,,wad_att_rating,13226,,,,,2022-06-17 21:22:25,27332
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,7,Amount of traffic,49,,,wad_att_rating,5950,,,,,2022-06-17 21:22:25,27333
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,3,Year building was built,0,,,wad_att_rating,6036,,,,,2022-06-17 21:22:31,27334
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,2,Reputation of closest school,24,,,wad_att_rating,6350,,,,,2022-06-17 21:22:32,27335
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,8,Size of home,100,,,wad_att_rating,3198,,,,,2022-06-17 21:22:35,27336
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,3,Year building was built,0,,,wad_att_rating,4015,,,,,2022-06-17 21:22:39,27337
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,5,Quality of kitchen,75,,,wad_att_rating,9695,,,,,2022-06-17 21:22:41,27338
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,6,Quality of heat/AC system,37,,,wad_att_rating,4990,,,,,2022-06-17 21:22:44,27339
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,1,Noise pollution,0,,,wad_att_rating,3953,,,,,2022-06-17 21:22:45,27340
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,4,Size of yard,0,,,wad_att_rating,3068,,,,,2022-06-17 21:22:48,27341
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,5,Quality of kitchen,37,,,wad_att_rating,4550,,,,,2022-06-17 21:22:49,27342
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,7,Amount of traffic,0,,,wad_att_rating,3163,,,,,2022-06-17 21:22:51,27343
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,1,Noise pollution,50,,,wad_att_rating,4982,,,,,2022-06-17 21:22:53,27344
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,2,Reputation of closest school,74,,,wad_att_rating,5263,,,,,2022-06-17 21:22:56,27345
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,8,Size of home,-1,1800 square feet,600 square feet,direction,2073,,,,,2022-06-17 21:23:05,27346
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,3,Year building was built,-1,2020,1950,direction,2598,,,,,2022-06-17 21:23:13,27347
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Size of home,1,,,lex_att_rating,10767,,,,,2022-06-17 21:23:16,27348
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,2,Reputation of closest school,-1,Very Good,Very Bad,direction,2718,,,,,2022-06-17 21:23:27,27349
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2735,,,,,2022-06-17 21:23:36,27350
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,1,Noise pollution,-1,Moderate,Very High,direction,6009,,,,,2022-06-17 21:23:56,27351
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,6,Quality of heat/AC system,-1,Good,Very Bad,direction,3848,,,,,2022-06-17 21:24:08,27352
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,2,Reputation of closest school,-1,Very Good,Very Bad,direction,5559,,,,,2022-06-17 21:24:13,27353
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Amount of traffic,1,,,ew_att_rating,45349,,,,,2022-06-17 21:24:14,27354
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Size of home,1,,,ew_att_rating,45349,,,,,2022-06-17 21:24:14,27355
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Noise pollution,1,,,ew_att_rating,45349,,,,,2022-06-17 21:24:14,27356
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Closeness to parks,1,,,ew_att_rating,45349,,,,,2022-06-17 21:24:14,27357
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Size of yard,1,,,ew_att_rating,45349,,,,,2022-06-17 21:24:14,27358
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,4,Size of yard,-1,300 square feet,0 square feet,direction,2006,,,,,2022-06-17 21:24:17,27359
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,8,Size of home,-1,1200 square feet,600 square feet,direction,3271,,,,,2022-06-17 21:24:26,27360
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,0,Closeness to parks,-1,10 min away,30 min away,direction,2318,,,,,2022-06-17 21:24:30,27361
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,3,Year building was built,-1,1985,1950,direction,2882,,,,,2022-06-17 21:24:35,27362
+60d6befca58e40d0c63bba9f,ma_choice_v4_observers_pilot2,60d6befca58e40d0c63bba9f,7,Amount of traffic,-1,Very Little,A Lot,direction,2007,,,,,2022-06-17 21:24:37,27363
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,1,Noise pollution,-1,Very Low,Very High,direction,2915,,,,,2022-06-17 21:24:46,27364
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,2953,,,,,2022-06-17 21:24:57,27365
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,4,Size of yard,-1,300 square feet,0 square feet,direction,2837,,,,,2022-06-17 21:25:07,27366
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2902,,,,,2022-06-17 21:25:14,27367
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,0,Closeness to parks,-1,20 min away,30 min away,direction,3798,,,,,2022-06-17 21:25:21,27368
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,0,Reputation of closest school,1,,,ew_att_rating,12840,,,,,2022-06-17 21:25:24,27369
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,0,Quality of kitchen,1,,,ew_att_rating,12840,,,,,2022-06-17 21:25:24,27370
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,0,Quality of heat/AC system,1,,,ew_att_rating,12840,,,,,2022-06-17 21:25:24,27371
+622a4d6cf143081ed1887ee5,ma_choice_v4_observers_pilot2,622a4d6cf143081ed1887ee5,7,Amount of traffic,-1,Very Little,A Lot,direction,2778,,,,,2022-06-17 21:25:29,27372
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,0,Quality of heat/AC system,1,,,lex_att_rating,4861,,,,,2022-06-17 21:25:48,27373
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,0,Quality of kitchen,1,,,lex_att_rating,4611,,,,,2022-06-17 21:28:44,27374
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,0,Quality of heat/AC system,1,,,ew_att_rating,20174,,,,,2022-06-17 21:29:25,27375
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,0,Quality of kitchen,1,,,ew_att_rating,20174,,,,,2022-06-17 21:29:25,27376
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,5,Quality of kitchen,86,,,wad_att_rating,8699,,,,,2022-06-17 21:29:40,27377
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,7,Amount of traffic,50,,,wad_att_rating,24662,,,,,2022-06-17 21:30:04,27378
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,0,Closeness to parks,13,,,wad_att_rating,6073,,,,,2022-06-17 21:30:11,27379
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,1,Noise pollution,11,,,wad_att_rating,10368,,,,,2022-06-17 21:30:21,27380
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,4,Size of yard,0,,,wad_att_rating,7569,,,,,2022-06-17 21:30:29,27381
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,2,Reputation of closest school,0,,,wad_att_rating,4515,,,,,2022-06-17 21:30:33,27382
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,8,Size of home,11,,,wad_att_rating,8890,,,,,2022-06-17 21:30:42,27383
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,3,Year building was built,0,,,wad_att_rating,3953,,,,,2022-06-17 21:30:46,27384
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,6,Quality of heat/AC system,61,,,wad_att_rating,5602,,,,,2022-06-17 21:30:51,27385
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,2,Reputation of closest school,-1,Moderate,Moderate,direction,4674,,,,,2022-06-17 21:32:40,27386
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,4,Size of yard,-1,600 square feet,0 square feet,direction,3558,,,,,2022-06-17 21:32:44,27387
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,8,Size of home,-1,1800 square feet,600 square feet,direction,3046,,,,,2022-06-17 21:32:54,27388
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,1,Noise pollution,-1,Moderate,Moderate,direction,1417,,,,,2022-06-17 21:32:54,27389
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,1,Noise pollution,-1,Moderate,Very High,direction,3302,,,,,2022-06-17 21:33:06,27390
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,4,Size of yard,-1,300 square feet,0 square feet,direction,10011,,,,,2022-06-17 21:33:28,27391
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,5,Quality of kitchen,-1,Good,Very Bad,direction,7798,,,,,2022-06-17 21:33:29,27392
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,8,Size of home,-1,1200 square feet,600 square feet,direction,5433,,,,,2022-06-17 21:33:30,27393
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,4298,,,,,2022-06-17 21:33:42,27394
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,7,Amount of traffic,-1,Very Little,A Lot,direction,3918,,,,,2022-06-17 21:33:44,27395
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,0,Closeness to parks,-1,10 min away,30 min away,direction,6610,,,,,2022-06-17 21:33:55,27396
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,0,Closeness to parks,-1,10 min away,30 min away,direction,5110,,,,,2022-06-17 21:34:02,27397
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,7,Amount of traffic,-1,Very Little,A Lot,direction,2527,,,,,2022-06-17 21:34:06,27398
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,1806,,,,,2022-06-17 21:34:09,27399
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,0,Closeness to parks,-1,20 min away,20 min away,direction,2808,,,,,2022-06-17 21:34:15,27400
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,4793,,,,,2022-06-17 21:34:18,27401
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,3,Year building was built,-1,1985,1985,direction,1185,,,,,2022-06-17 21:34:23,27402
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,3,Year building was built,-1,1985,1950,direction,5502,,,,,2022-06-17 21:34:23,27403
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,5,Quality of kitchen,-1,Good,Very Bad,direction,3641,,,,,2022-06-17 21:34:31,27404
+6150af603e26f4482fedf8d9,ma_choice_v4_observers_pilot2,6150af603e26f4482fedf8d9,2,Reputation of closest school,-1,Good,Very Bad,direction,2454,,,,,2022-06-17 21:34:33,27405
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,4,Size of yard,-1,300 square feet,300 square feet,direction,1573,,,,,2022-06-17 21:34:47,27406
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,3,Year building was built,-1,1985,1950,direction,3680,,,,,2022-06-17 21:34:51,27407
+59162229219344000197c739,ma_choice_v4_observers_pilot2,59162229219344000197c739,5,Quality of kitchen,-1,Very Good,Very Bad,direction,3306,,,,,2022-06-17 21:34:56,27408
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,1,Noise pollution,-1,Very Low,Very High,direction,4108,,,,,2022-06-17 21:35:03,27409
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,8,Size of home,-1,1800 square feet,600 square feet,direction,4770,,,,,2022-06-17 21:35:16,27410
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,2,Reputation of closest school,-1,Very Good,Very Bad,direction,4761,,,,,2022-06-17 21:35:30,27411
+611a2a2eba6e2d502cee04b5,ma_choice_v4_observers_pilot2,611a2a2eba6e2d502cee04b5,7,Amount of traffic,-1,A Little,A Lot,direction,4785,,,,,2022-06-17 21:35:44,27412
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,0,Quality of heat/AC system,1,,,lex_att_rating,3643,,,,,2022-06-17 21:41:54,27413
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,0,Closeness to parks,1,,,ew_att_rating,20430,,,,,2022-06-17 21:42:22,27414
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,0,Quality of heat/AC system,1,,,ew_att_rating,20430,,,,,2022-06-17 21:42:22,27415
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,0,Reputation of closest school,1,,,ew_att_rating,20430,,,,,2022-06-17 21:42:22,27416
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,3,Year building was built,2,,,wad_att_rating,8519,,,,,2022-06-17 21:42:36,27417
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,2,Reputation of closest school,49,,,wad_att_rating,12169,,,,,2022-06-17 21:42:48,27418
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,0,Closeness to parks,48,,,wad_att_rating,8111,,,,,2022-06-17 21:42:56,27419
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,8,Size of home,11,,,wad_att_rating,4444,,,,,2022-06-17 21:43:01,27420
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,5,Quality of kitchen,0,,,wad_att_rating,3068,,,,,2022-06-17 21:43:04,27421
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,1,Noise pollution,0,,,wad_att_rating,3857,,,,,2022-06-17 21:43:08,27422
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,6,Quality of heat/AC system,100,,,wad_att_rating,6601,,,,,2022-06-17 21:43:14,27423
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,7,Amount of traffic,0,,,wad_att_rating,2856,,,,,2022-06-17 21:43:17,27424
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,5,Quality of kitchen,-1,Very Good,Very Bad,direction,5467,,,,,2022-06-17 21:43:18,27425
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,4,Size of yard,0,,,wad_att_rating,2990,,,,,2022-06-17 21:43:20,27426
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,3124,,,,,2022-06-17 21:43:26,27427
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,7,Amount of traffic,-1,A Moderate Amount,A Lot,direction,3792,,,,,2022-06-17 21:43:42,27428
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,4,Size of yard,-1,300 square feet,0 square feet,direction,2319,,,,,2022-06-17 21:43:49,27429
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,1,Noise pollution,-1,Moderate,Very High,direction,5655,,,,,2022-06-17 21:44:12,27430
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,0,Closeness to parks,-1,20 min away,30 min away,direction,2369,,,,,2022-06-17 21:44:23,27431
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,8,Size of home,-1,1200 square feet,600 square feet,direction,2956,,,,,2022-06-17 21:44:30,27432
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,1,Noise pollution,-1,Moderate,Moderate,direction,8121,,,,,2022-06-17 21:44:40,27433
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,2,Reputation of closest school,-1,Very Good,Very Bad,direction,2337,,,,,2022-06-17 21:44:40,27434
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Year building was built,1,,,lex_att_rating,22460,,,,,2022-06-17 21:44:40,27435
+5f8b3c348183d30f91832a2b,ma_choice_v4_observers_pilot2,5f8b3c348183d30f91832a2b,3,Year building was built,-1,1985,1950,direction,2312,,,,,2022-06-17 21:44:47,27436
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,3,Year building was built,-1,1985,2020,direction,7626,,,,,2022-06-17 21:44:52,27437
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,2,Reputation of closest school,-1,Very Good,Very Bad,direction,6147,,,,,2022-06-17 21:45:06,27438
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Reputation of closest school,1,,,ew_att_rating,26778,,,,,2022-06-17 21:45:13,27439
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Year building was built,1,,,ew_att_rating,26778,,,,,2022-06-17 21:45:13,27440
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Size of yard,1,,,ew_att_rating,26778,,,,,2022-06-17 21:45:13,27441
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Quality of kitchen,1,,,ew_att_rating,26778,,,,,2022-06-17 21:45:13,27442
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Quality of heat/AC system,1,,,ew_att_rating,26778,,,,,2022-06-17 21:45:13,27443
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Size of home,1,,,ew_att_rating,26778,,,,,2022-06-17 21:45:13,27444
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,4,Size of yard,-1,300 square feet,600 square feet,direction,4316,,,,,2022-06-17 21:45:24,27445
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,7,Amount of traffic,-1,Very Little,A Lot,direction,5340,,,,,2022-06-17 21:45:42,27446
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,5,Quality of kitchen,-1,Good,Bad,direction,3109,,,,,2022-06-17 21:45:53,27447
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,1,Noise pollution,17,,,wad_att_rating,40709,,,,,2022-06-17 21:46:00,27448
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,2861,,,,,2022-06-17 21:46:00,27449
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,7,Amount of traffic,18,,,wad_att_rating,5835,,,,,2022-06-17 21:46:05,27450
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,8,Size of home,-1,1200 square feet,1800 square feet,direction,3334,,,,,2022-06-17 21:46:08,27451
+60fcd8a2f65ff33a1f4529fd,ma_choice_v4_observers_pilot2,60fcd8a2f65ff33a1f4529fd,0,Closeness to parks,-1,15 min away,25 min away,direction,2496,,,,,2022-06-17 21:46:20,27452
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,2,Reputation of closest school,62,,,wad_att_rating,41572,,,,,2022-06-17 21:46:47,27453
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,6,Quality of heat/AC system,73,,,wad_att_rating,5450,,,,,2022-06-17 21:46:52,27454
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Closeness to parks,24,,,wad_att_rating,5533,,,,,2022-06-17 21:46:58,27455
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Size of yard,1,,,ew_att_rating,11620,,,,,2022-06-17 21:47:35,27456
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Quality of kitchen,1,,,ew_att_rating,11620,,,,,2022-06-17 21:47:35,27457
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Reputation of closest school,1,,,ew_att_rating,11620,,,,,2022-06-17 21:47:35,27458
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Year building was built,1,,,ew_att_rating,11620,,,,,2022-06-17 21:47:35,27459
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Size of home,1,,,ew_att_rating,11620,,,,,2022-06-17 21:47:35,27460
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Quality of heat/AC system,1,,,ew_att_rating,11620,,,,,2022-06-17 21:47:35,27461
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Year building was built,1,,,lex_att_rating,5464,,,,,2022-06-17 21:47:43,27462
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,4,Size of yard,87,,,wad_att_rating,46558,,,,,2022-06-17 21:47:45,27463
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,8,Size of home,87,,,wad_att_rating,4112,,,,,2022-06-17 21:47:49,27464
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,1,Noise pollution,11,,,wad_att_rating,7236,,,,,2022-06-17 21:47:52,27465
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,3,Year building was built,93,,,wad_att_rating,5165,,,,,2022-06-17 21:47:54,27466
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,8,Size of home,81,,,wad_att_rating,6206,,,,,2022-06-17 21:47:58,27467
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,7,Amount of traffic,13,,,wad_att_rating,3130,,,,,2022-06-17 21:48:01,27468
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,3,Year building was built,83,,,wad_att_rating,2809,,,,,2022-06-17 21:48:04,27469
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Closeness to parks,0,,,wad_att_rating,3164,,,,,2022-06-17 21:48:07,27470
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,6,Quality of heat/AC system,80,,,wad_att_rating,2830,,,,,2022-06-17 21:48:10,27471
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,5,Quality of kitchen,62,,,wad_att_rating,17945,,,,,2022-06-17 21:48:12,27472
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,2,Reputation of closest school,58,,,wad_att_rating,3170,,,,,2022-06-17 21:48:13,27473
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,5,Quality of kitchen,62,,,wad_att_rating,2448,,,,,2022-06-17 21:48:15,27474
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,4,Size of yard,48,,,wad_att_rating,3046,,,,,2022-06-17 21:48:19,27475
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,1,Noise pollution,-1,Very Low,Very High,direction,11148,,,,,2022-06-17 21:49:03,27476
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,7,Amount of traffic,-1,Very Little,A Lot,direction,2612,,,,,2022-06-17 21:49:09,27477
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,2,Reputation of closest school,-1,Good,Very Bad,direction,4104,,,,,2022-06-17 21:49:17,27478
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,0,Closeness to parks,-1,15 min away,30 min away,direction,2597,,,,,2022-06-17 21:49:26,27479
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,5,Quality of kitchen,-1,Good,Very Bad,direction,2015,,,,,2022-06-17 21:49:31,27480
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,3,Year building was built,-1,2020,1950,direction,2404,,,,,2022-06-17 21:49:37,27481
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,8,Size of home,-1,1200 square feet,600 square feet,direction,2092,,,,,2022-06-17 21:49:42,27482
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,4,Size of yard,-1,300 square feet,0 square feet,direction,1420,,,,,2022-06-17 21:49:46,27483
+5d6394518df2870001a74b42,ma_choice_v4_observers_pilot2,5d6394518df2870001a74b42,6,Quality of heat/AC system,-1,Good,Very Bad,direction,1794,,,,,2022-06-17 21:49:51,27484
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,0,Quality of heat/AC system,1,,,ew_att_rating,14325,,,,,2022-06-17 21:51:51,27485
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,0,Size of yard,1,,,ew_att_rating,14325,,,,,2022-06-17 21:51:51,27486
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,0,Size of yard,1,,,lex_att_rating,13729,,,,,2022-06-17 21:52:13,27487
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,8,Size of home,51,,,wad_att_rating,6139,,,,,2022-06-17 21:52:31,27488
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,2,Reputation of closest school,65,,,wad_att_rating,6664,,,,,2022-06-17 21:52:38,27489
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,1,Noise pollution,0,,,wad_att_rating,9514,,,,,2022-06-17 21:52:47,27490
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,5,Quality of kitchen,11,,,wad_att_rating,3569,,,,,2022-06-17 21:52:51,27491
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,3,Year building was built,53,,,wad_att_rating,7834,,,,,2022-06-17 21:52:58,27492
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,6,Quality of heat/AC system,10,,,wad_att_rating,5159,,,,,2022-06-17 21:53:04,27493
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,4,Size of yard,89,,,wad_att_rating,20436,,,,,2022-06-17 21:53:24,27494
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,0,Closeness to parks,22,,,wad_att_rating,4163,,,,,2022-06-17 21:53:28,27495
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,7,Amount of traffic,33,,,wad_att_rating,5267,,,,,2022-06-17 21:53:34,27496
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,7,Amount of traffic,-1,A Little,A Moderate Amount,direction,11282,,,,,2022-06-17 21:55:59,27497
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,2,Reputation of closest school,-1,Very Bad,Moderate,direction,6576,,,,,2022-06-17 21:56:16,27498
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,3,Year building was built,-1,1950,1950,direction,3295,,,,,2022-06-17 21:56:28,27499
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,4,Size of yard,-1,600 square feet,600 square feet,direction,2858,,,,,2022-06-17 21:56:36,27500
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,1,Noise pollution,-1,Very High,High,direction,6002,,,,,2022-06-17 21:56:49,27501
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,6,Quality of heat/AC system,-1,Moderate,Moderate,direction,2576,,,,,2022-06-17 21:56:59,27502
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,5,Quality of kitchen,-1,Moderate,Good,direction,3348,,,,,2022-06-17 21:57:10,27503
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,8,Size of home,-1,1800 square feet,1800 square feet,direction,2936,,,,,2022-06-17 21:57:26,27504
+5f68dfc4f0b95a06e45d2fad,ma_choice_v4_observers_pilot2,5f68dfc4f0b95a06e45d2fad,0,Closeness to parks,-1,25 min away,20 min away,direction,3913,,,,,2022-06-17 21:57:33,27505
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,3,Year building was built,-1,2020,1950,direction,2944,,,,,2022-06-17 21:59:21,27506
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,4,Size of yard,-1,600 square feet,0 square feet,direction,3199,,,,,2022-06-17 21:59:29,27507
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,8,Size of home,-1,1200 square feet,600 square feet,direction,3022,,,,,2022-06-17 21:59:39,27508
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,6,Quality of heat/AC system,-1,Good,Very Bad,direction,3005,,,,,2022-06-17 21:59:53,27509
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,2,Reputation of closest school,-1,Moderate,Very Bad,direction,2856,,,,,2022-06-17 22:00:00,27510
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,0,Closeness to parks,-1,10 min away,25 min away,direction,7084,,,,,2022-06-17 22:00:15,27511
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,1,Noise pollution,-1,Very Low,Very High,direction,3712,,,,,2022-06-17 22:00:35,27512
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,7,Amount of traffic,-1,Very Little,A Lot,direction,2091,,,,,2022-06-17 22:00:41,27513
+5ee38ef98c0c440172e022ac,ma_choice_v4_observers_pilot2,5ee38ef98c0c440172e022ac,5,Quality of kitchen,-1,Very Good,Very Bad,direction,2287,,,,,2022-06-17 22:00:47,27514
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,0,Reputation of closest school,1,,,ew_att_rating,24860,,,,,2022-06-17 22:01:34,27515
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,0,Size of yard,1,,,ew_att_rating,24860,,,,,2022-06-17 22:01:34,27516
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,0,Size of home,1,,,ew_att_rating,24860,,,,,2022-06-17 22:01:34,27517
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,1,Noise pollution,64,,,wad_att_rating,8509,,,,,2022-06-17 22:01:50,27518
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,7,Amount of traffic,37,,,wad_att_rating,6273,,,,,2022-06-17 22:01:56,27519
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,3,Year building was built,14,,,wad_att_rating,5078,,,,,2022-06-17 22:02:01,27520
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,4,Size of yard,85,,,wad_att_rating,4496,,,,,2022-06-17 22:02:05,27521
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,5,Quality of kitchen,50,,,wad_att_rating,3322,,,,,2022-06-17 22:02:09,27522
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,0,Closeness to parks,75,,,wad_att_rating,5688,,,,,2022-06-17 22:02:14,27523
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,8,Size of home,99,,,wad_att_rating,5815,,,,,2022-06-17 22:02:20,27524
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,6,Quality of heat/AC system,72,,,wad_att_rating,5100,,,,,2022-06-17 22:02:25,27525
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,2,Reputation of closest school,74,,,wad_att_rating,4235,,,,,2022-06-17 22:02:30,27526
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,0,Size of home,1,,,lex_att_rating,10913,,,,,2022-06-17 22:02:48,27527
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,4,Size of yard,-1,300 square feet,600 square feet,direction,9538,,,,,2022-06-17 22:04:44,27528
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,5,Quality of kitchen,-1,Moderate,Very Bad,direction,8705,,,,,2022-06-17 22:04:59,27529
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,1,Noise pollution,-1,Very High,Moderate,direction,8673,,,,,2022-06-17 22:05:13,27530
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,7,Amount of traffic,-1,A Moderate Amount,A Lot,direction,14881,,,,,2022-06-17 22:05:37,27531
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,0,Closeness to parks,-1,20 min away,30 min away,direction,4689,,,,,2022-06-17 22:05:55,27532
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,6,Quality of heat/AC system,-1,Good,Very Bad,direction,3810,,,,,2022-06-17 22:06:06,27533
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,8,Size of home,-1,600 square feet,1800 square feet,direction,3645,,,,,2022-06-17 22:06:18,27534
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,3,Year building was built,-1,1985,2020,direction,6799,,,,,2022-06-17 22:06:32,27535
+5bf408f7f35e0c000101693a,ma_choice_v4_observers_pilot2,5bf408f7f35e0c000101693a,2,Reputation of closest school,-1,Good,Very Bad,direction,3615,,,,,2022-06-17 22:06:42,27536
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,0,Size of home,1,,,ew_att_rating,15081,,,,,2022-06-17 22:31:32,27537
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,5,Quality of kitchen,25,,,wad_att_rating,6362,,,,,2022-06-17 22:31:44,27538
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,6,Quality of heat/AC system,11,,,wad_att_rating,4927,,,,,2022-06-17 22:31:49,27539
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,8,Size of home,87,,,wad_att_rating,6343,,,,,2022-06-17 22:31:55,27540
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,7,Amount of traffic,24,,,wad_att_rating,4873,,,,,2022-06-17 22:32:00,27541
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,1,Noise pollution,25,,,wad_att_rating,5464,,,,,2022-06-17 22:32:06,27542
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,0,Closeness to parks,0,,,wad_att_rating,5337,,,,,2022-06-17 22:32:11,27543
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,2,Reputation of closest school,0,,,wad_att_rating,4683,,,,,2022-06-17 22:32:16,27544
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,4,Size of yard,25,,,wad_att_rating,5973,,,,,2022-06-17 22:32:22,27545
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,3,Year building was built,0,,,wad_att_rating,3358,,,,,2022-06-17 22:32:25,27546
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,0,Size of home,1,,,lex_att_rating,3746,,,,,2022-06-17 22:32:34,27547
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,0,Size of home,1,,,ew_att_rating,26136,,,,,2022-06-17 22:39:04,27548
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,0,Size of home,1,,,lex_att_rating,9909,,,,,2022-06-17 22:39:19,27549
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,4,Size of yard,94,,,wad_att_rating,6104,,,,,2022-06-17 22:39:28,27550
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,3,Year building was built,51,,,wad_att_rating,9859,,,,,2022-06-17 22:39:38,27551
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,7,Amount of traffic,43,,,wad_att_rating,2871,,,,,2022-06-17 22:39:41,27552
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,6,Quality of heat/AC system,68,,,wad_att_rating,8507,,,,,2022-06-17 22:39:50,27553
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,1,Noise pollution,74,,,wad_att_rating,3589,,,,,2022-06-17 22:39:53,27554
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,2,Reputation of closest school,30,,,wad_att_rating,3644,,,,,2022-06-17 22:39:57,27555
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,8,Size of home,89,,,wad_att_rating,12044,,,,,2022-06-17 22:40:09,27556
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,5,Quality of kitchen,26,,,wad_att_rating,4563,,,,,2022-06-17 22:40:13,27557
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,0,Closeness to parks,15,,,wad_att_rating,44894,,,,,2022-06-17 22:40:58,27558
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,4,Size of yard,-1,600 square feet,0 square feet,direction,2848,,,,,2022-06-17 22:42:39,27559
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,8,Size of home,-1,1200 square feet,600 square feet,direction,2562,,,,,2022-06-17 22:42:53,27560
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,1,Noise pollution,-1,Very High,Moderate,direction,1896,,,,,2022-06-17 22:43:02,27561
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,0,Closeness to parks,-1,30 min away,10 min away,direction,14054,,,,,2022-06-17 22:44:19,27562
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,3,Year building was built,-1,2020,1950,direction,2868,,,,,2022-06-17 22:44:35,27563
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,2,Reputation of closest school,-1,Very Good,Moderate,direction,1900,,,,,2022-06-17 22:44:50,27564
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,5,Quality of kitchen,-1,Very Good,Very Bad,direction,3121,,,,,2022-06-17 22:44:57,27565
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,7,Amount of traffic,-1,A Lot,Very Little,direction,6502,,,,,2022-06-17 22:45:11,27566
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,8,Size of home,-1,1800 square feet,600 square feet,direction,3815,,,,,2022-06-17 22:45:53,27567
+6168cbfbad1cc13ba73ade6e,ma_choice_v4_observers_pilot2,6168cbfbad1cc13ba73ade6e,6,Quality of heat/AC system,-1,Very Good,Very Bad,direction,2900,,,,,2022-06-17 22:46:01,27568
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,6,Quality of heat/AC system,-1,Moderate,Bad,direction,4647,,,,,2022-06-17 22:46:01,27569
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,2,Reputation of closest school,-1,Moderate,Moderate,direction,5922,,,,,2022-06-17 22:46:11,27570
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,0,Closeness to parks,-1,15 min away,25 min away,direction,4581,,,,,2022-06-17 22:46:20,27571
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,4,Size of yard,-1,300 square feet,0 square feet,direction,4925,,,,,2022-06-17 22:46:29,27572
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,3,Year building was built,-1,1985,1950,direction,4012,,,,,2022-06-17 22:46:38,27573
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,7,Amount of traffic,-1,A Little,A Lot,direction,2353,,,,,2022-06-17 22:46:46,27574
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,5,Quality of kitchen,-1,Good,Bad,direction,2982,,,,,2022-06-17 22:46:52,27575
+60b3e6ad448226548d21fc4d,ma_choice_v4_observers_pilot2,60b3e6ad448226548d21fc4d,1,Noise pollution,-1,Low,High,direction,2934,,,,,2022-06-17 22:46:59,27576
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,0,Amount of traffic,1,,,ew_att_rating,20714,,,,,2022-06-17 23:41:10,27577
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,0,Size of home,1,,,ew_att_rating,20714,,,,,2022-06-17 23:41:10,27578
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,1,Noise pollution,67,,,wad_att_rating,6247,,,,,2022-06-17 23:41:23,27579
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,0,Closeness to parks,32,,,wad_att_rating,8220,,,,,2022-06-17 23:41:31,27580
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,8,Size of home,77,,,wad_att_rating,4422,,,,,2022-06-17 23:41:36,27581
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,4,Size of yard,37,,,wad_att_rating,4419,,,,,2022-06-17 23:41:40,27582
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,7,Amount of traffic,84,,,wad_att_rating,3532,,,,,2022-06-17 23:41:44,27583
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,6,Quality of heat/AC system,64,,,wad_att_rating,2709,,,,,2022-06-17 23:41:47,27584
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,3,Year building was built,38,,,wad_att_rating,7047,,,,,2022-06-17 23:41:54,27585
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,2,Reputation of closest school,13,,,wad_att_rating,3983,,,,,2022-06-17 23:41:58,27586
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,5,Quality of kitchen,66,,,wad_att_rating,3363,,,,,2022-06-17 23:42:01,27587
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,0,Amount of traffic,1,,,lex_att_rating,6045,,,,,2022-06-17 23:42:15,27588
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,4,Size of yard,-1,300 square feet,0 square feet,direction,3888,,,,,2022-06-17 23:43:13,27589
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,8,Size of home,-1,1200 square feet,1800 square feet,direction,7777,,,,,2022-06-17 23:43:25,27590
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,0,Closeness to parks,-1,20 min away,30 min away,direction,4345,,,,,2022-06-17 23:43:37,27591
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,1,Noise pollution,-1,Moderate,Very High,direction,4227,,,,,2022-06-17 23:43:49,27592
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,6,Quality of heat/AC system,-1,Moderate,Very Bad,direction,3024,,,,,2022-06-17 23:43:54,27593
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,2,Reputation of closest school,-1,Moderate,Very Bad,direction,2621,,,,,2022-06-17 23:44:03,27594
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,7,Amount of traffic,-1,Very Little,A Lot,direction,2269,,,,,2022-06-17 23:44:16,27595
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,5,Quality of kitchen,-1,Moderate,Very Bad,direction,2356,,,,,2022-06-17 23:44:26,27596
+61bb392e40db417c1a138dcb,ma_choice_v4_observers_pilot2,61bb392e40db417c1a138dcb,3,Year building was built,-1,1985,1950,direction,1858,,,,,2022-06-17 23:44:39,27597

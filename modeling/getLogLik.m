@@ -18,5 +18,5 @@ loglik_denom = log(exp(utilities) + 1);
 loglik_denom_isinf = isinf(loglik_denom);
 loglik_denom(loglik_denom_isinf) = utilities(loglik_denom_isinf);
 combined = utilities_num - loglik_denom;
-%loglik = sum(combined,2);
-loglik = mean(combined > log(.5), 2); % UNCOMMENT THIS IF YOU WANT ROUNDED CV
+loglik = sum(combined,2);
+%loglik = mean(combined > log(.5), 2); % UNCOMMENT THIS IF YOU WANT ROUNDED CV

@@ -18,7 +18,7 @@ for subj = 1:numSubj
     subj_data = data_real_scaled(subj);
     subj_model = best_model(subj);
     subj_results = results(subj_model);
-    if subj_model == find(strcmp(model_names,'LEX'))
+    if (subj_model == find(strcmp(model_names,'LEXB'))) || (subj_model == find(strcmp(model_names,'LEXNB')))
         temp = convertLEXparams(subj_results.x(subj,:), numAtts);
         best_params(subj,:) = temp(2:end);
     else
@@ -100,13 +100,21 @@ hist(option_values2_total_bysubj(72,:)) % low range of total value diffs across 
 hist(option_values2_total_bysubj_sd(72,:)) % pretty big range of range of total value diffs across people
 att_cors(72,:) % low correlations
 
+cur_options = squeeze(data_real_scaled(89).options(:,1,1:numTrials));
+option_values2 = abs(best_params * cur_options);
+hist(option_values2_bysubj(89,:)) % even in best case, pretty big range of avg value diff across people
+hist(option_values2_bysubj_sd(89,:)) % even in best case, pretty big range of range of value diffs across people
+hist(option_values2_total_bysubj(89,:)) % low range of total value diffs across people
+hist(option_values2_total_bysubj_sd(89,:)) % pretty big range of range of total value diffs across people
+att_cors(89,:) % low correlations
+
 %% generate 10k new option sets
 
 for att = 1:numAtts
     att_ranges{att} = unique(subj_options_total(att,1,:));
 end
 
-numSets = 1000;
+numSets = 10;
 new_options = zeros(numAtts, 2, numTrials, numSets);
 for set = 1:numSets
     for att = 1:numAtts

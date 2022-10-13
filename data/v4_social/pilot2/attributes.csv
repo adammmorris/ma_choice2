@@ -1,0 +1,295 @@
+﻿subject,version,assignmentId,attribute,scale,min_diff,lb,ub,postfix,stamp,id
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Distance from home,"",10,5,60, min away,2022-06-30 13:00:04,38954
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:00:04,38955
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:00:04,38956
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Duration,"",20,30,90, minutes,2022-06-30 13:00:04,38957
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Number of other people present,"",2,3,12, people,2022-06-30 13:00:04,38958
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:00:04,38959
+6236e23a8d6071933a13bbfa,ma_choice_v4_social_pilot2,6236e23a8d6071933a13bbfa,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:00:04,38960
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Distance from home,"",10,5,60, min away,2022-06-30 13:31:31,38961
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:31:31,38962
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:31:31,38963
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Number of other people present,"",2,3,12, people,2022-06-30 13:31:31,38964
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Duration,"",20,30,90, minutes,2022-06-30 13:31:31,38965
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:31:31,38966
+5ea3aa462d77061c2a8fc5d6,ma_choice_v4_social_pilot2,5ea3aa462d77061c2a8fc5d6,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:31:31,38967
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:41:48,38968
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Distance from home,"",10,5,60, min away,2022-06-30 13:41:48,38969
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:41:48,38970
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Number of other people present,"",2,3,12, people,2022-06-30 13:41:48,38971
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:41:48,38972
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:41:48,38973
+5c6f2ab29d7a310001470418,ma_choice_v4_social_pilot2,5c6f2ab29d7a310001470418,Duration,"",20,30,90, minutes,2022-06-30 13:41:48,38974
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Distance from home,"",10,5,60, min away,2022-06-30 13:42:09,38975
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:42:09,38976
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Duration,"",20,30,90, minutes,2022-06-30 13:42:09,38977
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:42:09,38978
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:42:09,38979
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Number of other people present,"",2,3,12, people,2022-06-30 13:42:09,38980
+6023d6c2657c850454e5a276,ma_choice_v4_social_pilot2,6023d6c2657c850454e5a276,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:42:09,38981
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:43:30,38982
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Distance from home,"",10,5,60, min away,2022-06-30 13:43:30,38983
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:43:30,38984
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Number of other people present,"",2,3,12, people,2022-06-30 13:43:30,38985
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:43:30,38986
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Duration,"",20,30,90, minutes,2022-06-30 13:43:30,38987
+62373694c3277138c1284e44,ma_choice_v4_social_pilot2,62373694c3277138c1284e44,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:43:30,38988
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:47:10,38989
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:47:10,38990
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:47:10,38991
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Distance from home,"",10,5,60, min away,2022-06-30 13:47:10,38992
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:47:10,38993
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Duration,"",20,30,90, minutes,2022-06-30 13:47:10,38994
+5becfeed4f191100013b46db,ma_choice_v4_social_pilot2,5becfeed4f191100013b46db,Number of other people present,"",2,3,12, people,2022-06-30 13:47:10,38995
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:53:27,38996
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Duration,"",20,30,90, minutes,2022-06-30 13:53:27,38997
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Number of other people present,"",2,3,12, people,2022-06-30 13:53:27,38998
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:53:27,38999
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Distance from home,"",10,5,60, min away,2022-06-30 13:53:27,39000
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:53:27,39001
+6277f8b4e9145fb3dd34debd,ma_choice_v4_social_pilot2,6277f8b4e9145fb3dd34debd,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:53:27,39002
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:56:45,39003
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Number of other people present,"",2,3,12, people,2022-06-30 13:56:45,39004
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Distance from home,"",10,5,60, min away,2022-06-30 13:56:45,39005
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:56:45,39006
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:56:45,39007
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Duration,"",20,30,90, minutes,2022-06-30 13:56:45,39008
+6237bbb045247e87198d491d,ma_choice_v4_social_pilot2,6237bbb045247e87198d491d,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:56:45,39009
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Duration,"",20,30,90, minutes,2022-06-30 13:58:37,39010
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:58:37,39011
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Number of other people present,"",2,3,12, people,2022-06-30 13:58:37,39012
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 13:58:37,39013
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:58:37,39014
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Distance from home,"",10,5,60, min away,2022-06-30 13:58:37,39015
+606dfa579ce4f86f0c7d3568,ma_choice_v4_social_pilot2,606dfa579ce4f86f0c7d3568,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 13:58:37,39016
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:02:12,39017
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:02:12,39018
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Distance from home,"",10,5,60, min away,2022-06-30 14:02:12,39019
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:02:12,39020
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Duration,"",20,30,90, minutes,2022-06-30 14:02:12,39021
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Number of other people present,"",2,3,12, people,2022-06-30 14:02:12,39022
+629e3f2e7aa7065ffef94278,ma_choice_v4_social_pilot2,629e3f2e7aa7065ffef94278,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:02:12,39023
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:02:38,39024
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Duration,"",20,30,90, minutes,2022-06-30 14:02:38,39025
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Distance from home,"",10,5,60, min away,2022-06-30 14:02:38,39026
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:02:38,39027
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:02:38,39028
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:02:38,39029
+60c93f189082587ea79ce324,ma_choice_v4_social_pilot2,60c93f189082587ea79ce324,Number of other people present,"",2,3,12, people,2022-06-30 14:02:38,39030
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:06:07,39031
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:06:07,39032
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Distance from home,"",10,5,60, min away,2022-06-30 14:06:07,39033
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Number of other people present,"",2,3,12, people,2022-06-30 14:06:07,39034
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Duration,"",20,30,90, minutes,2022-06-30 14:06:08,39035
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:06:08,39036
+600dd1ea271cf06201979123,ma_choice_v4_social_pilot2,600dd1ea271cf06201979123,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:06:08,39037
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Distance from home,"",10,5,60, min away,2022-06-30 14:06:31,39038
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:06:31,39039
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Number of other people present,"",2,3,12, people,2022-06-30 14:06:31,39040
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Duration,"",20,30,90, minutes,2022-06-30 14:06:31,39041
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:06:31,39042
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:06:31,39043
+610898813e48dc2864965122,ma_choice_v4_social_pilot2,610898813e48dc2864965122,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:06:31,39044
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:08:47,39045
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:08:47,39046
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:08:47,39047
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Number of other people present,"",2,3,12, people,2022-06-30 14:08:47,39048
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Distance from home,"",10,5,60, min away,2022-06-30 14:08:47,39049
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Duration,"",20,30,90, minutes,2022-06-30 14:08:47,39050
+607a7c3112ff1d9371319ed6,ma_choice_v4_social_pilot2,607a7c3112ff1d9371319ed6,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:08:47,39051
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Distance from home,"",10,5,60, min away,2022-06-30 14:09:22,39052
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:09:22,39053
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Duration,"",20,30,90, minutes,2022-06-30 14:09:22,39054
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Number of other people present,"",2,3,12, people,2022-06-30 14:09:22,39055
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:09:22,39056
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:09:22,39057
+5fc24a91ff661a07d0fd22be,ma_choice_v4_social_pilot2,5fc24a91ff661a07d0fd22be,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:09:22,39058
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Distance from home,"",10,5,60, min away,2022-06-30 14:11:10,39059
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:11:10,39060
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Number of other people present,"",2,3,12, people,2022-06-30 14:11:10,39061
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:11:10,39062
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Duration,"",20,30,90, minutes,2022-06-30 14:11:10,39063
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:11:10,39064
+5700616b8a49c7000d0c73ad,ma_choice_v4_social_pilot2,5700616b8a49c7000d0c73ad,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:11:10,39065
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Distance from home,"",10,5,60, min away,2022-06-30 14:12:33,39066
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:12:33,39067
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:12:33,39068
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:12:33,39069
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Duration,"",20,30,90, minutes,2022-06-30 14:12:33,39070
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:12:33,39071
+605ea7823833edb5ac64a5c0,ma_choice_v4_social_pilot2,605ea7823833edb5ac64a5c0,Number of other people present,"",2,3,12, people,2022-06-30 14:12:33,39072
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Duration,"",20,30,90, minutes,2022-06-30 14:13:20,39073
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:13:20,39074
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Distance from home,"",10,5,60, min away,2022-06-30 14:13:20,39075
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:13:20,39076
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:13:20,39077
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:13:20,39078
+620bd9f2a922fc3f247f648f,ma_choice_v4_social_pilot2,620bd9f2a922fc3f247f648f,Number of other people present,"",2,3,12, people,2022-06-30 14:13:20,39079
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Number of other people present,"",2,3,12, people,2022-06-30 14:13:40,39080
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:13:40,39081
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:13:40,39082
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Duration,"",20,30,90, minutes,2022-06-30 14:13:40,39083
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Distance from home,"",10,5,60, min away,2022-06-30 14:13:40,39084
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:13:40,39085
+59501f8ced9ed900013f6637,ma_choice_v4_social_pilot2,59501f8ced9ed900013f6637,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:13:40,39086
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:14:05,39087
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Duration,"",20,30,90, minutes,2022-06-30 14:14:05,39088
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:14:05,39089
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Number of other people present,"",2,3,12, people,2022-06-30 14:14:05,39090
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:14:05,39091
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:14:05,39092
+5d55d562e04e1c0001f5e682,ma_choice_v4_social_pilot2,5d55d562e04e1c0001f5e682,Distance from home,"",10,5,60, min away,2022-06-30 14:14:05,39093
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Distance from home,"",10,5,60, min away,2022-06-30 14:14:55,39094
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:14:55,39095
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:14:55,39096
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:14:55,39097
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:14:55,39098
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Duration,"",20,30,90, minutes,2022-06-30 14:14:55,39099
+60fec21e36a05990cfa8a715,ma_choice_v4_social_pilot2,60fec21e36a05990cfa8a715,Number of other people present,"",2,3,12, people,2022-06-30 14:14:55,39100
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Distance from home,"",10,5,60, min away,2022-06-30 14:15:09,39101
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Duration,"",20,30,90, minutes,2022-06-30 14:15:09,39102
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:15:09,39103
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:15:09,39104
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:15:09,39105
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Number of other people present,"",2,3,12, people,2022-06-30 14:15:09,39106
+5d6ac7e17658a1001a8c63b2,ma_choice_v4_social_pilot2,5d6ac7e17658a1001a8c63b2,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:15:09,39107
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:15:15,39108
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:15:15,39109
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Duration,"",20,30,90, minutes,2022-06-30 14:15:15,39110
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Number of other people present,"",2,3,12, people,2022-06-30 14:15:15,39111
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Distance from home,"",10,5,60, min away,2022-06-30 14:15:15,39112
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:15:15,39113
+6150a835a03467f9e2ff56ba,ma_choice_v4_social_pilot2,6150a835a03467f9e2ff56ba,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:15:15,39114
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:17:38,39115
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Distance from home,"",10,5,60, min away,2022-06-30 14:17:38,39116
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:17:38,39117
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Number of other people present,"",2,3,12, people,2022-06-30 14:17:38,39118
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:17:38,39119
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Duration,"",20,30,90, minutes,2022-06-30 14:17:38,39120
+629b4d940b984723e59c13ce,ma_choice_v4_social_pilot2,629b4d940b984723e59c13ce,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:17:38,39121
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Distance from home,"",10,5,60, min away,2022-06-30 14:18:43,39122
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:18:43,39123
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:18:43,39124
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Duration,"",20,30,90, minutes,2022-06-30 14:18:43,39125
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:18:43,39126
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Number of other people present,"",2,3,12, people,2022-06-30 14:18:43,39127
+60fd1c40e4dea75bcd7741f7,ma_choice_v4_social_pilot2,60fd1c40e4dea75bcd7741f7,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:18:43,39128
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Duration,"",20,30,90, minutes,2022-06-30 14:18:57,39129
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Distance from home,"",10,5,60, min away,2022-06-30 14:18:57,39130
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:18:57,39131
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:18:57,39132
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:18:57,39133
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:18:57,39134
+5b3e2334cdb4ce0001d93c51,ma_choice_v4_social_pilot2,5b3e2334cdb4ce0001d93c51,Number of other people present,"",2,3,12, people,2022-06-30 14:18:57,39135
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:20:14,39136
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Number of other people present,"",2,3,12, people,2022-06-30 14:20:14,39137
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:20:14,39138
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Distance from home,"",10,5,60, min away,2022-06-30 14:20:14,39139
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:20:14,39140
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:20:14,39141
+5ac2f7e35cd1050001621c00,ma_choice_v4_social_pilot2,5ac2f7e35cd1050001621c00,Duration,"",20,30,90, minutes,2022-06-30 14:20:14,39142
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:21:43,39143
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:21:43,39144
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:21:43,39145
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Duration,"",20,30,90, minutes,2022-06-30 14:21:43,39146
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:21:43,39147
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Distance from home,"",10,5,60, min away,2022-06-30 14:21:43,39148
+5af1c437bfb51a000181d170,ma_choice_v4_social_pilot2,5af1c437bfb51a000181d170,Number of other people present,"",2,3,12, people,2022-06-30 14:21:43,39149
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:21:47,39150
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Duration,"",20,30,90, minutes,2022-06-30 14:21:47,39151
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:21:47,39152
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Number of other people present,"",2,3,12, people,2022-06-30 14:21:47,39153
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Distance from home,"",10,5,60, min away,2022-06-30 14:21:47,39154
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:21:47,39155
+5e2cdab5cd89c83002bf56de,ma_choice_v4_social_pilot2,5e2cdab5cd89c83002bf56de,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:21:47,39156
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Number of other people present,"",2,3,12, people,2022-06-30 14:21:55,39157
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Distance from home,"",10,5,60, min away,2022-06-30 14:21:55,39158
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:21:55,39159
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:21:55,39160
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:21:55,39161
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:21:55,39162
+5c7336a216dc79000146929b,ma_choice_v4_social_pilot2,5c7336a216dc79000146929b,Duration,"",20,30,90, minutes,2022-06-30 14:21:55,39163
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:22:07,39164
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Duration,"",20,30,90, minutes,2022-06-30 14:22:07,39165
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:22:07,39166
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:22:07,39167
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Distance from home,"",10,5,60, min away,2022-06-30 14:22:07,39168
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Number of other people present,"",2,3,12, people,2022-06-30 14:22:07,39169
+62963cba834624f06ce0b80e,ma_choice_v4_social_pilot2,62963cba834624f06ce0b80e,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:22:07,39170
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Distance from home,"",10,5,60, min away,2022-06-30 14:22:21,39171
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:22:21,39172
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:22:21,39173
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Number of other people present,"",2,3,12, people,2022-06-30 14:22:21,39174
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:22:21,39175
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Duration,"",20,30,90, minutes,2022-06-30 14:22:21,39176
+5ce1f31a27efac0018821eed,ma_choice_v4_social_pilot2,5ce1f31a27efac0018821eed,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:22:22,39177
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Distance from home,"",10,5,60, min away,2022-06-30 14:24:19,39178
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Number of other people present,"",2,3,12, people,2022-06-30 14:24:19,39179
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:24:19,39180
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:24:19,39181
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:24:19,39182
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Duration,"",20,30,90, minutes,2022-06-30 14:24:19,39183
+602de65b3306198c0aaee65f,ma_choice_v4_social_pilot2,602de65b3306198c0aaee65f,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:24:19,39184
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:24:54,39185
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Duration,"",20,30,90, minutes,2022-06-30 14:24:54,39186
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:24:54,39187
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Distance from home,"",10,5,60, min away,2022-06-30 14:24:54,39188
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:24:54,39189
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Number of other people present,"",2,3,12, people,2022-06-30 14:24:54,39190
+5d652fe12ca6c80018880d19,ma_choice_v4_social_pilot2,5d652fe12ca6c80018880d19,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:24:54,39191
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Duration,"",20,30,90, minutes,2022-06-30 14:26:52,39192
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Number of other people present,"",2,3,12, people,2022-06-30 14:26:52,39193
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:26:52,39194
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:26:52,39195
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:26:52,39196
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:26:52,39197
+5acbd426e734400001da85e4,ma_choice_v4_social_pilot2,5acbd426e734400001da85e4,Distance from home,"",10,5,60, min away,2022-06-30 14:26:52,39198
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Distance from home,"",10,5,60, min away,2022-06-30 14:27:37,39199
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:27:37,39200
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:27:37,39201
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:27:37,39202
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Duration,"",20,30,90, minutes,2022-06-30 14:27:37,39203
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Number of other people present,"",2,3,12, people,2022-06-30 14:27:37,39204
+615f0069b9f34b5b57e40454,ma_choice_v4_social_pilot2,615f0069b9f34b5b57e40454,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:27:37,39205
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:29:00,39206
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Number of other people present,"",2,3,12, people,2022-06-30 14:29:00,39207
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:29:00,39208
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:29:00,39209
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Distance from home,"",10,5,60, min away,2022-06-30 14:29:00,39210
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Duration,"",20,30,90, minutes,2022-06-30 14:29:00,39211
+5ba3b4b2509a380001bee71d,ma_choice_v4_social_pilot2,5ba3b4b2509a380001bee71d,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:29:00,39212
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Distance from home,"",10,5,60, min away,2022-06-30 14:29:18,39213
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:29:18,39214
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:29:18,39215
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Duration,"",20,30,90, minutes,2022-06-30 14:29:18,39216
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:29:18,39217
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Number of other people present,"",2,3,12, people,2022-06-30 14:29:18,39218
+5fff95c313799d10cc390f19,ma_choice_v4_social_pilot2,5fff95c313799d10cc390f19,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:29:18,39219
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:29:44,39220
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Distance from home,"",10,5,60, min away,2022-06-30 14:29:44,39221
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Number of other people present,"",2,3,12, people,2022-06-30 14:29:44,39222
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:29:44,39223
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:29:44,39224
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:29:44,39225
+Akron1960,ma_choice_v4_social_pilot2,62b36713e7f1222fd112f23e,Duration,"",20,30,90, minutes,2022-06-30 14:29:44,39226
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Distance from home,"",10,5,60, min away,2022-06-30 14:37:33,39227
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:37:33,39228
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 14:37:33,39229
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Number of other people present,"",2,3,12, people,2022-06-30 14:37:33,39230
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Duration,"",20,30,90, minutes,2022-06-30 14:37:33,39231
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:37:33,39232
+5ab3fc4b5f01000001cb07e2,ma_choice_v4_social_pilot2,5ab3fc4b5f01000001cb07e2,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 14:37:33,39233
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 15:30:45,39234
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 15:30:45,39235
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 15:30:45,39236
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Duration,"",20,30,90, minutes,2022-06-30 15:30:45,39237
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 15:30:45,39238
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Number of other people present,"",2,3,12, people,2022-06-30 15:30:45,39239
+5e06ecd524f9390991997bb7,ma_choice_v4_social_pilot2,5e06ecd524f9390991997bb7,Distance from home,"",10,5,60, min away,2022-06-30 15:30:45,39240
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Number of other people present,"",2,3,12, people,2022-06-30 16:17:22,39241
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Quality of socializing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 16:17:22,39242
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 16:17:22,39243
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Quality of music playing,"Very Bad,Bad,Moderate,Good,Very Good",2,"","","",2022-06-30 16:17:22,39244
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-30 16:17:22,39245
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Duration,"",20,30,90, minutes,2022-06-30 16:17:22,39246
+5e606b1eaf84e83c728748d7,ma_choice_v4_social_pilot2,5e606b1eaf84e83c728748d7,Distance from home,"",10,5,60, min away,2022-06-30 16:17:22,39247

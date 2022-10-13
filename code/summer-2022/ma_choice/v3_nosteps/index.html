@@ -1,0 +1,1202 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Research Study</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script src="jspsych/jspsych.js"></script>
+    <script src="jspsych/plugins/jspsych-call-function.js"></script>
+    <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-slider-response.js"></script>
+    <script src='jspsych/plugins/jspsych-multiple-slider.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-likert.js'></script>
+    <script src='jspsych/plugins/jspsych-instructions.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-text.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-choice.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-choice-twocol.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-select.js'></script>
+    <script src='jspsych/plugins/jspsych-external-html.js'></script>
+    <script src='jspsych/plugins/jspsych-maxdiff.js'></script>
+    <script src='jspsych/plugins/jspsych-html-button-response.js'></script>
+    <script src='jspsych/plugins/jspsych-html-button-response-machoice.js'></script>
+    <script src='jspsych/plugins/jspsych-fullscreen.js'></script>
+    <!--<script src='jspsych/plugins/jspsych-image-button-response.js'></script>-->
+    <link href="jspsych/css/jspsych.css" rel="stylesheet" type="text/css">
+    <script src="utilities.js"></script>
+    <style>
+	td, th {padding: 20px;}
+	.big {font-size: 40px;}
+	.med {font-size: 24px;}
+	</style>
+</head>
+<body>
+</body>
+<script>
+
+// ***Setting Up the Experiment***
+
+// Meta-var's
+var turk_code = "JSALK23";
+var study_version = "ma_choice_v3_real1";
+
+var study_time = 45;
+var study_money = 5.66;
+
+// var instr_reading_time = 2000; // in milliseconds
+// var instructions_time = 0;
+
+// // find the assignmentId & debugging status from the URL
+var urlParams = parseURLParams(window.location.href);
+var subject_id_url = '';
+var debug = false;
+if (typeof urlParams != "undefined") {
+    if (urlParams.hasOwnProperty('PROLIFIC_PID')) {
+        subject_id_url = urlParams.PROLIFIC_PID[0];
+    }
+
+    if (urlParams.hasOwnProperty('debug')) {
+        debug = urlParams.debug[0];
+    }
+}
+
+
+//added attributes to arrays-- other option is to create hashmap/dictionary
+var yn =['No','Yes'];
+var size = ['None', 'Small', 'Medium', 'Large', 'Very Large']; // yard, garage
+var amount = ['Very Low', 'Low', 'Moderate', 'High', 'Very High']; // pollution, crime
+var amount2 = ['Very Little', 'A Little', 'A Moderate Amount', 'A Lot']; // light, traffic
+var prox1 = ['10 min away', '15 min away', '20 min away', '25 min away', '30 min away']; // parks, cafes/restaurants, public transportation
+//var prox2 = ['10 min away', '30 min away', '50 min away', '70 min away', '90 min away']; // waterfront/beaches
+var goodness = ['Very Bad', 'Bad', 'Moderate', 'Good', 'Very Good']; // reputation-school, climate
+
+// if scale is null, must include postfix
+var home_attributes = [
+	//{name: 'Number of Bedrooms', scale: null, lb: 1, ub: 3, postfix: ' bdrm'},
+	//{name: 'Size of garage', scale: size},
+	{name: 'Closeness to parks', scale: prox1, min_diff: 2},
+	{name: 'Closeness to cafes/restaurants', scale: prox1, min_diff: 2},
+	{name: 'Closeness to public transportation', scale: prox1, min_diff: 2},
+	//{name: 'Closeness to Waterfront/Beaches', scale: prox2},
+	{name: 'Noise pollution', scale: amount, min_diff: 2},
+	{name: 'Reputation of closest school', scale: goodness, min_diff: 2},
+	{name: 'Amount of natural light', scale: amount2, min_diff: 2},
+	{name: 'Year building was built', scale: null, lb: 1950, ub: 2020, postfix: '', min_diff: 20, round_to: 1},
+	//{name: 'Amount of crime in neighborhood', scale: amount, min_diff: 2},
+	//{name: 'Reputation of landlord', scale: goodness},
+	{name: 'Size of yard', scale: null, lb: 0, ub: 600, postfix: ' square feet', min_diff: 150, round_to: 50},
+	//{name: 'Fireplace', scale: yn},
+	{name: 'Washer/dryer in unit', scale: yn, min_diff: 1},
+	{name: 'Quality of heat/AC system', scale: goodness, min_diff: 2},
+	{name: 'Amount of traffic', scale: amount2, min_diff: 2},
+	//{name: 'Weather in Area', scale: goodness},
+	//{name: 'Hardwood Floors', scale: yn},
+	//{name: 'Freshly Painted Exterior', scale: yn},
+	{name: 'Size of home', scale: null, lb: 600, ub: 1800, postfix: ' square feet', min_diff: 200, round_to: 100},
+];
+
+var home_attribute_names = [];
+for (i = 0; i < home_attributes.length; i++) {
+	home_attribute_names.push(home_attributes[i].name);
+}
+
+var num_attributes_to_use = home_attributes.length;
+var num_practice_trials = 10;
+var num_trials = 75;
+var trial_wait_time = 7000;
+var num_attributes_to_ask_about = home_attributes.length;
+
+if (debug) {
+	num_practice_trials = 1;
+	num_trials = 1;
+	trial_wait_time = 0;
+	num_attributes_to_ask_about = 10;
+}
+
+function generateAttributeValues(cur_attributes){
+	var arr = [];
+	for (let j=0;j<cur_attributes.length;j++){
+		cur_att = cur_attributes[j];
+		if (cur_att.scale == null) {
+			/*if (cur_att.postfix == null) {
+				arr.push([cur_att.name,
+					Math.floor(Math.random() * (cur_att.ub - cur_att.lb)) + cur_att.lb,
+					Math.floor(Math.random() * (cur_att.ub - cur_att.lb)) + cur_att.lb]);
+				} else {*/
+			var rand1 = Math.floor(Math.random() * (cur_att.ub - cur_att.lb)) + cur_att.lb;
+			var rand2 = -1;
+			do {
+				rand2 = Math.floor(Math.random() * (cur_att.ub - cur_att.lb)) + cur_att.lb;
+			} while(Math.abs(rand2 - rand1) < cur_att.min_diff);
+			arr.push([cur_att.name, Math.round(rand1/cur_att.round_to)*cur_att.round_to + cur_att.postfix, Math.round(rand2/cur_att.round_to)*cur_att.round_to + cur_att.postfix]);
+				//}
+		} else {
+			var rand1 = Math.floor(Math.random() * cur_att.scale.length);
+			var rand2 = -1;
+			do {
+				rand2 = Math.floor(Math.random() * cur_att.scale.length);
+			} while(Math.abs(rand2 - rand1) < cur_att.min_diff);
+			arr.push([cur_att.name, cur_att.scale[rand1], cur_att.scale[rand2]]);
+		}
+	}
+return arr;
+}
+
+function generateTable(arr) {
+	let tbl_html = "<div align='center'><table border = 2px solid black><thead>\
+	</tr><tr><th></th><td><b>Home A</b></td><td><b>Home B</b></td>";
+
+	for (var i = 0; i < arr.length; i++) {
+		tbl_html += "<tr><th>"+arr[i][0]+"</th><td>"+arr[i][1]+"</td><td>"+arr[i][2]+"</td>";
+	}
+
+	tbl_html += '</tr></table><br>';
+
+	//return "<div align='center'><table border = 2px solid black><thead></tr><tr><th></th><td><b>Home A</b></td><td><b>Home B</b></td><tr><th>"+arr[0][0]+"</th><td>"+arr[0][1]+"</td><td>"+arr[0][2]+"</td><tr><th>"+arr[1][0]+"</th><td>"+arr[1][1]+"</td><td>"+arr[1][2]+"</td></tr><tr><th>"+arr[2][0]+"</th><td>"+arr[2][1]+"</td><td>"+arr[2][2]+"</td></tr><tr><th>"+arr[3][0]+"</th><td>"+arr[3][1]+"</td><td>"+arr[3][2]+"</td></tr><tr><th>"+arr[4][0]+"</th><td>"+arr[4][1]+"</td><td>"+arr[4][2]+"</td></tr></table>"
+	return tbl_html;
+}
+
+var start_instructions = 0;
+
+// ***Intro Blocks***
+
+// credit to Tasuku Igarashi (https://github.com/tasukuigarashi/jspsych_recaptcha)
+var recaptcha = {
+    type: "external-html",
+    url: "recaptcha.html",
+    cont_btn: "submit_button",
+    execute_script: true
+};
+
+var welcome = {
+	type: 'instructions',
+	pages: ['<b>Welcome to the first half of the research study on decision-making!</b>'],
+	show_clickable_nav: true
+}
+
+var fullscreen = {
+	type: "fullscreen",
+	message: "We ask that you take this experiment in full screen mode. \
+	When you click the 'Continue' button below, your browser will go full screen and you may start the study.<br><br>",
+	fullscreen_mode: true,
+};
+
+var get_id = {
+	type: 'survey-text',
+	questions: [{prompt: "<b>Prolific ID:</b>", name: "worker_id"}],
+	preamble: ["Please enter your <b>Prolific ID</b> below.<br>(When you're done, press <b>'Continue'</b>.)"],
+};
+
+var subject_id = '';
+var get_id_loop = {
+	timeline: [get_id],
+	loop_function: function(data) {
+		id = data.values()[0].response.worker_id;
+		if (id) {
+			jsPsych.data.addProperties({
+				subject: id,
+				version: study_version,
+				assignmentId: subject_id_url
+			});
+			subject_id = id;
+
+			// save att data
+			for (var i = 0; i < home_attributes.length; i++) {
+				att = home_attributes[i];
+				att_data = {
+					subject: id,
+					version: study_version,
+					assignmentId: subject_id_url,
+					attribute: att.name,
+					scale: att.scale == null ? '' : att.scale.toString(),
+					min_diff: att.min_diff || null,
+					lb: att.lb == undefined ? '' : att.lb,
+					ub: att.ub == undefined ? '' : att.ub,
+					postfix: att.postfix == undefined ? '' : att.postfix,
+				}
+
+				save_data(att_data, 'attributes');
+			}
+
+			start_instructions = Date.now();
+
+			return false;
+		} else {
+			alert("Please provide your Prolific ID.");
+			return true;
+		}
+	}
+}
+
+var check_consent = function(elem) {
+	if ($('#consent_checkbox').is(':checked')) {
+		return true;
+	}
+	else {
+		alert("If you wish to participate, you must check the box next to the statement 'I agree to participate in this study.'");
+		return false;
+	}
+	return false;
+};
+
+var consent_block = {
+	type:'external-html',
+	url: "consent.php?time=" + study_time + "&money=" + study_money + "&test=1",
+	cont_btn: "start",
+	check_fn: check_consent,
+	force_refresh: true
+};
+
+// first attention check
+var attnCheck1 = {
+    type: 'survey-text',
+    questions: [{prompt: 'Your response', name: 'attention_check', required: debug ? false : true}],
+    preamble: ["In order to complete this study, you will need to pay close attention for its entire duration. If you do not pay close attention, your data will be unusable.\
+		<b>Please do not take this study unless you have time and energy to pay attention for the full length of time.</b>\
+		<br><br>Please type this exact sentence into the box below: 'I will complete this study with my full attention.' and then continue."],
+    on_finish: function(data) {
+    	jsPsych.data.addProperties({attention_check: data.response.attention_check});
+    }
+};
+
+// ***Welcome and Task 1 Instructions***
+var instructions_text = ['Please <b>do not</b> press the <b>back</b> button or <b>refresh</b> your browser during the study; if you do, you will have to start over. <br><br> Please click <b>Next</b> and read the following instructions carefully. <br></br>',
+
+ 	'<br></br>This study has two sections. Each section should take about 20 minutes.',
+
+	'<h2><u>Section 1</u></h2> In Section 1, you will make a series of choices. Each choice will be between <b>two homes that you might want to rent</b>.',
+
+	"Each home will have a list of features that describe it. For instance, here are two homes that you might be asked to choose between:<br><br>\
+	<img src='images/example_table.png' width='50%''></img>\
+	<br><br><b>Your job will be to choose which home you'd rather rent.</b>",
+
+	/*"The descriptions of the homes on each trial will be incomplete.\
+	So for instance, on some trials, we might tell you about the age of the building and how close the home is to parks; \
+	but on other trials, we might instead tell you information about the number of bedrooms and the reputation of the closest school.<br><br>\
+	Your job is to use the information you have to make the best choice you can.",*/
+
+	"We'll ask you to spend some time thinking about each choice before making it. On each trial, after " + trial_wait_time / 1000 + " seconds, two buttons will appear like this:<br><br>\
+	<img src='images/example_buttons.png'></img><br><br>\
+	When you're ready, select the button that corresponds to your choice (i.e. either Home A or Home B). \
+	You don't have to make your choice as soon as the buttons appear; you can take as much time as you need on each trial.",
+
+	"On all trials, you should assume that the two homes (Home A and B) <b>cost the same amount in rent</b>. They only differ on the features presented on the screen.<br><br>\
+	Also, when making your choices, you should <b>assume that these are the only two homes available</b>. Sometimes the two homes might both be bad choices from your perspective. That's okay -- just do your best to choose the home you'd rather rent if those were your only two options.",
+
+	"Let's give you some practice trials to get the hang of it. There will be " + num_practice_trials + " practice trials.<br><br>\
+	When you're ready, please continue."
+];
+
+var instructions_times = Array();
+ var instructions = {
+	type: "instructions",
+	pages: instructions_text,
+	show_clickable_nav: true,
+	on_finish: function(data) {
+		for (var i = 0; i < data.view_history.length; i++) {
+			instructions_times.push(data.view_history[i].viewing_time);
+		}
+	}
+}
+
+var instructions2 = {
+	type: 'instructions',
+	pages: ["Great job. Let's move on to the real trials.",
+		"One last thing before you start. While you're making your choices, <b>please pay attention to how you're making them</b> -- i.e. how much the different factors are influencing your choice.",
+		"There will be " + num_trials + " trials in total. Please do your best to pay attention throughout this whole section, and continue to make the best choice you can on each trial.<br><br>\
+		When you're ready to start, press 'Next'."],
+		show_clickable_nav: true,
+		on_finish: function(data) {
+			for (var i = 0; i < data.view_history.length; i++) {
+				instructions_times.push(data.view_history[i].viewing_time);
+			}
+		}
+}
+
+var practice_trials = [];
+for (var i = 0; i < num_practice_trials; i++) {
+	var cur_attributes = jsPsych.randomization.sampleWithoutReplacement(home_attributes,num_attributes_to_use);
+	var attribute_values = generateAttributeValues(cur_attributes);
+	var tbl = generateTable(attribute_values);
+
+	practice_trials.push({
+		 type: 'html-button-response-machoice',
+		 stimulus: tbl,
+		 choices: ['Home A','Home B'],
+		 prompt: 'Which would you choose?<br><small>(Trial ' + (i+1) + ' out of ' + num_practice_trials + ')</small>',
+		 button_duration: trial_wait_time, //how long to hide buttons
+ 		 data: {which_trial: i, atts: cur_attributes, att_values: attribute_values},
+		 on_finish: function(data) {
+		   att_names = [];
+			 atts_opt1 = [];
+			 atts_opt2 = [];
+
+			 for (var i = 0; i < data.att_values.length; i++) {
+				 att_names.push(data.att_values[i][0]);
+				 atts_opt1.push(data.att_values[i][1]);
+				 atts_opt2.push(data.att_values[i][2]);
+			 }
+
+			 s1_data = {
+				 subject: data.subject,
+				 version: data.version,
+				 assignmentId: subject_id_url,
+				 trial: data.which_trial,
+				 practice: 1,
+				 opt1_id: -1,
+				 opt2_id: -1,
+				 attributes: att_names.toString(),
+				 opt1_values: atts_opt1.toString(),
+				 opt2_values: atts_opt2.toString(),
+				 choice: data.response,
+				 rt: data.rt
+			 }
+
+			 save_data(s1_data, 's1');
+		 }
+	 });
+}
+
+var trials = [];
+for (var i = 0; i < num_trials; i++) {
+	var cur_attributes = jsPsych.randomization.sampleWithoutReplacement(home_attributes,num_attributes_to_use);
+	var attribute_values = generateAttributeValues(cur_attributes);
+	var tbl = generateTable(attribute_values);
+
+	trials.push({
+		 type: 'html-button-response-machoice',
+		 stimulus: tbl,
+		 choices: ['Home A','Home B'],
+		 prompt: 'Which would you choose?<br><small>(Trial ' + (i+1) + ' out of ' + num_trials + ')</small>',
+		 button_duration: trial_wait_time, //how long to hide buttons
+ 		 data: {which_trial: i, atts: cur_attributes, att_values: attribute_values},
+		 on_finish: function(data) {
+			 att_names = [];
+			 atts_opt1 = [];
+			 atts_opt2 = [];
+
+			 for (var i = 0; i < data.att_values.length; i++) {
+				 att_names.push(data.att_values[i][0]);
+				 atts_opt1.push(data.att_values[i][1]);
+				 atts_opt2.push(data.att_values[i][2]);
+			 }
+
+			 s1_data = {
+				 subject: data.subject,
+				 version: data.version,
+				 assignmentId: subject_id_url,
+				 trial: data.which_trial,
+				 practice: 0,
+				 opt1_id: -1,
+				 opt2_id: -1,
+				 attributes: att_names.toString(),
+				 opt1_values: atts_opt1.toString(),
+				 opt2_values: atts_opt2.toString(),
+				 choice: data.response,
+				 rt: data.rt
+			 }
+
+			 save_data(s1_data, 's1');
+		 }
+	 });
+}
+
+var fixation = {
+    type: 'html-keyboard-response',
+    stimulus: '<span style="font-size:40px;">+</span>',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: 1000
+}
+
+var question_rts = new Object();
+
+//*** Survey Questions ***
+var attribute_instructions = {
+	type: 'instructions',
+	pages: ["Great work. You've completed Section 1.",
+	"<h2><u>Section 2</u></h2> Now, in Section 2, we are going to ask you to reflect on the decisions you just made in Section 1, and how you considered the various features of each home while making your choices.",
+	],
+	show_clickable_nav: true,
+	on_finish: function(data) {
+		for (var i = 0; i < data.view_history.length; i++) {
+			instructions_times.push(data.view_history[i].viewing_time);
+		}
+	}
+};
+
+var full_or_lex = -1;
+var lex_options = ["<u><b>Strategy 1:</b> I made my decisions based off a <b>single, most-important feature</b> and \
+did not consider the other features.</u><br><br>For instance, if someone only cared about the size of the home (and no other features) when making their decisions, their strategy might look like this:<div style='text-align: center'><img src='images/lex-strat-1.png' width=80%></div><br>\
+Of course, you might have cared about a different feature than the one in this example. But the point is that you only cared about one feature.",
+
+"<u><b>Strategy 2:</b> I considered <b>multiple features</b> of the homes when making my decisions.</u><br><br>\
+For instance, if someone cared about the amount of natural light, the size of the home, and the noise pollution when making their decisions, their strategy might look like this: <div style='text-align: center'><img src='images/lex-strat-2.png' width=70%></div><br>\
+Of course, you might have cared about different features than the ones in this example. But the point is that you cared about more than one feature."];
+var lex_q = {
+    type: 'survey-multi-choice-twocol',
+    preamble: "<h2>Question 1</h2>Please carefully read each of the strategies below and <b>indicate which most accurately reflects how you made decisions during Section 1</b> of the task.\
+		<br><br>Move your mouse over each strategy box to see that strategy in more detail. To select a strategy, click on it.",
+		questions: [{prompt: "", options: lex_options, horizontal: true, required: debug ? false : true}],
+    on_finish: function(data) {
+			var response = data.response.Q0;
+			full_or_lex = lex_options.indexOf(response) + 1;
+      jsPsych.data.addProperties({full_or_lex: full_or_lex});
+
+			question_rts.lex_strat = data.rt;
+    }
+};
+
+var signed_weights = -1;
+var weights_options = ["<u><b>Strategy 1:</b> Among the features of the homes that mattered to you, you <b>cared about them all equally</b>.</u><br><br>\
+For instance, if the three features you cared about were natural light, size of the home, and noise pollution, you cared about them <i>equally</i> when making your choices. \
+This strategy might look like this: <div style='text-align: center'><img src='images/ew-strat.png' width=80%></div><br>\
+Of course, you might have cared about different features than the ones in this example. \
+But the point is that, for the features you <i>did</i> care about, you cared about them all an equal amount.",
+
+"<u><b>Strategy 2:</b> Among the features of the homes that mattered to you, the <b>importance of those features differed</b>.</u><br><br>\
+For instance, if the three features you considered were natural light, size of the home, and noise pollution, you cared about some of those features more than others when making your choices. \
+This strategy might look like this: <div style='text-align: center'><img src='images/wad-strat.png' width=70%></div><br>\
+Of course, you might have cared about different features than the ones in this example. But the point is that, for the features you <i>did</i> care about, you cared about some more than others."];
+var weights_q = {
+    type: 'survey-multi-choice-twocol',
+    preamble: '<h2>Question 2</h2> Again, please carefully read each of the strategies below and <b>indicate which most accurately reflects how you made decisions during Section 1</b> of the task.\
+		<br><br>Move your mouse over each strategy box to see that strategy in more detail. To select a strategy, click on it.',
+		questions: [{prompt: '', options: weights_options, horizontal: true, required: debug ? false : true}],
+    on_finish: function(data){
+			if (full_or_lex == 2) {
+				var response = data.response.Q0;
+				signed_weights = weights_options.indexOf(response) + 1;
+	      jsPsych.data.addProperties({signed_weights: signed_weights});
+
+				question_rts.weight_strat = data.rt;
+			}
+    },
+		skip: function() {return(full_or_lex == 2 ? false : true)}
+};
+
+var signed_attributes = -1;
+var attributes_options = ["<u><b>Strategy 1:</b> For each feature of the homes that mattered to you, you only considered <b>which</b> home was better or worse on that feature, \
+but not <b>how much</b> better or worse it was.</u><br><br>\
+For instance, if you were considering the size and amount of natural light for each home, you only checked <i>which</i> home was bigger and had more natural light; \
+you didn't consider how <i>much</i> bigger it was, or how <i>much more</i> natural light it had. This strategy might look like this: <div style='text-align: center'><img src='images/wp-strat-1.png' width=80%></div><br>\
+Of course, you might have cared about different features than the ones in this example. But the point is that, for the features you did care about, you only considered which home was better or worse on each of those features (not how <i>much</i> better or worse it was).",
+
+"<u><b>Strategy 2:</b> For each feature of the homes that mattered to you, you went beyond checking which home was better or worse on that feature, and considered <b>how much</b> better or worse it was.</u><br><br>\
+For instance, if you were considering the size and amount of natural light for each home, you considered how <i>much</i> bigger it was, or how <i>much more</i> natural light it had. \
+This strategy might look like this: <div style='text-align: center'><img src='images/wp-strat-2.png' width=80%></div><br>\
+Of course, you might have cared about different features than the ones in this example. But the point is that, for the features you did care about, you went beyond considering which home was better or worse on each feature, and considered how <i>much</i> better or worse the home was on each feature."]
+var attributes_q = {
+    type: 'survey-multi-choice-twocol',
+    preamble: "<h2>Question 3</h2> Again, please carefully read each of the strategies below and <b>indicate which most accurately reflects how you made decisions during Section 1</b> of the task.\
+		<br><br>Move your mouse over each strategy box to see that strategy in more detail. To select a strategy, click on it.",
+    questions: [{prompt: "", options: attributes_options, horizontal: true, required: debug ? false : true}],
+    on_finish: function(data){
+			if (full_or_lex == 2) {
+				var response = data.response.Q0;
+				signed_attributes = attributes_options.indexOf(response) + 1;
+	      jsPsych.data.addProperties({signed_attributes: signed_attributes});
+
+				question_rts.attribute_strat = data.rt;
+			}
+    },
+		skip: function() {return(full_or_lex == 2 ? false : true)}
+};
+
+var consistency1 = {
+    type: 'html-slider-response',
+		require_movement: debug ? false : true,
+		start: 0,
+    stimulus: '<p>For the decision strategies you indicated, how consistently did you use these strategies throughout Section 1 of the experiment? <br>In other words, how much did the way you made your choices stay the same from trial to trial?</p>',
+    labels: ['0 <br></br> Very Inconsistent', '1', '2 <br></br> Quite Inconsistent', '3', '4 <br></br> Moderate', '5', '6 <br></br> Quite Consistent', '7', '8<br></br>Very Consistent'],
+		on_finish: function(data) {
+			jsPsych.data.addProperties({consistency1: data.response});
+
+			question_rts.consistency1 = data.rt;
+		}
+};
+
+var attr_instr_text_wad = ["Great. Now, we'll ask <b>how much you cared about each feature of the homes when making your decisions.</b><br><br>\
+For instance, we'll ask you how much you cared about the homes' closeness to parks when making your decisions, how much you cared about the reputation of the closest school, and so on.",
+
+"This is what the questions will look like:<br><br>\
+<img src='images/example_introspection.png' width='35%' style='border: 1px solid #000000'></img><br><br>\
+So if you didn't care about the size of the home at all, you'd move the slider to 0; if you cared a moderate amount, you'd move the slider to around 4; \
+and if it completely determined your choice, you'd move the slider to 8. And you can move the slider anywhere in between.",
+
+"When you're ready, press 'Next'."];
+
+var attr_instr_text_ew = ["Great. Now, we'll ask <b>which features of the homes you cared about when making your decisions</b>.<br><br>\
+For instance, we'll ask you whether you cared about homes' closeness to parks, the reputation of the closest school, and so on.",
+
+"This is what the questions will look like:<br><br>\
+<img src='images/example_introspection_ew.png' width='50%' style='border: 1px solid #000000'></img><br><br>\
+So if you did care about the size of the home, you'd select 'Yes'; and if you didn't, you'd select 'No'.",
+
+"When you're ready, press 'Next'."];
+
+var attr_instr_text_lex = ["Great. Now, we'll ask you which single feature of the homes you primarily used to make your decisions. \
+The question will look like this:<br><br>\
+<img src='images/example_introspection_lex.png' width='30%' style='border: 1px solid #000000'></img><br><br>\
+For instance, maybe you primarily made your decision based on the homes' closeness to parks. If so, you would select 'Closeness to parks' for this question.",
+
+"When you're ready, press 'Next'."];
+
+var attribute_instructions2 = {
+	type: 'instructions',
+	pages: function() {
+		cur_data = jsPsych.data.getLastTrialData().values()[0];
+		instr = new Array();
+		if (cur_data.full_or_lex == 2) {
+			if (cur_data.signed_weights == 1) {
+				instr = attr_instr_text_ew;
+			} else {
+				instr = attr_instr_text_wad;
+			}
+		} else {
+			instr = attr_instr_text_lex;
+		}
+
+		return(instr);
+	},
+	show_clickable_nav: true,
+	on_finish: function(data) {
+		for (var i = 0; i < data.view_history.length; i++) {
+			instructions_times.push(data.view_history[i].viewing_time);
+		}
+	}
+};
+
+var label = ["0 <br> Didn't care about it at all", '1', '2 <br> Cared a little', '3', '4 <br> Cared somewhat', '5', '6 <br> Cared a lot', '7', '8<br>It completely determined my choices']
+var label_ew = ['Yes', 'No'];
+var prompt = '<br><br><br><br>How much did you care about this feature when making your decisions?';
+var prompt_ew = '<br>Did you care about this feature when making your decisions?';
+var attribute_ratings = new Array(home_attributes.length);
+var attribute_ratings_EW = new Array(home_attributes.length);
+
+for (var i = 0; i < home_attributes.length; i++) {
+	att = home_attributes[i];
+	attribute_ratings[i] = {
+  	type: 'html-slider-response',
+		labels: label,
+  	stimulus: '<b>' + att.name + '</b>',
+		prompt: prompt,
+		max: 100,
+		slider_start: 0,
+	 	require_movement: debug ? false : true,
+		data: {which_trial: i, attribute_name: att.name},
+		on_finish: function(data) {
+			if (signed_weights == 2) {
+				s2_data = {
+					subject: data.subject,
+					version: data.version,
+					assignmentId: subject_id_url,
+					trial: data.which_trial,
+					attribute: data.attribute_name,
+					original_or_followup: 'original',
+					signed_weights: data.signed_weights,
+					full_or_lex: full_or_lex,
+					rating: data.response,
+					least_preferred: null,
+					most_preferred: null,
+					rt: data.rt
+				}
+
+				save_data(s2_data, 's2');
+			}
+		},
+		skip: function() {return(signed_weights == 2 ? false : true)}
+	};
+
+	attribute_ratings_EW[i] = {
+  	type: 'survey-multi-choice',
+		preamble: '<b>' + att.name + '</b>',
+		questions: [{prompt: prompt_ew, options: label_ew, required: debug ? false : true, horizontal: true}],
+		data: {which_trial: i, attribute_name: att.name},
+		on_finish: function(data) {
+			if (signed_weights == 1) {
+				s2_data = {
+					subject: data.subject,
+					version: data.version,
+					assignmentId: subject_id_url,
+					trial: data.which_trial,
+					attribute: data.attribute_name,
+					original_or_followup: 'original',
+					signed_weights: data.signed_weights,
+					full_or_lex: full_or_lex,
+					rating: data.response.Q0 == 'Yes' ? 1 : 0,
+					least_preferred: null,
+					most_preferred: null,
+					rt: data.rt
+				}
+
+				save_data(s2_data, 's2');
+			}
+		},
+		skip: function() {return(signed_weights == 1 ? false : true)}
+	};
+}
+
+attribute_ratings = _.shuffle(attribute_ratings);
+attribute_ratings_EW = _.shuffle(attribute_ratings_EW);
+
+home_attribute_names_ext = [...home_attribute_names];
+//home_attribute_names_ext.push('I did not have a backup; I only made my choices based on the first attribute.')
+var attribute_ratings_lex = {
+		type: 'survey-multi-choice',
+		questions: [
+			{prompt: '<b>What feature did you primarily use to make your choices?</b>', options: home_attribute_names, required : debug ? false : true, horizontal: false}
+		],
+		preamble: '',
+		on_finish: function(data) {
+			if (full_or_lex == 1) {
+				s2_data = {
+					subject: data.subject,
+					version: data.version,
+					assignmentId: subject_id_url,
+					trial: 0,
+					attribute: data.response.Q0,
+					original_or_followup: 'original',
+					signed_weights: data.signed_weights,
+					full_or_lex: data.full_or_lex,
+					rating: 1,
+					least_preferred: null,
+					most_preferred: null,
+					rt: data.rt
+				}
+			save_data(s2_data, 's2');
+			}
+		},
+		skip: function() {return(full_or_lex == 1 ? false : true)}
+}
+
+var appropriateness = {
+    type: 'html-slider-response',
+		require_movement: debug ? false : true,
+    stimulus: `<p>Throughout Section 2, we've asked you various questions about how you made your choices in Section 1. <b>How well have these questions captured the way you made your choices?</b>
+		Do you think that, by answering these questions, you've accurately and fully described how you made your choices in Section 1? Or are there important aspects of your decision-making process that we've missed?<br>
+		<br>(We'll give you a chance to describe your decision-making process in your own words later on.)</p>`,
+    labels: ['0 <br><br>These questions totally failed to capture how I made my choices in Section 1', '1', '2', '3', '4', '5', '6', '7', '8 <br><br>These questions completely captured how I made my choices in Section 1'],
+		on_finish: function(data) {
+			jsPsych.data.addProperties({appropriateness: data.response});
+
+			question_rts.appropriateness = data.rt;
+		}
+};
+
+/* make a follow-up assuming WAD */
+
+var attribute_instructions_followup = {
+	type: 'instructions',
+	pages: ["Good job. Now, we're going to ask you about how you made your choices in Section 1 in a different way. \
+		We'll ask <b>how much you cared about each feature of the homes when making your decisions.</b><br><br>\
+		For instance, we'll ask you how much you cared about the homes' closeness to parks, how much you cared about the reputation of the closest school, and so on.",
+
+		"This is what the questions will look like:<br><br>\
+		<img src='images/example_introspection.png' width='35%' style='border: 1px solid #000000'></img><br><br>\
+		So if you didn't care about the size of the home at all, you'd move the slider to 0; if you cared a moderate amount, you'd move the slider to around 4; \
+		and if it determined your choice, you'd move the slider to 8. And you can move the slider anywhere in between.",
+
+		"When you're ready, press 'Next'."
+	],
+	show_clickable_nav: true,
+	skip: function() {return(full_or_lex == 1 || signed_weights == 1 ? false : true)},
+	on_finish: function(data) {
+		for (var i = 0; i < data.view_history.length; i++) {
+			instructions_times.push(data.view_history[i].viewing_time);
+		}
+	}
+};
+
+var attribute_ratings_followup = new Array(home_attributes.length);
+for (var i = 0; i < home_attributes.length; i++) {
+	att = home_attributes[i];
+	attribute_ratings_followup[i] = {
+  	type: 'html-slider-response',
+		labels: label,
+  	stimulus: '<b>' + att.name + '</b>',
+		prompt: prompt,
+		max: 100,
+		slider_start: 0,
+	 	require_movement: debug ? false : true,
+		data: {which_trial: i, attribute_name: att.name},
+		on_finish: function(data) {
+			s2_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: subject_id_url,
+				trial: data.which_trial,
+				attribute: data.attribute_name,
+				original_or_followup: 'followup',
+				signed_weights: data.signed_weights,
+				full_or_lex: data.full_or_lex,
+				rating: data.response,
+				least_preferred: null,
+				most_preferred: null,
+				rt: data.rt,
+			}
+
+			save_data(s2_data, 's2');
+		},
+		skip: function() {return(full_or_lex == 1 || signed_weights == 1 ? false : true)}
+	};
+}
+
+attribute_ratings_followup = _.shuffle(attribute_ratings_followup);
+
+var consistency2 = {
+    type: 'html-slider-response',
+		require_movement: debug ? false : true,
+    stimulus: '<p>How consistent was the amount that you cared about each feature throughout Section 1 of the task? \
+		<br>In other words, how much did the amount you cared about each feature stay the same from trial to trial?</p>',
+    labels: ['0 <br></br> Very Inconsistent', '1', '2 <br></br> Quite Inconsistent', '3', '4 <br></br> Moderate', '5', '6 <br></br> Quite Consistent', '7', '8<br></br>Very Consistent'],
+		on_finish: function(data) {
+			jsPsych.data.addProperties({consistency2: data.response});
+
+			question_rts.consistency2 = data.rt;
+		}
+};
+
+/* get directions */
+
+var attr_instr_text_direction = [
+	"Now, we'll ask you one more thing about the features of the homes.",
+
+	"In Section 1, each feature of the homes had multiple 'settings' it could have taken on.<br><br>For instance, the size of the home could have been 600 square feet, 1200 square feet, etc.; \
+	the amount of natural light could have been 'Very Little', 'A Little', 'Moderate', or 'A Lot'; and so on.",
+
+	"<b>We want to know:</b> For each feature, which of these settings would you have <span style='color: green'><b>most</b></span> preferred in a home, and which would you have <span style='color: red'><b>least</b></span> preferred in a home? \
+	<br><br>In other words, when making your choices in Section 1, which setting of that feature was the <span style='color: green'><b>best</b></span> setting for you, and which was the <span style='color: red'><b>worst</b></span> setting for you?",
+
+	"Here's an example of what the question will look like:<br><br><br>\
+	<img src='images/example_introspection_direction.png' width='100%' style='border: 1px solid #000000'></img><br><br><br>\
+	So if, for you, 'A Lot' would have been the <span style='color: green'><b>best</b></span> setting for 'Amount of natural light', you would select 'A Lot' for the first question.<br><br>\
+	And if 'Very Little' would have been the <span style='color: red'><b>worst</b></span> setting for 'Amount of natural light', you would select 'Very Little' for the second question.",
+
+	"When you're ready, press 'Next'."
+];
+
+var attribute_instructions_direction = {
+	type: 'instructions',
+	pages: attr_instr_text_direction,
+	show_clickable_nav: true,
+	on_finish: function(data) {
+		for (var i = 0; i < data.view_history.length; i++) {
+			instructions_times.push(data.view_history[i].viewing_time);
+		}
+	}
+};
+
+var attribute_ratings_direction = new Array(home_attributes.length);
+for (var i = 0; i < home_attributes.length; i++) {
+	att = home_attributes[i];
+	var cur_scale = att.scale == null ? [att.lb + att.postfix, (Math.round((att.ub + att.lb) / 2)) + att.postfix, att.ub + att.postfix] : att.scale;
+
+	attribute_ratings_direction[i] = {
+		type: 'survey-multi-choice',
+		questions: [
+			{prompt: "When making your choices, which of these settings would you have <span style='color: green'><b>most preferred</b></span> for '" + att.name + "'? Which would have been the <span style='color: green'><b>best</b></span> setting for you?", options: cur_scale, required: debug ? false : true, horizontal: true},
+			{prompt: "When making your choices, which of these settings would you have <span style='color: red'><b>least preferred</b></span> for '" + att.name + "'? Which would have been the <span style='color: red'><b>worst</b></span> setting for you?", options: cur_scale, required: debug ? false : true, horizontal: true}
+		],
+		preamble: '<b>' + att.name + '</b><br><br>This feature could have taken on various settings, such as: ' + cur_scale.join(', '),
+	 	data: {which_trial: i, attribute_name: att.name},
+		on_finish: function(data) {
+
+			s2_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: subject_id_url,
+				trial: data.which_trial,
+				attribute: data.attribute_name,
+				original_or_followup: 'direction',
+				signed_weights: data.signed_weights,
+				full_or_lex: full_or_lex,
+				rating: -1,
+				least_preferred: data.response.Q0,
+				most_preferred: data.response.Q1,
+				rt: data.rt
+			}
+
+	 		save_data(s2_data, 's2');
+		}
+	}
+}
+
+attribute_ratings_direction = _.shuffle(attribute_ratings_direction);
+
+/* begin Part 3 */
+
+var confidence = {
+    type: 'html-slider-response',
+		require_movement: debug ? false : true,
+    stimulus: "<p>How confident are you that, when answering the questions in Section 2 of the task, you knew exactly how you made your choices in Section 1?</p>",
+    labels: ['0 <br><br> Not at all confident', '1', '2', '3', '4', '5', '6', '7', '8<br><br>Very confident'],
+		on_finish: function(data) {
+			jsPsych.data.addProperties({confidence: data.response});
+
+			question_rts.confidence = data.rt;
+		}
+};
+
+var strategy = {
+	type: 'survey-text',
+	questions: [
+	{prompt: "Great job. Finally, we have some further questions for you about yourself and how you made choices in the experiment.<br><br>\
+	Please describe, in your own words, how you made your choices between homes in Section 1 of this study.", name: 'strategy', required: debug ? false : true, rows: 15, columns: 100},
+	],
+	on_finish: function(data) {
+		jsPsych.data.addProperties({strategy: data.response.strategy});
+
+		question_rts.strategy = data.rt;
+	}
+};
+
+var metastrategy = {
+    type: 'survey-text',
+    questions: [
+      {prompt: "In Section 2 of this study, we asked you questions about how you made your choices in Section 1. How did you answer those questions in Section 2? In other words, how do you know what your Section 1 choice process was?", required: debug ? false : true, rows: 10, columns: 100}
+    ],
+  on_finish: function(data){
+		jsPsych.data.addProperties({metastrategy: data.response.Q0});
+
+		question_rts.metastrategy = data.rt;
+  }
+};
+
+var attention = {
+	type: 'html-slider-response',
+	require_movement: debug ? false : true,
+    stimulus: "<p>How attentive were you throughout the experiment? (Please be honest; we understand that it's hard to focus throughout the study, and we will accept your submission no matter how you answer.)</p>",
+    labels: ['0 <br></br> Very Inattentive', '1', '2 <br></br> Quite Inattentive', '3', '4 <br></br> Moderate', '5', '6 <br></br> Quite Attentive', '7', '8<br></br>Very Attentive'],
+		on_finish: function(data) {
+			jsPsych.data.addProperties({attention: data.response});
+
+			question_rts.attention = data.rt;
+		}
+};
+
+var choice_exp_options = ["0","1-5","5-10","10-15","15+"];
+var choice_exp = {
+        type: 'html-button-response',
+        stimulus: "<p>How many studies like this one (where you had to choose between two options which varied on many features) have you participated in before?</p>",
+        choices: choice_exp_options,
+				on_finish: function(data) {
+					jsPsych.data.addProperties({choice_exp: choice_exp_options[data.response]});
+
+					question_rts.choice_exp = data.rt;
+				}
+    };
+
+var choice_domain = {
+	type: 'html-slider-response',
+    stimulus: "In your life, how much time have you spent thinking about which houses or apartments to rent?",
+    labels: ['0 <br></br> Very little time', '1 <br><br> Some time', '2 <br></br> A lot of time', '3 <br><br> Tons of time'],
+		require_movement: debug ? false : true,
+		on_finish: function(data) {
+			jsPsych.data.addProperties({choice_domain: data.response});
+
+			question_rts.choice_domain = data.rt;
+		}
+};
+
+var med_exp1 = null;
+var meditation_experience1 = {
+	type: 'survey-multi-choice',
+    questions: [{prompt: "Have you ever meditated or done a mindfulness practice?", options: ['Yes', 'No'], required: debug ? false : true}],
+		on_finish: function(data) {
+			jsPsych.data.addProperties({meditation_exp1: data.response.Q0});
+			med_exp1 = data.response.Q0;
+		}
+};
+
+var med_exp2 = null;
+var meditation_experience2 = {
+	type: 'survey-multi-choice',
+		questions: [{prompt: "Do you currently meditate (or do a mindfulness practice) regularly?", options: ['Yes', 'No'], required: debug ? false : true}],
+		required: debug ? false : true,
+		on_finish: function(data) {
+			if (med_exp1 == 'Yes') {
+				jsPsych.data.addProperties({meditation_exp2: data.response.Q0});
+				med_exp2 = data.response.Q0;
+			}
+		},
+		skip: function() {return (med_exp1 == 'Yes' ? false : true)}
+};
+
+var meditation_experience3 = {
+	type: 'survey-multi-choice',
+    questions: [
+			{prompt: `<hr>How often do you meditate (or do a mindfulness practice) <b>currently</b>?`,
+			 options: ['Daily or almost daily', '2-4 times per week', 'About once per week', 'Less than once per week'],
+			 required: debug ? false : true},
+			{prompt: `<hr>On days when you meditate (or do a mindfulness practice), how long do you do it for?`,
+			 options: ['5-15 minutes per day', '15-30 minutes per day', '>30 minutes per day'],
+		 	required: debug ? false : true},
+			{prompt: `<hr>For how many years have you been meditating (or doing a mindfulness practice) at this frequency and duration?`,
+			 options: ['0-1 years', '1-3 years', '3-5 years', `5+ years`],
+		 	required: debug ? false : true}
+		],
+		on_finish: function(data) {
+			if (med_exp1 == 'Yes' && med_exp2 == 'Yes') {
+				jsPsych.data.addProperties({meditation_exp3: Object.values(data.response).join()});
+			}
+		},
+		skip: function() {return (med_exp1 == 'Yes' && med_exp2 == 'Yes' ? false : true)}
+};
+
+var meditation_experience4 = {
+	type: 'survey-multi-choice',
+    questions: [
+			{prompt: `<hr>When you did meditate (or do a mindfulness practice), how often did you do it?`,
+			 options: ['Daily or almost daily', '2-4 times per week', 'About once per week', 'Less than once per week'],
+			 required: debug ? false : true},
+			{prompt: `<hr>When you did meditate (or do a mindfulness practice), how long did you do it for on the days you did it?`,
+			 options: ['5-15 minutes per day', '15-30 minutes per day', '>30 minutes per day'],
+		 	required: debug ? false : true},
+			{prompt: `<hr>For how many years did you meditate (or do a mindfulness practice) at this frequency and duration?`,
+			 options: ['0-1 years', '1-3 years', '3-5 years', `5+ years`],
+		 	required: debug ? false : true}
+		],
+		on_finish: function(data) {
+			if (med_exp1 == 'Yes' && med_exp2 == 'No') {
+				jsPsych.data.addProperties({meditation_exp3: Object.values(data.response).join()});
+			}
+		},
+		skip: function() {return (med_exp1 == 'Yes' && med_exp2 == 'No' ? false : true)}
+};
+
+var gen_choices = ['Man', 'Woman','Some other way', 'Prefer not to say'];
+var gen = {
+	type: 'survey-multi-choice',
+	preamble: "Finally, we'll ask you to input some demographic information.",
+	questions: [{prompt: "<b>Gender:</b> Do you describe yourself as a man, a woman, or in some other way?", options: gen_choices,
+		required: debug ? false : true}],
+	on_finish: function(data){
+		jsPsych.data.addProperties({gender: data.response.Q0});
+	}
+};
+
+var age_years = {
+		type: 'survey-text',
+		questions: [
+			{prompt: "Age:", required: debug ? false : true, name: 'age'}
+		],
+	on_finish: function(data){
+		jsPsych.data.addProperties({age: data.response.age});
+	}
+};
+
+var race_options = ['White', 'Hispanic, Latinx, or Spanish origin', 'Black or African American', 'Asian', 'American Indian or Alaska Native', 'Middle Eastern or North African', 'Native Hawaiian or Other Pacific Islander', 'Some other race, ethnicity, or origin', 'Prefer not to say'];
+var race = {
+	type: 'survey-multi-select',
+	questions: [{prompt: '<b>Race/ethnicity</b>: Which categories below describe you? Please select all that apply.', options: race_options,
+		required: debug ? false : true}],
+	on_finish: function(data){
+		jsPsych.data.addProperties({race: JSON.stringify(data.response.Q0)});
+	}
+};
+
+
+var nativeEng_options = ['Yes', 'No'];
+var nativeEng = {
+	type: 'html-button-response',
+	stimulus: 'Is English your first language?<br>',
+	choices: nativeEng_options,
+	on_finish: function(data){
+		jsPsych.data.addProperties({nativeEng: nativeEng_options[data.response]});
+	}
+};
+
+var edu_options = ["Some high school","High school", "Some college", "2 year degree", "4 year degree", "Postgraduate/Professional degree/other", "Prefer not to say"];
+var edu = {
+	type: 'html-button-response',
+	stimulus: 'What is the highest level of education that you have completed?<br>',
+	choices: edu_options,
+	on_finish: function(data){
+		jsPsych.data.addProperties({edu: edu_options[data.response]});
+	}
+};
+
+var income_options = ['Under $5,000', '$5,000 - $10,000', '$10,000 - $15,000', '$15,000 - $25,000', '$25,000 - $35,000', '$35,000 - $50,000', '$50,000 - $65,000', '$65,000 - $80,000', '$80,000 - $100,000', 'Over $100,000'];
+var income = {
+	type: 'html-button-response',
+	stimulus: 'What was the total amount of income you earned during the last year?<br>',
+	choices: income_options,
+	on_finish: function(data){
+		jsPsych.data.addProperties({income: income_options[data.response]});
+	}
+};
+
+var feedback = {
+	type: 'survey-text',
+	questions: [
+	{prompt: "Thanks for participating! Do you have any feedback for us about the study? Was there anything confusing? Did it take about as much time as we said it would?",
+		name: 'feedback', required: debug ? false : true, rows: 15, columns: 100},
+	],
+	on_finish: function(data) {
+		jsPsych.data.addProperties({feedback: data.response.feedback});
+
+		demo_data = {
+			subject: data.subject,
+			version: data.version,
+			assignmentId: subject_id_url,
+			signed_attributes: data.signed_attributes || null,
+			signed_weights: data.signed_weights || null,
+			full_or_lex: data.full_or_lex || null,
+			confidence: data.confidence || null,
+			strategy: data.strategy || null,
+			consistency1: data.consistency1 || null,
+			consistency2: data.consistency2 || null,
+			appropriateness: data.appropriateness || null,
+			attention: data.attention || null,
+			choice_exp: data.choice_exp || null,
+			choice_domain: data.choice_domain || null,
+			meditation_exp1: data.meditation_exp1 || null,
+			meditation_exp2: data.meditation_exp2 || null,
+			meditation_exp3: data.meditation_exp3 || null,
+			metastrategy: data.metastrategy || null,
+			question_rts: JSON.stringify(question_rts) || null,
+			gender: data.gender || null,
+			age: data.age || null,
+			race: data.race || null,
+			edu: data.edu || null,
+			income: data.income || null,
+			nativeEng: data.nativeEng || null,
+			feedback: data.feedback || null,
+			attention_check: data.attention_check || null,
+			instructions_times: JSON.stringify(instructions_times),
+			total_time: Date.now() - start_instructions
+		}
+
+		save_data(demo_data, 'demo');
+	}
+};
+
+var debrief = {
+type: 'instructions',
+pages: ["You're done with the first half of the study! Within 24 hours, you will be invited to take the second half of the study. <b><u>Please remember to take the second half of the study!</u></b> In addition to the base pay, it will offer a $1 completion bonus.<br><br>\
+Click 'Next' to receive your Prolific completion code."],
+show_clickable_nav: true
+};
+
+var exit_fullscreen = {
+  type: 'fullscreen',
+  fullscreen_mode: false,
+  delay_after: 0
+}
+
+var check_end = function(elem) {
+if ($('#end_checkbox').is(':checked')) {
+return true;
+} else {
+alert("Make sure to copy the code.");
+return false;
+}
+return false;
+};
+
+//var end = {
+//type: 'external-html',
+//url: "end.php?turkcode=" + turk_code + "&test=1",
+//cont_btn: "end",
+//check_fn: check_end,
+//force_refresh: true
+//};
+
+
+var timeline = []
+
+// INTRO
+//timeline.push(recaptcha);
+timeline.push(get_id_loop);
+timeline.push(welcome);
+if (!debug) {
+	timeline.push(fullscreen);
+	timeline.push(consent_block);
+	timeline.push(attnCheck1);
+}
+
+// PART 1
+timeline.push(instructions);
+for (var t = 0; t < practice_trials.length; t++) {
+	timeline.push(fixation);
+	timeline.push(practice_trials[t]);
+}
+timeline.push(instructions2);
+for (var t = 0; t < trials.length; t++) {
+	timeline.push(fixation);
+	timeline.push(trials[t]);
+}
+
+// PART 2: process questions
+timeline.push(attribute_instructions);
+timeline.push(lex_q);
+timeline.push(weights_q);
+timeline.push(attributes_q);
+timeline.push(consistency1);
+
+// weight questions
+timeline.push(attribute_instructions2);
+for (var i = 0; i < num_attributes_to_ask_about; i++) {
+	timeline.push(attribute_ratings[i]);
+	timeline.push(attribute_ratings_EW[i]);
+}
+timeline.push(attribute_ratings_lex);
+timeline.push(appropriateness);
+timeline.push(attribute_instructions_followup);
+for (var i = 0; i < num_attributes_to_ask_about; i++) {
+	timeline.push(attribute_ratings_followup[i]);
+}
+timeline.push(consistency2);
+timeline.push(attribute_instructions_direction);
+for (var i = 0; i < num_attributes_to_ask_about; i++) {
+	timeline.push(attribute_ratings_direction[i]);
+}
+
+// PART 3
+timeline.push(confidence);
+timeline.push(strategy);
+timeline.push(metastrategy);
+timeline.push(attention);
+timeline.push(choice_domain);
+timeline.push(choice_exp);
+timeline.push(meditation_experience1);
+timeline.push(meditation_experience2);
+timeline.push(meditation_experience3);
+timeline.push(meditation_experience4);
+timeline.push(gen);
+timeline.push(age_years);
+timeline.push(race);
+timeline.push(nativeEng);
+timeline.push(edu);
+timeline.push(income);
+timeline.push(feedback);
+timeline.push(debrief);
+timeline.push(exit_fullscreen);
+
+var browser_events = new Array();
+jsPsych.init({
+	timeline: timeline,
+	show_progress_bar: true,
+   on_finish: function() {
+    document.body.innerHTML = '<p><p><p align="center">Thank you for participating in the study!<p align="center"><b>You will be automatically re-directed to Prolific in a few moments.</b></p>';
+    setTimeout(function () { location.href = "https://app.prolific.co/submissions/complete?cc=3F3EE65E" }, 5000)
+	},
+	on_interaction_data_update: function(data) {
+		if (subject_id != '') {
+			var browser_event = {
+				subject: subject_id,
+				version: study_version,
+				browser_event: data.event,
+				trial: data.trial,
+				time: data.time
+			}
+			save_data(browser_event, 'browser_events');
+	  }
+	}
+});
+
+</script>
+</html>

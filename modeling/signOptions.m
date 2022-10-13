@@ -1,5 +1,7 @@
-function [options_signed] = signOptions(options, do_sign, do_scale)
+function [options_signed] = signOptions(options, do_sign, do_scale, atts_lb, atts_ub)
 % options should be numAtts x 2 x numChoices x numAgents
+if nargin < 5, atts_ub = max(max(max(options,[],2),[],2),[],3); end
+if nargin < 4, atts_lb = min(min(min(options,[],2),[],2),[],3); end
 if nargin < 3, do_scale = true; end
 if nargin < 2, do_sign = true; end
 [numAtts, ~, numChoices, numAgents] = size(options);
@@ -14,7 +16,7 @@ for i = 1:numAgents
 
     for k = 1:numAtts
         if do_scale
-            options_signed(k,1,:,i) = rescale(options_signed(k,1,:,i), -1, 1);
+            options_signed(k,1,:,i) = rescale(options_signed(k,1,:,i), -1, 1, "InputMin", atts_lb(k) - atts_ub(k), "InputMax", atts_ub(k) - atts_lb(k));
         end
     end
 end

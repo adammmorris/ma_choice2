@@ -2,6 +2,7 @@ function [data] = generateData(choiceFn, numChoices, numAtts, numValuesPerAtt, p
 
 numAgents = size(params,1);
 options = randi([1 numValuesPerAtt], numAtts, 2, numChoices, numAgents) / numValuesPerAtt;
+options = signOptions(options, false, false);
 avail_atts = true(numChoices, numAtts, numAgents);
 
 shuffle = @(v) v(randperm(length(v)));

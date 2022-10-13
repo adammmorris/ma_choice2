@@ -10,6 +10,7 @@ from scipy.stats import gamma
 import time
 import numpy as np
 import matplotlib.pyplot as plt
+from geneticalgorithm import geneticalgorithm as ga
 
 simulated_data = scipy.io.loadmat('simulated_data.mat')
 data_WAD = simulated_data['data_WAD']
@@ -114,27 +115,27 @@ def fitWAD(param_struct, data):
         varbound = np.array(vb)
 
         # create vartype arr 
-        #index = []
-        #arr = np.argwhere(np.vstack(param_struct[0]['int']))
-        #for i in range(0, len(np.argwhere(np.vstack(param_struct[0]['int'])))):
-        #    index.append(arr[i][0])
-        #arr = list(range(0, len(param_struct[0])))
-        #for i in range(0, len(param_struct[0])):
-        #    if i in index:
-        #        arr[i] = ['int']
-        #    else:
-        #        arr[i] = ['real']
-        #vartype = np.array(arr)
+        index = []
+        arr = np.argwhere(np.vstack(param_struct[0]['int']))
+        for i in range(0, len(np.argwhere(np.vstack(param_struct[0]['int'])))):
+            index.append(arr[i][0])
+        arr = list(range(0, len(param_struct[0])))
+        for i in range(0, len(param_struct[0])):
+            if i in index:
+                arr[i] = ['int']
+            else:
+                arr[i] = ['real']
+        vartype = np.array(arr)
 
         # run model
         #genetic-algorithm
-        #model = ga(function=WAD_post,
-        #           dimension=len(param_struct[0]),
-        #           variable_boundaries=varbound,
-        #           variable_type_mixed=vartype)
-        #model.run()
-        #x = model.output_dict['variable']
-        #logpost = model.output_dict['function']
+        model = ga(function=WAD_post,
+                  dimension=len(param_struct[0]),
+                  variable_boundaries=varbound,
+                  variable_type_mixed=vartype)
+        model.run()
+        x = model.output_dict['variable']
+        logpost = model.output_dict['function']
 
         #scipy optimize
         #from scipy.optimize import minimize
@@ -145,24 +146,25 @@ def fitWAD(param_struct, data):
         #print(res['x'])
         
         #or-tools
-        from ortools.linear_solver import pywraplp
-        solver = pywraplp.Solver.CreateSolver('SCIP')
-        x = {}
-        for j in range(len(param_struct[0])):
-            x[j] = solver.IntVar(float(lb[j][0]), float(ub[j][0]), 'x[%i]' % j)
-        print('Number of variables =', solver.NumVariables())
-        ## obj_expr = [data['obj_coeffs'][j] * x[j] for j in range(data['num_vars'])]
-        obj_expr = [(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))]
-        solver.Maximize(solver.Sum(obj_expr))
-        status = solver.Solve()
-        if status == pywraplp.Solver.OPTIMAL:
-            print('Objective value =', solver.Objective().Value())
-            for j in range(data['num_vars']):
-                print(x[j].name(), ' = ', x[j].solution_value())
-            print('Problem solved in %f milliseconds' % solver.wall_time())
-            print('Problem solved in %d iterations' % solver.iterations())
-        else:
-            print('The problem does not have an optimal solution.')
+        # from ortools.linear_solver import pywraplp
+        # solver = pywraplp.Solver.CreateSolver('SCIP')
+        # x = {}
+        # for j in range(len(param_struct[0])):
+        #     x[j] = solver.IntVar(float(lb[j][0]), float(ub[j][0]), 'x[%i]' % j)
+        # print('Number of variables =', solver.NumVariables())
+        # ## obj_expr = [data['obj_coeffs'][j] * x[j] for j in range(data['num_vars'])]
+        # #obj_expr = [(lik(x, data[0][s]) + getPriorsum(x, param_struct[0]))]
+        # #solver.Maximize(solver.Sum(obj_expr))
+        # solver.Maximize(lik(x, data[0][s]))
+        # status = solver.Solve()
+        # if status == pywraplp.Solver.OPTIMAL:
+        #     print('Objective value =', solver.Objective().Value())
+        #     for j in range(data['num_vars']):
+        #         print(x[j].name(), ' = ', x[j].solution_value())
+        #     print('Problem solved in %f milliseconds' % solver.wall_time())
+        #     print('Problem solved in %d iterations' % solver.iterations())
+        # else:
+        #     print('The problem does not have an optimal solution.')
 
         #pulp
         # from pulp import LpMinimize, LpProblem, LpStatus, lpSum, LpVariable

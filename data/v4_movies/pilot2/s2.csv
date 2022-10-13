@@ -1,0 +1,562 @@
+﻿subject,version,assignmentId,trial,attribute,rating,least_preferred,most_preferred,type,rt,rt2,full_or_lex,signed_weights,original_or_followup,stamp,id
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,0,Science-Fiction-like,1,,,lex_att_rating,7569,,,,,2022-06-24 13:28:51,35797
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,3,Science Fiction,79,,,wad_att_rating,3679,,,,,2022-06-24 13:28:57,35798
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,8,Violent,68,,,wad_att_rating,2100,,,,,2022-06-24 13:29:00,35799
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,6,Art,92,,,wad_att_rating,3052,,,,,2022-06-24 13:29:03,35800
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,1,Drama,43,,,wad_att_rating,2858,,,,,2022-06-24 13:29:05,35801
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,7,Funny,55,,,wad_att_rating,2402,,,,,2022-06-24 13:29:08,35802
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,2,Fantasy World,75,,,wad_att_rating,2445,,,,,2022-06-24 13:29:10,35803
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,5,Suspense,37,,,wad_att_rating,3334,,,,,2022-06-24 13:29:14,35804
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,0,Action,55,,,wad_att_rating,2343,,,,,2022-06-24 13:29:16,35805
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,4,Romantic,12,,,wad_att_rating,2017,,,,,2022-06-24 13:29:18,35806
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,0,Action-Packed,1,,,ew_att_rating,17522,,,,,2022-06-24 13:29:38,35807
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,0,Artistic,1,,,ew_att_rating,17522,,,,,2022-06-24 13:29:38,35808
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,0,Science-Fiction-like,1,,,ew_att_rating,17522,,,,,2022-06-24 13:29:38,35809
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,3,Science Fiction,0,,,wad_att_rating,3975,,,,,2022-06-24 13:31:24,35810
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Action,25,,,wad_att_rating,4033,,,,,2022-06-24 13:31:28,35811
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,2,Fantasy World,0,,,wad_att_rating,1962,,,,,2022-06-24 13:31:30,35812
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,7,Funny,64,,,wad_att_rating,3815,,,,,2022-06-24 13:31:34,35813
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,4,Romantic,96,,,wad_att_rating,3831,,,,,2022-06-24 13:31:38,35814
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,6,Art,26,,,wad_att_rating,3680,,,,,2022-06-24 13:31:42,35815
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,5,Suspense,50,,,wad_att_rating,3059,,,,,2022-06-24 13:31:45,35816
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,8,Violent,0,,,wad_att_rating,2067,,,,,2022-06-24 13:31:47,35817
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,1,Drama,77,,,wad_att_rating,3096,,,,,2022-06-24 13:31:50,35818
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Dramatic,1,,,ew_att_rating,11309,,,,,2022-06-24 13:32:06,35819
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Romantic,1,,,ew_att_rating,11309,,,,,2022-06-24 13:32:06,35820
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Funny,1,,,ew_att_rating,11309,,,,,2022-06-24 13:32:06,35821
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Suspenseful,1,,,ew_att_rating,11309,,,,,2022-06-24 13:32:06,35822
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Romantic,1,,,lex_att_rating,4091,,,,,2022-06-24 13:32:18,35823
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,7,Funny,-1,Half of people,Nobody,direction,7063,,,,,2022-06-24 13:32:59,35824
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,5,Suspense,-1,Half of people,Half of people,direction,2243,,,,,2022-06-24 13:33:04,35825
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,7,Funny,-1,Most people,A few people,direction,2208,,,,,2022-06-24 13:33:10,35826
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,6,Art,-1,A few people,Nobody,direction,4348,,,,,2022-06-24 13:33:11,35827
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,1,Drama,-1,Most people,A few people,direction,1806,,,,,2022-06-24 13:33:16,35828
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,4,Romantic,-1,A few people,A few people,direction,4460,,,,,2022-06-24 13:33:18,35829
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,8,Violent,-1,A few people,Everyone,direction,3070,,,,,2022-06-24 13:33:22,35830
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,8,Violent,-1,Most people,Half of people,direction,2324,,,,,2022-06-24 13:33:23,35831
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,2,Fantasy World,-1,Half of people,Everyone,direction,1729,,,,,2022-06-24 13:33:26,35832
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,0,Action,-1,Most people,Half of people,direction,1097,,,,,2022-06-24 13:33:30,35833
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,3,Science Fiction,-1,Everyone,Everyone,direction,2487,,,,,2022-06-24 13:33:31,35834
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,1,Drama,-1,Half of people,A few people,direction,1286,,,,,2022-06-24 13:33:34,35835
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,0,Action,-1,Half of people,Everyone,direction,2581,,,,,2022-06-24 13:33:37,35836
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,2,Fantasy World,-1,Everyone,A few people,direction,2418,,,,,2022-06-24 13:33:40,35837
+60fd6ed24d3d9325c1a4ccb0,ma_choice_v4_movies_pilot2,60fd6ed24d3d9325c1a4ccb0,4,Romantic,-1,Everyone,Nobody,direction,2148,,,,,2022-06-24 13:33:41,35838
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,3,Science Fiction,-1,Everyone,Half of people,direction,1479,,,,,2022-06-24 13:33:44,35839
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,6,Art,-1,Everyone,Half of people,direction,1450,,,,,2022-06-24 13:33:47,35840
+5bd47734506cd3000101d181,ma_choice_v4_movies_pilot2,5bd47734506cd3000101d181,5,Suspense,-1,Most people,A few people,direction,1712,,,,,2022-06-24 13:33:52,35841
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,6,Art,51,,,wad_att_rating,12989,,,,,2022-06-24 13:57:53,35842
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,0,Action,75,,,wad_att_rating,3974,,,,,2022-06-24 13:57:57,35843
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,8,Violent,10,,,wad_att_rating,2892,,,,,2022-06-24 13:57:59,35844
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,2,Fantasy World,4,,,wad_att_rating,2943,,,,,2022-06-24 13:58:02,35845
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,3,Science Fiction,8,,,wad_att_rating,3272,,,,,2022-06-24 13:58:06,35846
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,1,Drama,5,,,wad_att_rating,2925,,,,,2022-06-24 13:58:09,35847
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,7,Funny,100,,,wad_att_rating,3132,,,,,2022-06-24 13:58:12,35848
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,4,Romantic,12,,,wad_att_rating,2901,,,,,2022-06-24 13:58:15,35849
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,5,Suspense,38,,,wad_att_rating,4952,,,,,2022-06-24 13:58:20,35850
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,0,Funny,1,,,lex_att_rating,2562,,,,,2022-06-24 13:58:31,35851
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,0,Funny,1,,,ew_att_rating,6530,,,,,2022-06-24 13:58:48,35852
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,0,Action-Packed,1,,,ew_att_rating,6530,,,,,2022-06-24 13:58:48,35853
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,0,Violent,1,,,ew_att_rating,6530,,,,,2022-06-24 13:58:48,35854
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,4,Romantic,-1,Half of people,Nobody,direction,3855,,,,,2022-06-24 14:00:03,35855
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,1,Drama,-1,Most people,Nobody,direction,3428,,,,,2022-06-24 14:00:10,35856
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,2,Fantasy World,-1,Nobody,Nobody,direction,1848,,,,,2022-06-24 14:00:19,35857
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,8,Violent,-1,Most people,A few people,direction,2261,,,,,2022-06-24 14:00:25,35858
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,5,Suspense,-1,Most people,A few people,direction,1767,,,,,2022-06-24 14:00:30,35859
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,0,Action,-1,Everyone,A few people,direction,2323,,,,,2022-06-24 14:00:36,35860
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,3,Science Fiction,-1,A few people,Nobody,direction,1536,,,,,2022-06-24 14:00:40,35861
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,6,Art,-1,A few people,Nobody,direction,1488,,,,,2022-06-24 14:00:44,35862
+60fcd2fa241e2b1d59c0c8d8,ma_choice_v4_movies_pilot2,60fcd2fa241e2b1d59c0c8d8,7,Funny,-1,Everyone,A few people,direction,1823,,,,,2022-06-24 14:00:50,35863
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,1,Drama,75,,,wad_att_rating,5837,,,,,2022-06-24 14:02:01,35864
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,4,Romantic,0,,,wad_att_rating,2474,,,,,2022-06-24 14:02:03,35865
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,8,Violent,100,,,wad_att_rating,3525,,,,,2022-06-24 14:02:07,35866
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,6,Art,0,,,wad_att_rating,1393,,,,,2022-06-24 14:02:08,35867
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,0,Action,0,,,wad_att_rating,1157,,,,,2022-06-24 14:02:10,35868
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,3,Science Fiction,0,,,wad_att_rating,874,,,,,2022-06-24 14:02:10,35869
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,7,Funny,0,,,wad_att_rating,900,,,,,2022-06-24 14:02:11,35870
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,2,Fantasy World,0,,,wad_att_rating,1297,,,,,2022-06-24 14:02:13,35871
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,5,Suspense,0,,,wad_att_rating,668,,,,,2022-06-24 14:02:13,35872
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,4,Romantic,100,,,wad_att_rating,6464,,,,,2022-06-24 14:02:22,35873
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,6,Art,100,,,wad_att_rating,2629,,,,,2022-06-24 14:02:25,35874
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,0,Violent,1,,,lex_att_rating,4971,,,,,2022-06-24 14:02:26,35875
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,3,Science Fiction,0,,,wad_att_rating,4577,,,,,2022-06-24 14:02:30,35876
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Action,62,,,wad_att_rating,5770,,,,,2022-06-24 14:02:35,35877
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,0,Violent,1,,,ew_att_rating,4449,,,,,2022-06-24 14:02:37,35878
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,0,Dramatic,1,,,ew_att_rating,4449,,,,,2022-06-24 14:02:37,35879
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,5,Suspense,88,,,wad_att_rating,4672,,,,,2022-06-24 14:02:40,35880
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,7,Funny,88,,,wad_att_rating,6872,,,,,2022-06-24 14:02:47,35881
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,2,Fantasy World,69,,,wad_att_rating,5448,,,,,2022-06-24 14:02:52,35882
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,8,Violent,68,,,wad_att_rating,4001,,,,,2022-06-24 14:02:56,35883
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,1,Drama,100,,,wad_att_rating,2248,,,,,2022-06-24 14:02:59,35884
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Suspenseful,1,,,lex_att_rating,10157,,,,,2022-06-24 14:03:15,35885
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Suspenseful,1,,,ew_att_rating,20188,,,,,2022-06-24 14:03:40,35886
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Artistic,1,,,ew_att_rating,20188,,,,,2022-06-24 14:03:40,35887
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Romantic,1,,,ew_att_rating,20188,,,,,2022-06-24 14:03:40,35888
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Dramatic,1,,,ew_att_rating,20188,,,,,2022-06-24 14:03:40,35889
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,6,Art,-1,Half of people,Everyone,direction,6140,,,,,2022-06-24 14:03:48,35890
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,8,Violent,-1,Nobody,Everyone,direction,2568,,,,,2022-06-24 14:03:55,35891
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,7,Funny,72,,,wad_att_rating,5459,,,,,2022-06-24 14:04:00,35892
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,5,Suspense,-1,Half of people,Half of people,direction,1498,,,,,2022-06-24 14:04:02,35893
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,1,Drama,51,,,wad_att_rating,3690,,,,,2022-06-24 14:04:04,35894
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,6,Art,86,,,wad_att_rating,3140,,,,,2022-06-24 14:04:07,35895
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,7,Funny,-1,Most people,A few people,direction,1889,,,,,2022-06-24 14:04:09,35896
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,4,Romantic,90,,,wad_att_rating,2640,,,,,2022-06-24 14:04:10,35897
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,3,Science Fiction,75,,,wad_att_rating,2473,,,,,2022-06-24 14:04:12,35898
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,4,Romantic,-1,Half of people,Nobody,direction,2849,,,,,2022-06-24 14:04:17,35899
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,8,Violent,36,,,wad_att_rating,4924,,,,,2022-06-24 14:04:17,35900
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,5,Suspense,75,,,wad_att_rating,4467,,,,,2022-06-24 14:04:21,35901
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,3,Science Fiction,-1,A few people,Half of people,direction,2329,,,,,2022-06-24 14:04:24,35902
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,2,Fantasy World,50,,,wad_att_rating,3626,,,,,2022-06-24 14:04:25,35903
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,2,Fantasy World,-1,A few people,Half of people,direction,1501,,,,,2022-06-24 14:04:29,35904
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,0,Action,100,,,wad_att_rating,4387,,,,,2022-06-24 14:04:29,35905
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,0,Action,-1,Half of people,Everyone,direction,4050,,,,,2022-06-24 14:04:37,35906
+6156498c17bdcd7cb70c420c,ma_choice_v4_movies_pilot2,6156498c17bdcd7cb70c420c,1,Drama,-1,Nobody,Everyone,direction,1825,,,,,2022-06-24 14:04:45,35907
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,0,Action-Packed,1,,,ew_att_rating,15265,,,,,2022-06-24 14:04:49,35908
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,0,Science-Fiction-like,1,,,ew_att_rating,15265,,,,,2022-06-24 14:04:49,35909
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,0,Suspenseful,1,,,lex_att_rating,6763,,,,,2022-06-24 14:04:59,35910
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,0,Action,-1,Half of people,A few people,direction,3108,,,,,2022-06-24 14:05:21,35911
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,1,Drama,-1,Most people,A few people,direction,3508,,,,,2022-06-24 14:05:26,35912
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,4,Romantic,-1,Everyone,A few people,direction,3946,,,,,2022-06-24 14:05:34,35913
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,3,Science Fiction,-1,Most people,A few people,direction,2790,,,,,2022-06-24 14:05:39,35914
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,7,Funny,-1,Half of people,Nobody,direction,3332,,,,,2022-06-24 14:05:45,35915
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,2,Fantasy World,-1,A few people,Most people,direction,5324,,,,,2022-06-24 14:05:55,35916
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,8,Violent,-1,A few people,Most people,direction,3091,,,,,2022-06-24 14:06:02,35917
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,5,Suspense,-1,Most people,Half of people,direction,2500,,,,,2022-06-24 14:06:07,35918
+62aa0d284ca4afc50b51e09f,ma_choice_v4_movies_pilot2,62aa0d284ca4afc50b51e09f,6,Art,-1,Half of people,A few people,direction,1748,,,,,2022-06-24 14:06:11,35919
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Action-Packed,1,,,ew_att_rating,10216,,,,,2022-06-24 14:06:12,35920
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Dramatic,1,,,ew_att_rating,10216,,,,,2022-06-24 14:06:12,35921
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Suspenseful,1,,,ew_att_rating,10216,,,,,2022-06-24 14:06:12,35922
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Fantasy-like,1,,,ew_att_rating,10216,,,,,2022-06-24 14:06:12,35923
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Science-Fiction-like,1,,,ew_att_rating,10216,,,,,2022-06-24 14:06:12,35924
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Artistic,1,,,ew_att_rating,10216,,,,,2022-06-24 14:06:12,35925
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Fantasy-like,1,,,lex_att_rating,2315,,,,,2022-06-24 14:06:21,35926
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,7,Funny,26,,,wad_att_rating,7413,,,,,2022-06-24 14:07:17,35927
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,3,Science Fiction,76,,,wad_att_rating,3549,,,,,2022-06-24 14:07:21,35928
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,2,Fantasy World,100,,,wad_att_rating,3368,,,,,2022-06-24 14:07:24,35929
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,4,Romantic,39,,,wad_att_rating,3023,,,,,2022-06-24 14:07:27,35930
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,6,Art,76,,,wad_att_rating,3347,,,,,2022-06-24 14:07:31,35931
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,1,Drama,75,,,wad_att_rating,2901,,,,,2022-06-24 14:07:33,35932
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Action,62,,,wad_att_rating,2988,,,,,2022-06-24 14:07:36,35933
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,8,Violent,0,,,wad_att_rating,2163,,,,,2022-06-24 14:07:39,35934
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,5,Suspense,88,,,wad_att_rating,2436,,,,,2022-06-24 14:07:41,35935
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,3,Science Fiction,-1,A few people,Nobody,direction,1760,,,,,2022-06-24 14:09:02,35936
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,0,Action,-1,Half of people,Nobody,direction,1500,,,,,2022-06-24 14:09:10,35937
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,4,Romantic,-1,A few people,Everyone,direction,1736,,,,,2022-06-24 14:09:18,35938
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,8,Violent,-1,Most people,Everyone,direction,1574,,,,,2022-06-24 14:09:28,35939
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,7,Funny,-1,A few people,Everyone,direction,1909,,,,,2022-06-24 14:09:40,35940
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,6,Art,-1,Everyone,Nobody,direction,1498,,,,,2022-06-24 14:09:46,35941
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,1,Drama,-1,Most people,Nobody,direction,1747,,,,,2022-06-24 14:09:52,35942
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,5,Suspense,-1,Everyone,Nobody,direction,2207,,,,,2022-06-24 14:09:58,35943
+5f95a44920f542417f4263cb,ma_choice_v4_movies_pilot2,5f95a44920f542417f4263cb,2,Fantasy World,-1,Most people,Nobody,direction,2130,,,,,2022-06-24 14:10:07,35944
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,1,Drama,-1,Most people,A few people,direction,3746,,,,,2022-06-24 14:12:48,35945
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,5,Suspense,-1,Half of people,A few people,direction,1348,,,,,2022-06-24 14:12:52,35946
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,0,Action,-1,A few people,Nobody,direction,2528,,,,,2022-06-24 14:12:58,35947
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,8,Violent,-1,A few people,Nobody,direction,1203,,,,,2022-06-24 14:13:02,35948
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,2,Fantasy World,-1,Most people,Half of people,direction,1950,,,,,2022-06-24 14:13:08,35949
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,3,Science Fiction,-1,Most people,Half of people,direction,874,,,,,2022-06-24 14:13:12,35950
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,4,Romantic,-1,Half of people,A few people,direction,955,,,,,2022-06-24 14:13:16,35951
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,6,Art,-1,Half of people,A few people,direction,872,,,,,2022-06-24 14:13:20,35952
+627eb4500b7330807b6a87f7,ma_choice_v4_movies_pilot2,627eb4500b7330807b6a87f7,7,Funny,-1,A few people,Nobody,direction,1333,,,,,2022-06-24 14:13:25,35953
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,0,Fantasy-like,1,,,lex_att_rating,5744,,,,,2022-06-24 14:14:29,35954
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,8,Violent,10,,,wad_att_rating,3490,,,,,2022-06-24 14:14:35,35955
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,2,Fantasy World,100,,,wad_att_rating,2893,,,,,2022-06-24 14:14:38,35956
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,1,Drama,32,,,wad_att_rating,2807,,,,,2022-06-24 14:14:41,35957
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,0,Action,80,,,wad_att_rating,2634,,,,,2022-06-24 14:14:44,35958
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,5,Suspense,80,,,wad_att_rating,2953,,,,,2022-06-24 14:14:47,35959
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,3,Science Fiction,100,,,wad_att_rating,2807,,,,,2022-06-24 14:14:49,35960
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,6,Art,50,,,wad_att_rating,2603,,,,,2022-06-24 14:14:52,35961
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,7,Funny,75,,,wad_att_rating,3180,,,,,2022-06-24 14:14:55,35962
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,4,Romantic,11,,,wad_att_rating,2435,,,,,2022-06-24 14:14:58,35963
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,0,Action-Packed,1,,,ew_att_rating,7966,,,,,2022-06-24 14:15:08,35964
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,0,Fantasy-like,1,,,ew_att_rating,7966,,,,,2022-06-24 14:15:08,35965
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,0,Science-Fiction-like,1,,,ew_att_rating,7966,,,,,2022-06-24 14:15:08,35966
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,6,Art,-1,Everyone,Nobody,direction,4491,,,,,2022-06-24 14:15:44,35967
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,4,Romantic,-1,A few people,Nobody,direction,2139,,,,,2022-06-24 14:15:51,35968
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,2,Fantasy World,-1,Most people,A few people,direction,1824,,,,,2022-06-24 14:15:55,35969
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,7,Funny,-1,Most people,A few people,direction,1727,,,,,2022-06-24 14:16:00,35970
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,3,Science Fiction,-1,Everyone,Half of people,direction,1487,,,,,2022-06-24 14:16:04,35971
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,0,Action,-1,Most people,Half of people,direction,1441,,,,,2022-06-24 14:16:07,35972
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,5,Suspense,-1,Most people,A few people,direction,2231,,,,,2022-06-24 14:16:12,35973
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,1,Drama,-1,A few people,Nobody,direction,2145,,,,,2022-06-24 14:16:16,35974
+629518483741b8bf26238861,ma_choice_v4_movies_pilot2,629518483741b8bf26238861,8,Violent,-1,Half of people,A few people,direction,1415,,,,,2022-06-24 14:16:20,35975
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,4,Romantic,0,,,wad_att_rating,8276,,,,,2022-06-24 14:17:03,35976
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,8,Violent,27,,,wad_att_rating,5400,,,,,2022-06-24 14:17:09,35977
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,7,Funny,51,,,wad_att_rating,5058,,,,,2022-06-24 14:17:14,35978
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,2,Fantasy World,88,,,wad_att_rating,5502,,,,,2022-06-24 14:17:19,35979
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,3,Science Fiction,88,,,wad_att_rating,4249,,,,,2022-06-24 14:17:23,35980
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,1,Drama,37,,,wad_att_rating,4598,,,,,2022-06-24 14:17:28,35981
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,6,Art,62,,,wad_att_rating,5976,,,,,2022-06-24 14:17:34,35982
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Action,83,,,wad_att_rating,3537,,,,,2022-06-24 14:17:37,35983
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,5,Suspense,50,,,wad_att_rating,4824,,,,,2022-06-24 14:17:42,35984
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Action-Packed,1,,,ew_att_rating,10373,,,,,2022-06-24 14:18:05,35985
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Fantasy-like,1,,,ew_att_rating,10373,,,,,2022-06-24 14:18:05,35986
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Artistic,1,,,ew_att_rating,10373,,,,,2022-06-24 14:18:05,35987
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Funny,1,,,ew_att_rating,10373,,,,,2022-06-24 14:18:05,35988
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Science-Fiction-like,1,,,ew_att_rating,10373,,,,,2022-06-24 14:18:05,35989
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Science-Fiction-like,1,,,lex_att_rating,3816,,,,,2022-06-24 14:18:17,35990
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Fantasy-like,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35991
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Science-Fiction-like,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35992
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Suspenseful,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35993
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Funny,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35994
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Romantic,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35995
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Violent,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35996
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Artistic,1,,,ew_att_rating,13175,,,,,2022-06-24 14:21:57,35997
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,4,Romantic,100,,,wad_att_rating,5902,,,,,2022-06-24 14:22:14,35998
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,2,Fantasy World,75,,,wad_att_rating,6060,,,,,2022-06-24 14:22:19,35999
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,7,Funny,75,,,wad_att_rating,6256,,,,,2022-06-24 14:22:24,36000
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,1,Drama,38,,,wad_att_rating,8429,,,,,2022-06-24 14:22:33,36001
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,8,Violent,63,,,wad_att_rating,4354,,,,,2022-06-24 14:22:37,36002
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Action,25,,,wad_att_rating,4327,,,,,2022-06-24 14:22:41,36003
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,5,Suspense,87,,,wad_att_rating,4182,,,,,2022-06-24 14:22:46,36004
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Artistic,1,,,lex_att_rating,5048,,,,,2022-06-24 14:22:51,36005
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,6,Art,75,,,wad_att_rating,6062,,,,,2022-06-24 14:22:52,36006
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,3,Science Fiction,62,,,wad_att_rating,5193,,,,,2022-06-24 14:22:57,36007
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,0,Action-Packed,1,,,ew_att_rating,15993,,,,,2022-06-24 14:23:04,36008
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,0,Funny,1,,,ew_att_rating,15993,,,,,2022-06-24 14:23:04,36009
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,0,Suspenseful,1,,,ew_att_rating,15993,,,,,2022-06-24 14:23:04,36010
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Funny,1,,,lex_att_rating,6745,,,,,2022-06-24 14:23:09,36011
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Suspenseful,1,,,ew_att_rating,13758,,,,,2022-06-24 14:23:15,36012
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Artistic,1,,,ew_att_rating,13758,,,,,2022-06-24 14:23:15,36013
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Dramatic,1,,,ew_att_rating,13758,,,,,2022-06-24 14:23:15,36014
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Romantic,1,,,ew_att_rating,13758,,,,,2022-06-24 14:23:15,36015
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Action-Packed,1,,,ew_att_rating,13758,,,,,2022-06-24 14:23:15,36016
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,0,Funny,1,,,lex_att_rating,7091,,,,,2022-06-24 14:23:22,36017
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,5,Suspense,75,,,wad_att_rating,12922,,,,,2022-06-24 14:23:35,36018
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,6,Art,10,,,wad_att_rating,5267,,,,,2022-06-24 14:23:42,36019
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,4,Romantic,23,,,wad_att_rating,8496,,,,,2022-06-24 14:23:44,36020
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,7,Funny,100,,,wad_att_rating,6113,,,,,2022-06-24 14:23:48,36021
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,1,Drama,64,,,wad_att_rating,10239,,,,,2022-06-24 14:23:54,36022
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,3,Science Fiction,23,,,wad_att_rating,6081,,,,,2022-06-24 14:23:54,36023
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,4,Romantic,40,,,wad_att_rating,3615,,,,,2022-06-24 14:23:58,36024
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,1,Drama,83,,,wad_att_rating,2570,,,,,2022-06-24 14:24:00,36025
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,8,Violent,0,,,wad_att_rating,6542,,,,,2022-06-24 14:24:01,36026
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,0,Action,87,,,wad_att_rating,3488,,,,,2022-06-24 14:24:04,36027
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,2,Fantasy World,12,,,wad_att_rating,6164,,,,,2022-06-24 14:24:07,36028
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,2,Fantasy World,27,,,wad_att_rating,5543,,,,,2022-06-24 14:24:09,36029
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,3,Science Fiction,1,,,wad_att_rating,5543,,,,,2022-06-24 14:24:10,36030
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,3,Science Fiction,26,,,wad_att_rating,6150,,,,,2022-06-24 14:24:13,36031
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,8,Violent,51,,,wad_att_rating,3761,,,,,2022-06-24 14:24:13,36032
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,0,Action,18,,,wad_att_rating,3588,,,,,2022-06-24 14:24:14,36033
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,8,Violent,9,,,wad_att_rating,2760,,,,,2022-06-24 14:24:16,36034
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,5,Suspense,100,,,wad_att_rating,4496,,,,,2022-06-24 14:24:18,36035
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,6,Art,95,,,wad_att_rating,5928,,,,,2022-06-24 14:24:19,36036
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,2,Fantasy World,25,,,wad_att_rating,3836,,,,,2022-06-24 14:24:20,36037
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,4,Romantic,21,,,wad_att_rating,4550,,,,,2022-06-24 14:24:25,36038
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,0,Action,-1,Half of people,Nobody,direction,3270,,,,,2022-06-24 14:24:27,36039
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,5,Suspense,34,,,wad_att_rating,2876,,,,,2022-06-24 14:24:28,36040
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,7,Funny,39,,,wad_att_rating,9715,,,,,2022-06-24 14:24:29,36041
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,7,Funny,100,,,wad_att_rating,3360,,,,,2022-06-24 14:24:31,36042
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,1,Drama,9,,,wad_att_rating,2558,,,,,2022-06-24 14:24:34,36043
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,8,Violent,-1,Everyone,Nobody,direction,2290,,,,,2022-06-24 14:24:34,36044
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Action,30,,,wad_att_rating,5470,,,,,2022-06-24 14:24:34,36045
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,6,Art,5,,,wad_att_rating,2117,,,,,2022-06-24 14:24:36,36046
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,1,Drama,-1,Half of people,Nobody,direction,2593,,,,,2022-06-24 14:24:40,36047
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,0,Funny,1,,,ew_att_rating,3491,,,,,2022-06-24 14:24:47,36048
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,3,Science Fiction,-1,Most people,Nobody,direction,2152,,,,,2022-06-24 14:24:48,36049
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,7,Funny,-1,Everyone,Nobody,direction,3546,,,,,2022-06-24 14:24:52,36050
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,0,Funny,1,,,lex_att_rating,3655,,,,,2022-06-24 14:24:55,36051
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,5,Suspense,-1,Most people,Nobody,direction,2192,,,,,2022-06-24 14:24:58,36052
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,6,Art,-1,Most people,Nobody,direction,3388,,,,,2022-06-24 14:25:05,36053
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,2,Fantasy World,-1,Most people,Nobody,direction,2330,,,,,2022-06-24 14:25:10,36054
+611ea4971bd5f93c68cc56f3,ma_choice_v4_movies_pilot2,611ea4971bd5f93c68cc56f3,4,Romantic,-1,Nobody,Everyone,direction,2316,,,,,2022-06-24 14:25:17,36055
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,8,Violent,-1,Half of people,Half of people,direction,9386,,,,,2022-06-24 14:26:00,36056
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,5,Suspense,-1,Most people,Nobody,direction,3315,,,,,2022-06-24 14:26:07,36057
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,6,Art,-1,Half of people,Half of people,direction,4733,,,,,2022-06-24 14:26:15,36058
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,7,Funny,-1,Everyone,Nobody,direction,3331,,,,,2022-06-24 14:26:21,36059
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,1,Drama,-1,Most people,A few people,direction,1945,,,,,2022-06-24 14:26:27,36060
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,3,Science Fiction,-1,Half of people,Half of people,direction,1115,,,,,2022-06-24 14:26:32,36061
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,4,Romantic,-1,A few people,Most people,direction,1445,,,,,2022-06-24 14:26:37,36062
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,2,Fantasy World,-1,Half of people,Half of people,direction,1041,,,,,2022-06-24 14:26:40,36063
+62926f5a375553f13d68bc92,ma_choice_v4_movies_pilot2,62926f5a375553f13d68bc92,0,Action,-1,Half of people,A few people,direction,3114,,,,,2022-06-24 14:26:47,36064
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,2,Fantasy World,-1,Everyone,Nobody,direction,3520,,,,,2022-06-24 14:28:05,36065
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,4,Romantic,88,,,wad_att_rating,5533,,,,,2022-06-24 14:28:06,36066
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,3,Science Fiction,5,,,wad_att_rating,3053,,,,,2022-06-24 14:28:09,36067
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Action,5,,,wad_att_rating,2593,,,,,2022-06-24 14:28:11,36068
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,5,Suspense,25,,,wad_att_rating,3305,,,,,2022-06-24 14:28:15,36069
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,8,Violent,-1,Half of people,Nobody,direction,2783,,,,,2022-06-24 14:28:16,36070
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,8,Violent,3,,,wad_att_rating,2882,,,,,2022-06-24 14:28:18,36071
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,2,Fantasy World,36,,,wad_att_rating,4456,,,,,2022-06-24 14:28:22,36072
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,7,Funny,-1,Most people,A few people,direction,3874,,,,,2022-06-24 14:28:24,36073
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,1,Drama,62,,,wad_att_rating,3415,,,,,2022-06-24 14:28:25,36074
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,7,Funny,91,,,wad_att_rating,4258,,,,,2022-06-24 14:28:30,36075
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,6,Art,-1,Most people,Nobody,direction,2301,,,,,2022-06-24 14:28:31,36076
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,6,Art,26,,,wad_att_rating,2906,,,,,2022-06-24 14:28:33,36077
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,0,Action,-1,Everyone,Nobody,direction,2982,,,,,2022-06-24 14:28:37,36078
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,3,Science Fiction,-1,Everyone,Nobody,direction,3073,,,,,2022-06-24 14:28:43,36079
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,1,Drama,-1,Most people,Nobody,direction,2563,,,,,2022-06-24 14:28:49,36080
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Romantic,1,,,lex_att_rating,11087,,,,,2022-06-24 14:28:52,36081
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,5,Suspense,-1,Most people,Nobody,direction,2444,,,,,2022-06-24 14:28:56,36082
+62a225b4a1412817658445ee,ma_choice_v4_movies_pilot2,62a225b4a1412817658445ee,4,Romantic,-1,A few people,Everyone,direction,2363,,,,,2022-06-24 14:29:03,36083
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Funny,1,,,ew_att_rating,12086,,,,,2022-06-24 14:29:09,36084
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Fantasy-like,1,,,ew_att_rating,12086,,,,,2022-06-24 14:29:09,36085
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Romantic,1,,,ew_att_rating,12086,,,,,2022-06-24 14:29:09,36086
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Dramatic,1,,,ew_att_rating,12086,,,,,2022-06-24 14:29:09,36087
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Suspenseful,1,,,ew_att_rating,12086,,,,,2022-06-24 14:29:09,36088
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,1,Drama,-1,Most people,Nobody,direction,4216,,,,,2022-06-24 14:30:03,36089
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,6,Art,-1,Most people,Nobody,direction,1754,,,,,2022-06-24 14:30:08,36090
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,0,Action,-1,Most people,Nobody,direction,2412,,,,,2022-06-24 14:30:16,36091
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,5,Suspense,-1,Most people,Nobody,direction,1895,,,,,2022-06-24 14:30:20,36092
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,3,Science Fiction,-1,Nobody,Everyone,direction,2523,,,,,2022-06-24 14:30:32,36093
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,4,Romantic,-1,Most people,A few people,direction,2927,,,,,2022-06-24 14:30:38,36094
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,2,Fantasy World,-1,Most people,A few people,direction,2681,,,,,2022-06-24 14:30:44,36095
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,7,Funny,-1,Most people,Nobody,direction,2121,,,,,2022-06-24 14:30:48,36096
+5dea10b4446c9012dc5e3fe3,ma_choice_v4_movies_pilot2,5dea10b4446c9012dc5e3fe3,8,Violent,-1,A few people,Everyone,direction,2289,,,,,2022-06-24 14:30:53,36097
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,1,Drama,-1,Half of people,Everyone,direction,15624,,,,,2022-06-24 14:32:42,36098
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,4,Romantic,-1,A few people,Nobody,direction,8192,,,,,2022-06-24 14:32:58,36099
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,8,Violent,-1,A few people,Everyone,direction,4279,,,,,2022-06-24 14:33:09,36100
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,6,Art,-1,Everyone,A few people,direction,4099,,,,,2022-06-24 14:33:18,36101
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,2,Fantasy World,-1,A few people,Everyone,direction,9263,,,,,2022-06-24 14:33:34,36102
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,6,Art,-1,A few people,Most people,direction,23798,,,,,2022-06-24 14:33:44,36103
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,3,Science Fiction,-1,A few people,Everyone,direction,11086,,,,,2022-06-24 14:33:52,36104
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,2,Fantasy World,-1,A few people,Half of people,direction,3100,,,,,2022-06-24 14:33:54,36105
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,3,Science Fiction,-1,Half of people,Everyone,direction,2113,,,,,2022-06-24 14:34:00,36106
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,7,Funny,-1,Half of people,Nobody,direction,4062,,,,,2022-06-24 14:34:05,36107
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,5,Suspense,-1,Most people,Nobody,direction,2264,,,,,2022-06-24 14:34:07,36108
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,0,Action,-1,Half of people,Nobody,direction,2714,,,,,2022-06-24 14:34:14,36109
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,4,Romantic,-1,Half of people,Everyone,direction,6706,,,,,2022-06-24 14:34:16,36110
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,0,Action,-1,Everyone,Nobody,direction,1811,,,,,2022-06-24 14:34:21,36111
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,7,Funny,-1,Everyone,Nobody,direction,2333,,,,,2022-06-24 14:34:27,36112
+614ef4f3b9e5a2f0388fc374,ma_choice_v4_movies_pilot2,614ef4f3b9e5a2f0388fc374,5,Suspense,-1,Everyone,Nobody,direction,3705,,,,,2022-06-24 14:34:29,36113
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,8,Violent,-1,Most people,Nobody,direction,2149,,,,,2022-06-24 14:34:34,36114
+6290bd6cb41df7d86254b2ae,ma_choice_v4_movies_pilot2,6290bd6cb41df7d86254b2ae,1,Drama,-1,Everyone,Nobody,direction,1955,,,,,2022-06-24 14:34:40,36115
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,5,Suspense,89,,,wad_att_rating,5276,,,,,2022-06-24 14:38:31,36116
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,7,Funny,14,,,wad_att_rating,5756,,,,,2022-06-24 14:38:37,36117
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,4,Romantic,0,,,wad_att_rating,4709,,,,,2022-06-24 14:38:42,36118
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,8,Violent,50,,,wad_att_rating,3664,,,,,2022-06-24 14:38:45,36119
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,6,Art,36,,,wad_att_rating,4283,,,,,2022-06-24 14:38:50,36120
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,2,Fantasy World,25,,,wad_att_rating,6582,,,,,2022-06-24 14:38:56,36121
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,0,Action,75,,,wad_att_rating,6020,,,,,2022-06-24 14:39:02,36122
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,3,Science Fiction,76,,,wad_att_rating,3866,,,,,2022-06-24 14:39:06,36123
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,0,Romantic,1,,,lex_att_rating,4485,,,,,2022-06-24 14:39:07,36124
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,1,Drama,61,,,wad_att_rating,5101,,,,,2022-06-24 14:39:11,36125
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,0,Suspenseful,1,,,lex_att_rating,3730,,,,,2022-06-24 14:39:18,36126
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,3,Science Fiction,12,,,wad_att_rating,5857,,,,,2022-06-24 14:39:21,36127
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,5,Suspense,0,,,wad_att_rating,2751,,,,,2022-06-24 14:39:24,36128
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,8,Violent,12,,,wad_att_rating,3515,,,,,2022-06-24 14:39:28,36129
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,2,Fantasy World,0,,,wad_att_rating,2229,,,,,2022-06-24 14:39:30,36130
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,0,Action,12,,,wad_att_rating,3634,,,,,2022-06-24 14:39:33,36131
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,1,Drama,0,,,wad_att_rating,2166,,,,,2022-06-24 14:39:36,36132
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,7,Funny,14,,,wad_att_rating,2762,,,,,2022-06-24 14:39:38,36133
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,6,Art,0,,,wad_att_rating,2204,,,,,2022-06-24 14:39:41,36134
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,4,Romantic,100,,,wad_att_rating,2865,,,,,2022-06-24 14:39:43,36135
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,0,Romantic,1,,,ew_att_rating,25273,,,,,2022-06-24 14:39:50,36136
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,0,Suspenseful,1,,,ew_att_rating,25273,,,,,2022-06-24 14:39:50,36137
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,0,Dramatic,1,,,ew_att_rating,25273,,,,,2022-06-24 14:39:50,36138
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,0,Romantic,1,,,ew_att_rating,10922,,,,,2022-06-24 14:40:06,36139
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,0,Action,12,,,wad_att_rating,18425,,,,,2022-06-24 14:40:58,36140
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,4,Romantic,12,,,wad_att_rating,5588,,,,,2022-06-24 14:41:04,36141
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,6,Art,76,,,wad_att_rating,5060,,,,,2022-06-24 14:41:09,36142
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,3,Science Fiction,38,,,wad_att_rating,7727,,,,,2022-06-24 14:41:16,36143
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,5,Suspense,-1,Half of people,Nobody,direction,9655,,,,,2022-06-24 14:41:27,36144
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,8,Violent,62,,,wad_att_rating,14645,,,,,2022-06-24 14:41:31,36145
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,8,Violent,-1,Everyone,Nobody,direction,3195,,,,,2022-06-24 14:41:35,36146
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,2,Fantasy World,25,,,wad_att_rating,4948,,,,,2022-06-24 14:41:36,36147
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,1,Drama,-1,Half of people,Nobody,direction,3398,,,,,2022-06-24 14:41:43,36148
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,5,Suspense,75,,,wad_att_rating,8019,,,,,2022-06-24 14:41:44,36149
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,7,Funny,50,,,wad_att_rating,5184,,,,,2022-06-24 14:41:49,36150
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,4,Romantic,-1,Nobody,Everyone,direction,3930,,,,,2022-06-24 14:41:51,36151
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,1,Drama,50,,,wad_att_rating,5015,,,,,2022-06-24 14:41:54,36152
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,3,Science Fiction,-1,Everyone,Nobody,direction,4729,,,,,2022-06-24 14:41:59,36153
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,2,Fantasy World,-1,Half of people,Nobody,direction,2710,,,,,2022-06-24 14:42:06,36154
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,0,Action,-1,Everyone,Nobody,direction,2124,,,,,2022-06-24 14:42:11,36155
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,6,Art,-1,Half of people,Nobody,direction,2138,,,,,2022-06-24 14:42:16,36156
+6290c65ed46e5dce4f16bb92,ma_choice_v4_movies_pilot2,6290c65ed46e5dce4f16bb92,7,Funny,-1,Everyone,Nobody,direction,1827,,,,,2022-06-24 14:42:21,36157
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,0,Suspenseful,1,,,lex_att_rating,3193,,,,,2022-06-24 14:42:22,36158
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,0,Suspenseful,1,,,ew_att_rating,24631,,,,,2022-06-24 14:43:04,36159
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,0,Artistic,1,,,ew_att_rating,24631,,,,,2022-06-24 14:43:04,36160
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Science-Fiction-like,1,,,lex_att_rating,11953,,,,,2022-06-24 14:44:22,36161
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,5,Suspense,76,,,wad_att_rating,3611,,,,,2022-06-24 14:44:31,36162
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Action,74,,,wad_att_rating,2906,,,,,2022-06-24 14:44:34,36163
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,6,Art,15,,,wad_att_rating,2125,,,,,2022-06-24 14:44:36,36164
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,1,Drama,13,,,wad_att_rating,3178,,,,,2022-06-24 14:44:39,36165
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,2,Fantasy World,89,,,wad_att_rating,2667,,,,,2022-06-24 14:44:42,36166
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,4,Romantic,0,,,wad_att_rating,2609,,,,,2022-06-24 14:44:45,36167
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,3,Science Fiction,100,,,wad_att_rating,1908,,,,,2022-06-24 14:44:46,36168
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,8,Violent,77,,,wad_att_rating,2048,,,,,2022-06-24 14:44:49,36169
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,7,Funny,25,,,wad_att_rating,2056,,,,,2022-06-24 14:44:51,36170
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,4,Romantic,-1,Nobody,Most people,direction,6772,,,,,2022-06-24 14:44:58,36171
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,8,Violent,86,,,wad_att_rating,11079,,,,,2022-06-24 14:45:10,36172
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,8,Violent,-1,Half of people,Everyone,direction,6780,,,,,2022-06-24 14:45:12,36173
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Fantasy-like,1,,,ew_att_rating,12473,,,,,2022-06-24 14:45:13,36174
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Suspenseful,1,,,ew_att_rating,12473,,,,,2022-06-24 14:45:13,36175
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Action-Packed,1,,,ew_att_rating,12473,,,,,2022-06-24 14:45:13,36176
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Science-Fiction-like,1,,,ew_att_rating,12473,,,,,2022-06-24 14:45:13,36177
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Violent,1,,,ew_att_rating,12473,,,,,2022-06-24 14:45:13,36178
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,1,Drama,51,,,wad_att_rating,4282,,,,,2022-06-24 14:45:14,36179
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,2,Fantasy World,50,,,wad_att_rating,4372,,,,,2022-06-24 14:45:19,36180
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,5,Suspense,25,,,wad_att_rating,3819,,,,,2022-06-24 14:45:22,36181
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,7,Funny,76,,,wad_att_rating,3802,,,,,2022-06-24 14:45:26,36182
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,0,Action,-1,Most people,A few people,direction,9235,,,,,2022-06-24 14:45:29,36183
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,6,Art,50,,,wad_att_rating,3554,,,,,2022-06-24 14:45:30,36184
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,3,Science Fiction,62,,,wad_att_rating,3988,,,,,2022-06-24 14:45:34,36185
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,4,Romantic,24,,,wad_att_rating,3101,,,,,2022-06-24 14:45:37,36186
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,5,Suspense,-1,Everyone,Nobody,direction,3985,,,,,2022-06-24 14:45:37,36187
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,0,Action,50,,,wad_att_rating,3795,,,,,2022-06-24 14:45:41,36188
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,7,Funny,-1,Most people,A few people,direction,6164,,,,,2022-06-24 14:45:51,36189
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,0,Violent,1,,,lex_att_rating,3742,,,,,2022-06-24 14:45:54,36190
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,3,Science Fiction,-1,Half of people,Nobody,direction,3584,,,,,2022-06-24 14:45:58,36191
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,1,Drama,-1,Everyone,Nobody,direction,3561,,,,,2022-06-24 14:46:06,36192
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,0,Violent,1,,,ew_att_rating,8012,,,,,2022-06-24 14:46:15,36193
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,0,Science-Fiction-like,1,,,ew_att_rating,8012,,,,,2022-06-24 14:46:15,36194
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,0,Funny,1,,,ew_att_rating,8012,,,,,2022-06-24 14:46:15,36195
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,2,Fantasy World,-1,Half of people,Everyone,direction,3742,,,,,2022-06-24 14:46:15,36196
+616ef680ab8ca318a227f5ec,ma_choice_v4_movies_pilot2,616ef680ab8ca318a227f5ec,6,Art,-1,A few people,Everyone,direction,2405,,,,,2022-06-24 14:46:25,36197
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,3,Science Fiction,-1,Everyone,Nobody,direction,2732,,,,,2022-06-24 14:46:27,36198
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,8,Violent,-1,Most people,A few people,direction,1636,,,,,2022-06-24 14:46:31,36199
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,1,Drama,-1,Half of people,Everyone,direction,4187,,,,,2022-06-24 14:46:38,36200
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,2,Fantasy World,-1,Most people,A few people,direction,1906,,,,,2022-06-24 14:46:43,36201
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,6,Art,-1,A few people,Everyone,direction,1542,,,,,2022-06-24 14:46:49,36202
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,0,Action,-1,Everyone,Nobody,direction,1386,,,,,2022-06-24 14:46:55,36203
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,7,Funny,-1,Half of people,Most people,direction,4245,,,,,2022-06-24 14:47:03,36204
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,4,Romantic,-1,Nobody,Everyone,direction,1578,,,,,2022-06-24 14:47:08,36205
+5dd40277e08a363e4e006384,ma_choice_v4_movies_pilot2,5dd40277e08a363e4e006384,5,Suspense,-1,Most people,Nobody,direction,1653,,,,,2022-06-24 14:47:13,36206
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,2,Fantasy World,-1,Half of people,Nobody,direction,11387,,,,,2022-06-24 14:47:29,36207
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,3,Science Fiction,-1,Half of people,Nobody,direction,2177,,,,,2022-06-24 14:47:36,36208
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,8,Violent,-1,Nobody,Everyone,direction,4510,,,,,2022-06-24 14:47:45,36209
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,4,Romantic,-1,A few people,Everyone,direction,3631,,,,,2022-06-24 14:47:53,36210
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,7,Funny,-1,Everyone,Nobody,direction,1687,,,,,2022-06-24 14:47:58,36211
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,0,Action,-1,Half of people,A few people,direction,1351,,,,,2022-06-24 14:48:04,36212
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,5,Suspense,-1,Nobody,Everyone,direction,1966,,,,,2022-06-24 14:48:17,36213
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,6,Art,-1,Nobody,Everyone,direction,1635,,,,,2022-06-24 14:48:22,36214
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,8,Violent,100,,,wad_att_rating,7270,,,,,2022-06-24 14:48:22,36215
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,7,Funny,100,,,wad_att_rating,3333,,,,,2022-06-24 14:48:26,36216
+5c7070519f9392000150023c,ma_choice_v4_movies_pilot2,5c7070519f9392000150023c,1,Drama,-1,Half of people,Half of people,direction,1303,,,,,2022-06-24 14:48:27,36217
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,3,Science Fiction,0,,,wad_att_rating,3981,,,,,2022-06-24 14:48:30,36218
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,5,Suspense,0,,,wad_att_rating,2732,,,,,2022-06-24 14:48:32,36219
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,4,Romantic,0,,,wad_att_rating,2844,,,,,2022-06-24 14:48:35,36220
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,2,Fantasy World,0,,,wad_att_rating,2397,,,,,2022-06-24 14:48:38,36221
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,1,Drama,0,,,wad_att_rating,3797,,,,,2022-06-24 14:48:41,36222
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,6,Art,0,,,wad_att_rating,3036,,,,,2022-06-24 14:48:44,36223
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,0,Action,0,,,wad_att_rating,2557,,,,,2022-06-24 14:48:47,36224
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,0,Funny,1,,,ew_att_rating,15482,,,,,2022-06-24 14:49:05,36225
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,0,Violent,1,,,ew_att_rating,15482,,,,,2022-06-24 14:49:05,36226
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,0,Funny,1,,,lex_att_rating,5103,,,,,2022-06-24 14:49:11,36227
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,8,Violent,77,,,wad_att_rating,10697,,,,,2022-06-24 14:50:05,36228
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,7,Funny,64,,,wad_att_rating,4680,,,,,2022-06-24 14:50:09,36229
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,2,Fantasy World,100,,,wad_att_rating,3784,,,,,2022-06-24 14:50:13,36230
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,3,Science Fiction,80,,,wad_att_rating,3933,,,,,2022-06-24 14:50:17,36231
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,1,Drama,22,,,wad_att_rating,5784,,,,,2022-06-24 14:50:23,36232
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,6,Art,16,,,wad_att_rating,3156,,,,,2022-06-24 14:50:26,36233
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,3,Science Fiction,-1,Everyone,Nobody,direction,3614,,,,,2022-06-24 14:50:28,36234
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,4,Romantic,80,,,wad_att_rating,4153,,,,,2022-06-24 14:50:30,36235
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,0,Action,4,,,wad_att_rating,4569,,,,,2022-06-24 14:50:35,36236
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,7,Funny,-1,Everyone,A few people,direction,5525,,,,,2022-06-24 14:50:36,36237
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,5,Suspense,12,,,wad_att_rating,3549,,,,,2022-06-24 14:50:38,36238
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,0,Action,-1,Everyone,Nobody,direction,2885,,,,,2022-06-24 14:50:43,36239
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,8,Violent,-1,Half of people,Nobody,direction,5099,,,,,2022-06-24 14:50:55,36240
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,2,Fantasy World,-1,Everyone,Nobody,direction,2749,,,,,2022-06-24 14:51:01,36241
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,5,Suspense,-1,Everyone,Nobody,direction,2389,,,,,2022-06-24 14:51:06,36242
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,1,Drama,-1,Everyone,Nobody,direction,2583,,,,,2022-06-24 14:51:12,36243
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,4,Romantic,-1,Everyone,Nobody,direction,3173,,,,,2022-06-24 14:51:17,36244
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,0,Funny,1,,,ew_att_rating,24163,,,,,2022-06-24 14:51:20,36245
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,0,Fantasy-like,1,,,ew_att_rating,24163,,,,,2022-06-24 14:51:20,36246
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,0,Romantic,1,,,ew_att_rating,24163,,,,,2022-06-24 14:51:20,36247
+614918a6dcc9c2fb0bde6331,ma_choice_v4_movies_pilot2,614918a6dcc9c2fb0bde6331,6,Art,-1,Everyone,Nobody,direction,2335,,,,,2022-06-24 14:51:22,36248
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,0,Fantasy-like,1,,,lex_att_rating,6313,,,,,2022-06-24 14:51:32,36249
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,4,Romantic,-1,A few people,Nobody,direction,8668,,,,,2022-06-24 14:51:33,36250
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,8,Violent,-1,Nobody,Everyone,direction,6531,,,,,2022-06-24 14:51:51,36251
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,2,Fantasy World,-1,Half of people,A few people,direction,3910,,,,,2022-06-24 14:52:00,36252
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,3,Science Fiction,-1,Most people,A few people,direction,3528,,,,,2022-06-24 14:52:10,36253
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,6,Art,-1,Most people,Nobody,direction,3291,,,,,2022-06-24 14:52:18,36254
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,7,Funny,-1,Half of people,Nobody,direction,2988,,,,,2022-06-24 14:52:27,36255
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,1,Drama,-1,A few people,A few people,direction,1491,,,,,2022-06-24 14:52:34,36256
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,0,Action,-1,Half of people,Everyone,direction,3303,,,,,2022-06-24 14:52:41,36257
+5fc7d47e2df9df05bbb0d206,ma_choice_v4_movies_pilot2,5fc7d47e2df9df05bbb0d206,5,Suspense,-1,Everyone,Nobody,direction,1896,,,,,2022-06-24 14:52:46,36258
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,1,Drama,-1,Everyone,Nobody,direction,4351,,,,,2022-06-24 14:52:55,36259
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,7,Funny,-1,Everyone,Nobody,direction,3594,,,,,2022-06-24 14:53:03,36260
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,4,Romantic,-1,Everyone,Nobody,direction,3142,,,,,2022-06-24 14:53:15,36261
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,0,Action,-1,Half of people,Half of people,direction,2955,,,,,2022-06-24 14:53:22,36262
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,2,Fantasy World,-1,Everyone,Nobody,direction,3137,,,,,2022-06-24 14:53:30,36263
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,8,Violent,-1,A few people,Most people,direction,4336,,,,,2022-06-24 14:53:40,36264
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,3,Science Fiction,-1,A few people,Most people,direction,2505,,,,,2022-06-24 14:53:46,36265
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,5,Suspense,-1,A few people,Most people,direction,2642,,,,,2022-06-24 14:53:51,36266
+5a7618b18fe2dc0001057243,ma_choice_v4_movies_pilot2,5a7618b18fe2dc0001057243,6,Art,-1,Half of people,Half of people,direction,1942,,,,,2022-06-24 14:53:58,36267
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Dramatic,1,,,lex_att_rating,10339,,,,,2022-06-24 14:55:13,36268
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,3,Science Fiction,37,,,wad_att_rating,5211,,,,,2022-06-24 14:55:21,36269
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,6,Art,62,,,wad_att_rating,5246,,,,,2022-06-24 14:55:27,36270
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Action,50,,,wad_att_rating,3797,,,,,2022-06-24 14:55:31,36271
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,1,Drama,87,,,wad_att_rating,3318,,,,,2022-06-24 14:55:34,36272
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,4,Romantic,76,,,wad_att_rating,2708,,,,,2022-06-24 14:55:37,36273
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,2,Fantasy World,24,,,wad_att_rating,2801,,,,,2022-06-24 14:55:39,36274
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,7,Funny,6,,,wad_att_rating,4568,,,,,2022-06-24 14:55:44,36275
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,5,Suspense,79,,,wad_att_rating,3492,,,,,2022-06-24 14:55:47,36276
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,8,Violent,50,,,wad_att_rating,2233,,,,,2022-06-24 14:55:50,36277
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Romantic,1,,,ew_att_rating,9585,,,,,2022-06-24 14:56:01,36278
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Dramatic,1,,,ew_att_rating,9585,,,,,2022-06-24 14:56:01,36279
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Artistic,1,,,ew_att_rating,9585,,,,,2022-06-24 14:56:01,36280
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Suspenseful,1,,,ew_att_rating,9585,,,,,2022-06-24 14:56:01,36281
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,0,Action-Packed,1,,,lex_att_rating,8414,,,,,2022-06-24 14:58:18,36282
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,0,Action-Packed,1,,,ew_att_rating,31248,,,,,2022-06-24 14:59:53,36283
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,0,Funny,1,,,ew_att_rating,31248,,,,,2022-06-24 14:59:53,36284
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,2,Fantasy World,39,,,wad_att_rating,7329,,,,,2022-06-24 15:00:31,36285
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,8,Violent,21,,,wad_att_rating,4836,,,,,2022-06-24 15:00:36,36286
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,3,Science Fiction,59,,,wad_att_rating,9484,,,,,2022-06-24 15:00:46,36287
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,4,Romantic,0,,,wad_att_rating,3728,,,,,2022-06-24 15:00:49,36288
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,1,Drama,33,,,wad_att_rating,5092,,,,,2022-06-24 15:00:54,36289
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,5,Suspense,41,,,wad_att_rating,4429,,,,,2022-06-24 15:00:59,36290
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,0,Action,100,,,wad_att_rating,5899,,,,,2022-06-24 15:01:05,36291
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,6,Art,26,,,wad_att_rating,4995,,,,,2022-06-24 15:01:10,36292
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,7,Funny,89,,,wad_att_rating,10436,,,,,2022-06-24 15:01:20,36293
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,4,Romantic,-1,Most people,Nobody,direction,3177,,,,,2022-06-24 15:02:42,36294
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,6,Art,-1,Everyone,Nobody,direction,1401,,,,,2022-06-24 15:02:45,36295
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,5,Suspense,-1,Most people,Nobody,direction,1187,,,,,2022-06-24 15:02:49,36296
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,1,Drama,-1,Everyone,Nobody,direction,993,,,,,2022-06-24 15:02:52,36297
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,7,Funny,-1,A few people,Everyone,direction,2057,,,,,2022-06-24 15:02:56,36298
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,0,Action,-1,Half of people,Nobody,direction,1527,,,,,2022-06-24 15:03:02,36299
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,8,Violent,-1,Half of people,Nobody,direction,1451,,,,,2022-06-24 15:03:06,36300
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,2,Fantasy World,-1,Half of people,Nobody,direction,1017,,,,,2022-06-24 15:03:08,36301
+60fe132a7b9300f21d60cf36,ma_choice_v4_movies_pilot2,60fe132a7b9300f21d60cf36,3,Science Fiction,-1,A few people,Nobody,direction,1115,,,,,2022-06-24 15:03:12,36302
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,0,Action,-1,Everyone,Nobody,direction,3936,,,,,2022-06-24 15:04:55,36303
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,5,Suspense,-1,Half of people,Everyone,direction,4175,,,,,2022-06-24 15:05:04,36304
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,1,Drama,-1,Most people,A few people,direction,4120,,,,,2022-06-24 15:05:12,36305
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,3,Science Fiction,-1,Half of people,Everyone,direction,5505,,,,,2022-06-24 15:05:28,36306
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,2,Fantasy World,-1,Most people,Nobody,direction,5807,,,,,2022-06-24 15:05:38,36307
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,7,Funny,-1,Everyone,Nobody,direction,3009,,,,,2022-06-24 15:05:53,36308
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,6,Art,-1,Half of people,Nobody,direction,3273,,,,,2022-06-24 15:06:02,36309
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,4,Romantic,-1,Nobody,Everyone,direction,3757,,,,,2022-06-24 15:06:11,36310
+6296267b2ae249a205d319d3,ma_choice_v4_movies_pilot2,6296267b2ae249a205d319d3,8,Violent,-1,Half of people,Everyone,direction,5471,,,,,2022-06-24 15:06:20,36311
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,1,Drama,38,,,wad_att_rating,13084,,,,,2022-06-24 15:08:17,36312
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,4,Romantic,0,,,wad_att_rating,8109,,,,,2022-06-24 15:08:25,36313
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,3,Science Fiction,74,,,wad_att_rating,9646,,,,,2022-06-24 15:08:35,36314
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,8,Violent,76,,,wad_att_rating,5005,,,,,2022-06-24 15:08:40,36315
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,6,Art,0,,,wad_att_rating,10871,,,,,2022-06-24 15:08:51,36316
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,7,Funny,76,,,wad_att_rating,12551,,,,,2022-06-24 15:09:03,36317
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,5,Suspense,75,,,wad_att_rating,14869,,,,,2022-06-24 15:09:18,36318
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,0,Artistic,1,,,ew_att_rating,37281,,,,,2022-06-24 15:09:20,36319
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,0,Suspenseful,1,,,ew_att_rating,37281,,,,,2022-06-24 15:09:20,36320
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,0,Dramatic,1,,,ew_att_rating,37281,,,,,2022-06-24 15:09:20,36321
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Action,78,,,wad_att_rating,5905,,,,,2022-06-24 15:09:24,36322
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,2,Fantasy World,62,,,wad_att_rating,9539,,,,,2022-06-24 15:09:34,36323
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,0,Artistic,1,,,lex_att_rating,12344,,,,,2022-06-24 15:09:44,36324
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,8,Violent,25,,,wad_att_rating,10323,,,,,2022-06-24 15:10:06,36325
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,7,Funny,16,,,wad_att_rating,7328,,,,,2022-06-24 15:10:13,36326
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,4,Romantic,1,,,wad_att_rating,6481,,,,,2022-06-24 15:10:20,36327
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,3,Science Fiction,0,,,wad_att_rating,5545,,,,,2022-06-24 15:10:25,36328
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,2,Fantasy World,5,,,wad_att_rating,7190,,,,,2022-06-24 15:10:33,36329
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Violent,1,,,ew_att_rating,25536,,,,,2022-06-24 15:10:36,36330
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Science-Fiction-like,1,,,ew_att_rating,25536,,,,,2022-06-24 15:10:36,36331
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Suspenseful,1,,,ew_att_rating,25536,,,,,2022-06-24 15:10:36,36332
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Funny,1,,,ew_att_rating,25536,,,,,2022-06-24 15:10:36,36333
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Action-Packed,1,,,ew_att_rating,25536,,,,,2022-06-24 15:10:36,36334
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,1,Drama,75,,,wad_att_rating,5009,,,,,2022-06-24 15:10:38,36335
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,0,Action,12,,,wad_att_rating,6882,,,,,2022-06-24 15:10:44,36336
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,5,Suspense,81,,,wad_att_rating,6543,,,,,2022-06-24 15:10:51,36337
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,6,Art,85,,,wad_att_rating,6269,,,,,2022-06-24 15:10:57,36338
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Suspenseful,1,,,lex_att_rating,11825,,,,,2022-06-24 15:11:20,36339
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,6,Art,-1,Everyone,Nobody,direction,4272,,,,,2022-06-24 15:12:56,36340
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,1,Drama,-1,Everyone,Nobody,direction,12005,,,,,2022-06-24 15:13:20,36341
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,5,Suspense,-1,Everyone,Nobody,direction,2652,,,,,2022-06-24 15:13:27,36342
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,5,Suspense,-1,Everyone,Nobody,direction,6800,,,,,2022-06-24 15:13:36,36343
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,1,Drama,-1,Half of people,Nobody,direction,4384,,,,,2022-06-24 15:13:55,36344
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,8,Violent,-1,Everyone,Nobody,direction,2787,,,,,2022-06-24 15:14:01,36345
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,4,Romantic,-1,Half of people,Everyone,direction,22582,,,,,2022-06-24 15:14:03,36346
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,7,Funny,-1,Everyone,Nobody,direction,4367,,,,,2022-06-24 15:14:15,36347
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,8,Violent,-1,Half of people,A few people,direction,7851,,,,,2022-06-24 15:14:23,36348
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,0,Action,-1,Everyone,Nobody,direction,3720,,,,,2022-06-24 15:14:24,36349
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,7,Funny,-1,A few people,Everyone,direction,4532,,,,,2022-06-24 15:14:35,36350
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,6,Art,-1,A few people,Nobody,direction,3983,,,,,2022-06-24 15:14:37,36351
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,0,Action,-1,A few people,Everyone,direction,3948,,,,,2022-06-24 15:14:46,36352
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,2,Fantasy World,-1,Most people,Nobody,direction,2889,,,,,2022-06-24 15:14:50,36353
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,4,Romantic,-1,A few people,Nobody,direction,2921,,,,,2022-06-24 15:15:00,36354
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,2,Fantasy World,-1,A few people,Everyone,direction,2887,,,,,2022-06-24 15:15:03,36355
+6101b5f7b7de35910a926c62,ma_choice_v4_movies_pilot2,6101b5f7b7de35910a926c62,3,Science Fiction,-1,Everyone,Nobody,direction,3616,,,,,2022-06-24 15:15:10,36356
+601636f7e8edb47a4e205797,ma_choice_v4_movies_pilot2,601636f7e8edb47a4e205797,3,Science Fiction,-1,Nobody,Everyone,direction,3998,,,,,2022-06-24 15:15:15,36357

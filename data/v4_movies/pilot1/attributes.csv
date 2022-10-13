@@ -1,0 +1,244 @@
+﻿subject,version,assignmentId,attribute,scale,min_diff,lb,ub,postfix,stamp,id
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Action,"",,0,100,%,2022-06-23 14:49:46,28256
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Violent,"",,0,100,%,2022-06-23 14:49:46,28257
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Science Fiction,"",,0,100,%,2022-06-23 14:49:46,28258
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Art,"",,0,100,%,2022-06-23 14:49:46,28259
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Romantic,"",,0,100,%,2022-06-23 14:49:46,28260
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Drama,"",,0,100,%,2022-06-23 14:49:46,28261
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Funny,"",,0,100,%,2022-06-23 14:49:46,28262
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Suspense,"",,0,100,%,2022-06-23 14:49:46,28263
+5aebb2f6aa05510001ff6561,ma_choice_v4_movies_pilot1,5aebb2f6aa05510001ff6561,Fantasy World,"",,0,100,%,2022-06-23 14:49:46,28264
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Action,"",,0,100,%,2022-06-23 15:13:16,28292
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Fantasy World,"",,0,100,%,2022-06-23 15:13:16,28293
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Drama,"",,0,100,%,2022-06-23 15:13:16,28294
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Romantic,"",,0,100,%,2022-06-23 15:13:16,28295
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Science Fiction,"",,0,100,%,2022-06-23 15:13:16,28296
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Suspense,"",,0,100,%,2022-06-23 15:13:16,28297
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Art,"",,0,100,%,2022-06-23 15:13:16,28298
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Funny,"",,0,100,%,2022-06-23 15:13:16,28299
+614f7ff5a3f96d1ecec5053a,ma_choice_v4_movies_pilot1,614f7ff5a3f96d1ecec5053a,Violent,"",,0,100,%,2022-06-23 15:13:16,28300
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Fantasy World,"",,0,100,%,2022-06-23 15:18:09,28328
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Drama,"",,0,100,%,2022-06-23 15:18:09,28329
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Science Fiction,"",,0,100,%,2022-06-23 15:18:09,28330
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Action,"",,0,100,%,2022-06-23 15:18:09,28331
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Romantic,"",,0,100,%,2022-06-23 15:18:09,28332
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Art,"",,0,100,%,2022-06-23 15:18:09,28333
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Suspense,"",,0,100,%,2022-06-23 15:18:09,28334
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Funny,"",,0,100,%,2022-06-23 15:18:09,28335
+60ddc7abdf6661b9c294691f,ma_choice_v4_movies_pilot1,60ddc7abdf6661b9c294691f,Violent,"",,0,100,%,2022-06-23 15:18:09,28336
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Drama,"",,0,100,%,2022-06-23 15:24:50,28346
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Romantic,"",,0,100,%,2022-06-23 15:24:50,28347
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Science Fiction,"",,0,100,%,2022-06-23 15:24:50,28348
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Action,"",,0,100,%,2022-06-23 15:24:50,28349
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Fantasy World,"",,0,100,%,2022-06-23 15:24:50,28350
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Art,"",,0,100,%,2022-06-23 15:24:51,28351
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Funny,"",,0,100,%,2022-06-23 15:24:51,28352
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Violent,"",,0,100,%,2022-06-23 15:24:51,28353
+6111d2f6655febefcbacc17c,ma_choice_v4_movies_pilot1,6111d2f6655febefcbacc17c,Suspense,"",,0,100,%,2022-06-23 15:24:51,28354
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Romantic,"",,0,100,%,2022-06-23 15:25:25,28355
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Action,"",,0,100,%,2022-06-23 15:25:25,28356
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Fantasy World,"",,0,100,%,2022-06-23 15:25:25,28357
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Funny,"",,0,100,%,2022-06-23 15:25:25,28358
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Drama,"",,0,100,%,2022-06-23 15:25:25,28359
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Suspense,"",,0,100,%,2022-06-23 15:25:25,28360
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Art,"",,0,100,%,2022-06-23 15:25:25,28361
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Science Fiction,"",,0,100,%,2022-06-23 15:25:25,28362
+6144f7e2bf25aad25ae610a1,ma_choice_v4_movies_pilot1,6144f7e2bf25aad25ae610a1,Violent,"",,0,100,%,2022-06-23 15:25:26,28363
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Violent,"",,0,100,%,2022-06-23 15:36:34,28382
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Action,"",,0,100,%,2022-06-23 15:36:34,28383
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Funny,"",,0,100,%,2022-06-23 15:36:34,28384
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Suspense,"",,0,100,%,2022-06-23 15:36:34,28385
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Art,"",,0,100,%,2022-06-23 15:36:34,28386
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Fantasy World,"",,0,100,%,2022-06-23 15:36:34,28387
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Science Fiction,"",,0,100,%,2022-06-23 15:36:34,28388
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Drama,"",,0,100,%,2022-06-23 15:36:34,28389
+5d6a86b8c5508e001bb484bf,ma_choice_v4_movies_pilot1,5d6a86b8c5508e001bb484bf,Romantic,"",,0,100,%,2022-06-23 15:36:34,28390
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Action,"",,0,100,%,2022-06-23 15:37:05,28391
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Romantic,"",,0,100,%,2022-06-23 15:37:05,28392
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Funny,"",,0,100,%,2022-06-23 15:37:05,28393
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Drama,"",,0,100,%,2022-06-23 15:37:05,28394
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Fantasy World,"",,0,100,%,2022-06-23 15:37:05,28395
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Suspense,"",,0,100,%,2022-06-23 15:37:05,28396
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Violent,"",,0,100,%,2022-06-23 15:37:05,28397
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Art,"",,0,100,%,2022-06-23 15:37:05,28398
+62a77a01b6a18ad2e49267c1,ma_choice_v4_movies_pilot1,62a77a01b6a18ad2e49267c1,Science Fiction,"",,0,100,%,2022-06-23 15:37:05,28399
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Drama,"",,0,100,%,2022-06-23 15:40:21,28400
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Art,"",,0,100,%,2022-06-23 15:40:21,28401
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Action,"",,0,100,%,2022-06-23 15:40:21,28402
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Romantic,"",,0,100,%,2022-06-23 15:40:21,28403
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Science Fiction,"",,0,100,%,2022-06-23 15:40:21,28404
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Fantasy World,"",,0,100,%,2022-06-23 15:40:21,28405
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Suspense,"",,0,100,%,2022-06-23 15:40:21,28406
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Funny,"",,0,100,%,2022-06-23 15:40:21,28407
+6127132b64a16c46a232c10e,ma_choice_v4_movies_pilot1,6127132b64a16c46a232c10e,Violent,"",,0,100,%,2022-06-23 15:40:21,28408
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Fantasy World,"",,0,100,%,2022-06-23 15:41:27,28418
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Drama,"",,0,100,%,2022-06-23 15:41:27,28419
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Action,"",,0,100,%,2022-06-23 15:41:27,28420
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Science Fiction,"",,0,100,%,2022-06-23 15:41:27,28421
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Romantic,"",,0,100,%,2022-06-23 15:41:27,28422
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Suspense,"",,0,100,%,2022-06-23 15:41:27,28423
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Funny,"",,0,100,%,2022-06-23 15:41:27,28424
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Art,"",,0,100,%,2022-06-23 15:41:27,28425
+5c6d04805cd55f0001129c26,ma_choice_v4_movies_pilot1,5c6d04805cd55f0001129c26,Violent,"",,0,100,%,2022-06-23 15:41:27,28426
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Fantasy World,"",,0,100,%,2022-06-23 15:42:06,28427
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Drama,"",,0,100,%,2022-06-23 15:42:06,28428
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Suspense,"",,0,100,%,2022-06-23 15:42:06,28429
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Action,"",,0,100,%,2022-06-23 15:42:06,28430
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Romantic,"",,0,100,%,2022-06-23 15:42:06,28431
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Violent,"",,0,100,%,2022-06-23 15:42:06,28432
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Science Fiction,"",,0,100,%,2022-06-23 15:42:06,28433
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Art,"",,0,100,%,2022-06-23 15:42:06,28434
+5ee0a8d334832c02ed9a3303,ma_choice_v4_movies_pilot1,5ee0a8d334832c02ed9a3303,Funny,"",,0,100,%,2022-06-23 15:42:06,28435
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Suspense,"",,0,100,%,2022-06-23 15:42:22,28436
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Romantic,"",,0,100,%,2022-06-23 15:42:22,28437
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Science Fiction,"",,0,100,%,2022-06-23 15:42:22,28438
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Drama,"",,0,100,%,2022-06-23 15:42:22,28439
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Art,"",,0,100,%,2022-06-23 15:42:22,28440
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Action,"",,0,100,%,2022-06-23 15:42:22,28441
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Violent,"",,0,100,%,2022-06-23 15:42:22,28442
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Funny,"",,0,100,%,2022-06-23 15:42:22,28443
+5a9a6f5f35237b000112920f,ma_choice_v4_movies_pilot1,5a9a6f5f35237b000112920f,Fantasy World,"",,0,100,%,2022-06-23 15:42:22,28444
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Romantic,"",,0,100,%,2022-06-23 15:45:01,28445
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Action,"",,0,100,%,2022-06-23 15:45:01,28446
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Science Fiction,"",,0,100,%,2022-06-23 15:45:01,28447
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Suspense,"",,0,100,%,2022-06-23 15:45:01,28448
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Funny,"",,0,100,%,2022-06-23 15:45:01,28449
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Fantasy World,"",,0,100,%,2022-06-23 15:45:01,28450
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Art,"",,0,100,%,2022-06-23 15:45:01,28451
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Violent,"",,0,100,%,2022-06-23 15:45:01,28452
+608ad59dc31587d0f40ab303,ma_choice_v4_movies_pilot1,608ad59dc31587d0f40ab303,Drama,"",,0,100,%,2022-06-23 15:45:01,28453
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Action,"",,0,100,%,2022-06-23 15:45:10,28454
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Drama,"",,0,100,%,2022-06-23 15:45:10,28455
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Science Fiction,"",,0,100,%,2022-06-23 15:45:10,28456
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Fantasy World,"",,0,100,%,2022-06-23 15:45:10,28457
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Funny,"",,0,100,%,2022-06-23 15:45:11,28458
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Romantic,"",,0,100,%,2022-06-23 15:45:11,28459
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Suspense,"",,0,100,%,2022-06-23 15:45:11,28460
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Art,"",,0,100,%,2022-06-23 15:45:11,28461
+614eb6fb8eebc22fd7b64c82,ma_choice_v4_movies_pilot1,614eb6fb8eebc22fd7b64c82,Violent,"",,0,100,%,2022-06-23 15:45:11,28462
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Action,"",,0,100,%,2022-06-23 15:50:06,28463
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Fantasy World,"",,0,100,%,2022-06-23 15:50:06,28464
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Drama,"",,0,100,%,2022-06-23 15:50:06,28465
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Science Fiction,"",,0,100,%,2022-06-23 15:50:06,28466
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Funny,"",,0,100,%,2022-06-23 15:50:07,28467
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Suspense,"",,0,100,%,2022-06-23 15:50:07,28468
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Art,"",,0,100,%,2022-06-23 15:50:07,28469
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Romantic,"",,0,100,%,2022-06-23 15:50:07,28470
+V,ma_choice_v4_movies_pilot1,607ec99a0e2f8caf3de9f839,Violent,"",,0,100,%,2022-06-23 15:50:07,28471
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Fantasy World,"",,0,100,%,2022-06-23 15:51:03,28472
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Drama,"",,0,100,%,2022-06-23 15:51:03,28473
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Action,"",,0,100,%,2022-06-23 15:51:03,28474
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Suspense,"",,0,100,%,2022-06-23 15:51:03,28475
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Science Fiction,"",,0,100,%,2022-06-23 15:51:03,28476
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Romantic,"",,0,100,%,2022-06-23 15:51:03,28477
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Art,"",,0,100,%,2022-06-23 15:51:03,28478
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Violent,"",,0,100,%,2022-06-23 15:51:03,28479
+5c872cded9fe700001024123,ma_choice_v4_movies_pilot1,5c872cded9fe700001024123,Funny,"",,0,100,%,2022-06-23 15:51:03,28480
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Funny,"",,0,100,%,2022-06-23 15:51:56,28481
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Science Fiction,"",,0,100,%,2022-06-23 15:51:56,28482
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Fantasy World,"",,0,100,%,2022-06-23 15:51:56,28483
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Art,"",,0,100,%,2022-06-23 15:51:56,28484
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Action,"",,0,100,%,2022-06-23 15:51:56,28485
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Drama,"",,0,100,%,2022-06-23 15:51:56,28486
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Suspense,"",,0,100,%,2022-06-23 15:51:56,28487
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Romantic,"",,0,100,%,2022-06-23 15:51:56,28488
+5da34f2837c5e20015a1254c,ma_choice_v4_movies_pilot1,5da34f2837c5e20015a1254c,Violent,"",,0,100,%,2022-06-23 15:51:56,28489
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Funny,"",,0,100,%,2022-06-23 15:55:57,28499
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Action,"",,0,100,%,2022-06-23 15:55:57,28500
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Suspense,"",,0,100,%,2022-06-23 15:55:57,28501
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Art,"",,0,100,%,2022-06-23 15:55:57,28502
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Violent,"",,0,100,%,2022-06-23 15:55:57,28503
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Romantic,"",,0,100,%,2022-06-23 15:55:57,28504
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Fantasy World,"",,0,100,%,2022-06-23 15:55:57,28505
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Drama,"",,0,100,%,2022-06-23 15:55:57,28506
+61006b0f1f3bfddb6b4c5d55,ma_choice_v4_movies_pilot1,61006b0f1f3bfddb6b4c5d55,Science Fiction,"",,0,100,%,2022-06-23 15:55:57,28507
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Suspense,"",,0,100,%,2022-06-23 15:56:51,28508
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Drama,"",,0,100,%,2022-06-23 15:56:51,28509
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Science Fiction,"",,0,100,%,2022-06-23 15:56:51,28510
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Art,"",,0,100,%,2022-06-23 15:56:51,28511
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Violent,"",,0,100,%,2022-06-23 15:56:51,28512
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Romantic,"",,0,100,%,2022-06-23 15:56:51,28513
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Fantasy World,"",,0,100,%,2022-06-23 15:56:51,28514
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Funny,"",,0,100,%,2022-06-23 15:56:51,28515
+5e7aca7dc679490b709c855c,ma_choice_v4_movies_pilot1,5e7aca7dc679490b709c855c,Action,"",,0,100,%,2022-06-23 15:56:51,28516
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Drama,"",,0,100,%,2022-06-23 15:57:19,28517
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Violent,"",,0,100,%,2022-06-23 15:57:19,28518
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Action,"",,0,100,%,2022-06-23 15:57:19,28519
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Funny,"",,0,100,%,2022-06-23 15:57:19,28520
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Romantic,"",,0,100,%,2022-06-23 15:57:19,28521
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Suspense,"",,0,100,%,2022-06-23 15:57:19,28522
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Art,"",,0,100,%,2022-06-23 15:57:19,28523
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Science Fiction,"",,0,100,%,2022-06-23 15:57:19,28524
+60feebcbc1c40da1c001176e,ma_choice_v4_movies_pilot1,60feebcbc1c40da1c001176e,Fantasy World,"",,0,100,%,2022-06-23 15:57:19,28525
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Violent,"",,0,100,%,2022-06-23 16:01:59,28526
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Drama,"",,0,100,%,2022-06-23 16:01:59,28527
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Art,"",,0,100,%,2022-06-23 16:01:59,28528
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Romantic,"",,0,100,%,2022-06-23 16:01:59,28529
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Funny,"",,0,100,%,2022-06-23 16:01:59,28530
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Action,"",,0,100,%,2022-06-23 16:01:59,28531
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Fantasy World,"",,0,100,%,2022-06-23 16:01:59,28532
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Suspense,"",,0,100,%,2022-06-23 16:01:59,28533
+629e5d789a6c92c8fbf8df95,ma_choice_v4_movies_pilot1,629e5d789a6c92c8fbf8df95,Science Fiction,"",,0,100,%,2022-06-23 16:01:59,28534
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Action,"",,0,100,%,2022-06-23 16:02:56,28535
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Drama,"",,0,100,%,2022-06-23 16:02:56,28536
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Suspense,"",,0,100,%,2022-06-23 16:02:56,28537
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Funny,"",,0,100,%,2022-06-23 16:02:56,28538
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Romantic,"",,0,100,%,2022-06-23 16:02:56,28539
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Science Fiction,"",,0,100,%,2022-06-23 16:02:56,28540
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Art,"",,0,100,%,2022-06-23 16:02:56,28541
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Violent,"",,0,100,%,2022-06-23 16:02:56,28542
+6063a680ba3790e15ab14ba9,ma_choice_v4_movies_pilot1,6063a680ba3790e15ab14ba9,Fantasy World,"",,0,100,%,2022-06-23 16:02:56,28543
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Funny,"",,0,100,%,2022-06-23 16:04:19,28544
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Romantic,"",,0,100,%,2022-06-23 16:04:19,28545
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Action,"",,0,100,%,2022-06-23 16:04:19,28546
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Science Fiction,"",,0,100,%,2022-06-23 16:04:19,28547
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Art,"",,0,100,%,2022-06-23 16:04:19,28548
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Violent,"",,0,100,%,2022-06-23 16:04:19,28549
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Suspense,"",,0,100,%,2022-06-23 16:04:19,28550
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Drama,"",,0,100,%,2022-06-23 16:04:19,28551
+61076504825f01d5da948774,ma_choice_v4_movies_pilot1,61076504825f01d5da948774,Fantasy World,"",,0,100,%,2022-06-23 16:04:19,28552
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Drama,"",,0,100,%,2022-06-23 16:04:36,28553
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Action,"",,0,100,%,2022-06-23 16:04:36,28554
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Violent,"",,0,100,%,2022-06-23 16:04:36,28555
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Art,"",,0,100,%,2022-06-23 16:04:36,28556
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Suspense,"",,0,100,%,2022-06-23 16:04:36,28557
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Romantic,"",,0,100,%,2022-06-23 16:04:36,28558
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Science Fiction,"",,0,100,%,2022-06-23 16:04:36,28559
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Funny,"",,0,100,%,2022-06-23 16:04:36,28560
+62b33f729b02ed15713cb73b,ma_choice_v4_movies_pilot1,62b33f729b02ed15713cb73b,Fantasy World,"",,0,100,%,2022-06-23 16:04:36,28561
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Action,"",,0,100,%,2022-06-23 16:06:21,28562
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Fantasy World,"",,0,100,%,2022-06-23 16:06:21,28563
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Funny,"",,0,100,%,2022-06-23 16:06:21,28564
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Romantic,"",,0,100,%,2022-06-23 16:06:21,28565
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Drama,"",,0,100,%,2022-06-23 16:06:21,28566
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Suspense,"",,0,100,%,2022-06-23 16:06:21,28567
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Science Fiction,"",,0,100,%,2022-06-23 16:06:21,28568
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Violent,"",,0,100,%,2022-06-23 16:06:21,28569
+lific5dc61208dd2b7747f95b3c9f,ma_choice_v4_movies_pilot1,5dc61208dd2b7747f95b3c9f,Art,"",,0,100,%,2022-06-23 16:06:21,28570
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Action,"",,0,100,%,2022-06-23 16:07:02,28571
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Drama,"",,0,100,%,2022-06-23 16:07:02,28572
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Fantasy World,"",,0,100,%,2022-06-23 16:07:02,28573
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Romantic,"",,0,100,%,2022-06-23 16:07:02,28574
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Science Fiction,"",,0,100,%,2022-06-23 16:07:02,28575
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Suspense,"",,0,100,%,2022-06-23 16:07:02,28576
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Art,"",,0,100,%,2022-06-23 16:07:02,28577
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Violent,"",,0,100,%,2022-06-23 16:07:02,28578
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Funny,"",,0,100,%,2022-06-23 16:07:02,28579
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Suspense,"",,0,100,%,2022-06-23 16:08:09,28580
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Romantic,"",,0,100,%,2022-06-23 16:08:09,28581
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Science Fiction,"",,0,100,%,2022-06-23 16:08:09,28582
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Drama,"",,0,100,%,2022-06-23 16:08:09,28583
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Fantasy World,"",,0,100,%,2022-06-23 16:08:09,28584
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Art,"",,0,100,%,2022-06-23 16:08:09,28585
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Action,"",,0,100,%,2022-06-23 16:08:09,28586
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Funny,"",,0,100,%,2022-06-23 16:08:09,28587
+62866dd4cd7ecbe7c29bffdb,ma_choice_v4_movies_pilot1,62866dd4cd7ecbe7c29bffdb,Violent,"",,0,100,%,2022-06-23 16:08:09,28588
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Violent,"",,0,100,%,2022-06-23 16:17:18,28598
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Action,"",,0,100,%,2022-06-23 16:17:18,28599
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Science Fiction,"",,0,100,%,2022-06-23 16:17:18,28600
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Funny,"",,0,100,%,2022-06-23 16:17:18,28601
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Romantic,"",,0,100,%,2022-06-23 16:17:18,28602
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Drama,"",,0,100,%,2022-06-23 16:17:18,28603
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Art,"",,0,100,%,2022-06-23 16:17:18,28604
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Suspense,"",,0,100,%,2022-06-23 16:17:18,28605
+6172fa9eaaef2c328108a9b9,ma_choice_v4_movies_pilot1,6172fa9eaaef2c328108a9b9,Fantasy World,"",,0,100,%,2022-06-23 16:17:18,28606

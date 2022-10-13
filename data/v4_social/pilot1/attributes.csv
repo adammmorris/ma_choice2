@@ -1,0 +1,469 @@
+﻿subject,version,assignmentId,attribute,scale,min_diff,lb,ub,postfix,stamp,id
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 18:58:03,34529
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 18:58:03,34530
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 18:58:03,34531
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 18:58:03,34532
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Duration,"",20,30,90, minutes,2022-06-27 18:58:03,34533
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Number of other people present,"",2,3,12, people,2022-06-27 18:58:03,34534
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Distance from home,"",10,5,60, min away,2022-06-27 18:58:03,34535
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 18:58:03,34536
+5ff0f1b0dd8cf14ba8957c5b,ma_choice_v4_social_pilot1,5ff0f1b0dd8cf14ba8957c5b,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 18:58:03,34537
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:01:52,34601
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:01:52,34602
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:01:52,34603
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Distance from home,"",10,5,60, min away,2022-06-27 19:01:52,34604
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:01:52,34605
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:01:52,34606
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Number of other people present,"",2,3,12, people,2022-06-27 19:01:52,34607
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:01:52,34608
+62b9ac142a506642b5e0d9fb,ma_choice_v4_social_pilot1,62b9ac142a506642b5e0d9fb,Duration,"",20,30,90, minutes,2022-06-27 19:01:52,34609
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:07:28,34736
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:07:28,34737
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Number of other people present,"",2,3,12, people,2022-06-27 19:07:28,34738
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:07:28,34739
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Distance from home,"",10,5,60, min away,2022-06-27 19:07:28,34740
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:07:28,34741
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:07:28,34742
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Duration,"",20,30,90, minutes,2022-06-27 19:07:28,34743
+60de363dd092aad2911f14e2,ma_choice_v4_social_pilot1,60de363dd092aad2911f14e2,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:07:28,34744
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Distance from home,"",10,5,60, min away,2022-06-27 19:08:22,34763
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:22,34764
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:22,34765
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:22,34766
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:08:22,34767
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Number of other people present,"",2,3,12, people,2022-06-27 19:08:22,34768
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Duration,"",20,30,90, minutes,2022-06-27 19:08:22,34769
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:22,34770
+6158f8d1ad08e224c817b97b,ma_choice_v4_social_pilot1,6158f8d1ad08e224c817b97b,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:22,34771
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:50,34781
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:50,34782
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Duration,"",20,30,90, minutes,2022-06-27 19:08:50,34783
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:50,34784
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Number of other people present,"",2,3,12, people,2022-06-27 19:08:50,34785
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:08:50,34786
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:50,34787
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Distance from home,"",10,5,60, min away,2022-06-27 19:08:50,34788
+5ce6fbd9a76bf00019cfd467,ma_choice_v4_social_pilot1,5ce6fbd9a76bf00019cfd467,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:08:50,34789
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:11:33,34826
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Number of other people present,"",2,3,12, people,2022-06-27 19:11:33,34827
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Distance from home,"",10,5,60, min away,2022-06-27 19:11:33,34828
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:11:33,34829
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:11:33,34830
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:11:33,34831
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:11:33,34832
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:11:33,34833
+5f849ae1da640812e4ec057c,ma_choice_v4_social_pilot1,5f849ae1da640812e4ec057c,Duration,"",20,30,90, minutes,2022-06-27 19:11:33,34834
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:12:05,34844
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:12:05,34845
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:12:05,34846
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:12:05,34847
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Distance from home,"",10,5,60, min away,2022-06-27 19:12:05,34848
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Number of other people present,"",2,3,12, people,2022-06-27 19:12:05,34849
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:12:05,34850
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:12:05,34851
+5c0ec45b05ed100001f7861e,ma_choice_v4_social_pilot1,5c0ec45b05ed100001f7861e,Duration,"",20,30,90, minutes,2022-06-27 19:12:05,34852
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Duration,"",20,30,90, minutes,2022-06-27 19:13:35,34889
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:13:35,34890
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:13:35,34891
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:13:35,34892
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:13:35,34893
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Distance from home,"",10,5,60, min away,2022-06-27 19:13:35,34894
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:13:35,34895
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Number of other people present,"",2,3,12, people,2022-06-27 19:13:35,34896
+6172edcd801d608b50e9dda0,ma_choice_v4_social_pilot1,6172edcd801d608b50e9dda0,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:13:35,34897
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Distance from home,"",10,5,60, min away,2022-06-27 19:16:30,34925
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:16:30,34926
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Number of other people present,"",2,3,12, people,2022-06-27 19:16:30,34927
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:16:30,34928
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Duration,"",20,30,90, minutes,2022-06-27 19:16:30,34929
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:16:30,34930
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:16:30,34931
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:16:30,34932
+5dabb030847579001115ed18,ma_choice_v4_social_pilot1,5dabb030847579001115ed18,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:16:30,34933
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Distance from home,"",10,5,60, min away,2022-06-27 19:19:41,34997
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:19:41,34998
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:19:41,34999
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:19:41,35000
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Number of other people present,"",2,3,12, people,2022-06-27 19:19:41,35001
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Duration,"",20,30,90, minutes,2022-06-27 19:19:41,35002
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:19:41,35003
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:19:41,35004
+613d0826db1c3687ad919ce4,ma_choice_v4_social_pilot1,613d0826db1c3687ad919ce4,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:19:41,35005
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Number of other people present,"",2,3,12, people,2022-06-27 19:22:45,35015
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Duration,"",20,30,90, minutes,2022-06-27 19:22:45,35016
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:22:45,35017
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:22:45,35018
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Distance from home,"",10,5,60, min away,2022-06-27 19:22:45,35019
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:22:45,35020
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:22:45,35021
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:22:45,35022
+5f4ba3901f2abf04883a27e0,ma_choice_v4_social_pilot1,5f4ba3901f2abf04883a27e0,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:22:45,35023
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Distance from home,"",10,5,60, min away,2022-06-27 19:24:54,35042
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:24:54,35043
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:24:54,35044
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Duration,"",20,30,90, minutes,2022-06-27 19:24:54,35045
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:24:54,35046
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:24:54,35047
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Number of other people present,"",2,3,12, people,2022-06-27 19:24:54,35048
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:24:54,35049
+626819131a0c786bca585d33,ma_choice_v4_social_pilot1,626819131a0c786bca585d33,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:24:54,35050
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Distance from home,"",10,5,60, min away,2022-06-27 19:33:09,35141
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:33:09,35142
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:33:09,35143
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:33:09,35144
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:33:09,35145
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Number of other people present,"",2,3,12, people,2022-06-27 19:33:09,35146
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:33:09,35147
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:33:09,35148
+5bc32eb1518d030001358396,ma_choice_v4_social_pilot1,5bc32eb1518d030001358396,Duration,"",20,30,90, minutes,2022-06-27 19:33:09,35149
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Distance from home,"",10,5,60, min away,2022-06-27 19:36:17,35168
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Duration,"",20,30,90, minutes,2022-06-27 19:36:18,35169
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:36:18,35170
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:36:18,35171
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Number of other people present,"",2,3,12, people,2022-06-27 19:36:18,35172
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:36:18,35173
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:36:18,35174
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:36:18,35175
+60dc4e2299f89a7ca94b2c91,ma_choice_v4_social_pilot1,60dc4e2299f89a7ca94b2c91,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:36:18,35176
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:38:03,35195
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:38:03,35196
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:38:03,35197
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:38:03,35198
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Number of other people present,"",2,3,12, people,2022-06-27 19:38:03,35199
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:38:03,35200
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Distance from home,"",10,5,60, min away,2022-06-27 19:38:03,35201
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Duration,"",20,30,90, minutes,2022-06-27 19:38:03,35202
+6080506f48d21d24010d64aa,ma_choice_v4_social_pilot1,6080506f48d21d24010d64aa,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:38:03,35203
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:41:51,35222
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:41:51,35223
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:41:51,35224
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Number of other people present,"",2,3,12, people,2022-06-27 19:41:51,35225
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Distance from home,"",10,5,60, min away,2022-06-27 19:41:51,35226
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Duration,"",20,30,90, minutes,2022-06-27 19:41:51,35227
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:41:51,35228
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:41:51,35229
+60fddca5d7936b5e07c394a2,ma_choice_v4_social_pilot1,60fddca5d7936b5e07c394a2,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:41:51,35230
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Number of other people present,"",2,3,12, people,2022-06-27 19:44:50,35267
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:44:50,35268
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Duration,"",20,30,90, minutes,2022-06-27 19:44:50,35269
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Distance from home,"",10,5,60, min away,2022-06-27 19:44:50,35270
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:44:50,35271
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:44:50,35272
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:44:50,35273
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:44:50,35274
+60b98e805f90520bd582802d,ma_choice_v4_social_pilot1,60b98e805f90520bd582802d,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:44:50,35275
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:48:28,35294
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Distance from home,"",10,5,60, min away,2022-06-27 19:48:28,35295
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:48:28,35296
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Duration,"",20,30,90, minutes,2022-06-27 19:48:28,35297
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:48:28,35298
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Number of other people present,"",2,3,12, people,2022-06-27 19:48:28,35299
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:48:28,35300
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:48:28,35301
+61577cfb758541d9e85d5d4e,ma_choice_v4_social_pilot1,61577cfb758541d9e85d5d4e,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:48:28,35302
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Distance from home,"",10,5,60, min away,2022-06-27 19:50:13,35330
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:50:13,35331
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:50:13,35332
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Duration,"",20,30,90, minutes,2022-06-27 19:50:13,35333
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:50:13,35334
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:50:13,35335
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Number of other people present,"",2,3,12, people,2022-06-27 19:50:13,35336
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:50:13,35337
+5eacb9950c7a9532645a3dca,ma_choice_v4_social_pilot1,5eacb9950c7a9532645a3dca,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:50:13,35338
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:53:18,35366
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Distance from home,"",10,5,60, min away,2022-06-27 19:53:18,35367
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:18,35368
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Number of other people present,"",2,3,12, people,2022-06-27 19:53:18,35369
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:18,35370
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:18,35371
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:18,35372
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:18,35373
+610b2eaf207f63b1254e89d8,ma_choice_v4_social_pilot1,610b2eaf207f63b1254e89d8,Duration,"",20,30,90, minutes,2022-06-27 19:53:18,35374
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:23,35375
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:53:23,35376
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:23,35377
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:23,35378
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:23,35379
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:53:23,35380
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Number of other people present,"",2,3,12, people,2022-06-27 19:53:23,35381
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Duration,"",20,30,90, minutes,2022-06-27 19:53:23,35382
+5c6477fe4f0ea90001782441,ma_choice_v4_social_pilot1,5c6477fe4f0ea90001782441,Distance from home,"",10,5,60, min away,2022-06-27 19:53:23,35383
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:55:29,35402
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Number of other people present,"",2,3,12, people,2022-06-27 19:55:29,35403
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:55:29,35404
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Duration,"",20,30,90, minutes,2022-06-27 19:55:29,35405
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 19:55:29,35406
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Distance from home,"",10,5,60, min away,2022-06-27 19:55:29,35407
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:55:29,35408
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:55:29,35409
+62b221c49bc98c02c5484b33,ma_choice_v4_social_pilot1,62b221c49bc98c02c5484b33,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 19:55:29,35410
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Distance from home,"",10,5,60, min away,2022-06-27 20:00:22,35429
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Duration,"",20,30,90, minutes,2022-06-27 20:00:22,35430
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:00:22,35431
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:00:22,35432
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:00:22,35433
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:00:22,35434
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:00:22,35435
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:00:22,35436
+5f5834134283933a1c3b42d0,ma_choice_v4_social_pilot1,5f5834134283933a1c3b42d0,Number of other people present,"",2,3,12, people,2022-06-27 20:00:22,35437
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:01:29,35456
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Distance from home,"",10,5,60, min away,2022-06-27 20:01:29,35457
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:01:29,35458
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:01:29,35459
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Duration,"",20,30,90, minutes,2022-06-27 20:01:29,35460
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Number of other people present,"",2,3,12, people,2022-06-27 20:01:29,35461
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:01:29,35462
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:01:29,35463
+5e07e9301d6b46148c904a0e,ma_choice_v4_social_pilot1,5e07e9301d6b46148c904a0e,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:01:29,35464
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Distance from home,"",10,5,60, min away,2022-06-27 20:02:15,35465
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:02:15,35466
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:02:15,35467
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:02:15,35468
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:02:15,35469
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Number of other people present,"",2,3,12, people,2022-06-27 20:02:15,35470
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Duration,"",20,30,90, minutes,2022-06-27 20:02:15,35471
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:02:15,35472
+6122febf3394e7c4d3f5e65c,ma_choice_v4_social_pilot1,6122febf3394e7c4d3f5e65c,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:02:15,35473
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Duration,"",20,30,90, minutes,2022-06-27 20:03:06,35474
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:06,35475
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:06,35476
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:06,35477
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:03:06,35478
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:06,35479
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Distance from home,"",10,5,60, min away,2022-06-27 20:03:06,35480
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:06,35481
+60fe2112b2f9cd4687d2a724,ma_choice_v4_social_pilot1,60fe2112b2f9cd4687d2a724,Number of other people present,"",2,3,12, people,2022-06-27 20:03:06,35482
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:34,35483
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:34,35484
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:34,35485
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Distance from home,"",10,5,60, min away,2022-06-27 20:03:34,35486
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:34,35487
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Number of other people present,"",2,3,12, people,2022-06-27 20:03:34,35488
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:34,35489
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:03:34,35490
+61247ee84ff762aca1dc7473,ma_choice_v4_social_pilot1,61247ee84ff762aca1dc7473,Duration,"",20,30,90, minutes,2022-06-27 20:03:34,35491
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:03:54,35492
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Duration,"",20,30,90, minutes,2022-06-27 20:03:54,35493
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:54,35494
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:54,35495
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Distance from home,"",10,5,60, min away,2022-06-27 20:03:54,35496
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:54,35497
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Number of other people present,"",2,3,12, people,2022-06-27 20:03:54,35498
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:54,35499
+5a443812817d1800018d1179,ma_choice_v4_social_pilot1,5a443812817d1800018d1179,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:03:54,35500
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:00,35501
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:00,35502
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Number of other people present,"",2,3,12, people,2022-06-27 20:06:00,35503
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:00,35504
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Duration,"",20,30,90, minutes,2022-06-27 20:06:00,35505
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:00,35506
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Distance from home,"",10,5,60, min away,2022-06-27 20:06:00,35507
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:00,35508
+5e02e86e67f170e232425286,ma_choice_v4_social_pilot1,5e02e86e67f170e232425286,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:06:00,35509
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Distance from home,"",10,5,60, min away,2022-06-27 20:06:34,35510
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Number of other people present,"",2,3,12, people,2022-06-27 20:06:34,35511
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:34,35512
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:34,35513
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:34,35514
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:34,35515
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Duration,"",20,30,90, minutes,2022-06-27 20:06:34,35516
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:06:34,35517
+5c82da3d1dcc91001491b639,ma_choice_v4_social_pilot1,5c82da3d1dcc91001491b639,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:34,35518
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Duration,"",20,30,90, minutes,2022-06-27 20:06:42,35519
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:42,35520
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Number of other people present,"",2,3,12, people,2022-06-27 20:06:42,35521
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:42,35522
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Distance from home,"",10,5,60, min away,2022-06-27 20:06:42,35523
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:06:42,35524
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:42,35525
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:42,35526
+627f545e8a0e3e39f7d2663a,ma_choice_v4_social_pilot1,627f545e8a0e3e39f7d2663a,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:06:42,35527
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:22,35528
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Number of other people present,"",2,3,12, people,2022-06-27 20:07:22,35529
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:22,35530
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Distance from home,"",10,5,60, min away,2022-06-27 20:07:22,35531
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:22,35532
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Duration,"",20,30,90, minutes,2022-06-27 20:07:22,35533
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:22,35534
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:22,35535
+620bdd01a922fc3f247f6b4a,ma_choice_v4_social_pilot1,620bdd01a922fc3f247f6b4a,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:07:22,35536
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Distance from home,"",10,5,60, min away,2022-06-27 20:07:42,35537
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:42,35538
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Duration,"",20,30,90, minutes,2022-06-27 20:07:42,35539
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:42,35540
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Number of other people present,"",2,3,12, people,2022-06-27 20:07:42,35541
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:42,35542
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:42,35543
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:42,35544
+611101548d78ab5ec3a9c42e,ma_choice_v4_social_pilot1,611101548d78ab5ec3a9c42e,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:07:42,35545
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Distance from home,"",10,5,60, min away,2022-06-27 20:07:52,35555
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:52,35556
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Number of other people present,"",2,3,12, people,2022-06-27 20:07:52,35557
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:52,35558
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:52,35559
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Duration,"",20,30,90, minutes,2022-06-27 20:07:52,35560
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:52,35561
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:07:52,35562
+5c570f52b45c6600010b6d1e,ma_choice_v4_social_pilot1,5c570f52b45c6600010b6d1e,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:07:52,35563
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:21,35564
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:21,35565
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Distance from home,"",10,5,60, min away,2022-06-27 20:08:21,35566
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Duration,"",20,30,90, minutes,2022-06-27 20:08:21,35567
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:21,35568
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Number of other people present,"",2,3,12, people,2022-06-27 20:08:21,35569
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:08:21,35570
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:21,35571
+62b9e1aed4b802b4e268125d,ma_choice_v4_social_pilot1,62b9e1aed4b802b4e268125d,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:21,35572
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:45,35573
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:45,35574
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Number of other people present,"",2,3,12, people,2022-06-27 20:08:45,35575
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:45,35576
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:45,35577
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:08:45,35578
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Distance from home,"",10,5,60, min away,2022-06-27 20:08:45,35579
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Duration,"",20,30,90, minutes,2022-06-27 20:08:45,35580
+5dc797a6a4cc4255f8ea588e,ma_choice_v4_social_pilot1,5dc797a6a4cc4255f8ea588e,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:08:45,35581
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Distance from home,"",10,5,60, min away,2022-06-27 20:12:24,35591
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:24,35592
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:24,35593
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:24,35594
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:12:24,35595
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Duration,"",20,30,90, minutes,2022-06-27 20:12:24,35596
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:24,35597
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:24,35598
+62b5e918431b5ec402c33201,ma_choice_v4_social_pilot1,62b5e918431b5ec402c33201,Number of other people present,"",2,3,12, people,2022-06-27 20:12:24,35599
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Duration,"",20,30,90, minutes,2022-06-27 20:12:35,35600
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Number of other people present,"",2,3,12, people,2022-06-27 20:12:35,35601
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:12:35,35602
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:35,35603
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:35,35604
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Distance from home,"",10,5,60, min away,2022-06-27 20:12:35,35605
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:35,35606
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:35,35607
+6094fefb2d3e2bde15024138,ma_choice_v4_social_pilot1,6094fefb2d3e2bde15024138,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:12:35,35608
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:13,35609
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Distance from home,"",10,5,60, min away,2022-06-27 20:13:13,35610
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:13,35611
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:13,35612
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:13,35613
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Number of other people present,"",2,3,12, people,2022-06-27 20:13:13,35614
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:13,35615
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:13:13,35616
+6109917749b14701436e49f9,ma_choice_v4_social_pilot1,6109917749b14701436e49f9,Duration,"",20,30,90, minutes,2022-06-27 20:13:13,35617
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:24,35618
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Distance from home,"",10,5,60, min away,2022-06-27 20:13:24,35619
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:24,35620
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Number of other people present,"",2,3,12, people,2022-06-27 20:13:24,35621
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:13:24,35622
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:24,35623
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:24,35624
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:24,35625
+5f877e0715f8781a0c7c3ab8,ma_choice_v4_social_pilot1,5f877e0715f8781a0c7c3ab8,Duration,"",20,30,90, minutes,2022-06-27 20:13:24,35626
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:47,35627
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:47,35628
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Number of other people present,"",2,3,12, people,2022-06-27 20:13:47,35629
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:47,35630
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:47,35631
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:13:47,35632
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Distance from home,"",10,5,60, min away,2022-06-27 20:13:47,35633
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Duration,"",20,30,90, minutes,2022-06-27 20:13:47,35634
+62a89318448a8592fc88ee03,ma_choice_v4_social_pilot1,62a89318448a8592fc88ee03,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:13:47,35635
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:16:29,35645
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:16:29,35646
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:16:29,35647
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Distance from home,"",10,5,60, min away,2022-06-27 20:16:29,35648
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Duration,"",20,30,90, minutes,2022-06-27 20:16:29,35649
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Number of other people present,"",2,3,12, people,2022-06-27 20:16:29,35650
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:16:29,35651
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:16:29,35652
+61114822ccea57d28496da00,ma_choice_v4_social_pilot1,61114822ccea57d28496da00,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:16:29,35653
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Distance from home,"",10,5,60, min away,2022-06-27 20:17:27,35663
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:27,35664
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Number of other people present,"",2,3,12, people,2022-06-27 20:17:27,35665
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:27,35666
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Duration,"",20,30,90, minutes,2022-06-27 20:17:27,35667
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:27,35668
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:17:27,35669
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:27,35670
+600628028f2211980fd1632c,ma_choice_v4_social_pilot1,600628028f2211980fd1632c,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:27,35671
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Distance from home,"",10,5,60, min away,2022-06-27 20:17:59,35681
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:59,35682
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:59,35683
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:59,35684
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Duration,"",20,30,90, minutes,2022-06-27 20:17:59,35685
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:17:59,35686
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:59,35687
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Number of other people present,"",2,3,12, people,2022-06-27 20:17:59,35688
+60e25008f1ecf0be303353bb,ma_choice_v4_social_pilot1,60e25008f1ecf0be303353bb,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:17:59,35689
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:14,35690
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:14,35691
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:19:14,35692
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Duration,"",20,30,90, minutes,2022-06-27 20:19:14,35693
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:14,35694
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Distance from home,"",10,5,60, min away,2022-06-27 20:19:14,35695
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Number of other people present,"",2,3,12, people,2022-06-27 20:19:14,35696
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:14,35697
+6039643eab9d3741232583d0,ma_choice_v4_social_pilot1,6039643eab9d3741232583d0,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:14,35698
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:38,35699
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:38,35700
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Duration,"",20,30,90, minutes,2022-06-27 20:19:38,35701
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:38,35702
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:38,35703
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Distance from home,"",10,5,60, min away,2022-06-27 20:19:38,35704
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:19:38,35705
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:19:38,35706
+62a8043b4d175a07e5250a72,ma_choice_v4_social_pilot1,62a8043b4d175a07e5250a72,Number of other people present,"",2,3,12, people,2022-06-27 20:19:38,35707
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Distance from home,"",10,5,60, min away,2022-06-27 20:20:37,35708
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:37,35709
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:37,35710
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Number of other people present,"",2,3,12, people,2022-06-27 20:20:37,35711
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:38,35712
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:20:38,35713
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Duration,"",20,30,90, minutes,2022-06-27 20:20:38,35714
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:38,35715
+62a823cd896cad350052d2f4,ma_choice_v4_social_pilot1,62a823cd896cad350052d2f4,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:38,35716
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:41,35717
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:41,35718
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Distance from home,"",10,5,60, min away,2022-06-27 20:20:41,35719
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Number of other people present,"",2,3,12, people,2022-06-27 20:20:41,35720
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:41,35721
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:41,35722
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:20:41,35723
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Duration,"",20,30,90, minutes,2022-06-27 20:20:41,35724
+5dae16d241fbb6001160ce72,ma_choice_v4_social_pilot1,5dae16d241fbb6001160ce72,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:20:41,35725
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:21:21,35735
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Number of other people present,"",2,3,12, people,2022-06-27 20:21:21,35736
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:21,35737
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:21,35738
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Duration,"",20,30,90, minutes,2022-06-27 20:21:21,35739
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:21,35740
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:21,35741
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:21,35742
+5af07905cdd7420001d60aea,ma_choice_v4_social_pilot1,5af07905cdd7420001d60aea,Distance from home,"",10,5,60, min away,2022-06-27 20:21:21,35743
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:21:37,35744
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:37,35745
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Number of other people present,"",2,3,12, people,2022-06-27 20:21:37,35746
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Distance from home,"",10,5,60, min away,2022-06-27 20:21:37,35747
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Duration,"",20,30,90, minutes,2022-06-27 20:21:37,35748
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:37,35749
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:37,35750
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:37,35751
+60e5bebceb89fc96b4414bcb,ma_choice_v4_social_pilot1,60e5bebceb89fc96b4414bcb,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:37,35752
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:50,35753
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Number of other people present,"",2,3,12, people,2022-06-27 20:21:50,35754
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:50,35755
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:50,35756
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:50,35757
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:21:50,35758
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Distance from home,"",10,5,60, min away,2022-06-27 20:21:50,35759
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Duration,"",20,30,90, minutes,2022-06-27 20:21:50,35760
+5f2fc0f05b67073c177aaece,ma_choice_v4_social_pilot1,5f2fc0f05b67073c177aaece,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:21:50,35761
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Amount of physical activity,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:22:10,35762
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Indoors vs. outdoors,"All Indoors,Mostly Indoors,Half Indoors and Half Outdoors,Mostly Outdoors,All Outdoors",2,"","","",2022-06-27 20:22:10,35763
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Amount of food present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:22:10,35764
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Amount of music,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:22:10,35765
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Duration,"",20,30,90, minutes,2022-06-27 20:22:10,35766
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Distance from home,"",10,5,60, min away,2022-06-27 20:22:10,35767
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Amount of alcohol present,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:22:10,35768
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Opportunity to socialize,"None,A Little,A Moderate Amount,A Lot",2,"","","",2022-06-27 20:22:10,35769
+5ebb4e079797f9127c0f03ab,ma_choice_v4_social_pilot1,5ebb4e079797f9127c0f03ab,Number of other people present,"",2,3,12, people,2022-06-27 20:22:10,35770

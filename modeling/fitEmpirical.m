@@ -1,23 +1,25 @@
 %% setup
 clear
-datapath = '../data/v3_nosteps/real1/';
+datapath = '../data/v4_social/pilot2/';
 
 addpath("mfit/");
 load(strcat(datapath, 'imported_data.mat'));
-load('param_structs.mat');
+load(['param_structs_' num2str(numAtts) 'att.mat']);
 
 %% fit
 %model_names_to_fit = {'FA', 'FMDA'};
 %models_to_fit = find(contains(model_names, model_names_to_fit));
-models_to_fit = 1:5;
-version = 'redoing';
+models_to_fit = 1:6;
+version = '';
 
 results = fitModels(param_structs(models_to_fit), data_real_scaled);
 save(strcat(datapath, 'fitting_results', version, '.mat'), 'results');
 
 for i = 1:length(models_to_fit)
-    writematrix(results(i).x(:,2:end), strcat(datapath, 'fitted_empirical_weights_', model_names{models_to_fit(i)} ,'.csv'))
     writematrix(results(i).x(:,1), strcat(datapath, 'fitted_empirical_temps_', model_names{models_to_fit(i)} ,'.csv'))
+    if size(results(i).x,2) > 1
+        writematrix(results(i).x(:,2:end), strcat(datapath, 'fitted_empirical_weights_', model_names{models_to_fit(i)} ,'.csv'))
+    end
 end
 
 %% do cross-validation
@@ -31,8 +33,8 @@ allsubj_cv_info.choices = [];
 
 for subj = 1:numSubj
     subj_cv_info(subj).numChoices = data_real_scaled(subj).N;
-    subj_cv_info(subj).first_att = data_real_scaled(subj).first_att;
-    subj_cv_info(subj).first_maxdiff_att = data_real_scaled(subj).first_maxdiff_att;
+    %subj_cv_info(subj).first_att = data_real_scaled(subj).first_att;
+    %subj_cv_info(subj).first_maxdiff_att = data_real_scaled(subj).first_maxdiff_att;
     subj_cv_info(subj).numTrainTrials = ceil(subj_cv_info(subj).numChoices - subj_cv_info(subj).numChoices / numFolds);
     subj_cv_info(subj).numTestTrials = floor(subj_cv_info(subj).numChoices / numFolds);
     subj_cv_info(subj).choices_unshuffled = 1:subj_cv_info(subj).numChoices;
@@ -59,15 +61,15 @@ for i = 1:numFolds
         train_trials(test_trials) = [];
 
         traindata(subj).N = subj_cv_info(subj).numTrainTrials;
-        traindata(subj).first_att = subj_cv_info(subj).first_att(train_trials);
-        traindata(subj).first_maxdiff_att = subj_cv_info(subj).first_maxdiff_att(train_trials);
+        %traindata(subj).first_att = subj_cv_info(subj).first_att(train_trials);
+        %traindata(subj).first_maxdiff_att = subj_cv_info(subj).first_maxdiff_att(train_trials);
         traindata(subj).options = data_real_scaled(subj).options(:,:,train_trials);
         traindata(subj).avail_atts = data_real_scaled(subj).avail_atts(train_trials,:);
         traindata(subj).choices = data_real_scaled(subj).choices(train_trials,:);
 
         testdata(subj).N = subj_cv_info(subj).numTestTrials;
-        testdata(subj).first_att = subj_cv_info(subj).first_att(test_trials);
-        testdata(subj).first_maxdiff_att = subj_cv_info(subj).first_maxdiff_att(test_trials);
+        %testdata(subj).first_att = subj_cv_info(subj).first_att(test_trials);
+        %testdata(subj).first_maxdiff_att = subj_cv_info(subj).first_maxdiff_att(test_trials);
         testdata(subj).options = data_real_scaled(subj).options(:,:,test_trials);
         testdata(subj).avail_atts = data_real_scaled(subj).avail_atts(test_trials,:);
         testdata(subj).choices = data_real_scaled(subj).choices(test_trials,:);
@@ -78,7 +80,7 @@ for i = 1:numFolds
 end
 
 cv_results = zeros(numSubj, numModels, numFolds);
-results_train = cell(numFolds);
+results_train = cell(numFolds,1);
 for i = 1:numFolds
     results_train{i} = fitModels(param_structs(models_to_fit), folds(i).traindata);
     cv_results(:,:,i) = crossValidateModels(folds(i).testdata, results_train{i});
@@ -93,8 +95,10 @@ end
 
 %% check out results
 cv_results_avg = mean(cv_results,3);
-mean(mean(cv_results,3))
-median(mean(cv_results,3))
+cv_results_avg_all = cv_results_avg;
+numModels_all = numModels;
+cv_results_avg = cv_results_avg(:,1:6);
+numModels = 6;
 
 best_model = zeros(numSubj, 1);
 worst_model = zeros(numSubj, 1);
@@ -125,7 +129,7 @@ for subj = 1:numSubj
     %cv_results_normalized(subj,:) = best ./ cv_results_avg(subj,:);
     cv_results_nonnormalized(subj,:) = exp(cv_results_avg(subj,:) / numTestTrials); 
     cv_results_normalized(subj,:) = (exp(cv_results_avg(subj,:) / numTestTrials) - worst_exp) / (best_exp - worst_exp); 
-    cv_results_best(subj,:) = [best, best < chance, best_exp, exp(chance / numTestTrials), numTestTrials];
+    cv_results_best(subj,:) = [best, best_exp < .51, best_exp, exp(chance / numTestTrials), numTestTrials];
 end
 
 writematrix(cv_results_nonnormalized, strcat(datapath, 'cv_results', version, '.csv'));
@@ -135,11 +139,12 @@ writematrix(cv_results_best, strcat(datapath, 'cv_results_best', version, '.csv'
 %% do rounded
 % switch getLogLik first.. janky, I know
 
-cv_results_rounded = zeros(numSubj, numModels, numFolds);
+cv_results_rounded = zeros(numSubj, numModels_all, numFolds);
 for i = 1:numFolds
    cv_results_rounded(:,:,i) = crossValidateModels(folds(i).testdata, results_train{i});
 end
 cv_results_rounded_avg = mean(cv_results_rounded, 3);
+cv_results_rounded_avg = cv_results_rounded_avg(:,1:numModels);
 writematrix(cv_results_rounded_avg, strcat(datapath, 'cv_results_rounded', version, '.csv'));
 
 %% do allsubj version

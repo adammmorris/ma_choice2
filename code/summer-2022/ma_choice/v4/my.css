@@ -1,0 +1,16 @@
+.transparent-text {
+	opacity: .4;
+}
+
+.diff-font {
+	font-family: 'Palatino', serif;
+	font-size: 1.25em;
+}
+
+.display-inline {
+	display: inline;
+}
+
+#jspsych-survey-text-timer {
+	font-size: 65%;
+}

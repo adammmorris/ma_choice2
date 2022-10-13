@@ -1,0 +1,1238 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Research Study</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script src="jspsych/jspsych.js"></script>
+    <script src="jspsych/plugins/jspsych-call-function.js"></script>
+    <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-slider-response.js"></script>
+    <script src='jspsych/plugins/jspsych-multiple-slider.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-likert.js'></script>
+    <script src='jspsych/plugins/jspsych-instructions.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-text.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-choice.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-choice2.js'></script>
+    <script src='jspsych/plugins/jspsych-survey-multi-select.js'></script>
+    <script src='jspsych/plugins/jspsych-external-html.js'></script>
+    <script src='jspsych/plugins/jspsych-maxdiff.js'></script>
+    <script src='jspsych/plugins/jspsych-html-button-response.js'></script>
+    <script src='jspsych/plugins/jspsych-html-button-response-machoice.js'></script>
+    <script src='jspsych/plugins/jspsych-fullscreen.js'></script>
+    <script src='jspsych/plugins/jspsych-categorize-html.js'></script>
+		<script src='ANT/math.min.js'></script>
+		<script src='ANT/poldrack_plugins/jspsych-attention-check.js'></script>
+		<script src='ANT/poldrack_utils.js'></script>
+    <!--<script src='jspsych/plugins/jspsych-image-button-response.js'></script>-->
+    <link href="jspsych/css/jspsych.css" rel="stylesheet" type="text/css">
+    <link href="ANT/ANT_style.css" rel="stylesheet" type="text/css">
+    <script src="utilities.js"></script>
+    <style>
+	td, th {padding: 20px;}
+	.big {font-size: 40px;}
+	.med {font-size: 24px;}
+	</style>
+</head>
+<body>
+</body>
+<script>
+
+// ***Setting Up the Experiment***
+
+// Meta-var's
+var turk_code = "JSALK23";
+var study_version = "ma_choice_v4_real1_followup";
+
+var study_time = 35;
+var study_money = 4.67;
+
+// var instr_reading_time = 2000; // in milliseconds
+// var instructions_time = 0;
+
+// // find the assignmentId & debugging status from the URL
+var urlParams = parseURLParams(window.location.href);
+var subject_id_url = '';
+var debug = false;
+if (typeof urlParams != "undefined") {
+    if (urlParams.hasOwnProperty('PROLIFIC_PID')) {
+        subject_id_url = urlParams.PROLIFIC_PID[0];
+    }
+
+    if (urlParams.hasOwnProperty('debug')) {
+        debug = urlParams.debug[0];
+    }
+}
+
+
+var start_instructions = 0;
+
+// ***Intro Blocks***
+
+var welcome = {
+	type: 'instructions',
+	pages: ['<b>Welcome to the second half of the research study on decision-making!</b><br><br>Please <b>do not</b> press the <b>back</b> button or <b>refresh</b> your browser during the study; if you do, you will have to start over.'],
+	show_clickable_nav: true
+}
+
+var fullscreen = {
+	type: "fullscreen",
+	message: "We ask that you take this experiment in full screen mode. \
+	When you click the 'Continue' button below, your browser will go full screen and you may start the study.<br><br>",
+	fullscreen_mode: true,
+};
+
+var get_id = {
+	type: 'survey-text',
+	questions: [{prompt: "<b>Prolific ID:</b>", name: "worker_id"}],
+	preamble: ["Please enter your <b>Prolific ID</b> below.<br>(When you're done, press <b>'Continue'</b>)<br><br>If you do not enter your ID accurately, we will not be able to pay you."],
+};
+
+var subject_id = '';
+var get_id_loop = {
+	timeline: [get_id],
+	loop_function: function(data) {
+		id = data.values()[0].response.worker_id;
+		if (id) {
+			jsPsych.data.addProperties({
+				subject: id,
+				version: study_version,
+				assignmentId: subject_id_url
+			});
+			subject_id = id;
+
+			start_instructions = Date.now();
+
+			return false;
+		} else {
+			alert("Please provide your Prolific ID.");
+			return true;
+		}
+	}
+}
+
+var check_consent = function(elem) {
+	if ($('#consent_checkbox').is(':checked')) {
+		return true;
+	}
+	else {
+		alert("If you wish to participate, you must check the box next to the statement 'I agree to participate in this study.'");
+		return false;
+	}
+	return false;
+};
+
+var consent_block = {
+	type:'external-html',
+	url: "consent.php?time=" + study_time + "&money=" + study_money + "&test=1",
+	cont_btn: "start",
+	check_fn: check_consent,
+	force_refresh: true
+};
+
+// ***Welcome and Task 1 Instructions***
+/*var instructions_text = ['Please <b>do not</b> press the <b>back</b> button or <b>refresh</b> your browser during the study; if you do, you will have to start over. <br><br> Please click <b>Next</b> and read the following instructions carefully. <br></br>',
+
+ 	'DO THIS',
+];
+
+ var instructions = {
+	type: "instructions",
+	pages: instructions_text,
+	show_clickable_nav: true
+}*/
+
+/* ************************************ */
+/* ************************************ */
+/* ************************************ */
+/* ANT */
+/* ************************************ */
+/* ************************************ */
+/* ************************************ */
+
+/* ************************************ */
+/* Define helper functions */
+/* ************************************ */
+
+function evalAttentionChecks() {
+	var check_percent = 1
+	if (run_attention_checks) {
+		var attention_check_trials = jsPsych.data.getTrialsOfType('attention-check')
+		var checks_passed = 0
+		for (var i = 0; i < attention_check_trials.length; i++) {
+			if (attention_check_trials[i].correct === true) {
+				checks_passed += 1
+			}
+		}
+		check_percent = checks_passed / attention_check_trials.length
+	}
+	return check_percent
+}
+
+/*function assessPerformance() {
+	var experiment_data = jsPsych.data.getTrialsOfType('poldrack-single-stim')
+	var missed_count = 0
+	var trial_count = 0
+	var rt_array = []
+	var rt = 0
+		//record choices participants made
+	var choice_counts = {}
+	choice_counts[-1] = 0
+	for (var k = 0; k < choices.length; k++) {
+		choice_counts[choices[k]] = 0
+	}
+	for (var i = 0; i < experiment_data.length; i++) {
+		if (experiment_data[i].possible_responses != 'none') {
+			trial_count += 1
+			rt = experiment_data[i].rt
+			key = experiment_data[i].response
+			choice_counts[key] += 1
+			if (rt == -1) {
+				missed_count += 1
+			} else {
+				rt_array.push(rt)
+			}
+		}
+	}
+	//calculate average rt
+	var avg_rt = -1
+	if (rt_array.length !== 0) {
+		avg_rt = math.median(rt_array)
+	}
+		//calculate whether response distribution is okay
+	var responses_ok = true
+	Object.keys(choice_counts).forEach(function(key, index) {
+		if (choice_counts[key] > trial_count * 0.85) {
+			responses_ok = false
+		}
+	})
+	var missed_percent = missed_count/trial_count
+	credit_var = (missed_percent < 0.4 && avg_rt > 200 && responses_ok)
+	jsPsych.data.addDataToLastTrial({"credit_var": credit_var})
+
+}
+
+var getTrial = function(index) {
+	return jsPsych.data.get().filter({trial_index: index}).values()[0]
+}
+
+var post_trial_gap = function() {
+	var curr_trial = jsPsych.progress().current_trial_global
+	return 3500 - getTrial(curr_trial-1).rt - getTrial(curr_trial-4).block_duration
+}
+
+var get_RT = function() {
+	var curr_trial = jsPsych.progress().current_trial_global
+	return getTrial(curr_trial).rt
+}
+
+var getInstructFeedback = function() {
+	return feedback_instruct_text;
+}*/
+
+
+
+/* ************************************ */
+/* Define experimental variables */
+/* ************************************ */
+// generic task variables
+var run_attention_checks = false
+var attention_check_thresh = 0.65
+var sumInstructTime = 0 //ms
+var instructTimeThresh = 0 ///in seconds
+var credit_var = true
+
+// task specific variables
+/* set up stim: location (2) * cue (4) * direction (2) * condition (3) */
+var locations = ['up', 'down']
+var cues = ['nocue', 'center', 'double', 'spatial']
+var current_trial = 0
+var exp_stage = 'practice'
+var test_stimuli = []
+var choices = ['ArrowLeft', 'ArrowRight']
+var path = 'images/'
+var images = [path + 'right_arrow.png', path + 'left_arrow.png', path + 'no_arrow.png']
+//preload
+jsPsych.pluginAPI.preloadImages(images)
+
+for (l = 0; l < locations.length; l++) {
+	var loc = locations[l]
+	for (ci = 0; ci < cues.length; ci++) {
+		var c = cues[ci]
+		stims = [{
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_' + loc +
+				'><img class = ANT_img src = ' + images[2] + '></img><img class = ANT_img src = ' + images[2] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[2] + '></img><img class = ANT_img src = ' + images[2] + '></img></div></div>',
+			data: {
+				correct_response: 'ArrowLeft',
+				flanker_middle_direction: 'left',
+				flanker_type: 'neutral',
+				flanker_location: loc,
+				cue: c,
+				trial_id: 'stim'
+			}
+		}, {
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_' + loc +
+				'><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[1] + '></img></div></div>',
+			data: {
+				correct_response: 'ArrowLeft',
+				flanker_middle_direction: 'left',
+				flanker_type: 'congruent',
+				flanker_location: loc,
+				cue: c,
+				trial_id: 'stim'
+			}
+		}, {
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_' + loc +
+				'><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[0] + '></img></div></div>',
+			data: {
+				correct_response: 'ArrowLeft',
+				flanker_middle_direction: 'left',
+				flanker_type: 'incongruent',
+				flanker_location: loc,
+				cue: c,
+				trial_id: 'stim'
+			}
+		}, {
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_' + loc +
+				'><img class = ANT_img src = ' + images[2] + '></img><img class = ANT_img src = ' + images[2] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[2] + '></img><img class = ANT_img src = ' + images[2] + '></img></div></div>',
+			data: {
+				correct_response: 'ArrowRight',
+				flanker_middle_direction: 'right',
+				flanker_type: 'neutral',
+				flanker_location: loc,
+				cue: c,
+				trial_id: 'stim'
+			}
+		}, {
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_' + loc +
+				'><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[0] + '></img></div></div>',
+			data: {
+				correct_response: 'ArrowRight',
+				flanker_middle_direction: 'right',
+				flanker_type: 'congruent',
+				flanker_location: loc,
+				cue: c,
+				trial_id: 'stim'
+			}
+		}, {
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_' + loc +
+				'><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[0] + '></img><img class = ANT_img src = ' + images[1] + '></img><img class = ANT_img src = ' + images[1] + '></img></div></div>',
+			data: {
+				correct_response: 'ArrowRight',
+				flanker_middle_direction: 'right',
+				flanker_type: 'incongruent',
+				flanker_location: loc,
+				cue: c,
+				trial_id: 'stim'
+			}
+		}]
+		for (i = 0; i < stims.length; i++) {
+			test_stimuli.push(stims[i])
+		}
+	}
+}
+
+/* set up 24 practice trials. Included all nocue up trials, center cue up trials, double cue down trials, and 6 spatial trials (3 up, 3 down) */
+var practice_block = jsPsych.randomization.repeat(test_stimuli.slice(0, 12).concat(test_stimuli.slice(
+	18, 21)).concat(test_stimuli.slice(36, 45)), 1, true);
+
+/* set up repeats for three test blocks */
+var block1_trials = jsPsych.randomization.repeat($.extend(true, [], test_stimuli), 2, true);
+var block2_trials = jsPsych.randomization.repeat($.extend(true, [], test_stimuli), 2, true);
+var block3_trials = jsPsych.randomization.repeat($.extend(true, [], test_stimuli), 2, true);
+var blocks = [block1_trials, block2_trials, block3_trials]
+
+
+/* ************************************ */
+/* Set up jsPsych blocks */
+/* ************************************ */
+// Set up attention check node
+var attention_check_block = {
+	type: 'attention-check',
+	timing_response: 180000,
+	response_ends_trial: true,
+	post_trial_gap: 200
+}
+
+var attention_node = {
+	timeline: [attention_check_block],
+	conditional_function: function() {
+		return run_attention_checks
+	}
+}
+
+/* define static blocks */
+var test_intro_block = {
+	type: 'instructions',
+	pages: [`We will now start the real trials. On these trials, you will not receive feedback on your answers.<br><br>
+	Please continue to respond as quickly and accurately as you can.<br><br>When you're ready, press <strong>Next</strong> to begin.`],
+	show_clickable_nav: true,
+	data: {
+		trial_id: "intro",
+		exp_stage: "test"
+	},
+	on_finish: function() {
+		exp_stage = 'test'
+	}
+};
+
+var end_block = {
+	type: 'instructions',
+	pages: [`Good job -- you're done with Section 1! Press <strong>Next</strong> to continue to Section 2.`],
+	show_clickable_nav: true,
+	data: {
+		trial_id: "end",
+    	exp_id: 'attention_network_task'
+	}
+};
+
+
+/// This ensures that the subject does not read through the instructions too quickly.  If they do it too quickly, then we will go over the loop again.
+var instructions_times = Array();
+var ant_instructions_block = {
+	type: 'instructions',
+	pages: [
+		'This experiment has three sections. <b>Section 1</b> of the experiment will take about 20 minutes. Press <strong>Next</strong> to begin Section 1.',
+		'<h2><u>Section 1</u></h2>In Section 1 of this experiment, you will see groups of five arrows and dashes pointing left or right (e.g &larr; &larr; &larr; &larr; &larr;, or &mdash; &mdash; &rarr; &mdash; &mdash;) \
+		presented randomly at the top or bottom of the screen.<br><br>Your job is to indicate <b>which way the <u>central</u> arrow is pointing</b> by pressing the corresponding arrow key.',
+		`So for instance, if you saw:<br><br>&larr; &larr; &rarr; &larr; &larr;<br><br>then you should press the <b>right</b> arrow key, because the center arrow is pointing to the right.<br><br>
+		You should ignore the other dashes or arrows, and respond solely based on the direction of the center arrow.`,
+		`You should try to respond as quickly and accurately as possible on every trial. <b>You will have to respond within a short time limit</b>; if you don't respond within that time limit,
+		you will be told to respond faster and the experiment will advance to the next trial.`,
+		'Before the arrows and dashes come up, a symbol that looks like <b>*</b> will occasionally come up somewhere on the screen.<br><br>\
+		No matter whether or where the <b>*</b> appears, it is important that you respond as quickly and accurately as possible by pressing the arrow key \
+		corresponding to the direction of the center arrow.',
+		`After you end instructions we will start with practice. During practice you will receive feedback about whether your responses are correct.<br><br>\
+		When you're ready to begin the practice trials, press 'Next'.`,
+	],
+	allow_keys: debug ? true : false,
+	data: {
+		trial_id: 'instruction'
+	},
+	show_clickable_nav: true,
+	post_trial_gap: 1000,
+	on_finish: function(data) {
+		for (var i = 0; i < data.view_history.length; i++) {
+			instructions_times.push(Math.round(data.view_history[i].viewing_time));
+		}
+	}
+};
+
+var rest_block = {
+	type: 'instructions',
+	pages: ['Take a break! When you are ready to continue, press "Next".'],
+	show_clickable_nav: true,
+	data: {
+		trial_id: "rest block"
+	},
+	post_trial_gap: 1000
+};
+
+var fixation = {
+	type: 'html-keyboard-response',
+	stimulus: '<div class = centerbox><div class = ANT_text>+</div></div>',
+	choices: jsPsych.NO_KEYS,
+	data: {
+		trial_id: 'fixation'
+	},
+	post_trial_gap: 0,
+	trial_duration: 400,
+	on_finish: function() {
+		jsPsych.data.addDataToLastTrial({
+			exp_stage: exp_stage
+		})
+	}
+}
+
+var no_cue = {
+	type: 'html-keyboard-response',
+	stimulus: '<div class = centerbox><div class = ANT_text>+</div></div>',
+	choices: jsPsych.NO_KEYS,
+	data: {
+		trial_id: 'nocue'
+	},
+	post_trial_gap: 0,
+	trial_duration: 100,
+	on_finish: function() {
+		jsPsych.data.addDataToLastTrial({
+			exp_stage: exp_stage
+		})
+	}
+}
+
+var center_cue = {
+	type: 'html-keyboard-response',
+	stimulus: '<div class = centerbox><div class = ANT_centercue_text>*</div></div>',
+	choices: jsPsych.NO_KEYS,
+	data: {
+		trial_id: 'centercue'
+	},
+	trial_duration: 100,
+	on_finish: function() {
+		jsPsych.data.addDataToLastTrial({
+			exp_stage: exp_stage
+		})
+	}
+
+}
+
+var double_cue = {
+	type: 'html-keyboard-response',
+	stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = ANT_down><div class = ANT_text>*</div></div><div class = ANT_up><div class = ANT_text>*</div><div></div>',
+	choices: jsPsych.NO_KEYS,
+	data: {
+		trial_id: 'doublecue'
+	},
+	post_trial_gap: 0,
+	trial_duration: 100,
+	on_finish: function() {
+		jsPsych.data.addDataToLastTrial({
+			exp_stage: exp_stage
+		})
+	}
+}
+
+/* set up ANT experiment */
+var attention_network_task_experiment = [];
+attention_network_task_experiment.push(ant_instructions_block);
+
+/* set up ANT practice */
+var trial_num = 0
+var block = practice_block
+var num_practice_trials_to_use = debug ? 1 : block.data.length;
+for (i = 0; i < num_practice_trials_to_use; i++) {
+	var trial_num = trial_num + 1
+	var first_fixation_gap = Math.floor(Math.random() * 1200) + 400;
+	var first_fixation = {
+		type: 'html-keyboard-response',
+		stimulus: '<div class = centerbox><div class = ANT_text>+</div></div>',
+		choices: jsPsych.NO_KEYS,
+		data: {
+			trial_id: 'fixation',
+			exp_stage: 'practice'
+		},
+		post_trial_gap: 0,
+		trial_duration: first_fixation_gap
+	}
+	attention_network_task_experiment.push(first_fixation)
+
+	if (block.data[i].cue == 'nocue') {
+		attention_network_task_experiment.push(no_cue)
+	} else if (block.data[i].cue == 'center') {
+		attention_network_task_experiment.push(center_cue)
+	} else if (block.data[i].cue == 'double') {
+		attention_network_task_experiment.push(double_cue)
+	} else {
+		var spatial_cue = {
+			type: 'html-keyboard-response',
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = centerbox><div class = ANT_' + block.data[i].flanker_location +
+				'><div class = ANT_text>*</p></div></div>',
+			choices: jsPsych.NO_KEYS,
+			data: {
+
+				trial_id: 'spatialcue',
+				exp_stage: 'practice'
+			},
+			post_trial_gap: 0,
+			trial_duration: 100,
+		}
+		attention_network_task_experiment.push(spatial_cue)
+	}
+
+	attention_network_task_experiment.push(fixation)
+
+	block.data[i].trial_num = trial_num
+	var last_rt = null;
+	var attention_network_task_practice_trial = {
+		type: 'categorize-html',
+		stimulus: block.stimulus[i],
+		key_answer: block.data[i].correct_response,
+		correct_text: '<div class = centerbox><div style="color:green"; class = center-text>Correct!</div></div>',
+		incorrect_text: '<div class = centerbox><div style="color:red"; class = center-text>Incorrect</div></div>',
+		timeout_message: '<div class = centerbox><div class = center-text>Respond faster!</div></div>',
+		choices: choices,
+		data: block.data[i],
+		trial_duration: 1700,
+		response_ends_trial: true,
+		feedback_duration: 2000,
+		show_stim_with_feedback: false,
+		post_trial_gap: 0,
+		on_finish: function(data) {
+			last_rt = data.rt;
+			jsPsych.data.addDataToLastTrial({
+				exp_stage: exp_stage
+			})
+
+			var ant_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: subject_id_url,
+				practice: 1,
+				stimulus: data.stimulus,
+				cue: data.cue,
+				flanker_location: data.flanker_location,
+				flanker_middle_direction: data.flanker_middle_direction,
+				flanker_type: data.flanker_type,
+				correct_response: data.correct_response,
+				response: data.response,
+				correct: data.correct ? 1 : 0,
+				rt: data.rt,
+				timed_out: data.response == null ? 1 : 0
+			}
+
+			save_data(ant_data, 'ant');
+		}
+	}
+
+	attention_network_task_experiment.push(attention_network_task_practice_trial)
+
+	var last_fixation = {
+		type: 'html-keyboard-response',
+		stimulus: '<div class = centerbox><div class = ANT_text>+</div></div>',
+		choices: jsPsych.NO_KEYS,
+		data: {
+
+			trial_id: 'fixation',
+			exp_stage: 'practice'
+		},
+		post_trial_gap: 0,
+		trial_duration: function() {return 3500 - last_rt - first_fixation_gap},
+	}
+	//attention_network_task_experiment.push(last_fixation)
+}
+
+attention_network_task_experiment.push(rest_block)
+attention_network_task_experiment.push(test_intro_block);
+
+
+/* Set up ANT main task */
+var trial_num = 0
+for (b = 0; b < blocks.length; b++) {
+	var block = blocks[b]
+	var num_trials_to_use = debug ? 1 : block.data.length;
+	for (i = 0; i < num_trials_to_use; i++) {
+		var trial_num = trial_num + 1
+		var first_fixation_gap = Math.floor(Math.random() * 1200) + 400;
+		var first_fixation = {
+			type: 'html-keyboard-response',
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div>',
+			choices: jsPsych.NO_KEYS,
+			data: {
+
+				trial_id: "fixation",
+				exp_stage: 'test'
+			},
+			post_trial_gap: 0,
+			trial_duration: first_fixation_gap,
+		}
+		attention_network_task_experiment.push(first_fixation)
+
+		if (block.data[i].cue == 'nocue') {
+			attention_network_task_experiment.push(no_cue)
+		} else if (block.data[i].cue == 'center') {
+			attention_network_task_experiment.push(center_cue)
+		} else if (block.data[i].cue == 'double') {
+			attention_network_task_experiment.push(double_cue)
+		} else {
+			var spatial_cue = {
+				type: 'html-keyboard-response',
+				stimulus: '<div class = centerbox><div class = ANT_text>+</div></div><div class = centerbox><div class = ANT_' + block.data[i].flanker_location +
+					'><div class = ANT_text>*</p></div></div>',
+				choices: jsPsych.NO_KEYS,
+				data: {
+
+					trial_id: "spatialcue",
+					exp_stage: 'test'
+				},
+				post_trial_gap: 0,
+				trial_duration: 100,
+			}
+			attention_network_task_experiment.push(spatial_cue)
+		}
+		attention_network_task_experiment.push(fixation)
+
+		block.data[i].trial_num = trial_num
+		var last_rt = null;
+		var ANT_trial = {
+			type: 'html-keyboard-response',
+			stimulus: block.stimulus[i],
+			choices: choices,
+			data: block.data[i],
+			trial_duration: 1700,
+			response_ends_trial: true,
+			post_trial_gap: 0,
+			on_finish: function(data) {
+				correct = data.response == null ? 0 : data.response.toLowerCase() == data.correct_response.toLowerCase()
+				last_rt = data.rt;
+				jsPsych.data.addDataToLastTrial({
+					correct: correct,
+					exp_stage: exp_stage
+				})
+
+				var ant_data = {
+					subject: data.subject,
+					version: data.version,
+					assignmentId: subject_id_url,
+					practice: 0,
+					stimulus: data.stimulus,
+					cue: data.cue,
+					flanker_location: data.flanker_location,
+					flanker_middle_direction: data.flanker_middle_direction,
+					flanker_type: data.flanker_type,
+					correct_response: data.correct_response,
+					response: data.response,
+					correct: data.correct ? 1 : 0,
+					rt: data.rt,
+					timed_out: data.response == null ? 1 : 0
+				}
+
+				save_data(ant_data, 'ant');
+			}
+		}
+		attention_network_task_experiment.push(ANT_trial)
+
+		var last_fixation = {
+			type: 'html-keyboard-response',
+			stimulus: '<div class = centerbox><div class = ANT_text>+</div></div>',
+			choices: jsPsych.NO_KEYS,
+			data: {
+
+				trial_id: "fixation",
+				exp_stage: 'test'
+			},
+			post_trial_gap: 0,
+			trial_duration: function() {return 3500 - last_rt - first_fixation_gap}
+		}
+		//attention_network_task_experiment.push(last_fixation)
+	}
+	attention_network_task_experiment.push(attention_node)
+	attention_network_task_experiment.push(rest_block)
+}
+attention_network_task_experiment.push(end_block)
+
+/* BATTERY */
+
+var intro_to_battery_text = ["<h2><u>Section 2</u></h2>In Section 2 of the study, we'll ask you some general questions about yourself. \
+For all these questions, please answer about yourself <b>as you are now</b>, not as you wish to be in the future. Section 2 should take about 10 minutes. Click 'Next' when you're ready to begin."]
+var battery_intro = {
+	type: 'instructions',
+	pages: intro_to_battery_text,
+	show_clickable_nav: true
+};
+
+var scale_rts = new Object();
+
+// http://www.sjdm.org/dmidi/Decision_Styles_Scale.html
+// reverse scored: 6-10
+// factor 1 (deliberative): 1-5, factor 2 (intuitive): 6-10
+
+var decisionstyle_options = ['1','2','3','4','5'];
+var decisionstyle_responses = null;
+var decisionstyle = {
+    type: 'survey-multi-choice',
+		preamble: "<b>Please indicate the extent to which you agree or disagree with the following statements.</b><br>(1 = strongly disagree, 5 = strongly agree)",
+		left_option: "<i>Strongly disagree</i>",
+		right_option: "<i>Strongly agree</i>",
+		randomize_question_order: true,
+		button_label: 'Submit',
+	  questions: [
+	    {prompt: "<hr>I prefer to gather all the necessary information before committing to a decision.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I thoroughly evaluate decision alternatives before making a final choice.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>In decision making, I take time to contemplate the pros/cons or risks/benefits of a situation.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>Investigating the facts is an important part of my decision making process.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I weigh a number of different factors when making decisions.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>When making decisions, I rely mainly on my gut feelings.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>My initial hunch about decisions is generally what I follow.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I make decisions based on intuition.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I rely on my first impressions when making decisions.", options: decisionstyle_options, required: debug ? false : true},
+	    {prompt: "<hr>I weigh feelings more than analysis in making decisions.", options: decisionstyle_options, required: debug ? false : true},
+	  ],
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			decisionstyle_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				decisionstyle_responses[i] = decisionstyle_options.indexOf(response[i]);
+			}
+			decisionstyle_responses = decisionstyle_responses.join();
+			scale_rts.decisionstyle = Math.round(data.rt);
+		}
+};
+
+/* social desirability */
+
+var bidr_options = [
+  "Not true",
+  "",
+  "",
+  "Somewhat",
+	"",
+	"",
+  "Very true"
+];
+
+var bidr_responses = null;
+var bidr = {
+    type: 'multiple-slider',
+		require_movement: debug ? false : true,
+		preamble: "<b>Please indicate the extent to which each statement is true or false.</b><br><br>",
+	  questions: [
+	    {prompt: "I have not always been honest with myself.", labels: bidr_options},
+	    {prompt: "I always know why I like things.", labels: bidr_options},
+	    {prompt: "It's hard for me to shut off a disturbing thought.", labels: bidr_options},
+			{prompt: "I never regret my decisions.", labels: bidr_options},
+	    {prompt: "I sometimes lose out on things because I can't make up my mind soon enough.", labels: bidr_options},
+	    {prompt: "I am a completely rational person.", labels: bidr_options},
+	    {prompt: "I am very confident of my judgments.", labels: bidr_options},
+	    {prompt: "I have sometimes doubted my ability as a lover.", labels: bidr_options},
+	    {prompt: "I sometimes tell lies if I have to.", labels: bidr_options},
+			{prompt: "I never cover up my mistakes.", labels: bidr_options},
+	    {prompt: "There have been occasions when I have taken advantage of someone.", labels: bidr_options},
+	    {prompt: "I sometimes try to get even rather than forgive and forget.", labels: bidr_options},
+	    {prompt: "I have said something bad about a friend behind his/her back.", labels: bidr_options},
+	    {prompt: "When I hear people talking privately, I avoid listening.", labels: bidr_options},
+	    {prompt: "I never take things that don't belong to me.", labels: bidr_options},
+	    {prompt: "I don't gossip about other people's business.", labels: bidr_options}
+	  ],
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			mindfulness_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				mindfulness_responses[i] = maia_options.indexOf(response[i]);
+			}
+			mindfulness_responses = maia_responses.join();
+			scale_rts.bidr = Math.round(data.rt);
+		}
+};
+
+/* ACS */
+// https://arc.psych.wisc.edu/self-report/attention-control-scale-attc/
+// reverse scored: 1, 2, 3, 6, 7, 8, 11, 12, 15, 16, 20
+// factor 1 (focusing): 1-9, factor 2 (shifting): 10-20
+
+var acs_options = [
+  "Almost never",
+  "Sometimes",
+  "Often",
+  "Always"
+];
+
+var acs_responses = null;
+var acs = {
+    type: 'survey-multi-choice',
+		preamble: "Here are some different ways that people can feel about working and concentrating.<br>\
+		<b>Please indicate how strongly each statement applies to you.</b>",
+		button_label: 'Submit',
+		randomize_question_order: true,
+	  questions: [
+			{prompt: "<hr>It's very hard for me to concentrate on a difficult task when there are noises around.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When I need to concentrate and solve a problem, I have trouble focusing my attention.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>When I am working hard on something, I still get distracted by events around me.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>My concentration is good even if there is music in the room around me.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When concentrating, I can focus my attention so that I become unaware of what's going on in the room around me.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When I am reading or studying, I am easily distracted if there are people talking in the same room.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When trying to focus my attention on something, I have difficulty blocking out distracting thoughts.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>I have a hard time concentrating when I'm excited about something.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When concentrating, I ignore feelings of hunger or thirst.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>I can quickly switch from one task to another.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>It takes me a while to get really involved in a new task.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>It is difficult for me to coordinate my attention between the listening and writing required when taking notes during lectures.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>I can become interested in a new topic very quickly when I need to.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>It is easy for me to read or write while I'm also talking on the phone.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>I have trouble carrying on two conversations at once.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>I have a hard time coming up with new ideas quickly.", options: acs_options, required: debug ? false : true},
+	    {prompt: "<hr>After being interrupted or distracted, I can easily shift my attention back to what I was doing before.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>When a distracting thought comes to mind, it is easy for me to shift my attention away from it.", options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>It is easy for me to alternate between two different tasks.",  options: acs_options, required: debug ? false : true},
+			{prompt: "<hr>It is hard for me to break from one way of thinking about something and look at it from another point of view.", options: acs_options, required: debug ? false : true}
+	  ],
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			acs_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				acs_responses[i] = acs_options.indexOf(response[i]);
+			}
+			acs_responses = acs_responses.join();
+			scale_rts.acs = Math.round(data.rt);
+		}
+};
+
+//***CAMS-R***
+//https://link.springer.com/content/pdf/10.1007/s10862-006-9035-8.pdf
+//2,6,7 reverse scored
+
+var mindfulness_options = ['Rarely / not at all','Sometimes', 'Often','Almost always'];
+
+var mindfulness_responses = null;
+var mindfulness = {
+  type: 'survey-multi-choice',
+	preamble: "People have a variety of ways of relating to their thoughts and feelings.<br>\
+	For each of the items below, <b>rate how much each of these ways applies to you.</b>",
+	button_label: 'Submit',
+	randomize_question_order: true,
+	questions: [
+    {prompt: "<hr>It is easy for me to concentrate on what I am doing.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am preoccupied by the future.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I can tolerate emotional pain.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I can accept things I cannot change.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I can usually describe how I feel at the moment in considerable detail.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am easily distracted.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am preoccupied by the past.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>It's easy for me to keep track of my thoughts and feelings.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I try to notice my thoughts without judging them.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am able to accept the thoughts and feelings I have.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am able to focus on the present moment.", options: mindfulness_options, required: debug ? false : true},
+    {prompt: "<hr>I am able to pay close attention to one thing for a long period of time.", options: mindfulness_options, required: debug ? false : true}
+  ],
+	on_finish: function(data) {
+		var response = Object.values(data.response);
+		mindfulness_responses = new Array(response.length);
+		for (var i = 0; i < response.length; i++) {
+			mindfulness_responses[i] = mindfulness_options.indexOf(response[i]);
+		}
+		mindfulness_responses = mindfulness_responses.join();
+		scale_rts.mindfulness = Math.round(data.rt);
+	}
+};
+
+/* SRIS */
+// http://www.stemcareer.com/richfeller/pages/studenthelp/Documents/Self%20Reflection%20and%20Insight%20Scale.pdf
+// 1, 2, 4, 7, 14, 16, 17, 18, 19 reverse coded
+
+var sris_options = ['1', '2', '3', '4', '5', '6'];
+
+var sris_responses = null;
+var sris = {
+  type: 'survey-multi-choice',
+	button_label: 'Submit',
+	preamble: "<b>Please rate how much you agree or disagree with the following statements:</b><br>(1 = strongly disagree, 6 = strongly agree)",
+	randomize_question_order: true,
+	left_option: '<i>Strongly disagree</i>',
+	right_option: '<i>Strongly agree</i>',
+  questions: [
+		{prompt: "<hr>I don't often think about my thoughts.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I rarely spend time in self-reflection.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>I frequently examine my feelings.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I don't really think about why I behave in the way that I do.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I frequently take time to reflect on my thoughts.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I often think about the way I feel about things.", options: sris_options, horizontal: true, required: debug ? false : true},
+
+		{prompt: "<hr>I am not really interested in analyzing my behavior.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>It is important to me to evaluate the things I do.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I am very interested in examining what I think about.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>It is important to me to try to understand what my feelings mean.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I have a definite need to understand the way that my mind works.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>It is important to me to be able to understand how my thoughts arise.", options: sris_options, horizontal: true, required: debug ? false : true},
+
+		{prompt: "<hr>I am usually aware of my thoughts.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I'm often confused about the way that I really feel about things.", options: sris_options, horizontal: true, required: debug ? false : true},
+		{prompt: "<hr>I usually have a very clear idea about why I've behaved in a certain way.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>I'm often aware that I'm having a feeling, but I often don't quite know what it is.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>My behavior often puzzles me.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>Thinking about my thoughts makes me more confused.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>Often I find it difficult to make sense of the way I feel about things.", options: sris_options, horizontal: true, required: debug ? false : true},
+    {prompt: "<hr>I usually know why I feel the way I do.", options: sris_options, horizontal: true, required: debug ? false : true}
+  ],
+	on_finish: function(data) {
+		var response = Object.values(data.response);
+		sris_responses = new Array(response.length);
+		for (var i = 0; i < response.length; i++) {
+			sris_responses[i] = sris_options.indexOf(response[i]);
+		}
+		sris_responses = sris_responses.join();
+		scale_rts.sris = Math.round(data.rt);
+	}
+};
+
+/* MAIA 2 */
+
+var maia_options = ['0', '1', '2', '3', '4', '5'];
+var maia_ques = [
+  {prompt: "<hr>When I am tense I notice where the tension is located in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice when I am uncomfortable in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice where in my body I am comfortable.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice changes in my breathing, such as whether it slows down or speeds up.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  /*{prompt: "I ignore physical tension or discomfort until they become more severe.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I distract myself from sensations of discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I feel pain or discomfort, I try to power through it.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I try to ignore pain.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I push feelings of discomfort away by focusing on something", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I feel unpleasant body sensations, I occupy myself with something else so I do not have to feel them.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I feel physical pain, I become upset.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I start to worry that something is wrong if I feel any discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I can notice an unpleasant body sensation without worrying about it.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I can stay calm and not worry when I have feelings of discomfort or pain.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I am in discomfort or pain I cannot get it out of my mind.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},*/
+  {prompt: "<hr>I can pay attention to my breath without being distracted by things happening around me.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can maintain awareness of my inner bodily sensations even when there is a lot going on around me.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>When I am in conversation with someone, I can pay attention to my posture.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can return awareness to my body if I am distracted.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can refocus my attention from thinking to sensing my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I can maintain awareness of my whole body even when a part of me is in pain or discomfort.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I am able to consciously focus on my body as a whole.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice how my body changes when I am angry.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>When something is wrong in my life I can feel it in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice that my body feels different after a peaceful experience.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice that my breathing becomes free and easy when I feel comfortable.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I notice how my body changes when I feel happy / joyful.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  /*{prompt: "When I feel overwhelmed I can find a calm place inside.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I bring awareness to my body I feel a sense of calm.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "I can use my breath to reduce tension.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "When I am caught up in thoughts, I can calm my mind by focusing on my body/breathing.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},*/
+  {prompt: "<hr>I listen for information from my body about my emotional state.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>When I am upset, I take time to explore how my body feels.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I listen to my body to inform me about what to do.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I am at home in my body.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I feel my body is a safe place.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>I trust my body sensations.", options: [0, 1, 2, 3, 4, 5], horizontal:true, required: debug ? false : true},
+];
+
+var maia_responses = null;
+var maia = {
+    type: 'survey-multi-choice',
+    questions: maia_ques,
+    button_label: 'Submit',
+    preamble:"Below you will find a list of statements.\
+		<br><b>Please indicate how often each statement applies to you generally in daily life.</b><br>(0 = never, 5 = always)",
+    left_option: '<i>Never</i>',
+    right_option: '<i>Always</i>',
+		randomize_question_order: true,
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			maia_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				maia_responses[i] = maia_options.indexOf(response[i]);
+			}
+			maia_responses = maia_responses.join();
+			scale_rts.maia = Math.round(data.rt);
+		}
+};
+
+/* IPIP-50 */
+// https://ipip.ori.org/new_ipip-50-item-scale.htm
+
+var ipip_options = ['Very Inaccurate', 'Moderately Inaccurate', 'Neither Accurate nor Inaccurate', 'Moderately Accurate', 'Very Accurate'];
+
+var ipip_ques = [
+	{prompt: 'holdover', options: ipip_options}
+];
+
+var ipip_responses = null;
+var ipip = {
+    type: 'survey-multi-choice',
+    questions: ipip_ques,
+    button_label: 'Submit',
+    preamble:`For each statement below, please indicate <b>how accurately it describes you</b>. Describe yourself as you honestly see yourself, in relation to other people you know of the same gender as you are, and roughly your same age.
+		(As with all of your other responses, your responses to these questions will never be shared with anyone or linked to you in any way.)<br><br>
+		I...`,
+    /*left_option: '<i>Never</i>',
+    right_option: '<i>Always</i>',*/
+		randomize_question_order: true,
+		on_finish: function(data) {
+			var response = Object.values(data.response);
+			ipip_responses = new Array(response.length);
+			for (var i = 0; i < response.length; i++) {
+				ipip_responses[i] = ipip_options.indexOf(response[i]);
+			}
+			ipip_responses = ipip_responses.join();
+			scale_rts.ipip = Math.round(data.rt);
+		}
+};
+
+// assemble battery
+var battery = _.shuffle([decisionstyle, acs, mindfulness, sris, maia]);
+
+/* IQ TEST */
+
+var items = [
+  {prompt: "<hr>What number is one fifth of one fourth of one ninth of 900?", name: 'VR.4', options: [2,3,4,5,6,7], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Zach is taller than Matt and Richard is shorter than Zach. Which of the following statements would be most accurate?", name: "VR.16", options: ["Richard is taller than Matt","Richard is shorter than Matt","Richard is as tall as Matt","It is impossible to tell"], horizontal:true, required:debug ? false : true},
+  {prompt: "<hr>Joshua is 12 years old and his sister is three times as old as he. When Joshua is 23 years old, how old will his sister be?", name: "VR.17", options: [35,39,44,47,53,57], horizontal:true, required:debug ? false : true},
+  {prompt: "<hr>If the day after tomorrow is two days before Thursday then what day is it today?", name: "VR.19", options: ["Friday","Monday","Wednesday","Saturday","Tuesday","Sunday"], horizontal:true, required:debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n K N P S U", name:"LN.7", options: ["S","T","U","V","W","X"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n V Q M J H", name:"LN.33", options: ["E","F","G","H","I","J"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n I J L O S", name:"LN.34", options: ["T","U","V","X","Y","Z"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>In the following alphabetic series, what letter comes next? \n Q S N P L", name:"LN.58", options: ["J","H","I","N","M","L"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.45.PNG' width='50%''></img>", name: "MX.45", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.46.PNG' width='50%''></img>", name: "MX.46", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.47.PNG' width='50%''></img>", name: "MX.47", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>Please indicate which is the best answer to complete the figure below.<br><br><img src='images/MX.55.PNG' width='50%''></img>", name: "MX.55", options: ["A","B","C","D","E","F"],horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.3.PNG' width='50%''></img>", name: "R3D.3", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.4.PNG' width='50%''></img>", name: "R3D.4", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.5.PNG' width='50%''></img>", name: "R3D.6", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+  {prompt: "<hr>All the cubes below have different image on each side.<br> Select the choice that represents a rotation of the cube labeled X.<br><br><img src='images/R3D.8.PNG' width='50%''></img>", name: "R3D.8", options: ["A","B","C","D","E","F","G","H"], horizontal:true, required: debug ? false : true},
+];
+
+correct_response = {
+	"LN.7" : "X",
+	"LN.33" : "G",
+	"LN.34" : "X",
+	"LN.58" : "N",
+	"MX.45" : "E",
+	"MX.46" : "B",
+	"MX.47" : "B",
+	"MX.55" : "D",
+	"R3D.3" : "C",
+	"R3D.4" : "B",
+	"R3D.6" : "F",
+	"R3D.8" : "G",
+	"VR.4" : "5",
+	"VR.16" : "It is impossible to tell",
+	"VR.17" : "47",
+	"VR.19" : "Sunday"
+}
+
+var intro_to_icar_text = ["Great job -- you've completed Section 2.",
+"<h2><u>Section 3</u></h2>Finally, in Section 3 of the study, we'll ask you to answer some further questions. Section 3 should take about 10-15 minutes."]
+var icar_intro = {
+	type: 'instructions',
+	pages: intro_to_icar_text,
+	show_clickable_nav: true
+};
+
+var correct_ans = [];
+var icar_responses = null;
+var icar = {
+	type: 'survey-multi-choice',
+	questions: items,
+	preamble:"<b>Please answer each question below to the best of your ability.</b> The questions range in difficulty; some may be quite difficult.<br><br><b><u>Do not</u> write anything down during the task; you should try to solve each problem <u>in your head</u>.</b><br><br>(Please be honest in taking this test; your payment will not depend in any way on your score.)",
+	button_label: "Submit",
+	randomize_question_order: true,
+	on_finish: function(data) {
+		icar_responses = JSON.stringify(data.response);
+
+		correct_resp_keys = Object.keys(correct_response);
+		correct_resp_values = Object.values(correct_response);
+		participant_resp_keys = Object.keys(data.response);
+		participant_resp_values = Object.values(data.response);
+		for(var i=0; i<correct_resp_keys.length; i++){
+		  for(var j=0; j<correct_resp_keys.length; j++){
+		      if(correct_resp_keys[i]==participant_resp_keys[j]){
+		          if(correct_resp_values[i]==participant_resp_values[j]){
+		              correct_ans.push(participant_resp_keys[j]);
+		          }
+		      }
+		  }
+		}
+		jsPsych.data.addProperties({correct_answers: correct_ans});
+
+		scale_rts.icar = Math.round(data.rt);
+	}
+};
+
+var feedback = {
+	type: 'survey-text',
+	questions: [
+	{prompt: "Thanks for participating! Do you have any feedback for us about the study? Was there anything confusing? Did it take about as much time as we said it would?",
+		name: 'feedback', required: debug ? false : true, rows: 15, columns: 100},
+	],
+	on_finish: function(data) {
+		jsPsych.data.addProperties({feedback: data.response.feedback});
+
+		demo_data = {
+			subject: data.subject,
+			version: data.version,
+			assignmentId: subject_id_url,
+			decisionstyle_responses: checkvar(decisionstyle_responses, 500),
+			bidr_responses: checkvar(bidr_responses, 500),
+			acs_responses: checkvar(acs_responses, 500),
+			mindfulness_responses: checkvar(mindfulness_responses, 500),
+			sris_responses: checkvar(sris_responses, 500),
+			maia_responses: checkvar(maia_responses, 500),
+			icar_responses: checkvar(icar_responses, 500),
+			icar_correct: checkvar(JSON.stringify(correct_ans), 500),
+			icar_num_correct: checkvar(correct_ans.length),
+			scale_rts: checkvar(JSON.stringify(scale_rts), 3000),
+			feedback: checkvar(data.feedback, 1000),
+			instructions_times: checkvar(JSON.stringify(instructions_times), 3000),
+			total_time: Date.now() - start_instructions
+		}
+
+		save_data(demo_data, 'demo');
+	}
+};
+
+var debrief = {
+type: 'instructions',
+pages: ["In this study, our goal was to measure how accurately people can introspect on their own choice process. <br></br> To do this, we have a series of decision models we are using that can objectively pull the weight of how much you valued each feature in your decisions between the homes. We utilized multiattribute decisions (houses) to gather those weights, then asked you how much you beleived you weighed them to see if what you self-reported lined up with what our models predict based on your decisions. <br></br> We hypothesized that people would show mixed accuracy in their introspective assessments, and we wanted to test what other factors (such as your answers to the other questions) would predict people's introspective accuracy.<br><br>From this data, we aim to build interventions that can assist in helping people understand their decisions in broader societal contexts. <br></br>"],
+show_clickable_nav: true
+};
+
+var exit_fullscreen = {
+  type: 'fullscreen',
+  fullscreen_mode: false,
+  delay_after: 0
+}
+
+var check_end = function(elem) {
+if ($('#end_checkbox').is(':checked')) {
+return true;
+} else {
+alert("Make sure to copy the code.");
+return false;
+}
+return false;
+};
+
+//var end = {
+//type: 'external-html',
+//url: "end.php?turkcode=" + turk_code + "&test=1",
+//cont_btn: "end",
+//check_fn: check_end,
+//force_refresh: true
+//};
+
+
+var timeline = []
+
+// INTRO
+timeline.push(get_id_loop);
+timeline.push(welcome);
+if (!debug) {
+	timeline.push(fullscreen);
+	timeline.push(consent_block);
+}
+
+for (var i = 0; i < attention_network_task_experiment.length; i++) {
+	timeline.push(attention_network_task_experiment[i]);
+}
+
+timeline.push(battery_intro);
+for (i = 0; i < battery.length; i++) {
+	timeline.push(battery[i]);
+}
+
+timeline.push(icar_intro);
+timeline.push(icar);
+
+timeline.push(feedback);
+timeline.push(debrief);
+timeline.push(exit_fullscreen);
+
+var browser_events = new Array();
+jsPsych.init({
+	timeline: timeline,
+	show_progress_bar: false,
+   on_finish: function() {
+    document.body.innerHTML = '<p><p><p align="center">Thank you for participating in the study!<p align="center"><b>You will be automatically re-directed to Prolific in a few moments.</b></p>';
+    setTimeout(function () { location.href = "https://app.prolific.co/submissions/complete?cc=3F3EE65E" }, 5000)
+	},
+	on_interaction_data_update: function(data) {
+		if (subject_id != '') {
+			var browser_event = {
+				subject: subject_id,
+				version: study_version,
+				browser_event: data.event,
+				trial: data.trial,
+				time: data.time
+			}
+			save_data(browser_event, 'browser_events');
+	  }
+	}
+});
+
+</script>
+</html>
